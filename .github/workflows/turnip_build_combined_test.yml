@@ -63,7 +63,9 @@ jobs:
             libwayland-dev \
             wayland-protocols \
             pkg-config
-          pip3 install ninja mako meson
+          pip3 install ninja mako
+          pip3 install --user --upgrade meson
+          export PATH="$HOME/.local/bin:$PATH"
 
       - name: Build
         run: |
