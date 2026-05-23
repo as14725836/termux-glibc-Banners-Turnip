@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04-arm
 
     steps:
       - name: Checkout
@@ -17,8 +17,42 @@ jobs:
       - name: Install Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y ninja-build patchelf unzip flex bison git perl python3-pip glslang-tools curl zip patch
-          pip3 install --break-system-packages meson mako
+          sudo apt-get install -y \
+            ninja-build \
+            patchelf \
+            unzip \
+            flex \
+            bison \
+            git \
+            perl \
+            python3-pip \
+            glslang-tools \
+            curl \
+            zip \
+            patch \
+            libxrandr-dev \
+            libxxf86vm-dev \
+            libxcb-shm0-dev \
+            libxcb-glx0-dev \
+            libxext-dev \
+            llvm-19 \
+            libx11-dev \
+            libx11-xcb-dev \
+            libxcb1-dev \
+            libxcb-dri3-dev \
+            libxcb-present-dev \
+            libxcb-randr0-dev \
+            libxcb-sync-dev \
+            libxcb-xfixes0-dev \
+            libxshmfence-dev \
+            libdrm-dev \
+            libgbm-dev \
+            libegl1-mesa-dev \
+            libexpat1-dev \
+            libwayland-dev \
+            wayland-protocols \
+            pkg-config
+          pip3 install meson ninja mako
 
       - name: Build
         run: |
@@ -41,7 +75,7 @@ jobs:
           COMMIT_TITLE=$(git -C turnip_workdir/mesa log -1 --format="%s" 2>/dev/null || echo "")
 
           FULL_NAME="Banners Turnip Perf ${MESA_VERSION} ${RELEASE_NUM}-b${BUILD_NUM}"
-          ZIP_NAME="Banners-Turnip-Perf-${MESA_VERSION}-${RELEASE_NUM}-b${BUILD_NUM}.zip"
+          ARCHIVE_NAME="Banners-Turnip-Perf-${MESA_VERSION}-${RELEASE_NUM}-b${BUILD_NUM}.tar.gz"
           TAG="perf-${MESA_VERSION}-${RELEASE_NUM}-b${BUILD_NUM}"
 
           if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" &>/dev/null; then
@@ -49,15 +83,22 @@ jobs:
             echo "Tag already exists — using ${TAG}"
           fi
 
-          # Repack ZIP with updated meta.json
-          SRC=$(ls turnip_workdir/mesa-turnip-perf-*.zip | head -1)
-          mkdir -p /tmp/turnip-repack && cd /tmp/turnip-repack
-          unzip -q "$GITHUB_WORKSPACE/$SRC"
+          # Repack archive with updated meta.json
+          if ls turnip_workdir/*.tar.gz 2>/dev/null | grep -q .; then
+            SRC=$(ls turnip_workdir/*.tar.gz | head -1)
+            mkdir -p /tmp/turnip-repack && cd /tmp/turnip-repack
+            tar -xzf "$GITHUB_WORKSPACE/$SRC"
+          else
+            SRC=$(ls turnip_workdir/*.zip | head -1)
+            mkdir -p /tmp/turnip-repack && cd /tmp/turnip-repack
+            unzip -q "$GITHUB_WORKSPACE/$SRC"
+          fi
+          
           cat > meta.json << METAEOF
           {
             "schemaVersion": 1,
             "name": "${FULL_NAME}",
-            "description": "A6xx/A7xx performance build — Mesa main (git ${GITHASH}). O3 + ThinLTO. KGSL.",
+            "description": "A6xx/A7xx performance build — Mesa main (git ${GITHASH}). O3 + ThinLTO. KGSL (Linux ARM64).",
             "author": "The412Banner",
             "packageVersion": "1",
             "vendor": "Mesa",
@@ -66,7 +107,8 @@ jobs:
             "libraryName": "libvulkan_freedreno.so"
           }
           METAEOF
-          zip -q "$GITHUB_WORKSPACE/turnip_workdir/${ZIP_NAME}" libvulkan_freedreno.so meta.json
+          
+          tar -czf "$GITHUB_WORKSPACE/turnip_workdir/${ARCHIVE_NAME}" ./*
           cd "$GITHUB_WORKSPACE"
 
           # Increment build number and commit
@@ -79,7 +121,7 @@ jobs:
 
           echo "tag=${TAG}" >> $GITHUB_OUTPUT
           echo "full_name=${FULL_NAME}" >> $GITHUB_OUTPUT
-          echo "zip_name=${ZIP_NAME}" >> $GITHUB_OUTPUT
+          echo "archive_name=${ARCHIVE_NAME}" >> $GITHUB_OUTPUT
           echo "mesa_version=${MESA_VERSION}" >> $GITHUB_OUTPUT
           echo "build_date=${BUILD_DATE}" >> $GITHUB_OUTPUT
           echo "githash=${GITHASH}" >> $GITHUB_OUTPUT
@@ -92,7 +134,7 @@ jobs:
           mkdir -p release-info
           echo "${{ steps.info.outputs.tag }}"          > release-info/tag.txt
           echo "${{ steps.info.outputs.full_name }}"    > release-info/full_name.txt
-          echo "${{ steps.info.outputs.zip_name }}"     > release-info/zip_name.txt
+          echo "${{ steps.info.outputs.archive_name }}" > release-info/archive_name.txt
           echo "${{ steps.info.outputs.mesa_version }}" > release-info/mesa_version.txt
           echo "${{ steps.info.outputs.build_date }}"   > release-info/build_date.txt
           echo "${{ steps.info.outputs.githash }}"      > release-info/githash.txt
@@ -106,22 +148,22 @@ jobs:
           name: release-info
           path: release-info/
 
-      - name: Upload driver ZIP
+      - name: Upload driver archive
         uses: actions/upload-artifact@v4
         with:
           name: turnip-perf
-          path: turnip_workdir/Banners-Turnip-Perf-*.zip
+          path: turnip_workdir/Banners-Turnip-Perf-*.tar.gz
 
   release:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04-arm
     needs: build
 
     steps:
-      - name: Download driver ZIP
+      - name: Download driver archive
         uses: actions/download-artifact@v4
         with:
           name: turnip-perf
-          path: ./zips
+          path: ./archives
 
       - name: Download release info
         uses: actions/download-artifact@v4
@@ -142,7 +184,7 @@ jobs:
           MESA_URL="https://gitlab.freedesktop.org/mesa/mesa/-/commit/${GITHASH_FULL}"
 
           {
-            printf "> ⚠️ **AUTOMATED BUILD — Not guaranteed stable. Use at your own risk.**\n\n"
+            printf "> ⚠️ **AUTOMATED BUILD — ARM64 native. Not guaranteed stable. Use at your own risk.**\n\n"
             printf '%s\n\n' '---'
             printf "### Mesa Upstream\n\n"
             printf "| | |\n"
@@ -151,16 +193,15 @@ jobs:
             printf "| **Commit** | [\`%s\`](%s) |\n"    "${GITHASH}" "${MESA_URL}"
             printf "| **Commit date** | %s |\n"          "${COMMIT_DATE}"
             printf "| **Commit title** | %s |\n"         "${COMMIT_TITLE}"
-            printf "| **Build date** | %s |\n\n"         "${BUILD_DATE}"
+            printf "| **Build date** | %s |\n"           "${BUILD_DATE}"
+            printf "| **Architecture** | ARM64 (aarch64) |\n"
+            printf "| **Platform** | Linux Native |\n\n"
             printf '%s\n\n' '---'
             printf "### Build Configuration\n\n"
             printf "Pure Mesa \`main\` — no source patches. Performance-optimized build for A6xx/A7xx.\n\n"
             printf "**Compiler flags:** \`-O3 -fno-plt -flto=thin\`\n\n"
             printf "**Meson:** \`-Db_ndebug=true\` (assertions stripped)\n\n"
-            printf "Three inline NDK r29 compatibility fixes applied at build time:\n\n"
-            printf "  - \`buffer_handle_t\` typedef fix (\`native_handle.h\`)\n"
-            printf "  - \`hnd->handle\` void-cast fix (\`u_gralloc_fallback.c\`)\n"
-            printf "  - \`native_buffer->handle\` cast fix (\`vk_android.c\`)\n\n"
+            printf "Targets Snapdragon 600–800 series, 7 Gen and 8 Gen 1–3 (Adreno 600–700 series).\n\n"
             printf '%s\n\n' '---'
             printf "### Adreno GPU Support\n\n"
             printf "| Series | Notes |\n"
@@ -169,9 +210,17 @@ jobs:
             printf "| **A7xx** | Snapdragon 8 Gen 1 / Gen 2 (SD8450, SD8475, SD8550) |\n\n"
             printf "> A8xx (Snapdragon 8 Elite) is **not supported** by this build.\n\n"
             printf '%s\n\n' '---'
-            printf "### Installation\n\n"
-            printf '%s\n' "- **BannerHub / BCI:** Component Manager → Add New Component → select the ZIP"
-            printf '%s\n' "- **Winlator / adrenotools:** load the ZIP in GPU driver settings"
+            printf "### Installation (Linux ARM64)\n\n"
+            printf '%s\n' "```bash"
+            printf '%s\n' "# Extract the driver"
+            printf '%s\n' "tar -xzf <driver-file>.tar.gz"
+            printf '%s\n' ""
+            printf '%s\n' "# Copy to system directory"
+            printf '%s\n' "sudo cp libvulkan_freedreno.so /usr/local/lib/"
+            printf '%s\n' ""
+            printf '%s\n' "# Or set environment variable for custom path"
+            printf '%s\n' "export VK_ICD_FILENAMES=/path/to/libvulkan_freedreno.so"
+            printf '%s\n' "```"
           } > release_body.md
 
       - name: Create release
@@ -183,6 +232,6 @@ jobs:
 
           gh release create "$TAG" \
             --repo "$GITHUB_REPOSITORY" \
-            --title "${FULL_NAME}" \
+            --title "${FULL_NAME} (Linux ARM64)" \
             --notes-file release_body.md \
-            zips/*.zip
+            archives/*.tar.gz
