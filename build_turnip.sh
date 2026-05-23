@@ -32,7 +32,7 @@ check_deps(){
 	fi
 
 	echo "Installing python Mako dependency..."
-	pip install mako &> /dev/null || true
+	pip3 install --user mako &> /dev/null || pip install --user mako &> /dev/null || true
 }
 
 prepare_workdir(){
@@ -80,7 +80,7 @@ build_lib_for_linux(){
 	
 	# 直接使用系统编译器，不需要配置文件
 	meson setup build \
-		--prefix /usr/local \
+		--prefix "$workdir/install" \
 		-Dbuildtype=release \
 		-Dstrip=true \
 		-Dplatforms=x11,wayland \
@@ -99,8 +99,8 @@ build_lib_for_linux(){
 		echo -e "${red}Build failed!${nocolor}" && exit 1
 	fi
 
-	echo "Installing to system..."
-	sudo ninja -C build install
+	echo "Installing to local directory..."
+	ninja -C build install
 
 	echo "Getting driver version info..."
 	_mesa_vk_header="include/vulkan/vulkan_core.h"
@@ -110,17 +110,16 @@ build_lib_for_linux(){
 
 	echo -e "${green}Build completed successfully!${nocolor}"
 	echo -e "${green}Driver version: ${_driver_version}${nocolor}"
-	echo -e "${green}Driver installed to: /usr/local/lib/libvulkan_freedreno.so${nocolor}"
+	echo -e "${green}Driver installed to: ${workdir}/install/lib/libvulkan_freedreno.so${nocolor}"
 	echo -e "${green}Git hash: ${GITHASH}${nocolor}"
 	
 	# 可选：创建压缩包
 	if [ "${CREATE_ARCHIVE}" = "1" ]; then
 		echo "Creating archive..."
-		_zip_name="mesa-turnip-linux-V${BUILD_VERSION}-${GITHASH}.tar.gz"
-		cd build/src/freedreno/vulkan/
-		tar -czf "/tmp/${_zip_name}" libvulkan_freedreno.so
-		cp "/tmp/${_zip_name}" "$workdir/"
-		echo -e "${green}Archive created: ${workdir}/${_zip_name}${nocolor}"
+		_archive_name="mesa-turnip-linux-V${BUILD_VERSION}-${GITHASH}.tar.gz"
+		cd "$workdir/install/lib"
+		tar -czf "$workdir/${_archive_name}" libvulkan_freedreno.so
+		echo -e "${green}Archive created: ${workdir}/${_archive_name}${nocolor}"
 		cd - > /dev/null
 	fi
 }
