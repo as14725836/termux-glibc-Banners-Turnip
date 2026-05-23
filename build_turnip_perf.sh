@@ -8,9 +8,6 @@ workdir="$(pwd)/turnip_workdir"
 mesasrc="https://gitlab.freedesktop.org/mesa/mesa"
 srcfolder="mesa"
 
-# 确保使用正确版本的 meson
-export PATH="$HOME/.local/bin:$PATH"
-
 run_all(){
 	echo -e "${green}====== Begin building TU Perf V${BUILD_VERSION}! ======${nocolor}"
 	check_deps
@@ -112,7 +109,7 @@ build_lib_for_linux(){
 	fi
 
 	echo "Installing to Termux directory..."
-	sudo meson install -C build
+	sudo ninja -C build install
 
 	echo -e "${green}Build completed successfully!${nocolor}"
 	echo -e "${green}Git hash: ${GITHASH}${nocolor}"
