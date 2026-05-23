@@ -56,6 +56,11 @@ build_lib_for_linux(){
 	cd "$workdir/$srcfolder"
 	echo "==== Building Mesa on $1 branch ===="
 
+	# 创建 Termux 目录结构
+	echo "Creating Termux directory structure..."
+	sudo mkdir -p /data/data/com.termux/files/usr/glibc
+	sudo chmod 777 -R /data
+
 	if [ -n "$EXTRA_PATCH" ] && [ -f "../../$EXTRA_PATCH" ]; then
 		echo "Applying patch series: $EXTRA_PATCH"
 		patch -p1 -N --fuzz=4 < "../../$EXTRA_PATCH" || echo -e "${red}Warning: partial patch failures, continuing...${nocolor}"
@@ -75,9 +80,9 @@ build_lib_for_linux(){
 
 	echo "Generating build files..."
 	
-	# 使用 PATH 中的 meson（不要指定绝对路径）
+	# 使用 PATH 中的 meson，prefix 改为 Termux 路径
 	meson setup build \
-		--prefix "$workdir/install" \
+		--prefix /data/data/com.termux/files/usr/glibc \
 		-Dbuildtype=release \
 		-Dstrip=true \
 		-Dplatforms=x11,wayland \
@@ -96,9 +101,8 @@ build_lib_for_linux(){
 		echo -e "${red}Build failed!${nocolor}" && exit 1
 	fi
 
-	echo "Installing to local directory..."
-	# 使用 meson install（不要用 ninja install）
-	meson install -C build
+	echo "Installing to Termux directory..."
+	sudo meson install -C build
 
 	echo "Getting driver version info..."
 	_mesa_vk_header="include/vulkan/vulkan_core.h"
@@ -108,19 +112,25 @@ build_lib_for_linux(){
 
 	echo -e "${green}Build completed successfully!${nocolor}"
 	echo -e "${green}Driver version: ${_driver_version}${nocolor}"
-	echo -e "${green}Driver installed to: ${workdir}/install/lib/libvulkan_freedreno.so${nocolor}"
-	echo -e "${green}Git hash: ${GITHASH}${nocolor}"
 	
-	# 创建压缩包
-	echo "Creating archive..."
-	_archive_name="mesa-turnip-linux-V${BUILD_VERSION}-${GITHASH}.tar.gz"
-	if [ -f "$workdir/install/lib/libvulkan_freedreno.so" ]; then
-		cd "$workdir/install/lib"
+	# 查找安装的 .so 文件
+	SO_FILE=$(find /data/data/com.termux/files/usr/glibc -name "libvulkan_freedreno.so" 2>/dev/null | head -1)
+	if [ -n "$SO_FILE" ] && [ -f "$SO_FILE" ]; then
+		echo -e "${green}Driver installed to: ${SO_FILE}${nocolor}"
+		echo -e "${green}Git hash: ${GITHASH}${nocolor}"
+		
+		# 创建压缩包
+		echo "Creating archive..."
+		_archive_name="mesa-turnip-linux-V${BUILD_VERSION}-${GITHASH}.tar.gz"
+		SO_DIR=$(dirname "$SO_FILE")
+		cd "$SO_DIR"
 		tar -czf "$workdir/${_archive_name}" libvulkan_freedreno.so
 		echo -e "${green}Archive created: ${workdir}/${_archive_name}${nocolor}"
 		cd - > /dev/null
 	else
 		echo -e "${red}Error: libvulkan_freedreno.so not found!${nocolor}"
+		echo "Contents of install directory:"
+		find /data/data/com.termux/files/usr/glibc -type f 2>/dev/null || echo "No files found"
 		exit 1
 	fi
 }
