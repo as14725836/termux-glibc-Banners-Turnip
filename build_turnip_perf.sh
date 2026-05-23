@@ -27,11 +27,7 @@ check_deps(){
 	done
 
 	if [ "$deps_missing" == "1" ]; then
-		echo "Please install missing dependencies" && exit 1
-	fi
-
-	echo "Installing python Mako dependency..."
-	pip3 install --user mako &> /dev/null || pip install --user mako &> /dev/null || true
+		echo "Please install missing dependencies" && exit 
 }
 
 prepare_workdir(){
