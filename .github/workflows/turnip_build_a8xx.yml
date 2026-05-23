@@ -70,9 +70,8 @@ jobs:
             libwayland-dev \
             wayland-protocols \
             pkg-config
-          # 卸载 pip 安装的 meson 避免冲突
-          pip3 uninstall meson mako -y 2>/dev/null || true
-
+          pip3 install meson ninja mako
+          
       - name: Build
         run: |
           chmod +x build_turnip.sh
