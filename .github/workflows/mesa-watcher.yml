@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   check-upstream:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04-arm  # 改为 ARM64 架构
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
