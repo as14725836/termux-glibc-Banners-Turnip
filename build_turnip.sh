@@ -6,7 +6,7 @@ nocolor='\033[0m'
 deps="git meson ninja patchelf unzip curl pip flex bison zip glslang glslangValidator"
 workdir="$(pwd)/turnip_workdir"
 mesasrc="https://gitlab.freedesktop.org/mesa/mesa"
-srcfolder="mesa
+srcfolder="mesa"
 
 run_all(){
 	echo -e "${green}====== Begin building TU V${BUILD_VERSION}! ======${nocolor}"
