@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04-arm  # 改为 ARM64 原生架构
+    runs-on: ubuntu-24.04-arm
     strategy:
       fail-fast: false
       matrix:
@@ -34,8 +34,41 @@ jobs:
       - name: Install Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y ninja-build patchelf unzip flex bison git perl python3-pip glslang-tools curl patch
-          pip3 install meson mako
+          sudo apt-get install -y \
+            ninja-build \
+            patchelf \
+            unzip \
+            flex \
+            bison \
+            git \
+            perl \
+            python3-pip \
+            glslang-tools \
+            curl \
+            zip \
+            libxrandr-dev \
+            libxxf86vm-dev \
+            libxcb-shm0-dev \
+            libxcb-glx0-dev \
+            libxext-dev \
+            llvm-19 \
+            libx11-dev \
+            libx11-xcb-dev \
+            libxcb1-dev \
+            libxcb-dri3-dev \
+            libxcb-present-dev \
+            libxcb-randr0-dev \
+            libxcb-sync-dev \
+            libxcb-xfixes0-dev \
+            libxshmfence-dev \
+            libdrm-dev \
+            libgbm-dev \
+            libegl1-mesa-dev \
+            libexpat1-dev \
+            libwayland-dev \
+            wayland-protocols \
+            pkg-config
+          pip3 install meson ninja mako
 
       - name: Build
         run: |
@@ -58,6 +91,7 @@ jobs:
           COMMIT_TITLE=$(git -C turnip_workdir/mesa log -1 --format="%s" 2>/dev/null || echo "")
           TAG_SUFFIX="${{ matrix.tag_suffix }}"
           TAG="v${MESA_VERSION}-${BUILD_DATE}${TAG_SUFFIX}"
+          
           if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" &>/dev/null; then
             EXISTING=$(gh release list --repo "$GITHUB_REPOSITORY" --limit 100 --json tagName \
               | jq -r '.[].tagName' \
@@ -67,22 +101,21 @@ jobs:
             NEXT_R=$(( ${EXISTING:-1} + 1 ))
             TAG="${TAG}-r${NEXT_R}"
           fi
+          
           if [[ "$TAG" =~ -r([0-9]+)$ ]]; then
             DAY_NUM="${BASH_REMATCH[1]}"
           else
             DAY_NUM="1"
           fi
+          
           TAR_SUFFIX="${{ matrix.tar_suffix }}"
           TAR_NAME="Turnip-${TAG}${TAR_SUFFIX}.tar.gz"
           
-          # 查找构建产物（可能是 zip 或 tar.gz）
           if ls turnip_workdir/*.tar.gz 2>/dev/null | grep -q .; then
             SRC=$(ls turnip_workdir/*.tar.gz | head -1)
-            # tar.gz 格式，直接重命名
             cp "$SRC" "turnip_workdir/${TAR_NAME}"
           else
             SRC=$(ls turnip_workdir/*.zip | head -1)
-            # zip 格式，需要处理 meta.json
             UNZIP_DIR=$(mktemp -d)
             unzip -q "$SRC" -d "$UNZIP_DIR"
             META_NAME="Mesa Turnip ${TAG}${TAR_SUFFIX}"
@@ -90,13 +123,13 @@ jobs:
             if [ -f "$UNZIP_DIR/meta.json" ]; then
               python3 -c "import json,sys; p='${UNZIP_DIR}/meta.json'; m=json.load(open(p)); m['name']='${META_NAME}'; m['packageVersion']='${DAY_NUM}'; d='${META_DESC}'; m.update({'description':d} if d else {}); json.dump(m,open(p,'w'),indent=2)"
             fi
-            # 打包成 tar.gz
             (cd "$UNZIP_DIR" && tar -czf "../../turnip_workdir/${TAR_NAME}" ./*)
           fi
           
           VK_PATCH=$(grep '^#define VK_HEADER_VERSION ' turnip_workdir/mesa/include/vulkan/vulkan_core.h 2>/dev/null | awk '{print $3}' || echo "unknown")
           VK_MINOR=$(grep 'define TU_API_VERSION' turnip_workdir/mesa/src/freedreno/vulkan/tu_device.cc 2>/dev/null | grep -oP 'VK_MAKE_VERSION\(\s*[0-9]+,\s*\K[0-9]+' || echo "unknown")
           VULKAN_VERSION="Vulkan 1.${VK_MINOR}.${VK_PATCH}"
+          
           echo "tag=${TAG}" >> $GITHUB_OUTPUT
           echo "mesa_version=${MESA_VERSION}" >> $GITHUB_OUTPUT
           echo "build_date=${BUILD_DATE}" >> $GITHUB_OUTPUT
@@ -122,7 +155,7 @@ jobs:
             printf "| **Vulkan version** | %s |\n" "${{ steps.info.outputs.vulkan_version }}"
             printf "| **Commit date** | %s |\n"   "${{ steps.info.outputs.commit_date }}"
             printf "| **Commit title** | %s |\n"  "${{ steps.info.outputs.commit_title }}"
-            printf "| **Build date** | %s |\n"  "${{ steps.info.outputs.build_date }}"
+            printf "| **Build date** | %s |\n"    "${{ steps.info.outputs.build_date }}"
             printf "| **Architecture** | ARM64 (aarch64) |\n"
             printf "| **Platform** | Linux Native |\n\n"
             printf '%s\n\n' '---'
