@@ -1,4 +1,4 @@
-name: Build Turnip
+name: Build Turnip (ARM64 Linux)
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04-arm  # 改为 ARM64 原生架构
 
     steps:
       - name: Checkout
@@ -18,7 +18,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y ninja-build patchelf unzip flex bison git perl python3-pip glslang-tools curl zip
-          pip3 install --break-system-packages meson mako
+          pip3 install meson mako
 
       - name: Build Drivers
         run: |
@@ -35,9 +35,14 @@ jobs:
           COMMIT_TITLE=$(git -C turnip_workdir/mesa log -1 --format="%s" 2>/dev/null || echo "")
           MESA_VERSION=$(cat turnip_workdir/mesa/VERSION 2>/dev/null | sed 's/-devel.*//' | tr -d '[:space:]' || echo "unknown")
           BUILD_DATE=$(date +%Y%m%d)
-          ZIP=$(ls turnip_workdir/*.zip 2>/dev/null | head -1)
-          FILENAME=$(basename "$ZIP")
-          TAG="v${MESA_VERSION}-${BUILD_DATE}"
+          # 查找 .tar.gz 文件（如果脚本输出改了格式）
+          if ls turnip_workdir/*.tar.gz 2>/dev/null | grep -q .; then
+            ARCHIVE=$(ls turnip_workdir/*.tar.gz | head -1)
+          else
+            ARCHIVE=$(ls turnip_workdir/*.zip 2>/dev/null | head -1)
+          fi
+          FILENAME=$(basename "$ARCHIVE")
+          TAG="v${MESA_VERSION}-${BUILD_DATE}-linux-arm64"
           echo "githash=${GITHASH}" >> $GITHUB_OUTPUT
           echo "githash_full=${GITHASH_FULL}" >> $GITHUB_OUTPUT
           echo "commit_date=${COMMIT_DATE}" >> $GITHUB_OUTPUT
@@ -50,11 +55,11 @@ jobs:
       - name: Write release body
         run: |
           cat > release_body.md << 'BODYEOF'
-          > ⚠️ **NIGHTLY / AUTOMATED BUILD — Not guaranteed stable. Use at your own risk.**
+          > ⚠️ **NIGHTLY / AUTOMATED BUILD — ARM64 native build. Not guaranteed stable. Use at your own risk.**
 
           ---
 
-          ### 🚀 Turnip Vulkan Driver: ${{ steps.info.outputs.tag }}
+          ### 🚀 Turnip Vulkan Driver (Linux ARM64)
 
           ---
 
@@ -68,7 +73,9 @@ jobs:
           | **Commit title** | ${{ steps.info.outputs.commit_title }} |
           | **Mesa version** | ${{ steps.info.outputs.mesa_version }} |
           | **Build date** | ${{ steps.info.outputs.build_date }} |
-          | **Patches** | None — pure Mesa main |
+          | **Architecture** | ARM64 (aarch64) |
+          | **Platform** | Linux Native |
+          | **Driver** | KGSL |
 
           ---
 
@@ -80,34 +87,39 @@ jobs:
           | **A7xx** | ✅ Supported | Snapdragon 7/8 Gen 1–3 (2022–2024) |
           | **A8xx** | ⚠️ Experimental | Snapdragon 8 Elite (2024–2025) — may work, untested |
 
-          > A8xx support is present in Mesa's codebase but has not been verified. Report results in issues.
-
           ---
 
           ### ⬇️ Download
 
           | File | Description |
           | :--- | :--- |
-          | `${{ steps.info.outputs.filename }}` | ZIP for adrenotools / BannerHub / BCI injection |
+          | `${{ steps.info.outputs.filename }}` | Turnip driver for Linux ARM64 (KGSL) |
 
           **How to install:**
-          - **BannerHub / BCI:** Inject via Component Manager → Add New Component
-          - **Winlator:** Settings → Turnip driver → load the `.zip`
-          - **adrenotools:** Load the `.zip` in any adrenotools-compatible app
+          ```bash
+          # Extract the driver
+          tar -xzf ${{ steps.info.outputs.filename }}
+          
+          # Copy to system directory
+          sudo cp libvulkan_freedreno.so /usr/local/lib/
+          
+          # Or set environment variable for custom path
+          export VK_ICD_FILENAMES=/path/to/libvulkan_freedreno.so
+          ```
           BODYEOF
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: Turnip-${{ steps.info.outputs.tag }}
-          path: turnip_workdir/*.zip
+          name: Turnip-Linux-ARM64-${{ steps.info.outputs.tag }}
+          path: turnip_workdir/*.tar.gz
 
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.info.outputs.tag }}
-          name: "Turnip ${{ steps.info.outputs.mesa_version }} — ${{ steps.info.outputs.build_date }}"
+          name: "Turnip Linux ARM64 ${{ steps.info.outputs.mesa_version }} — ${{ steps.info.outputs.build_date }}"
           prerelease: false
           make_latest: true
           body_path: release_body.md
-          files: turnip_workdir/*.zip
+          files: turnip_workdir/*.tar.gz
