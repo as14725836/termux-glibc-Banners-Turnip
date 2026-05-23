@@ -16,7 +16,8 @@ jobs:
           - variant: regular
             suffix: ""
             extra_patch: ""
-            meta_desc: ""
+            extra_script: ""
+            meta_desc: "Pure Mesa main — Snapdragon 600–800 series, 7 Gen and 8 Gen 1–3 (Adreno 600–700 series)."
           - variant: a8xx
             suffix: "-A8xx"
             extra_patch: "patches/tu8_kgsl_26.patch"
@@ -70,7 +71,11 @@ jobs:
             libwayland-dev \
             wayland-protocols \
             pkg-config
-          pip3 install meson ninja mako
+          # 安装最新版 meson
+          sudo apt-get remove -y meson || true
+          pip3 install --user --upgrade meson ninja mako
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+
       - name: Build
         run: |
           chmod +x build_turnip.sh
@@ -78,6 +83,7 @@ jobs:
           [[ -n "${{ matrix.extra_patch }}" ]] && export EXTRA_PATCH="${{ matrix.extra_patch }}"
           [[ -n "${{ matrix.extra_script }}" ]] && export EXTRA_SCRIPT="${{ matrix.extra_script }}"
           ./build_turnip.sh
+
       - name: Rename Archive
         id: info
         env:
@@ -110,19 +116,56 @@ jobs:
           
           ARCHIVE_NAME="Turnip-${TAG}${{ matrix.suffix }}.tar.gz"
           
-          if ls turnip_workdir/*.tar.gz 2>/dev/null | grep -q .; then
+          # 只处理 tar.gz 文件
+          if ls turnip_workdir/*.tar.gz 2>/dev/null | head -1 | grep -q .; then
             SRC=$(ls turnip_workdir/*.tar.gz | head -1)
-            cp "$SRC" "turnip_workdir/${ARCHIVE_NAME}"
-          else
-            SRC=$(ls turnip_workdir/*.zip | head -1)
-            UNZIP_DIR=$(mktemp -d)
-            unzip -q "$SRC" -d "$UNZIP_DIR"
+            echo "Found tar.gz archive: $SRC"
+            
+            # 解压并重新打包（添加/更新 meta.json）
+            TEMP_DIR=$(mktemp -d)
+            tar -xzf "$SRC" -C "$TEMP_DIR"
+            
             META_NAME="Mesa Turnip ${TAG}${{ matrix.suffix }}"
             META_DESC="${{ matrix.meta_desc }}"
-            if [ -f "$UNZIP_DIR/meta.json" ]; then
-              python3 -c "import json,sys; p='${UNZIP_DIR}/meta.json'; m=json.load(open(p)); m['name']='${META_NAME}'; m['packageVersion']='${DAY_NUM}'; d='${META_DESC}'; m.update({'description':d} if d else {}); json.dump(m,open(p,'w'),indent=2)"
+            
+            if [ -f "$TEMP_DIR/meta.json" ]; then
+              python3 << PYEOF
+import json
+p = '$TEMP_DIR/meta.json'
+with open(p, 'r') as f:
+    m = json.load(f)
+m['name'] = '$META_NAME'
+m['packageVersion'] = '$DAY_NUM'
+d = '$META_DESC'
+if d:
+    m['description'] = d
+with open(p, 'w') as f:
+    json.dump(m, f, indent=2)
+PYEOF
+            else
+              cat > "$TEMP_DIR/meta.json" << EOF
+{
+  "schemaVersion": 1,
+  "name": "${META_NAME}",
+  "description": "${META_DESC}",
+  "author": "The412Banner",
+  "packageVersion": "${DAY_NUM}",
+  "vendor": "Mesa",
+  "driverVersion": "Vulkan",
+  "minApi": 28,
+  "libraryName": "libvulkan_freedreno.so"
+}
+EOF
             fi
-            (cd "$UNZIP_DIR" && tar -czf "../../turnip_workdir/${ARCHIVE_NAME}" ./*)
+            
+            # 重新打包
+            (cd "$TEMP_DIR" && tar -czf "$GITHUB_WORKSPACE/turnip_workdir/${ARCHIVE_NAME}" ./*)
+            echo "Created re-packed archive: turnip_workdir/${ARCHIVE_NAME}"
+          else
+            echo "Error: No .tar.gz file found in turnip_workdir/"
+            echo "Directory contents:"
+            ls -la turnip_workdir/
+            exit 1
           fi
           
           VK_PATCH=$(grep '^#define VK_HEADER_VERSION ' turnip_workdir/mesa/include/vulkan/vulkan_core.h 2>/dev/null | awk '{print $3}' || echo "unknown")
@@ -137,6 +180,7 @@ jobs:
           echo "commit_date=${COMMIT_DATE}" >> $GITHUB_OUTPUT
           echo "commit_title=${COMMIT_TITLE}" >> $GITHUB_OUTPUT
           echo "vulkan_version=${VULKAN_VERSION}" >> $GITHUB_OUTPUT
+
       - name: Save release info
         if: matrix.variant == 'regular'
         run: |
@@ -149,6 +193,7 @@ jobs:
           echo "${{ steps.info.outputs.commit_date }}"  > release-info/commit_date.txt
           echo "${{ steps.info.outputs.commit_title }}" > release-info/commit_title.txt
           echo "${{ steps.info.outputs.vulkan_version }}" > release-info/vulkan_version.txt
+
       - name: Upload release info
         if: matrix.variant == 'regular'
         uses: actions/upload-artifact@v4
@@ -257,6 +302,7 @@ jobs:
             printf '%s\n' "export VK_ICD_FILENAMES=/path/to/libvulkan_freedreno.so"
             printf '%s\n' "```"
           } > release_body.md
+
       - name: Create release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -267,6 +313,7 @@ jobs:
             --title "Turnip ${TAG} (Linux ARM64)" \
             --notes-file release_body.md \
             archives/*.tar.gz
+
       - name: Update README with build info
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
