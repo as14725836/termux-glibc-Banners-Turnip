@@ -62,8 +62,9 @@ jobs:
             libexpat1-dev \
             libwayland-dev \
             wayland-protocols \
+            meson \
             pkg-config
-          pip3 install meson ninja mako
+          pip3 install ninja mako
 
       - name: Build
         run: |
