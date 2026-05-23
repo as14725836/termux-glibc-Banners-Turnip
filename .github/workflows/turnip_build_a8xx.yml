@@ -46,6 +46,8 @@ jobs:
             glslang-tools \
             curl \
             zip \
+            meson \
+            python3-mako \
             libxrandr-dev \
             libxxf86vm-dev \
             libxcb-shm0-dev \
@@ -68,7 +70,8 @@ jobs:
             libwayland-dev \
             wayland-protocols \
             pkg-config
-          pip3 install meson ninja mako
+          # 卸载 pip 安装的 meson 避免冲突
+          pip3 uninstall meson mako -y 2>/dev/null || true
 
       - name: Build
         run: |
@@ -76,7 +79,15 @@ jobs:
           export BUILD_VERSION="${{ github.run_number }}"
           export EXTRA_PATCH="patches/tu8_kgsl_26.patch"
           export EXTRA_SCRIPT="${{ matrix.extra_script }}"
+          export CREATE_ARCHIVE=1
           ./build_turnip.sh
+
+      - name: List files for debugging
+        run: |
+          echo "=== Contents of turnip_workdir ==="
+          ls -la turnip_workdir/ || echo "Directory not found"
+          echo "=== Contents of turnip_workdir/install/lib ==="
+          ls -la turnip_workdir/install/lib/ 2>/dev/null || echo "Not found"
 
       - name: Rename Archive
         id: info
@@ -111,11 +122,14 @@ jobs:
           TAR_SUFFIX="${{ matrix.tar_suffix }}"
           TAR_NAME="Turnip-${TAG}${TAR_SUFFIX}.tar.gz"
           
+          # 检查并处理归档文件
           if ls turnip_workdir/*.tar.gz 2>/dev/null | grep -q .; then
             SRC=$(ls turnip_workdir/*.tar.gz | head -1)
+            echo "Found tar.gz: $SRC"
             cp "$SRC" "turnip_workdir/${TAR_NAME}"
-          else
+          elif ls turnip_workdir/*.zip 2>/dev/null | grep -q .; then
             SRC=$(ls turnip_workdir/*.zip | head -1)
+            echo "Found zip: $SRC, converting to tar.gz"
             UNZIP_DIR=$(mktemp -d)
             unzip -q "$SRC" -d "$UNZIP_DIR"
             META_NAME="Mesa Turnip ${TAG}${TAR_SUFFIX}"
@@ -124,6 +138,17 @@ jobs:
               python3 -c "import json,sys; p='${UNZIP_DIR}/meta.json'; m=json.load(open(p)); m['name']='${META_NAME}'; m['packageVersion']='${DAY_NUM}'; d='${META_DESC}'; m.update({'description':d} if d else {}); json.dump(m,open(p,'w'),indent=2)"
             fi
             (cd "$UNZIP_DIR" && tar -czf "../../turnip_workdir/${TAR_NAME}" ./*)
+          else
+            echo "ERROR: No tar.gz or zip file found in turnip_workdir/"
+            echo "Contents of turnip_workdir:"
+            ls -la turnip_workdir/
+            exit 1
+          fi
+          
+          # 验证文件创建成功
+          if [ ! -f "turnip_workdir/${TAR_NAME}" ]; then
+            echo "ERROR: Failed to create ${TAR_NAME}"
+            exit 1
           fi
           
           VK_PATCH=$(grep '^#define VK_HEADER_VERSION ' turnip_workdir/mesa/include/vulkan/vulkan_core.h 2>/dev/null | awk '{print $3}' || echo "unknown")
