@@ -18,6 +18,9 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y \
+            build-essential \
+            gcc \
+            g++ \
             ninja-build \
             patchelf \
             unzip \
@@ -52,12 +55,22 @@ jobs:
             libwayland-dev \
             wayland-protocols \
             pkg-config
-          pip3 install meson ninja mako
+          # 升级 pip 并安装最新版 meson
+          pip3 install --upgrade pip
+          pip3 install --user 'meson>=1.4.0' ninja mako
+          # 确保新安装的工具在 PATH 中
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+          # 验证编译器
+          cc --version
+          c++ --version
 
       - name: Build
         run: |
           chmod +x build_turnip_perf.sh
           export BUILD_VERSION="${{ github.run_number }}"
+          export CC=gcc
+          export CXX=g++
+          export CREATE_ARCHIVE=1
           ./build_turnip_perf.sh
 
       - name: Package and rename
