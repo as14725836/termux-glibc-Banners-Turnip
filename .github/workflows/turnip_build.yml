@@ -50,10 +50,8 @@ jobs:
             libexpat1-dev \
             libwayland-dev \
             wayland-protocols \
-            meson \
             pkg-config
           pip3 install --user meson ninja mako
-          pip3 uninstall meson -y 2>/dev/null || true
 
       - name: Build Drivers
         run: |
