@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04-arm  # 改为 ARM64 原生架构
+    runs-on: ubuntu-24.04-arm
 
     steps:
       - name: Checkout
@@ -17,8 +17,41 @@ jobs:
       - name: Install Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y ninja-build patchelf unzip flex bison git perl python3-pip glslang-tools curl zip
-          pip3 install meson mako
+          sudo apt-get install -y \
+            ninja-build \
+            patchelf \
+            unzip \
+            flex \
+            bison \
+            git \
+            perl \
+            python3-pip \
+            glslang-tools \
+            curl \
+            zip \
+            libxrandr-dev \
+            libxxf86vm-dev \
+            libxcb-shm0-dev \
+            libxcb-glx0-dev \
+            libxext-dev \
+            llvm-19 \
+            libx11-dev \
+            libx11-xcb-dev \
+            libxcb1-dev \
+            libxcb-dri3-dev \
+            libxcb-present-dev \
+            libxcb-randr0-dev \
+            libxcb-sync-dev \
+            libxcb-xfixes0-dev \
+            libxshmfence-dev \
+            libdrm-dev \
+            libgbm-dev \
+            libegl1-mesa-dev \
+            libexpat1-dev \
+            libwayland-dev \
+            wayland-protocols \
+            pkg-config
+          pip3 install meson ninja mako
 
       - name: Build Drivers
         run: |
@@ -35,14 +68,16 @@ jobs:
           COMMIT_TITLE=$(git -C turnip_workdir/mesa log -1 --format="%s" 2>/dev/null || echo "")
           MESA_VERSION=$(cat turnip_workdir/mesa/VERSION 2>/dev/null | sed 's/-devel.*//' | tr -d '[:space:]' || echo "unknown")
           BUILD_DATE=$(date +%Y%m%d)
-          # 查找 .tar.gz 文件（如果脚本输出改了格式）
+          
           if ls turnip_workdir/*.tar.gz 2>/dev/null | grep -q .; then
             ARCHIVE=$(ls turnip_workdir/*.tar.gz | head -1)
           else
             ARCHIVE=$(ls turnip_workdir/*.zip 2>/dev/null | head -1)
           fi
+          
           FILENAME=$(basename "$ARCHIVE")
           TAG="v${MESA_VERSION}-${BUILD_DATE}-linux-arm64"
+          
           echo "githash=${GITHASH}" >> $GITHUB_OUTPUT
           echo "githash_full=${GITHASH_FULL}" >> $GITHUB_OUTPUT
           echo "commit_date=${COMMIT_DATE}" >> $GITHUB_OUTPUT
