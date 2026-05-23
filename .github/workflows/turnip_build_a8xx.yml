@@ -70,7 +70,7 @@ jobs:
             libwayland-dev \
             wayland-protocols \
             pkg-config
-          pip3 install --user meson ninja mako
+          sudo pip3 install meson ninja mako
           
       - name: Build
         run: |
