@@ -127,24 +127,32 @@ jobs:
             META_DESC="${{ matrix.meta_desc }}"
             
             if [ -f "$UNZIP_DIR/meta.json" ]; then
-              python3 -c "import json; p='${UNZIP_DIR}/meta.json'; m=json.load(open(p)); m['name']='${META_NAME}'; m['packageVersion']='${DAY_NUM}'; d='${META_DESC}'; m.update({'description': d} if d else {}); json.dump(m, open(p, 'w'), indent=2)"
+              python3 << PYEOF
+import json
+p = '$UNZIP_DIR/meta.json'
+with open(p, 'r') as f:
+    m = json.load(f)
+m['name'] = '$META_NAME'
+m['packageVersion'] = '$DAY_NUM'
+if '$META_DESC':
+    m['description'] = '$META_DESC'
+with open(p, 'w') as f:
+    json.dump(m, f, indent=2)
+PYEOF
             else
-              cat > "$UNZIP_DIR/meta.json" << 'EOF'
+              cat > "$UNZIP_DIR/meta.json" << EOF
 {
   "schemaVersion": 1,
-  "name": "PLACEHOLDER",
-  "description": "PLACEHOLDER",
+  "name": "${META_NAME}",
+  "description": "${META_DESC}",
   "author": "The412Banner",
-  "packageVersion": "1",
+  "packageVersion": "${DAY_NUM}",
   "vendor": "Mesa",
   "driverVersion": "Vulkan",
   "minApi": 28,
   "libraryName": "libvulkan_freedreno.so"
 }
 EOF
-              sed -i "s/\"name\": \"PLACEHOLDER\"/\"name\": \"${META_NAME}\"/" "$UNZIP_DIR/meta.json"
-              sed -i "s/\"description\": \"PLACEHOLDER\"/\"description\": \"${META_DESC}\"/" "$UNZIP_DIR/meta.json"
-              sed -i "s/\"packageVersion\": \"1\"/\"packageVersion\": \"${DAY_NUM}\"/" "$UNZIP_DIR/meta.json"
             fi
             
             (cd "$UNZIP_DIR" && tar -czf "$GITHUB_WORKSPACE/turnip_workdir/${ARCHIVE_NAME}" ./*)
