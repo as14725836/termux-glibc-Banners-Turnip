@@ -8,6 +8,9 @@ workdir="$(pwd)/turnip_workdir"
 mesasrc="https://gitlab.freedesktop.org/mesa/mesa"
 srcfolder="mesa"
 
+# 使用系统 meson 的绝对路径
+SYSTEM_MESON="/usr/bin/meson"
+
 run_all(){
 	echo -e "${green}====== Begin building TU V${BUILD_VERSION}! ======${nocolor}"
 	check_deps
@@ -80,8 +83,8 @@ build_lib_for_linux(){
 
 	echo "Generating build files..."
 	
-	# 使用 PATH 中的 meson，prefix 改为 Termux 路径
-	meson setup build \
+	# 使用系统 meson
+	$SYSTEM_MESON setup build \
 		--prefix /data/data/com.termux/files/usr/glibc \
 		-Dbuildtype=release \
 		-Dstrip=true \
@@ -102,8 +105,8 @@ build_lib_for_linux(){
 	fi
 
 	echo "Installing to Termux directory..."
-	# 使用 env 传递 PATH 给 sudo，确保能找到 meson
-	sudo env "PATH=$PATH" meson install -C build
+	# 使用系统 meson 安装
+	sudo $SYSTEM_MESON install -C build
 
 	echo "Getting driver version info..."
 	_mesa_vk_header="include/vulkan/vulkan_core.h"
@@ -125,7 +128,7 @@ build_lib_for_linux(){
 		_archive_name="mesa-turnip-linux-V${BUILD_VERSION}-${GITHASH}.tar.gz"
 		SO_DIR=$(dirname "$SO_FILE")
 		cd "$SO_DIR"
-		tar -czf "$workdir/${_archive_name}" libvulkan_freedreno.so
+		sudo tar -czf "$workdir/${_archive_name}" libvulkan_freedreno.so
 		echo -e "${green}Archive created: ${workdir}/${_archive_name}${nocolor}"
 		cd - > /dev/null
 	else
