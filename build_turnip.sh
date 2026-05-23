@@ -41,7 +41,6 @@ prepare_workdir(){
 
 	if [ "${SKIP_SOURCE_DOWNLOAD}" = "1" ]; then
 		echo "Skipping Mesa download (reusing existing source)..."
-		# Reset Mesa source to clean state before re-patching
 		if [ -d "$srcfolder/.git" ]; then
 			echo "Resetting Mesa source tree..."
 			git -C "$srcfolder" checkout .
@@ -57,13 +56,11 @@ build_lib_for_linux(){
 	cd "$workdir/$srcfolder"
 	echo "==== Building Mesa on $1 branch ===="
 
-	# Apply optional patch series if EXTRA_PATCH is set
 	if [ -n "$EXTRA_PATCH" ] && [ -f "../../$EXTRA_PATCH" ]; then
 		echo "Applying patch series: $EXTRA_PATCH"
 		patch -p1 -N --fuzz=4 < "../../$EXTRA_PATCH" || echo -e "${red}Warning: partial patch failures, continuing...${nocolor}"
 	fi
 
-	# Apply optional Python scripts if EXTRA_SCRIPT is set (colon-separated list)
 	if [ -n "$EXTRA_SCRIPT" ]; then
 		IFS=':' read -ra SCRIPTS <<< "$EXTRA_SCRIPT"
 		for SCRIPT in "${SCRIPTS[@]}"; do
@@ -78,8 +75,8 @@ build_lib_for_linux(){
 
 	echo "Generating build files..."
 	
-	# 直接使用系统编译器，不需要配置文件
-	meson setup build \
+	# 使用系统 meson
+	/usr/bin/meson setup build \
 		--prefix "$workdir/install" \
 		-Dbuildtype=release \
 		-Dstrip=true \
@@ -100,7 +97,8 @@ build_lib_for_linux(){
 	fi
 
 	echo "Installing to local directory..."
-	ninja -C build install
+	# 使用系统 meson 安装，而不是 ninja install
+	/usr/bin/meson install -C build
 
 	echo "Getting driver version info..."
 	_mesa_vk_header="include/vulkan/vulkan_core.h"
@@ -113,14 +111,17 @@ build_lib_for_linux(){
 	echo -e "${green}Driver installed to: ${workdir}/install/lib/libvulkan_freedreno.so${nocolor}"
 	echo -e "${green}Git hash: ${GITHASH}${nocolor}"
 	
-	# 可选：创建压缩包
-	if [ "${CREATE_ARCHIVE}" = "1" ]; then
-		echo "Creating archive..."
-		_archive_name="mesa-turnip-linux-V${BUILD_VERSION}-${GITHASH}.tar.gz"
+	# 创建压缩包（始终创建，不需要条件判断）
+	echo "Creating archive..."
+	_archive_name="mesa-turnip-linux-V${BUILD_VERSION}-${GITHASH}.tar.gz"
+	if [ -f "$workdir/install/lib/libvulkan_freedreno.so" ]; then
 		cd "$workdir/install/lib"
 		tar -czf "$workdir/${_archive_name}" libvulkan_freedreno.so
 		echo -e "${green}Archive created: ${workdir}/${_archive_name}${nocolor}"
 		cd - > /dev/null
+	else
+		echo -e "${red}Error: libvulkan_freedreno.so not found!${nocolor}"
+		exit 1
 	fi
 }
 
