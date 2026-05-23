@@ -46,7 +46,6 @@ jobs:
             glslang-tools \
             curl \
             zip \
-            meson \
             python3-mako \
             libxrandr-dev \
             libxxf86vm-dev \
