@@ -8,21 +8,21 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04-arm  # 改为 ARM64 原生架构
     strategy:
       fail-fast: false
       matrix:
         include:
           - variant: a8xx
             tag_suffix: "-a8xx-test"
-            zip_suffix: "-A8xx"
+            tar_suffix: "-A8xx"
             extra_script: "patches/fix_a8xx_dev_info.py:patches/apply_a8xx_gpus.py"
             meta_desc: "A8xx experimental Turnip driver for Snapdragon 8 Elite (A810/A825/A829/A830). Includes A8xx-specific patches on top of Mesa main. KGSL build."
             release_label: "A8xx Experimental"
 
           - variant: a830-tuned
             tag_suffix: "-a830-tuned-test"
-            zip_suffix: "-A830-Tuned"
+            tar_suffix: "-A830-Tuned"
             extra_script: "patches/fix_a8xx_dev_info.py:patches/apply_a8xx_gpus.py:patches/tune_a830.py"
             meta_desc: "A830 performance-tuned Turnip driver for Snapdragon 8 Elite. Disables has_fs_tex_prefetch for A830 per Mesa upstream TODO — matches behaviour of every other A8xx GPU. Experimental."
             release_label: "A830 Tuned"
@@ -34,8 +34,8 @@ jobs:
       - name: Install Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y ninja-build patchelf unzip flex bison git perl python3-pip glslang-tools curl zip patch
-          pip3 install --break-system-packages meson mako
+          sudo apt-get install -y ninja-build patchelf unzip flex bison git perl python3-pip glslang-tools curl patch
+          pip3 install meson mako
 
       - name: Build
         run: |
@@ -45,7 +45,7 @@ jobs:
           export EXTRA_SCRIPT="${{ matrix.extra_script }}"
           ./build_turnip.sh
 
-      - name: Rename ZIP
+      - name: Rename Archive
         id: info
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -72,17 +72,30 @@ jobs:
           else
             DAY_NUM="1"
           fi
-          ZIP_SUFFIX="${{ matrix.zip_suffix }}"
-          ZIP_NAME="Turnip-${TAG}${ZIP_SUFFIX}.zip"
-          SRC=$(ls turnip_workdir/mesa-turnip-*.zip | head -1)
-          UNZIP_DIR=$(mktemp -d)
-          unzip -q "$SRC" -d "$UNZIP_DIR"
-          META_NAME="Mesa Turnip ${TAG}${ZIP_SUFFIX}"
-          META_DESC="${{ matrix.meta_desc }}"
-          python3 -c "import json,sys; p='${UNZIP_DIR}/meta.json'; m=json.load(open(p)); m['name']='${META_NAME}'; m['packageVersion']='${DAY_NUM}'; d='${META_DESC}'; m.update({'description':d} if d else {}); json.dump(m,open(p,'w'),indent=2); print('meta.json:',m['name'],'| packageVersion:',m['packageVersion'])"
-          (cd "$UNZIP_DIR" && zip -q - *) > "turnip_workdir/${ZIP_NAME}"
-          VK_PATCH=$(grep '^#define VK_HEADER_VERSION ' turnip_workdir/mesa/include/vulkan/vulkan_core.h | awk '{print $3}')
-          VK_MINOR=$(grep 'define TU_API_VERSION' turnip_workdir/mesa/src/freedreno/vulkan/tu_device.cc | grep -oP 'VK_MAKE_VERSION\(\s*[0-9]+,\s*\K[0-9]+')
+          TAR_SUFFIX="${{ matrix.tar_suffix }}"
+          TAR_NAME="Turnip-${TAG}${TAR_SUFFIX}.tar.gz"
+          
+          # 查找构建产物（可能是 zip 或 tar.gz）
+          if ls turnip_workdir/*.tar.gz 2>/dev/null | grep -q .; then
+            SRC=$(ls turnip_workdir/*.tar.gz | head -1)
+            # tar.gz 格式，直接重命名
+            cp "$SRC" "turnip_workdir/${TAR_NAME}"
+          else
+            SRC=$(ls turnip_workdir/*.zip | head -1)
+            # zip 格式，需要处理 meta.json
+            UNZIP_DIR=$(mktemp -d)
+            unzip -q "$SRC" -d "$UNZIP_DIR"
+            META_NAME="Mesa Turnip ${TAG}${TAR_SUFFIX}"
+            META_DESC="${{ matrix.meta_desc }}"
+            if [ -f "$UNZIP_DIR/meta.json" ]; then
+              python3 -c "import json,sys; p='${UNZIP_DIR}/meta.json'; m=json.load(open(p)); m['name']='${META_NAME}'; m['packageVersion']='${DAY_NUM}'; d='${META_DESC}'; m.update({'description':d} if d else {}); json.dump(m,open(p,'w'),indent=2)"
+            fi
+            # 打包成 tar.gz
+            (cd "$UNZIP_DIR" && tar -czf "../../turnip_workdir/${TAR_NAME}" ./*)
+          fi
+          
+          VK_PATCH=$(grep '^#define VK_HEADER_VERSION ' turnip_workdir/mesa/include/vulkan/vulkan_core.h 2>/dev/null | awk '{print $3}' || echo "unknown")
+          VK_MINOR=$(grep 'define TU_API_VERSION' turnip_workdir/mesa/src/freedreno/vulkan/tu_device.cc 2>/dev/null | grep -oP 'VK_MAKE_VERSION\(\s*[0-9]+,\s*\K[0-9]+' || echo "unknown")
           VULKAN_VERSION="Vulkan 1.${VK_MINOR}.${VK_PATCH}"
           echo "tag=${TAG}" >> $GITHUB_OUTPUT
           echo "mesa_version=${MESA_VERSION}" >> $GITHUB_OUTPUT
@@ -92,7 +105,7 @@ jobs:
           echo "commit_date=${COMMIT_DATE}" >> $GITHUB_OUTPUT
           echo "commit_title=${COMMIT_TITLE}" >> $GITHUB_OUTPUT
           echo "vulkan_version=${VULKAN_VERSION}" >> $GITHUB_OUTPUT
-          echo "zip_name=${ZIP_NAME}" >> $GITHUB_OUTPUT
+          echo "tar_name=${TAR_NAME}" >> $GITHUB_OUTPUT
 
       - name: Write release body
         run: |
@@ -109,7 +122,9 @@ jobs:
             printf "| **Vulkan version** | %s |\n" "${{ steps.info.outputs.vulkan_version }}"
             printf "| **Commit date** | %s |\n"   "${{ steps.info.outputs.commit_date }}"
             printf "| **Commit title** | %s |\n"  "${{ steps.info.outputs.commit_title }}"
-            printf "| **Build date** | %s |\n\n"  "${{ steps.info.outputs.build_date }}"
+            printf "| **Build date** | %s |\n"  "${{ steps.info.outputs.build_date }}"
+            printf "| **Architecture** | ARM64 (aarch64) |\n"
+            printf "| **Platform** | Linux Native |\n\n"
             printf '%s\n\n' '---'
             printf "### What's In This Driver\n\n"
             printf "Base: Mesa \`main\` + A8xx-specific patches. All variants share:\n\n"
@@ -129,23 +144,31 @@ jobs:
               printf '%s\n\n' "- Sets \`has_fs_tex_prefetch = False\` for A830 — Mesa upstream has a TODO noting this is likely needed for A830. Every other A8xx GPU (A810, A829, A840) already has this disabled. A830 was the only exception, inheriting \`True\` from the A7xx chain. This aligns A830 with all other A8xx hardware."
             fi
             printf '%s\n\n' '---'
-            printf "### Installation\n\n"
-            printf '%s\n' "- **BannerHub / BCI:** Component Manager → Add New Component → select the ZIP"
-            printf '%s\n' "- **Winlator / adrenotools:** load the ZIP in GPU driver settings"
+            printf "### Installation (Linux ARM64)\n\n"
+            printf '%s\n' "```bash"
+            printf '%s\n' "# Extract the driver"
+            printf '%s\n' "tar -xzf ${{ steps.info.outputs.tar_name }}"
+            printf '%s\n' ""
+            printf '%s\n' "# Copy to system directory"
+            printf '%s\n' "sudo cp libvulkan_freedreno.so /usr/local/lib/"
+            printf '%s\n' ""
+            printf '%s\n' "# Or set environment variable for custom path"
+            printf '%s\n' "export VK_ICD_FILENAMES=/path/to/libvulkan_freedreno.so"
+            printf '%s\n' "```"
           } > release_body.md
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: Turnip-${{ matrix.variant }}-${{ steps.info.outputs.tag }}
-          path: turnip_workdir/${{ steps.info.outputs.zip_name }}
+          path: turnip_workdir/${{ steps.info.outputs.tar_name }}
 
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.info.outputs.tag }}
-          name: "Turnip ${{ steps.info.outputs.tag }} ${{ matrix.release_label }}"
+          name: "Turnip ${{ steps.info.outputs.tag }} ${{ matrix.release_label }} (Linux ARM64)"
           prerelease: true
           make_latest: false
           body_path: release_body.md
-          files: turnip_workdir/${{ steps.info.outputs.zip_name }}
+          files: turnip_workdir/${{ steps.info.outputs.tar_name }}
