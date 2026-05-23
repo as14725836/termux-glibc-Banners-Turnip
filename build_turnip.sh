@@ -75,8 +75,8 @@ build_lib_for_linux(){
 
 	echo "Generating build files..."
 	
-	# 使用系统 meson
-	/usr/bin/meson setup build \
+	# 使用 PATH 中的 meson（不要指定绝对路径）
+	meson setup build \
 		--prefix "$workdir/install" \
 		-Dbuildtype=release \
 		-Dstrip=true \
@@ -97,8 +97,8 @@ build_lib_for_linux(){
 	fi
 
 	echo "Installing to local directory..."
-	# 使用系统 meson 安装，而不是 ninja install
-	/usr/bin/meson install -C build
+	# 使用 meson install（不要用 ninja install）
+	meson install -C build
 
 	echo "Getting driver version info..."
 	_mesa_vk_header="include/vulkan/vulkan_core.h"
@@ -111,7 +111,7 @@ build_lib_for_linux(){
 	echo -e "${green}Driver installed to: ${workdir}/install/lib/libvulkan_freedreno.so${nocolor}"
 	echo -e "${green}Git hash: ${GITHASH}${nocolor}"
 	
-	# 创建压缩包（始终创建，不需要条件判断）
+	# 创建压缩包
 	echo "Creating archive..."
 	_archive_name="mesa-turnip-linux-V${BUILD_VERSION}-${GITHASH}.tar.gz"
 	if [ -f "$workdir/install/lib/libvulkan_freedreno.so" ]; then
