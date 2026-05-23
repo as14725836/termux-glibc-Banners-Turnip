@@ -113,7 +113,6 @@ jobs:
           
           ARCHIVE_NAME="Turnip-${TAG}${{ matrix.suffix }}.tar.gz"
           
-          # 查找并处理 tar.gz 文件
           echo "Looking for archive files in turnip_workdir/"
           ls -la turnip_workdir/
           
@@ -121,14 +120,12 @@ jobs:
             SRC=$(ls turnip_workdir/*.tar.gz | head -1)
             echo "Found tar.gz archive: $SRC"
             
-            # 解压并重新打包（添加/更新 meta.json）
             UNZIP_DIR=$(mktemp -d)
             tar -xzf "$SRC" -C "$UNZIP_DIR"
             
             META_NAME="Mesa Turnip ${TAG}${{ matrix.suffix }}"
             META_DESC="${{ matrix.meta_desc }}"
             
-            # 创建或更新 meta.json
             if [ -f "$UNZIP_DIR/meta.json" ]; then
               python3 -c "import json; p='${UNZIP_DIR}/meta.json'; m=json.load(open(p)); m['name']='${META_NAME}'; m['packageVersion']='${DAY_NUM}'; d='${META_DESC}'; m.update({'description': d} if d else {}); json.dump(m, open(p, 'w'), indent=2)"
             else
@@ -145,13 +142,11 @@ jobs:
   "libraryName": "libvulkan_freedreno.so"
 }
 EOF
-              # 替换占位符
               sed -i "s/\"name\": \"PLACEHOLDER\"/\"name\": \"${META_NAME}\"/" "$UNZIP_DIR/meta.json"
               sed -i "s/\"description\": \"PLACEHOLDER\"/\"description\": \"${META_DESC}\"/" "$UNZIP_DIR/meta.json"
               sed -i "s/\"packageVersion\": \"1\"/\"packageVersion\": \"${DAY_NUM}\"/" "$UNZIP_DIR/meta.json"
             fi
             
-            # 重新打包
             (cd "$UNZIP_DIR" && tar -czf "$GITHUB_WORKSPACE/turnip_workdir/${ARCHIVE_NAME}" ./*)
             echo "Created re-packed archive: turnip_workdir/${ARCHIVE_NAME}"
           else
