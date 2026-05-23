@@ -8,6 +8,9 @@ workdir="$(pwd)/turnip_workdir"
 mesasrc="https://gitlab.freedesktop.org/mesa/mesa"
 srcfolder="mesa"
 
+# 确保使用正确版本的 meson
+export PATH="$HOME/.local/bin:$PATH"
+
 run_all(){
 	echo -e "${green}====== Begin building TU Perf V${BUILD_VERSION}! ======${nocolor}"
 	check_deps
@@ -31,7 +34,7 @@ check_deps(){
 	fi
 
 	echo "Installing python Mako dependency..."
-	pip install mako &> /dev/null || true
+	pip3 install --user mako &> /dev/null || pip install --user mako &> /dev/null || true
 }
 
 prepare_workdir(){
@@ -54,6 +57,11 @@ prepare_workdir(){
 build_lib_for_linux(){
 	cd "$workdir/$srcfolder"
 	echo "==== Building Mesa on $1 branch (performance build — A6xx/A7xx) ===="
+
+	# 创建 Termux 目录结构
+	echo "Creating Termux directory structure..."
+	sudo mkdir -p /data/data/com.termux/files/usr/glibc
+	sudo chmod 777 -R /data
 
 	# Apply optional patch series if EXTRA_PATCH is set
 	if [ -n "$EXTRA_PATCH" ] && [ -f "../../$EXTRA_PATCH" ]; then
@@ -81,8 +89,9 @@ build_lib_for_linux(){
 	export CXXFLAGS="-O3 -fno-plt -flto=thin -Wno-error -Wno-deprecated-declarations"
 	export LDFLAGS="-flto=thin"
 	
+	# 使用 Termux 路径作为 prefix
 	meson setup build \
-		--prefix /usr/local \
+		--prefix /data/data/com.termux/files/usr/glibc \
 		-Dbuildtype=release \
 		-Db_ndebug=true \
 		-Dstrip=true \
@@ -102,21 +111,30 @@ build_lib_for_linux(){
 		echo -e "${red}Build failed!${nocolor}" && exit 1
 	fi
 
-	echo "Installing to system..."
-	sudo ninja -C build install
+	echo "Installing to Termux directory..."
+	sudo meson install -C build
 
 	echo -e "${green}Build completed successfully!${nocolor}"
 	echo -e "${green}Git hash: ${GITHASH}${nocolor}"
 	
-	# Optional: create archive
-	if [ "${CREATE_ARCHIVE}" = "1" ]; then
+	# 查找安装的 .so 文件
+	SO_FILE=$(find /data/data/com.termux/files/usr/glibc -name "libvulkan_freedreno.so" 2>/dev/null | head -1)
+	if [ -n "$SO_FILE" ] && [ -f "$SO_FILE" ]; then
+		echo -e "${green}Driver installed to: ${SO_FILE}${nocolor}"
+		
+		# 创建压缩包
 		echo "Creating archive..."
-		_zip_name="mesa-turnip-perf-linux-V${BUILD_VERSION}-${GITHASH}.tar.gz"
-		cd build/src/freedreno/vulkan/
-		tar -czf "/tmp/${_zip_name}" libvulkan_freedreno.so
-		cp "/tmp/${_zip_name}" "$workdir/"
-		echo -e "${green}Archive created: ${workdir}/${_zip_name}${nocolor}"
+		_archive_name="mesa-turnip-perf-linux-V${BUILD_VERSION}-${GITHASH}.tar.gz"
+		SO_DIR=$(dirname "$SO_FILE")
+		cd "$SO_DIR"
+		sudo tar -czf "$workdir/${_archive_name}" libvulkan_freedreno.so
+		echo -e "${green}Archive created: ${workdir}/${_archive_name}${nocolor}"
 		cd - > /dev/null
+	else
+		echo -e "${red}Error: libvulkan_freedreno.so not found!${nocolor}"
+		echo "Contents of Termux directory:"
+		find /data/data/com.termux/files/usr/glibc -type f 2>/dev/null || echo "No files found"
+		exit 1
 	fi
 }
 
