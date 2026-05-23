@@ -102,7 +102,8 @@ build_lib_for_linux(){
 	fi
 
 	echo "Installing to Termux directory..."
-	sudo meson install -C build
+	# 使用 env 传递 PATH 给 sudo，确保能找到 meson
+	sudo env "PATH=$PATH" meson install -C build
 
 	echo "Getting driver version info..."
 	_mesa_vk_header="include/vulkan/vulkan_core.h"
