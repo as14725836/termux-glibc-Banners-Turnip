@@ -104,18 +104,17 @@ jobs:
           
           ARCHIVE_NAME="Turnip-${TAG}${{ matrix.suffix }}.tar.gz"
           
-          if ls turnip_workdir/*.tar.gz 2>/dev/null | grep -q .; then
+          # 查找并处理 tar.gz 文件
+          if ls turnip_workdir/*.tar.gz 2>/dev/null | head -1 | grep -q .; then
             SRC=$(ls turnip_workdir/*.tar.gz | head -1)
+            echo "Found source archive: $SRC"
             cp "$SRC" "turnip_workdir/${ARCHIVE_NAME}"
+            echo "Renamed to: turnip_workdir/${ARCHIVE_NAME}"
           else
-            SRC=$(ls turnip_workdir/*.zip | head -1)
-            UNZIP_DIR=$(mktemp -d)
-            unzip -q "$SRC" -d "$UNZIP_DIR"
-            META_NAME="Mesa Turnip ${TAG}${{ matrix.suffix }}"
-            if [ -f "$UNZIP_DIR/meta.json" ]; then
-              python3 -c "import json; p='${UNZIP_DIR}/meta.json'; m=json.load(open(p)); m['name']='${META_NAME}'; m['packageVersion']='${DAY_NUM}'; json.dump(m,open(p,'w'),indent=2)"
-            fi
-            (cd "$UNZIP_DIR" && tar -czf "../../turnip_workdir/${ARCHIVE_NAME}" ./*)
+            echo "Error: No .tar.gz file found in turnip_workdir/"
+            echo "Directory contents:"
+            ls -la turnip_workdir/
+            exit 1
           fi
           
           VK_PATCH=$(grep '^#define VK_HEADER_VERSION ' turnip_workdir/mesa/include/vulkan/vulkan_core.h 2>/dev/null | awk '{print $3}' || echo "unknown")
