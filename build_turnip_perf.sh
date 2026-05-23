@@ -79,11 +79,6 @@ build_lib_for_linux(){
 
 	echo "Generating build files..."
 	
-	# Performance build with O3 and ThinLTO
-	export CFLAGS="-O3 -fno-plt -flto=thin -Wno-error -Wno-deprecated-declarations"
-	export CXXFLAGS="-O3 -fno-plt -flto=thin -Wno-error -Wno-deprecated-declarations"
-	export LDFLAGS="-flto=thin"
-	
 	# 使用 Termux 路径作为 prefix
 	meson setup build \
 		--prefix /data/data/com.termux/files/usr/glibc \
