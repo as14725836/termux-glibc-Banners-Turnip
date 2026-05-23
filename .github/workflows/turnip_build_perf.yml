@@ -62,8 +62,6 @@ jobs:
         run: |
           chmod +x build_turnip_perf.sh
           export BUILD_VERSION="${{ github.run_number }}"
-          export CC=gcc
-          export CXX=g++
           export CREATE_ARCHIVE=1
           ./build_turnip_perf.sh
 
