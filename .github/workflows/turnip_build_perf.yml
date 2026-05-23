@@ -38,7 +38,6 @@ jobs:
             libxext-dev \
             llvm-19 \
             gcc \
-            g++ \
             libx11-dev \
             libx11-xcb-dev \
             libxcb1-dev \
@@ -54,6 +53,7 @@ jobs:
             libexpat1-dev \
             libwayland-dev \
             wayland-protocols \
+            build-essential \
             pkg-config
           # 升级 pip 并安装最新版 meson
           sudo pip3 install meson ninja mako
