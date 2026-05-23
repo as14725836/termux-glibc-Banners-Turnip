@@ -6,10 +6,7 @@ nocolor='\033[0m'
 deps="git meson ninja patchelf unzip curl pip flex bison zip glslang glslangValidator"
 workdir="$(pwd)/turnip_workdir"
 mesasrc="https://gitlab.freedesktop.org/mesa/mesa"
-srcfolder="mesa"
-
-# 使用系统 meson 的绝对路径
-SYSTEM_MESON="/usr/bin/meson"
+srcfolder="mesa
 
 run_all(){
 	echo -e "${green}====== Begin building TU V${BUILD_VERSION}! ======${nocolor}"
@@ -84,7 +81,7 @@ build_lib_for_linux(){
 	echo "Generating build files..."
 	
 	# 使用系统 meson
-	$SYSTEM_MESON setup build \
+	 meson setup build \
 		--prefix /data/data/com.termux/files/usr/glibc \
 		-Dbuildtype=release \
 		-Dstrip=true \
@@ -106,7 +103,7 @@ build_lib_for_linux(){
 
 	echo "Installing to Termux directory..."
 	# 使用系统 meson 安装
-	sudo $SYSTEM_MESON install -C build
+	sudo meson install -C build
 
 	echo "Getting driver version info..."
 	_mesa_vk_header="include/vulkan/vulkan_core.h"
