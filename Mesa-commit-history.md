@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260524-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260524-r3) | 2026-05-24 | [`b8fa4fd`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b8fa4fd2581166e5fcbaef7471dad11556572d4f) | nak: Allow YY swizzle for SM20 and SM32 asserts | Vulkan 1.4.352 |
 | [v26.2.0-20260524-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260524-r2) | 2026-05-23 | [`e0eefe5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e0eefe5999929039480de8515c2fe26f4ad6402c) | gfxstream: codegen: drop const from let-param scalar cast | Vulkan 1.4.352 |
 | [v26.2.0-20260524](https://github.com/as14725836/glibc-Banners-Turnip/releases/tag/v26.2.0-20260524) | 2026-05-23 | [`e0eefe5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e0eefe5999929039480de8515c2fe26f4ad6402c) | gfxstream: codegen: drop const from let-param scalar cast | Vulkan 1.4.352 |
 | [v26.2.0-20260523-r2](https://github.com/The412Banner/Banners-Turnip/releases/tag/v26.2.0-20260523-r2) | 2026-05-23 | [`e0eefe5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e0eefe5999929039480de8515c2fe26f4ad6402c) | gfxstream: codegen: drop const from let-param scalar cast | Vulkan 1.4.352 |
