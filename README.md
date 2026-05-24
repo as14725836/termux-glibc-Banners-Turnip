@@ -77,7 +77,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | **Commit date** | 2026-05-23 |
 | **Commit title** | gfxstream: codegen: drop const from let-param scalar cast |
 | **Build date** | 20260524 |
-| **Release** | [v26.2.0-20260524](https://github.com/as14725836/glibc-Banners-Turnip/releases/tag/v26.2.0-20260524) |
+| **Release** | [v26.2.0-20260524-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260524-r2) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,7 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
-| [v26.2.0-20260524](https://github.com/as14725836/glibc-Banners-Turnip/releases/tag/v26.2.0-20260524) | 2026-05-24 | [`e0eefe5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e0eefe5999929039480de8515c2fe26f4ad6402c) | gfxstream: codegen: drop const from let-param scalar cast | Vulkan 1.4.352 |
+| [v26.2.0-20260524-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260524-r2) | 2026-05-24 | [`e0eefe5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e0eefe5999929039480de8515c2fe26f4ad6402c) | gfxstream: codegen: drop const from let-param scalar cast | Vulkan 1.4.352 |
 <!-- RECENT_BUILDS_END -->
 
 ---
