@@ -34,6 +34,8 @@ jobs:
             libxcb-shm0-dev \
             libxcb-glx0-dev \
             libxext-dev \
+            gcc \
+            clang \
             llvm-19 \
             libx11-dev \
             libx11-xcb-dev \
