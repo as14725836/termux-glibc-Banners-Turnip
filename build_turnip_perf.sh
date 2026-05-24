@@ -102,7 +102,7 @@ build_lib_for_linux(){
 	fi
 
 	echo "Installing to Termux directory..."
-	sudo ninja -C build install
+	 ninja -C build install
 
 	echo -e "${green}Build completed successfully!${nocolor}"
 	echo -e "${green}Git hash: ${GITHASH}${nocolor}"
