@@ -82,6 +82,7 @@ build_lib_for_linux(){
 	
 	# 使用系统 meson
 	 meson setup build \
+	    --libdir=lib \
 		--prefix /data/data/com.termux/files/usr/glibc \
 		-Dbuildtype=release \
 		-Dstrip=true \
