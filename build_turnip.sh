@@ -103,7 +103,7 @@ build_lib_for_linux(){
 
 	echo "Installing to Termux directory..."
 	# 使用系统 meson 安装
-	sudo ninja -C build install
+	 ninja -C build install
 
 	echo "Getting driver version info..."
 	_mesa_vk_header="include/vulkan/vulkan_core.h"
