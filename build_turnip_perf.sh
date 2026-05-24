@@ -81,6 +81,7 @@ build_lib_for_linux(){
 	
 	# 使用 Termux 路径作为 prefix
 	meson setup build \
+	    --libdir=lib \
 		--prefix /data/data/com.termux/files/usr/glibc \
 		-Dbuildtype=release \
 		-Db_ndebug=true \
