@@ -79,6 +79,11 @@ build_lib_for_linux(){
 	GITHASH=$(git rev-parse --short HEAD)
 
 	echo "Generating build files..."
+	export CC=clang
+    export CXX=clang++
+	export CFLAGS="-O3 -fno-plt -flto=thin -Wno-error -Wno-deprecated-declarations"
+	export CXXFLAGS="-O3 -fno-plt -flto=thin -Wno-error -Wno-deprecated-declarations"
+	export LDFLAGS="-flto=thin"
 	
 	# 使用系统 meson
 	 meson setup build \
