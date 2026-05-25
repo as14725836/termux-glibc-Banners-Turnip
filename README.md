@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.352 |
-| **Commit** | [`ea54dea`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ea54dea3a4cb137de39768ba9632ae53efc71fe5) |
+| **Commit** | [`c07a203`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c07a203ef4951ca4224b32e2e81ad165f271a193) |
 | **Commit date** | 2026-05-25 |
-| **Commit title** | i915: fix emit_hw_vertex() unbounded memory access |
+| **Commit title** | kk: Enable code formatting enforcement |
 | **Build date** | 20260525 |
-| **Release** | [v26.2.0-20260525-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260525-r2) |
+| **Release** | [v26.2.0-20260525-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260525-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260525-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260525-r3) | 2026-05-25 | [`c07a203`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c07a203ef4951ca4224b32e2e81ad165f271a193) | kk: Enable code formatting enforcement | Vulkan 1.4.352 |
 | [v26.2.0-20260525-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260525-r2) | 2026-05-25 | [`ea54dea`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ea54dea3a4cb137de39768ba9632ae53efc71fe5) | i915: fix emit_hw_vertex() unbounded memory access | Vulkan 1.4.352 |
 | [v26.2.0-20260525](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260525) | 2026-05-25 | [`64eba87`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/64eba87a676ddb294f0b3eafc4325ea55343603e) | rusticl: more intel compat stuff | Vulkan 1.4.352 |
 <!-- RECENT_BUILDS_END -->
