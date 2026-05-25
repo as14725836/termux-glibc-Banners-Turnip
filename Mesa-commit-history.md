@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260525-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260525-r4) | 2026-05-25 | [`e2e7fce`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e2e7fce6e9e7df52b6d66af13b6f2d4bb8c28855) | radv: rename radv_zero_vram to vk_zero_vram | Vulkan 1.4.352 |
 | [v26.2.0-20260525-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260525-r3) | 2026-05-25 | [`c07a203`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c07a203ef4951ca4224b32e2e81ad165f271a193) | kk: Enable code formatting enforcement | Vulkan 1.4.352 |
 | [v26.2.0-20260525-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260525-r2) | 2026-05-25 | [`ea54dea`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ea54dea3a4cb137de39768ba9632ae53efc71fe5) | i915: fix emit_hw_vertex() unbounded memory access | Vulkan 1.4.352 |
 | [v26.2.0-20260525](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260525) | 2026-05-25 | [`64eba87`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/64eba87a676ddb294f0b3eafc4325ea55343603e) | rusticl: more intel compat stuff | Vulkan 1.4.352 |
