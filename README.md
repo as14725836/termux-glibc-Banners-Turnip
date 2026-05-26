@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.352 |
-| **Commit** | [`ae604b4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ae604b4bddae909a419a6c332ac830df3e2c6d5a) |
+| **Commit** | [`f0a6360`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f0a6360e0547dd9863586a7b3bfc79609bd8d65b) |
 | **Commit date** | 2026-05-26 |
-| **Commit title** | v3dv: share zero-fill TFU staging BO at device level |
+| **Commit title** | vulkan/wsi/win32: Prefer the more popular surface format on Windows |
 | **Build date** | 20260526 |
-| **Release** | [v26.2.0-20260526-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260526-r2) |
+| **Release** | [v26.2.0-20260526-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260526-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,13 +87,12 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260526-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260526-r3) | 2026-05-26 | [`f0a6360`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f0a6360e0547dd9863586a7b3bfc79609bd8d65b) | vulkan/wsi/win32: Prefer the more popular surface format on Windows | Vulkan 1.4.352 |
 | [v26.2.0-20260526-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260526-r2) | 2026-05-26 | [`ae604b4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ae604b4bddae909a419a6c332ac830df3e2c6d5a) | v3dv: share zero-fill TFU staging BO at device level | Vulkan 1.4.352 |
 | [v26.2.0-20260526](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260526) | 2026-05-26 | [`af8c3eb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/af8c3eb3d6537eeda79258dd9fcc4178933d2ad8) | ac/nir: Fix SMEM workaround with emulated RT | Vulkan 1.4.352 |
 | [v26.2.0-20260525-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260525-r6) | 2026-05-25 | [`7f2130c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7f2130c86e17f936be66fa6ad8eda85746b5fc6b) | nir/opt_algebraic: add more ffract/ffloor/ftrunc/f2u/f2i patterns | Vulkan 1.4.352 |
 | [v26.2.0-20260525-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260525-r5) | 2026-05-25 | [`e824c30`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e824c30460449da57a67919d606415cf3e17cd87) | mesa/st: remove redundant has_hw_atomics from st_context | Vulkan 1.4.352 |
 | [v26.2.0-20260525-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260525-r4) | 2026-05-25 | [`e2e7fce`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e2e7fce6e9e7df52b6d66af13b6f2d4bb8c28855) | radv: rename radv_zero_vram to vk_zero_vram | Vulkan 1.4.352 |
-| [v26.2.0-20260525-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260525-r3) | 2026-05-25 | [`c07a203`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c07a203ef4951ca4224b32e2e81ad165f271a193) | kk: Enable code formatting enforcement | Vulkan 1.4.352 |
-| [v26.2.0-20260525-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260525-r2) | 2026-05-25 | [`ea54dea`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ea54dea3a4cb137de39768ba9632ae53efc71fe5) | i915: fix emit_hw_vertex() unbounded memory access | Vulkan 1.4.352 |
 <!-- RECENT_BUILDS_END -->
 
 ---
