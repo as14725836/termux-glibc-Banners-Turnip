@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260526-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260526-r4) | 2026-05-26 | [`7683d55`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7683d552be07d149ee34a7f9be242e441659b26c) | docs: Add many missing features | Vulkan 1.4.352 |
 | [v26.2.0-20260526-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260526-r3) | 2026-05-26 | [`f0a6360`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f0a6360e0547dd9863586a7b3bfc79609bd8d65b) | vulkan/wsi/win32: Prefer the more popular surface format on Windows | Vulkan 1.4.352 |
 | [v26.2.0-20260526-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260526-r2) | 2026-05-26 | [`ae604b4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ae604b4bddae909a419a6c332ac830df3e2c6d5a) | v3dv: share zero-fill TFU staging BO at device level | Vulkan 1.4.352 |
 | [v26.2.0-20260526](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260526) | 2026-05-25 | [`af8c3eb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/af8c3eb3d6537eeda79258dd9fcc4178933d2ad8) | ac/nir: Fix SMEM workaround with emulated RT | Vulkan 1.4.352 |
