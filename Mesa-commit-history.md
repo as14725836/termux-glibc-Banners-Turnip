@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260527-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260527-r5) | 2026-05-27 | [`addd09f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/addd09fb764a437ba45187f8884042396a197529) | lavapipe: correctly disable depth/stencil in secondaries | Vulkan 1.4.352 |
 | [v26.2.0-20260527-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260527-r4) | 2026-05-27 | [`3800f46`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3800f465f5815e6d2a16116053754b3251b58666) | docs: add sha sum for 26.0.8 | Vulkan 1.4.352 |
 | [v26.2.0-20260527-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260527-r3) | 2026-05-27 | [`ca0496b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ca0496bc269400534f9a5679000d77085e1fefc3) | radv: use load_deref_transpose_amd for transposed cooperative matrix loads | Vulkan 1.4.352 |
 | [v26.2.0-20260527](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260527) | 2026-05-27 | [`691371a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/691371a176d9fd9ea16eb472c3986d41cab25bcd) | radv/rra,rmv: fix device id written into trace files | Vulkan 1.4.352 |
