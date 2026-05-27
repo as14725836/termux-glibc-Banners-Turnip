@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.352 |
-| **Commit** | [`bec5d3f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/bec5d3fff51702fdf76cc397fec2b1a89a37a698) |
-| **Commit date** | 2026-05-26 |
-| **Commit title** | anv: Add workaround for vertex explosions in Split Fiction |
-| **Build date** | 20260526 |
-| **Release** | [v26.2.0-20260526-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260526-r6) |
+| **Commit** | [`691371a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/691371a176d9fd9ea16eb472c3986d41cab25bcd) |
+| **Commit date** | 2026-05-27 |
+| **Commit title** | radv/rra,rmv: fix device id written into trace files |
+| **Build date** | 20260527 |
+| **Release** | [v26.2.0-20260527](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260527) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,12 +87,12 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260527](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260527) | 2026-05-27 | [`691371a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/691371a176d9fd9ea16eb472c3986d41cab25bcd) | radv/rra,rmv: fix device id written into trace files | Vulkan 1.4.352 |
 | [v26.2.0-20260526-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260526-r6) | 2026-05-26 | [`bec5d3f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/bec5d3fff51702fdf76cc397fec2b1a89a37a698) | anv: Add workaround for vertex explosions in Split Fiction | Vulkan 1.4.352 |
 | [v26.2.0-20260526-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260526-r5) | 2026-05-26 | [`a1d6a34`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a1d6a341541e5170c7dcd147fd0a535a3b5b074a) | panvk: fix executable properties handling for IDVS varying shaders | Vulkan 1.4.352 |
 | [v26.2.0-20260526-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260526-r4) | 2026-05-26 | [`7683d55`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7683d552be07d149ee34a7f9be242e441659b26c) | docs: Add many missing features | Vulkan 1.4.352 |
 | [v26.2.0-20260526-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260526-r3) | 2026-05-26 | [`f0a6360`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f0a6360e0547dd9863586a7b3bfc79609bd8d65b) | vulkan/wsi/win32: Prefer the more popular surface format on Windows | Vulkan 1.4.352 |
 | [v26.2.0-20260526-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260526-r2) | 2026-05-26 | [`ae604b4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ae604b4bddae909a419a6c332ac830df3e2c6d5a) | v3dv: share zero-fill TFU staging BO at device level | Vulkan 1.4.352 |
-| [v26.2.0-20260526](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260526) | 2026-05-26 | [`af8c3eb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/af8c3eb3d6537eeda79258dd9fcc4178933d2ad8) | ac/nir: Fix SMEM workaround with emulated RT | Vulkan 1.4.352 |
 <!-- RECENT_BUILDS_END -->
 
 ---
