@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.352 |
-| **Commit** | [`9f4358e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9f4358ee77ebedbb50121e0f5795d5b831b3433b) |
+| **Commit** | [`c5942b4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c5942b4efb49a284e428a1d9133d184b9442d0bb) |
 | **Commit date** | 2026-05-28 |
-| **Commit title** | intel/dev: Add a Xe2+ table of URB min and max entries |
+| **Commit title** | brw: evict memory for workgroup scope in Xe2 and newer |
 | **Build date** | 20260528 |
-| **Release** | [v26.2.0-20260528-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260528-r5) |
+| **Release** | [v26.2.0-20260528-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260528-r6) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260528-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260528-r6) | 2026-05-28 | [`c5942b4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c5942b4efb49a284e428a1d9133d184b9442d0bb) | brw: evict memory for workgroup scope in Xe2 and newer | Vulkan 1.4.352 |
 | [v26.2.0-20260528-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260528-r5) | 2026-05-28 | [`9f4358e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9f4358ee77ebedbb50121e0f5795d5b831b3433b) | intel/dev: Add a Xe2+ table of URB min and max entries | Vulkan 1.4.352 |
 | [v26.2.0-20260528-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260528-r4) | 2026-05-28 | [`f7321be`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f7321be05ab5e1f77f38411f6ba2d2fb4e8b6e12) | radv/amdgpu: stop deduplicating winsys | Vulkan 1.4.352 |
 | [v26.2.0-20260528-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260528-r3) | 2026-05-28 | [`6564b70`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6564b704982e62ff272f4d3bad98e75afddacc36) | pvr: bump conformance version to 1.4.3.3 | Vulkan 1.4.352 |
