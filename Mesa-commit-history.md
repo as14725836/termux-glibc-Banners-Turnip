@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260528-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260528-r3) | 2026-05-28 | [`6564b70`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6564b704982e62ff272f4d3bad98e75afddacc36) | pvr: bump conformance version to 1.4.3.3 | Vulkan 1.4.352 |
 | [v26.2.0-20260528-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260528-r2) | 2026-05-28 | [`d3f9543`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d3f9543f2aeba0ae410f7ccba662c2ceec44e017) | r300: drop more dead ntr code | Vulkan 1.4.352 |
 | [v26.2.0-20260528](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260528) | 2026-05-28 | [`a4c1f11`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a4c1f110c7222757a38304925ddf22085243dc4f) | r300: reuse positive and negative immediate values | Vulkan 1.4.352 |
 | [v26.2.0-20260527-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260527-r5) | 2026-05-27 | [`addd09f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/addd09fb764a437ba45187f8884042396a197529) | lavapipe: correctly disable depth/stencil in secondaries | Vulkan 1.4.352 |

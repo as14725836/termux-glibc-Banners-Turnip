@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.352 |
-| **Commit** | [`d3f9543`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d3f9543f2aeba0ae410f7ccba662c2ceec44e017) |
+| **Commit** | [`6564b70`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6564b704982e62ff272f4d3bad98e75afddacc36) |
 | **Commit date** | 2026-05-28 |
-| **Commit title** | r300: drop more dead ntr code |
+| **Commit title** | pvr: bump conformance version to 1.4.3.3 |
 | **Build date** | 20260528 |
-| **Release** | [v26.2.0-20260528-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260528-r2) |
+| **Release** | [v26.2.0-20260528-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260528-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,11 +87,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260528-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260528-r3) | 2026-05-28 | [`6564b70`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6564b704982e62ff272f4d3bad98e75afddacc36) | pvr: bump conformance version to 1.4.3.3 | Vulkan 1.4.352 |
 | [v26.2.0-20260528-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260528-r2) | 2026-05-28 | [`d3f9543`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d3f9543f2aeba0ae410f7ccba662c2ceec44e017) | r300: drop more dead ntr code | Vulkan 1.4.352 |
 | [v26.2.0-20260528](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260528) | 2026-05-28 | [`a4c1f11`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a4c1f110c7222757a38304925ddf22085243dc4f) | r300: reuse positive and negative immediate values | Vulkan 1.4.352 |
 | [v26.2.0-20260527-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260527-r5) | 2026-05-27 | [`addd09f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/addd09fb764a437ba45187f8884042396a197529) | lavapipe: correctly disable depth/stencil in secondaries | Vulkan 1.4.352 |
 | [v26.2.0-20260527-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260527-r4) | 2026-05-27 | [`3800f46`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3800f465f5815e6d2a16116053754b3251b58666) | docs: add sha sum for 26.0.8 | Vulkan 1.4.352 |
-| [v26.2.0-20260527-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260527-r3) | 2026-05-27 | [`ca0496b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ca0496bc269400534f9a5679000d77085e1fefc3) | radv: use load_deref_transpose_amd for transposed cooperative matrix loads | Vulkan 1.4.352 |
 <!-- RECENT_BUILDS_END -->
 
 ---
