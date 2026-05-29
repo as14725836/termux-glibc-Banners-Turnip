@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260529-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260529-r7) | 2026-05-29 | [`e24dc5b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e24dc5bd1e7fe6101bdc866fb16a15a8fcae1aae) | anv: fake VK_EXT_image_compression_control on Xe2+ | Vulkan 1.4.352 |
 | [v26.2.0-20260529-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260529-r6) | 2026-05-29 | [`e13c270`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e13c270d890d7506ec4a14cf5376e59591ab7c41) | ir3/ra: fix killed src detection for spillall min limit | Vulkan 1.4.352 |
 | [v26.2.0-20260529-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260529-r5) | 2026-05-29 | [`04dfd3f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/04dfd3fe3ffd49b59945e710c43601cd67cf1315) | radeonsi/vpe: adjust message | Vulkan 1.4.352 |
 | [v26.2.0-20260529-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260529-r4) | 2026-05-29 | [`0106789`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/010678968b4162aa6518220c0de44638a7272237) | lavapipe: Enable extendedDynamicState3ColorBlendAdvanced | Vulkan 1.4.352 |

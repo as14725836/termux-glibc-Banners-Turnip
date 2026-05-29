@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.352 |
-| **Commit** | [`e13c270`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e13c270d890d7506ec4a14cf5376e59591ab7c41) |
+| **Commit** | [`e24dc5b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e24dc5bd1e7fe6101bdc866fb16a15a8fcae1aae) |
 | **Commit date** | 2026-05-29 |
-| **Commit title** | ir3/ra: fix killed src detection for spillall min limit |
+| **Commit title** | anv: fake VK_EXT_image_compression_control on Xe2+ |
 | **Build date** | 20260529 |
-| **Release** | [v26.2.0-20260529-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260529-r6) |
+| **Release** | [v26.2.0-20260529-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260529-r7) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260529-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260529-r7) | 2026-05-29 | [`e24dc5b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e24dc5bd1e7fe6101bdc866fb16a15a8fcae1aae) | anv: fake VK_EXT_image_compression_control on Xe2+ | Vulkan 1.4.352 |
 | [v26.2.0-20260529-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260529-r6) | 2026-05-29 | [`e13c270`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e13c270d890d7506ec4a14cf5376e59591ab7c41) | ir3/ra: fix killed src detection for spillall min limit | Vulkan 1.4.352 |
 | [v26.2.0-20260529-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260529-r5) | 2026-05-29 | [`04dfd3f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/04dfd3fe3ffd49b59945e710c43601cd67cf1315) | radeonsi/vpe: adjust message | Vulkan 1.4.352 |
 | [v26.2.0-20260529-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260529-r4) | 2026-05-29 | [`0106789`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/010678968b4162aa6518220c0de44638a7272237) | lavapipe: Enable extendedDynamicState3ColorBlendAdvanced | Vulkan 1.4.352 |
@@ -94,7 +95,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.2.0-20260529-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260529-r2) | 2026-05-29 | [`76fdc60`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/76fdc606c8d6d486e5dda89398e04921cfbed76a) | ac/nir,radv: lower task payload to zeroes when the mesh shader has no task | Vulkan 1.4.352 |
 | [v26.2.0-20260529](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260529) | 2026-05-29 | [`c5fb1c3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c5fb1c32656da08d6a12af46fd95702a9e32c0f1) | freedreno/a7xx: Don't force enable IJ_LINEAR_PIXEL for FragFace/FragCoord | Vulkan 1.4.352 |
 | [v26.2.0-20260528-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260528-r6) | 2026-05-28 | [`c5942b4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c5942b4efb49a284e428a1d9133d184b9442d0bb) | brw: evict memory for workgroup scope in Xe2 and newer | Vulkan 1.4.352 |
-| [v26.2.0-20260528-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260528-r5) | 2026-05-28 | [`9f4358e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9f4358ee77ebedbb50121e0f5795d5b831b3433b) | intel/dev: Add a Xe2+ table of URB min and max entries | Vulkan 1.4.352 |
 <!-- RECENT_BUILDS_END -->
 
 ---
