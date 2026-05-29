@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.352 |
-| **Commit** | [`c501f3b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c501f3b4c966555c4b8c6a12df3ea0a0e3a0070a) |
+| **Commit** | [`0106789`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/010678968b4162aa6518220c0de44638a7272237) |
 | **Commit date** | 2026-05-29 |
-| **Commit title** | pvr: re-enable {EXT,KHR}_index_type_uint8 |
+| **Commit title** | lavapipe: Enable extendedDynamicState3ColorBlendAdvanced |
 | **Build date** | 20260529 |
-| **Release** | [v26.2.0-20260529-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260529-r3) |
+| **Release** | [v26.2.0-20260529-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260529-r4) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260529-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260529-r4) | 2026-05-29 | [`0106789`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/010678968b4162aa6518220c0de44638a7272237) | lavapipe: Enable extendedDynamicState3ColorBlendAdvanced | Vulkan 1.4.352 |
 | [v26.2.0-20260529-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260529-r3) | 2026-05-29 | [`c501f3b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c501f3b4c966555c4b8c6a12df3ea0a0e3a0070a) | pvr: re-enable {EXT,KHR}_index_type_uint8 | Vulkan 1.4.352 |
 | [v26.2.0-20260529-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260529-r2) | 2026-05-29 | [`76fdc60`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/76fdc606c8d6d486e5dda89398e04921cfbed76a) | ac/nir,radv: lower task payload to zeroes when the mesh shader has no task | Vulkan 1.4.352 |
 | [v26.2.0-20260529](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260529) | 2026-05-29 | [`c5fb1c3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c5fb1c32656da08d6a12af46fd95702a9e32c0f1) | freedreno/a7xx: Don't force enable IJ_LINEAR_PIXEL for FragFace/FragCoord | Vulkan 1.4.352 |
@@ -94,7 +95,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.2.0-20260528-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260528-r5) | 2026-05-28 | [`9f4358e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9f4358ee77ebedbb50121e0f5795d5b831b3433b) | intel/dev: Add a Xe2+ table of URB min and max entries | Vulkan 1.4.352 |
 | [v26.2.0-20260528-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260528-r4) | 2026-05-28 | [`f7321be`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f7321be05ab5e1f77f38411f6ba2d2fb4e8b6e12) | radv/amdgpu: stop deduplicating winsys | Vulkan 1.4.352 |
 | [v26.2.0-20260528-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260528-r3) | 2026-05-28 | [`6564b70`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6564b704982e62ff272f4d3bad98e75afddacc36) | pvr: bump conformance version to 1.4.3.3 | Vulkan 1.4.352 |
-| [v26.2.0-20260528-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260528-r2) | 2026-05-28 | [`d3f9543`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d3f9543f2aeba0ae410f7ccba662c2ceec44e017) | r300: drop more dead ntr code | Vulkan 1.4.352 |
 <!-- RECENT_BUILDS_END -->
 
 ---
