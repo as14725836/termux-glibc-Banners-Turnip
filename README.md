@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.352 |
-| **Commit** | [`90d963d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/90d963d3537898c834b21928811f17e32cec1922) |
+| **Commit** | [`ff67b27`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ff67b27f485a944963ce0a0e83e53b68f100701a) |
 | **Commit date** | 2026-06-01 |
-| **Commit title** | nir/nir_format_convert: Add missing u2f32 in nir_format_unpack_r9g9b9e5 |
+| **Commit title** | gfxstream: disallow maintenance6 extension due to serialization bugs |
 | **Build date** | 20260601 |
-| **Release** | [v26.2.0-20260601-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260601-r4) |
+| **Release** | [v26.2.0-20260601-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260601-r5) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260601-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260601-r5) | 2026-06-01 | [`ff67b27`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ff67b27f485a944963ce0a0e83e53b68f100701a) | gfxstream: disallow maintenance6 extension due to serialization bugs | Vulkan 1.4.352 |
 | [v26.2.0-20260601-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260601-r4) | 2026-06-01 | [`90d963d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/90d963d3537898c834b21928811f17e32cec1922) | nir/nir_format_convert: Add missing u2f32 in nir_format_unpack_r9g9b9e5 | Vulkan 1.4.352 |
 | [v26.2.0-20260601-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260601-r3) | 2026-06-01 | [`85c1260`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/85c12604b951a39066e84189c2cf2bb4f5db2e2d) | d3d12: add av1 handling to d3d12_video_encoder_get_encode_headers and d3d12_video_encoder_update_current_encoder_config_state_av1 | Vulkan 1.4.352 |
 | [v26.2.0-20260601-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260601-r2) | 2026-06-01 | [`fa5ce01`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fa5ce01ea3fc26f5b2a707d5a51f309aa27df9a8) | r600: update muladd support configuration | Vulkan 1.4.352 |
