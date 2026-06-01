@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260601-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260601-r3) | 2026-06-01 | [`85c1260`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/85c12604b951a39066e84189c2cf2bb4f5db2e2d) | d3d12: add av1 handling to d3d12_video_encoder_get_encode_headers and d3d12_video_encoder_update_current_encoder_config_state_av1 | Vulkan 1.4.352 |
 | [v26.2.0-20260601-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260601-r2) | 2026-06-01 | [`fa5ce01`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fa5ce01ea3fc26f5b2a707d5a51f309aa27df9a8) | r600: update muladd support configuration | Vulkan 1.4.352 |
 | [v26.2.0-20260601](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260601) | 2026-06-01 | [`fd9c2ce`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fd9c2ce73d05eaed611519b997aa45f7622b691e) | compiler/rust/nir: Add helpers for getting ALU input/output types | Vulkan 1.4.352 |
 | [v26.2.0-20260531-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260531-r2) | 2026-05-31 | [`40087f9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/40087f9be2c5c7065c65b29408af12414f497c50) | lavapipe: Perform shader object compatibility check early | Vulkan 1.4.352 |
