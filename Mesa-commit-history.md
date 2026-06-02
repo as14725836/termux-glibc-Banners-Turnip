@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260602-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260602-r5) | 2026-06-02 | [`990d76e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/990d76eae6342bc14df998ec8723162a79a103e4) | v3dv: Implement and enable nullDescriptor support | Vulkan 1.4.352 |
 | [v26.2.0-20260602-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260602-r4) | 2026-06-02 | [`6ae0114`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6ae0114b0588da0ff43a4aa7aa8709ad61a2725e) | Rename the CACHE_LINE_SIZE define to MESA_CACHE_LINE_SIZE | Vulkan 1.4.352 |
 | [v26.2.0-20260602-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260602-r3) | 2026-06-02 | [`31fe363`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/31fe3637a200180164fd43d25152f967df25f981) | mediafoundation: check for AUTO slice/tile only capable hardware | Vulkan 1.4.352 |
 | [v26.2.0-20260602-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260602-r2) | 2026-06-02 | [`f6b06ea`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f6b06ea3de6e7945681fbf9efe4834066b548553) | nir/algebraic: prevent ffract optimization on lowered ffloor | Vulkan 1.4.352 |
