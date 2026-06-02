@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.352 |
-| **Commit** | [`f6b06ea`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f6b06ea3de6e7945681fbf9efe4834066b548553) |
+| **Commit** | [`31fe363`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/31fe3637a200180164fd43d25152f967df25f981) |
 | **Commit date** | 2026-06-02 |
-| **Commit title** | nir/algebraic: prevent ffract optimization on lowered ffloor |
+| **Commit title** | mediafoundation: check for AUTO slice/tile only capable hardware |
 | **Build date** | 20260602 |
-| **Release** | [v26.2.0-20260602-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260602-r2) |
+| **Release** | [v26.2.0-20260602-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260602-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260602-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260602-r3) | 2026-06-02 | [`31fe363`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/31fe3637a200180164fd43d25152f967df25f981) | mediafoundation: check for AUTO slice/tile only capable hardware | Vulkan 1.4.352 |
 | [v26.2.0-20260602-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260602-r2) | 2026-06-02 | [`f6b06ea`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f6b06ea3de6e7945681fbf9efe4834066b548553) | nir/algebraic: prevent ffract optimization on lowered ffloor | Vulkan 1.4.352 |
 | [v26.2.0-20260602](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260602) | 2026-06-02 | [`c24e408`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c24e4085a15fcb6e2a7856607191837075b07c8e) | radeonsi/mm: Set PIPE_RESOURCE_FLAG_UNMAPPABLE for buffers | Vulkan 1.4.352 |
 | [v26.2.0-20260601-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260601-r5) | 2026-06-01 | [`ff67b27`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ff67b27f485a944963ce0a0e83e53b68f100701a) | gfxstream: disallow maintenance6 extension due to serialization bugs | Vulkan 1.4.352 |
