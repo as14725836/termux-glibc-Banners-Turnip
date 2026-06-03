@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.352 |
-| **Commit** | [`f1c30d6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f1c30d65e155effa4a746b89e038fc246ae3a23e) |
+| **Commit** | [`46853bf`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/46853bff6396e6091aa4957975bcae94d7be0dae) |
 | **Commit date** | 2026-06-03 |
-| **Commit title** | pan/v13: implement CS udiv |
+| **Commit title** | pvr: Fix load-op shader when loading from a 2d image view of a 3d image |
 | **Build date** | 20260603 |
-| **Release** | [v26.2.0-20260603-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260603-r2) |
+| **Release** | [v26.2.0-20260603-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260603-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,13 +87,13 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260603-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260603-r3) | 2026-06-03 | [`46853bf`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/46853bff6396e6091aa4957975bcae94d7be0dae) | pvr: Fix load-op shader when loading from a 2d image view of a 3d image | Vulkan 1.4.352 |
 | [v26.2.0-20260603-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260603-r2) | 2026-06-03 | [`f1c30d6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f1c30d65e155effa4a746b89e038fc246ae3a23e) | pan/v13: implement CS udiv | Vulkan 1.4.352 |
 | [v26.2.0-20260603](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260603) | 2026-06-03 | [`2581ae5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2581ae572b5d1a0fce45646d56f547f6c55b300a) | anv: Allow partial depth fast clears on gfx12+ | Vulkan 1.4.352 |
 | [v26.2.0-20260602-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260602-r5) | 2026-06-02 | [`990d76e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/990d76eae6342bc14df998ec8723162a79a103e4) | v3dv: Implement and enable nullDescriptor support | Vulkan 1.4.352 |
 | [v26.2.0-20260602-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260602-r4) | 2026-06-02 | [`6ae0114`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6ae0114b0588da0ff43a4aa7aa8709ad61a2725e) | Rename the CACHE_LINE_SIZE define to MESA_CACHE_LINE_SIZE | Vulkan 1.4.352 |
 | [v26.2.0-20260602-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260602-r3) | 2026-06-02 | [`31fe363`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/31fe3637a200180164fd43d25152f967df25f981) | mediafoundation: check for AUTO slice/tile only capable hardware | Vulkan 1.4.352 |
 | [v26.2.0-20260602-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260602-r2) | 2026-06-02 | [`f6b06ea`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f6b06ea3de6e7945681fbf9efe4834066b548553) | nir/algebraic: prevent ffract optimization on lowered ffloor | Vulkan 1.4.352 |
-| [v26.2.0-20260602](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260602) | 2026-06-02 | [`c24e408`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c24e4085a15fcb6e2a7856607191837075b07c8e) | radeonsi/mm: Set PIPE_RESOURCE_FLAG_UNMAPPABLE for buffers | Vulkan 1.4.352 |
 <!-- RECENT_BUILDS_END -->
 
 ---
