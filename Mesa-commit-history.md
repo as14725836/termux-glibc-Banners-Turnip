@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260603-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260603-r2) | 2026-06-03 | [`f1c30d6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f1c30d65e155effa4a746b89e038fc246ae3a23e) | pan/v13: implement CS udiv | Vulkan 1.4.352 |
 | [v26.2.0-20260603](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260603) | 2026-06-03 | [`2581ae5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2581ae572b5d1a0fce45646d56f547f6c55b300a) | anv: Allow partial depth fast clears on gfx12+ | Vulkan 1.4.352 |
 | [v26.2.0-20260602-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260602-r5) | 2026-06-02 | [`990d76e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/990d76eae6342bc14df998ec8723162a79a103e4) | v3dv: Implement and enable nullDescriptor support | Vulkan 1.4.352 |
 | [v26.2.0-20260602-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260602-r4) | 2026-06-02 | [`6ae0114`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6ae0114b0588da0ff43a4aa7aa8709ad61a2725e) | Rename the CACHE_LINE_SIZE define to MESA_CACHE_LINE_SIZE | Vulkan 1.4.352 |
