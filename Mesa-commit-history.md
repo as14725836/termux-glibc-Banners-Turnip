@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260603-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260603-r5) | 2026-06-03 | [`711dcde`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/711dcde6da27aeceb41337206fc9fc96488ed2a3) | compiler/rust/smallvec: Hide the enum | Vulkan 1.4.352 |
 | [v26.2.0-20260603-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260603-r4) | 2026-06-03 | [`aaf9e01`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/aaf9e01c69d2fa74aa4565dfa6fdaced96905927) | rusticl/util: fix rustc-1.95 compilation error | Vulkan 1.4.352 |
 | [v26.2.0-20260603-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260603-r3) | 2026-06-03 | [`46853bf`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/46853bff6396e6091aa4957975bcae94d7be0dae) | pvr: Fix load-op shader when loading from a 2d image view of a 3d image | Vulkan 1.4.352 |
 | [v26.2.0-20260603-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260603-r2) | 2026-06-03 | [`f1c30d6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f1c30d65e155effa4a746b89e038fc246ae3a23e) | pan/v13: implement CS udiv | Vulkan 1.4.352 |
