@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.352 |
-| **Commit** | [`095e4f5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/095e4f5f1bbf1c7cfd6fd3a34993347bfe03dbf4) |
+| **Commit** | [`830cd2d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/830cd2dc47648ff2c426b539afc2798be519d282) |
 | **Commit date** | 2026-06-04 |
-| **Commit title** | brw: control cache_mode through bypass_{l1,l3} variables |
+| **Commit title** | nir/opt_algebraic: Optimize mediump fadd/fmul done in highp |
 | **Build date** | 20260604 |
-| **Release** | [v26.2.0-20260604](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260604) |
+| **Release** | [v26.2.0-20260604-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260604-r2) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,12 +87,12 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260604-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260604-r2) | 2026-06-04 | [`830cd2d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/830cd2dc47648ff2c426b539afc2798be519d282) | nir/opt_algebraic: Optimize mediump fadd/fmul done in highp | Vulkan 1.4.352 |
 | [v26.2.0-20260604](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260604) | 2026-06-04 | [`095e4f5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/095e4f5f1bbf1c7cfd6fd3a34993347bfe03dbf4) | brw: control cache_mode through bypass_{l1,l3} variables | Vulkan 1.4.352 |
 | [v26.2.0-20260603-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260603-r6) | 2026-06-03 | [`75a0cd6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/75a0cd6e2cdcb32b0ff12be42175c0c4ba286459) | mesa: Allow GL_TEXTURE_IMMUTABLE_LEVELS query on GLES3 | Vulkan 1.4.352 |
 | [v26.2.0-20260603-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260603-r5) | 2026-06-03 | [`711dcde`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/711dcde6da27aeceb41337206fc9fc96488ed2a3) | compiler/rust/smallvec: Hide the enum | Vulkan 1.4.352 |
 | [v26.2.0-20260603-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260603-r4) | 2026-06-03 | [`aaf9e01`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/aaf9e01c69d2fa74aa4565dfa6fdaced96905927) | rusticl/util: fix rustc-1.95 compilation error | Vulkan 1.4.352 |
 | [v26.2.0-20260603-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260603-r3) | 2026-06-03 | [`46853bf`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/46853bff6396e6091aa4957975bcae94d7be0dae) | pvr: Fix load-op shader when loading from a 2d image view of a 3d image | Vulkan 1.4.352 |
-| [v26.2.0-20260603-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260603-r2) | 2026-06-03 | [`f1c30d6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f1c30d65e155effa4a746b89e038fc246ae3a23e) | pan/v13: implement CS udiv | Vulkan 1.4.352 |
 <!-- RECENT_BUILDS_END -->
 
 ---

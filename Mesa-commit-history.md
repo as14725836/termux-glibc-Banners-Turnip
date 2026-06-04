@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260604-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260604-r2) | 2026-06-04 | [`830cd2d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/830cd2dc47648ff2c426b539afc2798be519d282) | nir/opt_algebraic: Optimize mediump fadd/fmul done in highp | Vulkan 1.4.352 |
 | [v26.2.0-20260604](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260604) | 2026-06-04 | [`095e4f5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/095e4f5f1bbf1c7cfd6fd3a34993347bfe03dbf4) | brw: control cache_mode through bypass_{l1,l3} variables | Vulkan 1.4.352 |
 | [v26.2.0-20260603-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260603-r6) | 2026-06-03 | [`75a0cd6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/75a0cd6e2cdcb32b0ff12be42175c0c4ba286459) | mesa: Allow GL_TEXTURE_IMMUTABLE_LEVELS query on GLES3 | Vulkan 1.4.352 |
 | [v26.2.0-20260603-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260603-r5) | 2026-06-03 | [`711dcde`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/711dcde6da27aeceb41337206fc9fc96488ed2a3) | compiler/rust/smallvec: Hide the enum | Vulkan 1.4.352 |
