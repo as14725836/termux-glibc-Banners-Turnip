@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260604-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260604-r5) | 2026-06-04 | [`4e8595d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4e8595da21b6f312c67662550ee269a80061de5f) | venus: let resource_create_blob wait for mem alloc | Vulkan 1.4.352 |
 | [v26.2.0-20260604-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260604-r4) | 2026-06-04 | [`28e584b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/28e584b6877e105312d43c8cc5ec3a6d4b871243) | v3dv: enable lowered shaderFloat16/Int16/Int8 + VK_KHR_shader_float16_int8 | Vulkan 1.4.352 |
 | [v26.2.0-20260604-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260604-r3) | 2026-06-04 | [`6804875`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/68048759f0ae2e685eced36e83a33d8f69e35925) | kk: Implement tessellation | Vulkan 1.4.352 |
 | [v26.2.0-20260604-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260604-r2) | 2026-06-04 | [`830cd2d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/830cd2dc47648ff2c426b539afc2798be519d282) | nir/opt_algebraic: Optimize mediump fadd/fmul done in highp | Vulkan 1.4.352 |
