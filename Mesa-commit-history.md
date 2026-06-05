@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260605-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260605-r4) | 2026-06-05 | [`6a16319`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6a16319133d3d172f1c8fe5e213394ef831805e0) | radv/rt: Cache stack sizes of ahit/isec shaders from imported NIR | Vulkan 1.4.353 |
 | [v26.2.0-20260605-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260605-r3) | 2026-06-05 | [`9f7f5a2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9f7f5a27a7edc49487af3cd10633896934a47295) | mesa/main: Auto-generate MESA_VERBOSE=api trace dispatch | Vulkan 1.4.352 |
 | [v26.2.0-20260605-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260605-r2) | 2026-06-05 | [`e622cbe`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e622cbee6427f30e1bd33437124c4653398c106b) | radv: fix a memory leak with perfcounters | Vulkan 1.4.352 |
 | [v26.2.0-20260605](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260605) | 2026-06-05 | [`e84e9dc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e84e9dc582797b5e586ea4ff3ae7b5f3656968ee) | gallivm: Fix armhf build against LLVM 22 | Vulkan 1.4.352 |
