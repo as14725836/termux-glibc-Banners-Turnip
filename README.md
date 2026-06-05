@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.352 |
-| **Commit** | [`a6172f1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a6172f19a0915fc690104a02e894b263d982e247) |
-| **Commit date** | 2026-06-04 |
-| **Commit title** | vtn/opencl: fix edge case behavior for tanpi |
-| **Build date** | 20260604 |
-| **Release** | [v26.2.0-20260604-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260604-r8) |
+| **Commit** | [`e84e9dc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e84e9dc582797b5e586ea4ff3ae7b5f3656968ee) |
+| **Commit date** | 2026-06-05 |
+| **Commit title** | gallivm: Fix armhf build against LLVM 22 |
+| **Build date** | 20260605 |
+| **Release** | [v26.2.0-20260605](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260605) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260605](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260605) | 2026-06-05 | [`e84e9dc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e84e9dc582797b5e586ea4ff3ae7b5f3656968ee) | gallivm: Fix armhf build against LLVM 22 | Vulkan 1.4.352 |
 | [v26.2.0-20260604-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260604-r8) | 2026-06-04 | [`a6172f1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a6172f19a0915fc690104a02e894b263d982e247) | vtn/opencl: fix edge case behavior for tanpi | Vulkan 1.4.352 |
 | [v26.2.0-20260604-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260604-r7) | 2026-06-04 | [`3a815a5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3a815a596935c2ec9ba218829861d948ce2a17d1) | nir: preserve infinities and signed zero during atan2 | Vulkan 1.4.352 |
 | [v26.2.0-20260604-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260604-r6) | 2026-06-04 | [`a989ca8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a989ca8c8f353484ccd79c4fb1c26b6f9aec66ea) | mesa/st: run the lower_opcodes pass for draw shaders | Vulkan 1.4.352 |
@@ -94,7 +95,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.2.0-20260604-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260604-r4) | 2026-06-04 | [`28e584b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/28e584b6877e105312d43c8cc5ec3a6d4b871243) | v3dv: enable lowered shaderFloat16/Int16/Int8 + VK_KHR_shader_float16_int8 | Vulkan 1.4.352 |
 | [v26.2.0-20260604-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260604-r3) | 2026-06-04 | [`6804875`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/68048759f0ae2e685eced36e83a33d8f69e35925) | kk: Implement tessellation | Vulkan 1.4.352 |
 | [v26.2.0-20260604-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260604-r2) | 2026-06-04 | [`830cd2d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/830cd2dc47648ff2c426b539afc2798be519d282) | nir/opt_algebraic: Optimize mediump fadd/fmul done in highp | Vulkan 1.4.352 |
-| [v26.2.0-20260604](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260604) | 2026-06-04 | [`095e4f5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/095e4f5f1bbf1c7cfd6fd3a34993347bfe03dbf4) | brw: control cache_mode through bypass_{l1,l3} variables | Vulkan 1.4.352 |
 <!-- RECENT_BUILDS_END -->
 
 ---
