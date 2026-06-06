@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.353 |
-| **Commit** | [`a9b8c4b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a9b8c4b5cc3d51ff19b57fcb15d1cc7aa79b25e0) |
+| **Commit** | [`31db17f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/31db17f653cbba464e432b3c4e2a144e2785425d) |
 | **Commit date** | 2026-06-05 |
-| **Commit title** | r600/sfn: run additional optimization only after successful address split |
-| **Build date** | 20260605 |
-| **Release** | [v26.2.0-20260605-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260605-r6) |
+| **Commit title** | ir3: Implement round-robin workaround |
+| **Build date** | 20260606 |
+| **Release** | [v26.2.0-20260606](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260606) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,13 +87,13 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260606](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260606) | 2026-06-06 | [`31db17f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/31db17f653cbba464e432b3c4e2a144e2785425d) | ir3: Implement round-robin workaround | Vulkan 1.4.353 |
 | [v26.2.0-20260605-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260605-r6) | 2026-06-05 | [`a9b8c4b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a9b8c4b5cc3d51ff19b57fcb15d1cc7aa79b25e0) | r600/sfn: run additional optimization only after successful address split | Vulkan 1.4.353 |
 | [v26.2.0-20260605-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260605-r5) | 2026-06-05 | [`1d829f3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1d829f3a89dd053d286c6c60e19ebfe9c8df46a5) | panfrost/ci: Switch traces over to gpu-trace-perf | Vulkan 1.4.353 |
 | [v26.2.0-20260605-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260605-r4) | 2026-06-05 | [`6a16319`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6a16319133d3d172f1c8fe5e213394ef831805e0) | radv/rt: Cache stack sizes of ahit/isec shaders from imported NIR | Vulkan 1.4.353 |
 | [v26.2.0-20260605-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260605-r3) | 2026-06-05 | [`9f7f5a2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9f7f5a27a7edc49487af3cd10633896934a47295) | mesa/main: Auto-generate MESA_VERBOSE=api trace dispatch | Vulkan 1.4.352 |
 | [v26.2.0-20260605-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260605-r2) | 2026-06-05 | [`e622cbe`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e622cbee6427f30e1bd33437124c4653398c106b) | radv: fix a memory leak with perfcounters | Vulkan 1.4.352 |
 | [v26.2.0-20260605](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260605) | 2026-06-05 | [`e84e9dc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e84e9dc582797b5e586ea4ff3ae7b5f3656968ee) | gallivm: Fix armhf build against LLVM 22 | Vulkan 1.4.352 |
-| [v26.2.0-20260604-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260604-r8) | 2026-06-04 | [`a6172f1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a6172f19a0915fc690104a02e894b263d982e247) | vtn/opencl: fix edge case behavior for tanpi | Vulkan 1.4.352 |
 <!-- RECENT_BUILDS_END -->
 
 ---
