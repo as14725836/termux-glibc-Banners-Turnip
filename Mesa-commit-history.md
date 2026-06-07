@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260607](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260607) | 2026-06-06 | [`b9c7634`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b9c763454e6642dc90e47506d5b56f00c4b9b773) | etnaviv: Use integer texture formats for R32/RG32 integer textures | Vulkan 1.4.353 |
 | [v26.2.0-20260606-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260606-r3) | 2026-06-06 | [`e92c7ef`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e92c7efa21e38b8977b447fdc46819d994f8370f) | rusticl: Drop custom  implementation | Vulkan 1.4.353 |
 | [v26.2.0-20260606-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260606-r2) | 2026-06-06 | [`25930db`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/25930dbc34f69450bae553c35d7c7c60b21ec3f2) | ethosu/mlw_codec: silence warnings in the vendored Regor encoder | Vulkan 1.4.353 |
 | [v26.2.0-20260606](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260606) | 2026-06-05 | [`31db17f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/31db17f653cbba464e432b3c4e2a144e2785425d) | ir3: Implement round-robin workaround | Vulkan 1.4.353 |
