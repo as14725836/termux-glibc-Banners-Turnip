@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260608-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260608-r5) | 2026-06-08 | [`301a1f9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/301a1f9a61fca7d6d883c3ff923f015800603c49) | anv: fix lock scope in anv_ensure_fp64_shader | Vulkan 1.4.353 |
 | [v26.2.0-20260608-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260608-r4) | 2026-06-08 | [`8245187`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/824518737a25af7378b8afd8a5303d1893f12c67) | zink: always return DMA_BUF type handles from resource_get_handle | Vulkan 1.4.353 |
 | [v26.2.0-20260608-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260608-r3) | 2026-06-08 | [`314962b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/314962b0f802e4d8c009760d3a0c54ce6cee0d3c) | v3d: lower more 64-bit integer operations | Vulkan 1.4.353 |
 | [v26.2.0-20260608-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260608-r2) | 2026-06-08 | [`127e5b5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/127e5b567c0fa7e801ae9a99a7e3c59cdd76e66d) | broadcom/ci: update kernel for nightly jobs | Vulkan 1.4.353 |
