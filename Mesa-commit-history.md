@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260608-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260608-r2) | 2026-06-08 | [`127e5b5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/127e5b567c0fa7e801ae9a99a7e3c59cdd76e66d) | broadcom/ci: update kernel for nightly jobs | Vulkan 1.4.353 |
 | [v26.2.0-20260608](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260608) | 2026-06-08 | [`f29b92a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f29b92a46d928408e316dccd9c18629bb71d526d) | amd/virtio: enable Android amdgpu-virtio build option | Vulkan 1.4.353 |
 | [v26.2.0-20260607-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260607-r4) | 2026-06-07 | [`9ec5e9a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9ec5e9a34ec58fe212918f340a6083cc80a4ab2e) | etnaviv: blt: Don't sRGB-roundtrip same-encoding copies | Vulkan 1.4.353 |
 | [v26.2.0-20260607-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260607-r3) | 2026-06-07 | [`6094bed`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6094bed5a47f526a8bd3479e6d21ae4f6f53e0b5) | llvmpipe: create a zeroed payload for use without task shaders | Vulkan 1.4.353 |
