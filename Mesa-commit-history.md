@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260609-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r8) | 2026-06-09 | [`f958ad1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f958ad11955638758c19170d9df4d67bf1ff8bcb) | clc: fix build with LLVM23 (TargetRegistry::lookupTarget) | Vulkan 1.4.353 |
 | [v26.2.0-20260609-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r7) | 2026-06-09 | [`48bc6cb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/48bc6cbe38bef6f3860edea055ed0a982a5758c3) | intel/perf: Add WCL OA support | Vulkan 1.4.353 |
 | [v26.2.0-20260609-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r6) | 2026-06-09 | [`0aff5e0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0aff5e006c3d8fc773c05effa547b3ddccfec077) | jay: Handle dpas_intel intrinsic | Vulkan 1.4.353 |
 | [v26.2.0-20260609-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r5) | 2026-06-09 | [`93476c6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/93476c62994245aba4e3fef4acaaad90c91a61be) | anv: fix a null pointer access with isl_mod_info | Vulkan 1.4.353 |

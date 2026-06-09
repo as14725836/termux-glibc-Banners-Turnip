@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.353 |
-| **Commit** | [`48bc6cb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/48bc6cbe38bef6f3860edea055ed0a982a5758c3) |
+| **Commit** | [`f958ad1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f958ad11955638758c19170d9df4d67bf1ff8bcb) |
 | **Commit date** | 2026-06-09 |
-| **Commit title** | intel/perf: Add WCL OA support |
+| **Commit title** | clc: fix build with LLVM23 (TargetRegistry::lookupTarget) |
 | **Build date** | 20260609 |
-| **Release** | [v26.2.0-20260609-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r7) |
+| **Release** | [v26.2.0-20260609-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r8) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260609-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r8) | 2026-06-09 | [`f958ad1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f958ad11955638758c19170d9df4d67bf1ff8bcb) | clc: fix build with LLVM23 (TargetRegistry::lookupTarget) | Vulkan 1.4.353 |
 | [v26.2.0-20260609-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r7) | 2026-06-09 | [`48bc6cb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/48bc6cbe38bef6f3860edea055ed0a982a5758c3) | intel/perf: Add WCL OA support | Vulkan 1.4.353 |
 | [v26.2.0-20260609-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r6) | 2026-06-09 | [`0aff5e0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0aff5e006c3d8fc773c05effa547b3ddccfec077) | jay: Handle dpas_intel intrinsic | Vulkan 1.4.353 |
 | [v26.2.0-20260609-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r5) | 2026-06-09 | [`93476c6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/93476c62994245aba4e3fef4acaaad90c91a61be) | anv: fix a null pointer access with isl_mod_info | Vulkan 1.4.353 |
