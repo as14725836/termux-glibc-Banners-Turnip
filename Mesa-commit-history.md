@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260609-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r6) | 2026-06-09 | [`0aff5e0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0aff5e006c3d8fc773c05effa547b3ddccfec077) | jay: Handle dpas_intel intrinsic | Vulkan 1.4.353 |
 | [v26.2.0-20260609-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r5) | 2026-06-09 | [`93476c6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/93476c62994245aba4e3fef4acaaad90c91a61be) | anv: fix a null pointer access with isl_mod_info | Vulkan 1.4.353 |
 | [v26.2.0-20260609-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r4) | 2026-06-09 | [`3da4653`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3da4653d46f5efa704e59b472bc6e61ac196ce1b) | jay: Implement halt | Vulkan 1.4.353 |
 | [v26.2.0-20260609-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r3) | 2026-06-09 | [`9cbda0f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9cbda0fd60353608457710b5177d4a32cee5b812) | kk: Enable shaderTessellationAndGeometryPointSize | Vulkan 1.4.353 |
