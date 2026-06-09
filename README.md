@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.353 |
-| **Commit** | [`301a1f9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/301a1f9a61fca7d6d883c3ff923f015800603c49) |
+| **Commit** | [`2a1588c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2a1588c09e05e96d18c1bab6ea003fa944540261) |
 | **Commit date** | 2026-06-08 |
-| **Commit title** | anv: fix lock scope in anv_ensure_fp64_shader |
-| **Build date** | 20260608 |
-| **Release** | [v26.2.0-20260608-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260608-r5) |
+| **Commit title** | bin: add drm-shim script |
+| **Build date** | 20260609 |
+| **Release** | [v26.2.0-20260609](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,12 +87,12 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260609](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609) | 2026-06-09 | [`2a1588c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2a1588c09e05e96d18c1bab6ea003fa944540261) | bin: add drm-shim script | Vulkan 1.4.353 |
 | [v26.2.0-20260608-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260608-r5) | 2026-06-08 | [`301a1f9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/301a1f9a61fca7d6d883c3ff923f015800603c49) | anv: fix lock scope in anv_ensure_fp64_shader | Vulkan 1.4.353 |
 | [v26.2.0-20260608-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260608-r4) | 2026-06-08 | [`8245187`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/824518737a25af7378b8afd8a5303d1893f12c67) | zink: always return DMA_BUF type handles from resource_get_handle | Vulkan 1.4.353 |
 | [v26.2.0-20260608-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260608-r3) | 2026-06-08 | [`314962b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/314962b0f802e4d8c009760d3a0c54ce6cee0d3c) | v3d: lower more 64-bit integer operations | Vulkan 1.4.353 |
 | [v26.2.0-20260608-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260608-r2) | 2026-06-08 | [`127e5b5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/127e5b567c0fa7e801ae9a99a7e3c59cdd76e66d) | broadcom/ci: update kernel for nightly jobs | Vulkan 1.4.353 |
 | [v26.2.0-20260608](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260608) | 2026-06-08 | [`f29b92a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f29b92a46d928408e316dccd9c18629bb71d526d) | amd/virtio: enable Android amdgpu-virtio build option | Vulkan 1.4.353 |
-| [v26.2.0-20260607-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260607-r4) | 2026-06-07 | [`9ec5e9a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9ec5e9a34ec58fe212918f340a6083cc80a4ab2e) | etnaviv: blt: Don't sRGB-roundtrip same-encoding copies | Vulkan 1.4.353 |
 <!-- RECENT_BUILDS_END -->
 
 ---
