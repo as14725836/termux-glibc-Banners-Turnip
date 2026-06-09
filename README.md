@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.353 |
-| **Commit** | [`2a1588c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2a1588c09e05e96d18c1bab6ea003fa944540261) |
-| **Commit date** | 2026-06-08 |
-| **Commit title** | bin: add drm-shim script |
+| **Commit** | [`fbd9c67`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fbd9c67e2afb0d4447ff6097eb9bd37fd9294ee9) |
+| **Commit date** | 2026-06-09 |
+| **Commit title** | drm-shim/freedreno: Fix VM_BIND support. |
 | **Build date** | 20260609 |
-| **Release** | [v26.2.0-20260609](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609) |
+| **Release** | [v26.2.0-20260609-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r2) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260609-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r2) | 2026-06-09 | [`fbd9c67`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fbd9c67e2afb0d4447ff6097eb9bd37fd9294ee9) | drm-shim/freedreno: Fix VM_BIND support. | Vulkan 1.4.353 |
 | [v26.2.0-20260609](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609) | 2026-06-09 | [`2a1588c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2a1588c09e05e96d18c1bab6ea003fa944540261) | bin: add drm-shim script | Vulkan 1.4.353 |
 | [v26.2.0-20260608-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260608-r5) | 2026-06-08 | [`301a1f9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/301a1f9a61fca7d6d883c3ff923f015800603c49) | anv: fix lock scope in anv_ensure_fp64_shader | Vulkan 1.4.353 |
 | [v26.2.0-20260608-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260608-r4) | 2026-06-08 | [`8245187`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/824518737a25af7378b8afd8a5303d1893f12c67) | zink: always return DMA_BUF type handles from resource_get_handle | Vulkan 1.4.353 |
