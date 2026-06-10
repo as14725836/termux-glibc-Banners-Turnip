@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260610-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260610-r7) | 2026-06-10 | [`56d7d55`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/56d7d5522c95813013ffbd4ac3f0f51830ce7706) | anv: Replace va.scratch_surface_state_pool access with a function | Vulkan 1.4.353 |
 | [v26.2.0-20260610-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260610-r6) | 2026-06-10 | [`fd616ba`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fd616bab71a7b24b9b71588125fabea739f511cb) | glx: avoid crash on glXBindTexImageEXT when no texture target set | Vulkan 1.4.353 |
 | [v26.2.0-20260610-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260610-r5) | 2026-06-10 | [`67471fe`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/67471fed866f673ab1ee7fdc2babe145b899c1fd) | tu: Enable texel buffer / SSBO emulation for known problematic games | Vulkan 1.4.353 |
 | [v26.2.0-20260610-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260610-r4) | 2026-06-10 | [`519f631`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/519f631e6b95450af0a69ee78b4243f50019708d) | v3dv: gate Dawn-required limits and features behind V3D_WEBGPU_OVERRIDE | Vulkan 1.4.353 |
