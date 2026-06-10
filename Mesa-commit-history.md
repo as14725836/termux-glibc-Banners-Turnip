@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260610-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260610-r5) | 2026-06-10 | [`67471fe`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/67471fed866f673ab1ee7fdc2babe145b899c1fd) | tu: Enable texel buffer / SSBO emulation for known problematic games | Vulkan 1.4.353 |
 | [v26.2.0-20260610-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260610-r4) | 2026-06-10 | [`519f631`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/519f631e6b95450af0a69ee78b4243f50019708d) | v3dv: gate Dawn-required limits and features behind V3D_WEBGPU_OVERRIDE | Vulkan 1.4.353 |
 | [v26.2.0-20260610-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260610-r3) | 2026-06-10 | [`9a8ac36`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9a8ac361ff12a8385802aec436a3e942de2f1f12) | panvk: Advertise VK_GOOGLE_display_timing | Vulkan 1.4.353 |
 | [v26.2.0-20260610-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260610-r2) | 2026-06-10 | [`db382b3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/db382b3caeeb71af95717e8f27197018f8dd1d13) | radeonsi: use exec_size from the aco prolog/epilog callback | Vulkan 1.4.353 |
