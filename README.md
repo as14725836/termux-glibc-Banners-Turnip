@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.353 |
-| **Commit** | [`489aa18`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/489aa1808f2553511f718d287af6532a67c0cb23) |
-| **Commit date** | 2026-06-09 |
-| **Commit title** | anv: give anv_ensure_fp64_shader() a chance to be called |
+| **Commit** | [`db382b3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/db382b3caeeb71af95717e8f27197018f8dd1d13) |
+| **Commit date** | 2026-06-10 |
+| **Commit title** | radeonsi: use exec_size from the aco prolog/epilog callback |
 | **Build date** | 20260610 |
-| **Release** | [v26.2.0-20260610](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260610) |
+| **Release** | [v26.2.0-20260610-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260610-r2) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,14 +87,13 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260610-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260610-r2) | 2026-06-10 | [`db382b3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/db382b3caeeb71af95717e8f27197018f8dd1d13) | radeonsi: use exec_size from the aco prolog/epilog callback | Vulkan 1.4.353 |
 | [v26.2.0-20260610](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260610) | 2026-06-10 | [`489aa18`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/489aa1808f2553511f718d287af6532a67c0cb23) | anv: give anv_ensure_fp64_shader() a chance to be called | Vulkan 1.4.353 |
 | [v26.2.0-20260609-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r8) | 2026-06-09 | [`f958ad1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f958ad11955638758c19170d9df4d67bf1ff8bcb) | clc: fix build with LLVM23 (TargetRegistry::lookupTarget) | Vulkan 1.4.353 |
 | [v26.2.0-20260609-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r7) | 2026-06-09 | [`48bc6cb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/48bc6cbe38bef6f3860edea055ed0a982a5758c3) | intel/perf: Add WCL OA support | Vulkan 1.4.353 |
 | [v26.2.0-20260609-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r6) | 2026-06-09 | [`0aff5e0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0aff5e006c3d8fc773c05effa547b3ddccfec077) | jay: Handle dpas_intel intrinsic | Vulkan 1.4.353 |
 | [v26.2.0-20260609-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r5) | 2026-06-09 | [`93476c6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/93476c62994245aba4e3fef4acaaad90c91a61be) | anv: fix a null pointer access with isl_mod_info | Vulkan 1.4.353 |
 | [v26.2.0-20260609-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r4) | 2026-06-09 | [`3da4653`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3da4653d46f5efa704e59b472bc6e61ac196ce1b) | jay: Implement halt | Vulkan 1.4.353 |
-| [v26.2.0-20260609-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r3) | 2026-06-09 | [`9cbda0f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9cbda0fd60353608457710b5177d4a32cee5b812) | kk: Enable shaderTessellationAndGeometryPointSize | Vulkan 1.4.353 |
-| [v26.2.0-20260609-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r2) | 2026-06-09 | [`fbd9c67`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fbd9c67e2afb0d4447ff6097eb9bd37fd9294ee9) | drm-shim/freedreno: Fix VM_BIND support. | Vulkan 1.4.353 |
 <!-- RECENT_BUILDS_END -->
 
 ---

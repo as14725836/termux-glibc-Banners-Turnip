@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260610-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260610-r2) | 2026-06-10 | [`db382b3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/db382b3caeeb71af95717e8f27197018f8dd1d13) | radeonsi: use exec_size from the aco prolog/epilog callback | Vulkan 1.4.353 |
 | [v26.2.0-20260610](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260610) | 2026-06-09 | [`489aa18`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/489aa1808f2553511f718d287af6532a67c0cb23) | anv: give anv_ensure_fp64_shader() a chance to be called | Vulkan 1.4.353 |
 | [v26.2.0-20260609-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r8) | 2026-06-09 | [`f958ad1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f958ad11955638758c19170d9df4d67bf1ff8bcb) | clc: fix build with LLVM23 (TargetRegistry::lookupTarget) | Vulkan 1.4.353 |
 | [v26.2.0-20260609-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260609-r7) | 2026-06-09 | [`48bc6cb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/48bc6cbe38bef6f3860edea055ed0a982a5758c3) | intel/perf: Add WCL OA support | Vulkan 1.4.353 |
