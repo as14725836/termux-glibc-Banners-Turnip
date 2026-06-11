@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260611-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260611-r4) | 2026-06-11 | [`6ff16a8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6ff16a87ae06f82117d15cc6a925a36509761e63) | vulkan/android: Map AHARDWAREBUFFER_FORMAT_Y8 to VK_FORMAT_R8_UNORM | Vulkan 1.4.353 |
 | [v26.2.0-20260611-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260611-r3) | 2026-06-11 | [`3099c83`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3099c839f3526104eb151a682b530d35a31f9f60) | etnaviv/isa: Fix Meson warning about etnaviv_isa_rs dummy library | Vulkan 1.4.353 |
 | [v26.2.0-20260611-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260611-r2) | 2026-06-11 | [`73017ea`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/73017ea86a3bdadd89f03d871cb716351e75d33d) | ac/video: drop an useless drm_minor check | Vulkan 1.4.353 |
 | [v26.2.0-20260611](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260611) | 2026-06-11 | [`e74b92b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e74b92b3da4c9c17d17821a720e62c491987c758) | kraid/v9: Allow immediates in logic ops | Vulkan 1.4.353 |
