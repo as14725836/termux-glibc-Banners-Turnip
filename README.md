@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.353 |
-| **Commit** | [`6ff16a8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6ff16a87ae06f82117d15cc6a925a36509761e63) |
+| **Commit** | [`b941dd7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b941dd736ffc1ea4768954ab79886445dcef5473) |
 | **Commit date** | 2026-06-11 |
-| **Commit title** | vulkan/android: Map AHARDWAREBUFFER_FORMAT_Y8 to VK_FORMAT_R8_UNORM |
+| **Commit title** | util: Fix float8 denorm rounding to min-normal |
 | **Build date** | 20260611 |
-| **Release** | [v26.2.0-20260611-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260611-r4) |
+| **Release** | [v26.2.0-20260611-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260611-r5) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,13 +87,13 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260611-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260611-r5) | 2026-06-11 | [`b941dd7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b941dd736ffc1ea4768954ab79886445dcef5473) | util: Fix float8 denorm rounding to min-normal | Vulkan 1.4.353 |
 | [v26.2.0-20260611-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260611-r4) | 2026-06-11 | [`6ff16a8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6ff16a87ae06f82117d15cc6a925a36509761e63) | vulkan/android: Map AHARDWAREBUFFER_FORMAT_Y8 to VK_FORMAT_R8_UNORM | Vulkan 1.4.353 |
 | [v26.2.0-20260611-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260611-r3) | 2026-06-11 | [`3099c83`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3099c839f3526104eb151a682b530d35a31f9f60) | etnaviv/isa: Fix Meson warning about etnaviv_isa_rs dummy library | Vulkan 1.4.353 |
 | [v26.2.0-20260611-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260611-r2) | 2026-06-11 | [`73017ea`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/73017ea86a3bdadd89f03d871cb716351e75d33d) | ac/video: drop an useless drm_minor check | Vulkan 1.4.353 |
 | [v26.2.0-20260611](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260611) | 2026-06-11 | [`e74b92b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e74b92b3da4c9c17d17821a720e62c491987c758) | kraid/v9: Allow immediates in logic ops | Vulkan 1.4.353 |
 | [v26.2.0-20260610-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260610-r7) | 2026-06-10 | [`56d7d55`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/56d7d5522c95813013ffbd4ac3f0f51830ce7706) | anv: Replace va.scratch_surface_state_pool access with a function | Vulkan 1.4.353 |
 | [v26.2.0-20260610-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260610-r6) | 2026-06-10 | [`fd616ba`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fd616bab71a7b24b9b71588125fabea739f511cb) | glx: avoid crash on glXBindTexImageEXT when no texture target set | Vulkan 1.4.353 |
-| [v26.2.0-20260610-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260610-r5) | 2026-06-10 | [`67471fe`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/67471fed866f673ab1ee7fdc2babe145b899c1fd) | tu: Enable texel buffer / SSBO emulation for known problematic games | Vulkan 1.4.353 |
 <!-- RECENT_BUILDS_END -->
 
 ---
