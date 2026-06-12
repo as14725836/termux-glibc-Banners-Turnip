@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260612-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260612-r6) | 2026-06-12 | [`d7f9fed`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d7f9fede8472f66f4949c92b93d075c350b0bd6a) | kraid: Re-materialize constants | Vulkan 1.4.353 |
 | [v26.2.0-20260612-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260612-r5) | 2026-06-12 | [`8aa1ad6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8aa1ad6cd4fe725684d6c349f88dcca94b6e8cab) | Uprev ANGLE to 8e09325ebad45c7e11630a79754361e965e5fab0 | Vulkan 1.4.353 |
 | [v26.2.0-20260612-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260612-r4) | 2026-06-12 | [`92e4fb7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/92e4fb7aacc35cbe20720de304b4acdb546840f1) | freedreno/crashdec: Add additional HFI queue | Vulkan 1.4.353 |
 | [v26.2.0-20260612-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260612-r3) | 2026-06-12 | [`efefed1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/efefed1e358330ea13d11ce6844414b4a4273153) | nir/opt_undef: fix prefer_nan | Vulkan 1.4.353 |
