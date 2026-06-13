@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260613-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260613-r2) | 2026-06-13 | [`ce4654e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ce4654ead659aa68f88cfb898a0fcca4da6f329b) | radv: rename vrs_coarse_shading -> vrs_flat_shading | Vulkan 1.4.353 |
 | [v26.2.0-20260613](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260613) | 2026-06-13 | [`8f272b1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8f272b1fe18e95366386a075f2df0db4e9ea78b9) | nouveau/mme: Add a test for MME Shadow RAM behavior | Vulkan 1.4.353 |
 | [v26.2.0-20260612-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260612-r7) | 2026-06-12 | [`8faf71d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8faf71d84f0ef92538107d132ff48f7179e922d4) | aux/tc: enforce strict resolve semantics | Vulkan 1.4.353 |
 | [v26.2.0-20260612-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260612-r6) | 2026-06-12 | [`d7f9fed`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d7f9fede8472f66f4949c92b93d075c350b0bd6a) | kraid: Re-materialize constants | Vulkan 1.4.353 |
