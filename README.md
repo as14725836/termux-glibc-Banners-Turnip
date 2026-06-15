@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.353 |
-| **Commit** | [`ce4654e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ce4654ead659aa68f88cfb898a0fcca4da6f329b) |
-| **Commit date** | 2026-06-13 |
-| **Commit title** | radv: rename vrs_coarse_shading -> vrs_flat_shading |
-| **Build date** | 20260613 |
-| **Release** | [v26.2.0-20260613-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260613-r2) |
+| **Commit** | [`1981646`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1981646c4fb6ba33a4df7205583908c9760ba804) |
+| **Commit date** | 2026-06-15 |
+| **Commit title** | aco/tests: test creating v_dual_dot2acc_f32_f16 from v_dot2c_f32_f16 with inline constant |
+| **Build date** | 20260615 |
+| **Release** | [v26.2.0-20260615](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260615) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,10 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
-| [v26.2.0-20260613-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260613-r2) | 2026-06-13 | [`ce4654e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ce4654ead659aa68f88cfb898a0fcca4da6f329b) | radv: rename vrs_coarse_shading -> vrs_flat_shading | Vulkan 1.4.353 |
-| [v26.2.0-20260613](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260613) | 2026-06-13 | [`8f272b1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8f272b1fe18e95366386a075f2df0db4e9ea78b9) | nouveau/mme: Add a test for MME Shadow RAM behavior | Vulkan 1.4.353 |
-| [v26.2.0-20260612-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260612-r7) | 2026-06-12 | [`8faf71d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8faf71d84f0ef92538107d132ff48f7179e922d4) | aux/tc: enforce strict resolve semantics | Vulkan 1.4.353 |
-| [v26.2.0-20260612-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260612-r6) | 2026-06-12 | [`d7f9fed`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d7f9fede8472f66f4949c92b93d075c350b0bd6a) | kraid: Re-materialize constants | Vulkan 1.4.353 |
+| [v26.2.0-20260615](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260615) | 2026-06-15 | [`1981646`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1981646c4fb6ba33a4df7205583908c9760ba804) | aco/tests: test creating v_dual_dot2acc_f32_f16 from v_dot2c_f32_f16 with inline constant | Vulkan 1.4.353 |
 <!-- RECENT_BUILDS_END -->
 
 ---
