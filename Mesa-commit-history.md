@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260616-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260616-r2) | 2026-06-15 | [`a7575d7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a7575d7e981cac410752e047fa7922ef2d8425fa) | kk: Respect precomp-compiler options when setting up kk_clc | Vulkan 1.4.353 |
 | [v26.2.0-20260616](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260616) | 2026-06-15 | [`d3371e2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d3371e22d79af0feeeaf9769da4b9bee45805ed7) | brw: don't preprocess software doubles if opts->softfp64 is not set | Vulkan 1.4.353 |
 | [v26.2.0-20260615-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260615-r3) | 2026-06-15 | [`d3c5044`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d3c50442f9c1e99c5c7039f27b90a191fe991606) | anv: Replace anv_descriptor_set_binding_layout::descriptor_data_sampler_size by a local variable | Vulkan 1.4.353 |
 | [v26.2.0-20260615-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260615-r2) | 2026-06-15 | [`cdc6a0b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/cdc6a0bfed71b22cfbb5ce7f6b778ee3fdedf409) | v3dv: allow TFU readahead padding above maxMemoryAllocationSize | Vulkan 1.4.353 |
