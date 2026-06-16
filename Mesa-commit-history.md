@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260616-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260616-r6) | 2026-06-16 | [`36db44b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/36db44b2ad5f6130aea9b410e1c763f2e1f4f4fc) | anv: don't forget dataport flush for ANV_DEBUG=dgc-dump | Vulkan 1.4.353 |
 | [v26.2.0-20260616-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260616-r5) | 2026-06-16 | [`e3903bc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e3903bc647281ab1b29f9d0c92e86b9b5d3ed4d9) | zink: fix import2d sampler view creation | Vulkan 1.4.353 |
 | [v26.2.0-20260616-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260616-r4) | 2026-06-16 | [`f69fbb7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f69fbb7fd7b29872e96f6fce066cae5bf5dc7ab8) | lavapipe: EXT_multisampled_render_to_swapchain | Vulkan 1.4.353 |
 | [v26.2.0-20260616-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260616-r3) | 2026-06-16 | [`1845e53`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1845e538650738e7e7c01461b7dd94c36641dd1f) | ac/lower_global_access: combine multiple 32-bit offsets | Vulkan 1.4.353 |
