@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260616-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260616-r4) | 2026-06-16 | [`f69fbb7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f69fbb7fd7b29872e96f6fce066cae5bf5dc7ab8) | lavapipe: EXT_multisampled_render_to_swapchain | Vulkan 1.4.353 |
 | [v26.2.0-20260616-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260616-r3) | 2026-06-16 | [`1845e53`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1845e538650738e7e7c01461b7dd94c36641dd1f) | ac/lower_global_access: combine multiple 32-bit offsets | Vulkan 1.4.353 |
 | [v26.2.0-20260616-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260616-r2) | 2026-06-15 | [`a7575d7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a7575d7e981cac410752e047fa7922ef2d8425fa) | kk: Respect precomp-compiler options when setting up kk_clc | Vulkan 1.4.353 |
 | [v26.2.0-20260616](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260616) | 2026-06-15 | [`d3371e2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d3371e22d79af0feeeaf9769da4b9bee45805ed7) | brw: don't preprocess software doubles if opts->softfp64 is not set | Vulkan 1.4.353 |

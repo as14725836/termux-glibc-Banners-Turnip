@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.353 |
-| **Commit** | [`1845e53`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1845e538650738e7e7c01461b7dd94c36641dd1f) |
+| **Commit** | [`f69fbb7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f69fbb7fd7b29872e96f6fce066cae5bf5dc7ab8) |
 | **Commit date** | 2026-06-16 |
-| **Commit title** | ac/lower_global_access: combine multiple 32-bit offsets |
+| **Commit title** | lavapipe: EXT_multisampled_render_to_swapchain |
 | **Build date** | 20260616 |
-| **Release** | [v26.2.0-20260616-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260616-r3) |
+| **Release** | [v26.2.0-20260616-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260616-r4) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,11 +87,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260616-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260616-r4) | 2026-06-16 | [`f69fbb7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f69fbb7fd7b29872e96f6fce066cae5bf5dc7ab8) | lavapipe: EXT_multisampled_render_to_swapchain | Vulkan 1.4.353 |
 | [v26.2.0-20260616-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260616-r3) | 2026-06-16 | [`1845e53`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1845e538650738e7e7c01461b7dd94c36641dd1f) | ac/lower_global_access: combine multiple 32-bit offsets | Vulkan 1.4.353 |
 | [v26.2.0-20260616-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260616-r2) | 2026-06-16 | [`a7575d7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a7575d7e981cac410752e047fa7922ef2d8425fa) | kk: Respect precomp-compiler options when setting up kk_clc | Vulkan 1.4.353 |
 | [v26.2.0-20260616](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260616) | 2026-06-16 | [`d3371e2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d3371e22d79af0feeeaf9769da4b9bee45805ed7) | brw: don't preprocess software doubles if opts->softfp64 is not set | Vulkan 1.4.353 |
 | [v26.2.0-20260615-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260615-r3) | 2026-06-15 | [`d3c5044`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d3c50442f9c1e99c5c7039f27b90a191fe991606) | anv: Replace anv_descriptor_set_binding_layout::descriptor_data_sampler_size by a local variable | Vulkan 1.4.353 |
-| [v26.2.0-20260615-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260615-r2) | 2026-06-15 | [`cdc6a0b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/cdc6a0bfed71b22cfbb5ce7f6b778ee3fdedf409) | v3dv: allow TFU readahead padding above maxMemoryAllocationSize | Vulkan 1.4.353 |
 <!-- RECENT_BUILDS_END -->
 
 ---
