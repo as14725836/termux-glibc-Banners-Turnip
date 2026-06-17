@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260617-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260617-r5) | 2026-06-17 | [`66611c5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/66611c569f610372a14cd195268d1075ff22a0eb) | radv: fix setting COMPUTE_DISPATCH_INTERLEAVE on the gfx queue | Vulkan 1.4.353 |
 | [v26.2.0-20260617-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260617-r4) | 2026-06-17 | [`a5a7acb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a5a7acb6579b8d40537c85d5bde80effb0b59f3e) | radv: Add base array layer to htile offset | Vulkan 1.4.353 |
 | [v26.2.0-20260617-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260617-r3) | 2026-06-17 | [`14a5ed9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/14a5ed90667c88845c7c3e065c06e49571216ed0) | rusticl/kernel: override libclc shader config helpers | Vulkan 1.4.353 |
 | [v26.2.0-20260617-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260617-r2) | 2026-06-17 | [`7da5e8a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7da5e8a1df413a664b09e0e0e754d9cba1f9bf3f) | pvr/ci: skip timing out VK reconvergence test for AXE-1-16M | Vulkan 1.4.353 |
