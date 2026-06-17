@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.353 |
-| **Commit** | [`66611c5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/66611c569f610372a14cd195268d1075ff22a0eb) |
+| **Commit** | [`4bfc030`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4bfc03020ad76719b8932056fdabb0601ffb328b) |
 | **Commit date** | 2026-06-17 |
-| **Commit title** | radv: fix setting COMPUTE_DISPATCH_INTERLEAVE on the gfx queue |
+| **Commit title** | gfxstream: Avoid transfering VkAllocationCallbacks between guest and host |
 | **Build date** | 20260617 |
-| **Release** | [v26.2.0-20260617-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260617-r5) |
+| **Release** | [v26.2.0-20260617-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260617-r6) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,13 +87,13 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260617-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260617-r6) | 2026-06-17 | [`4bfc030`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4bfc03020ad76719b8932056fdabb0601ffb328b) | gfxstream: Avoid transfering VkAllocationCallbacks between guest and host | Vulkan 1.4.353 |
 | [v26.2.0-20260617-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260617-r5) | 2026-06-17 | [`66611c5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/66611c569f610372a14cd195268d1075ff22a0eb) | radv: fix setting COMPUTE_DISPATCH_INTERLEAVE on the gfx queue | Vulkan 1.4.353 |
 | [v26.2.0-20260617-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260617-r4) | 2026-06-17 | [`a5a7acb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a5a7acb6579b8d40537c85d5bde80effb0b59f3e) | radv: Add base array layer to htile offset | Vulkan 1.4.353 |
 | [v26.2.0-20260617-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260617-r3) | 2026-06-17 | [`14a5ed9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/14a5ed90667c88845c7c3e065c06e49571216ed0) | rusticl/kernel: override libclc shader config helpers | Vulkan 1.4.353 |
 | [v26.2.0-20260617-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260617-r2) | 2026-06-17 | [`7da5e8a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7da5e8a1df413a664b09e0e0e754d9cba1f9bf3f) | pvr/ci: skip timing out VK reconvergence test for AXE-1-16M | Vulkan 1.4.353 |
 | [v26.2.0-20260617](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260617) | 2026-06-17 | [`4d92a06`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4d92a069ff93316aa7fb798ed8317476032c5e49) | rusticl: validate input_programs binary type in clLinkProgram | Vulkan 1.4.353 |
 | [v26.2.0-20260616-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260616-r6) | 2026-06-16 | [`36db44b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/36db44b2ad5f6130aea9b410e1c763f2e1f4f4fc) | anv: don't forget dataport flush for ANV_DEBUG=dgc-dump | Vulkan 1.4.353 |
-| [v26.2.0-20260616-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260616-r5) | 2026-06-16 | [`e3903bc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e3903bc647281ab1b29f9d0c92e86b9b5d3ed4d9) | zink: fix import2d sampler view creation | Vulkan 1.4.353 |
 <!-- RECENT_BUILDS_END -->
 
 ---
