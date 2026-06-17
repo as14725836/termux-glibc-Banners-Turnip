@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260617-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260617-r3) | 2026-06-17 | [`14a5ed9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/14a5ed90667c88845c7c3e065c06e49571216ed0) | rusticl/kernel: override libclc shader config helpers | Vulkan 1.4.353 |
 | [v26.2.0-20260617-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260617-r2) | 2026-06-17 | [`7da5e8a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7da5e8a1df413a664b09e0e0e754d9cba1f9bf3f) | pvr/ci: skip timing out VK reconvergence test for AXE-1-16M | Vulkan 1.4.353 |
 | [v26.2.0-20260617](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260617) | 2026-06-16 | [`4d92a06`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4d92a069ff93316aa7fb798ed8317476032c5e49) | rusticl: validate input_programs binary type in clLinkProgram | Vulkan 1.4.353 |
 | [v26.2.0-20260616-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260616-r6) | 2026-06-16 | [`36db44b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/36db44b2ad5f6130aea9b410e1c763f2e1f4f4fc) | anv: don't forget dataport flush for ANV_DEBUG=dgc-dump | Vulkan 1.4.353 |
