@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`3714a2a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3714a2a8dfd17042345cc09b72e3ea3aee111dbd) |
+| **Commit** | [`6380717`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6380717956ac12a574948b644456957518b67b68) |
 | **Commit date** | 2026-06-18 |
-| **Commit title** | docs: fix release notes for 26.1.3 |
+| **Commit title** | radv: clear gang cache flushes when the command buffer is reset |
 | **Build date** | 20260618 |
-| **Release** | [v26.2.0-20260618-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260618-r3) |
+| **Release** | [v26.2.0-20260618-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260618-r4) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260618-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260618-r4) | 2026-06-18 | [`6380717`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6380717956ac12a574948b644456957518b67b68) | radv: clear gang cache flushes when the command buffer is reset | Vulkan 1.4.354 |
 | [v26.2.0-20260618-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260618-r3) | 2026-06-18 | [`3714a2a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3714a2a8dfd17042345cc09b72e3ea3aee111dbd) | docs: fix release notes for 26.1.3 | Vulkan 1.4.354 |
 | [v26.2.0-20260618-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260618-r2) | 2026-06-18 | [`93cb1a3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/93cb1a39f58667de6e3ad2bd9810939379d6abc6) | docs: add sha sum for 26.1.3 | Vulkan 1.4.353 |
 | [v26.2.0-20260618](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260618) | 2026-06-18 | [`1e687cb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1e687cb162b9fe66f182bb42f8c5df163daeef5c) | intel: Add drirc option to write lookup maps unconditionally | Vulkan 1.4.353 |
@@ -94,7 +95,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.2.0-20260617-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260617-r6) | 2026-06-17 | [`4bfc030`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4bfc03020ad76719b8932056fdabb0601ffb328b) | gfxstream: Avoid transfering VkAllocationCallbacks between guest and host | Vulkan 1.4.353 |
 | [v26.2.0-20260617-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260617-r5) | 2026-06-17 | [`66611c5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/66611c569f610372a14cd195268d1075ff22a0eb) | radv: fix setting COMPUTE_DISPATCH_INTERLEAVE on the gfx queue | Vulkan 1.4.353 |
 | [v26.2.0-20260617-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260617-r4) | 2026-06-17 | [`a5a7acb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a5a7acb6579b8d40537c85d5bde80effb0b59f3e) | radv: Add base array layer to htile offset | Vulkan 1.4.353 |
-| [v26.2.0-20260617-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260617-r3) | 2026-06-17 | [`14a5ed9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/14a5ed90667c88845c7c3e065c06e49571216ed0) | rusticl/kernel: override libclc shader config helpers | Vulkan 1.4.353 |
 <!-- RECENT_BUILDS_END -->
 
 ---
