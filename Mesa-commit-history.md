@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260618-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260618-r5) | 2026-06-18 | [`97bfc0f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/97bfc0f88f43554b47f05ad37512f98cd086a80d) | ac/nir/mem_vectorize: never create vec5 stores | Vulkan 1.4.354 |
 | [v26.2.0-20260618-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260618-r4) | 2026-06-18 | [`6380717`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6380717956ac12a574948b644456957518b67b68) | radv: clear gang cache flushes when the command buffer is reset | Vulkan 1.4.354 |
 | [v26.2.0-20260618-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260618-r3) | 2026-06-18 | [`3714a2a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3714a2a8dfd17042345cc09b72e3ea3aee111dbd) | docs: fix release notes for 26.1.3 | Vulkan 1.4.354 |
 | [v26.2.0-20260618-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260618-r2) | 2026-06-18 | [`93cb1a3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/93cb1a39f58667de6e3ad2bd9810939379d6abc6) | docs: add sha sum for 26.1.3 | Vulkan 1.4.353 |
