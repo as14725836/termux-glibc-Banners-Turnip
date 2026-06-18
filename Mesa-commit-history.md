@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260618](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260618) | 2026-06-18 | [`1e687cb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1e687cb162b9fe66f182bb42f8c5df163daeef5c) | intel: Add drirc option to write lookup maps unconditionally | Vulkan 1.4.353 |
 | [v26.2.0-20260617-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260617-r7) | 2026-06-17 | [`dde1709`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/dde1709274f4575964be93e63207b2c37c7ffddd) | anv/brw/jay: de-dynamify per-sample interpolation | Vulkan 1.4.353 |
 | [v26.2.0-20260617-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260617-r6) | 2026-06-17 | [`4bfc030`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4bfc03020ad76719b8932056fdabb0601ffb328b) | gfxstream: Avoid transfering VkAllocationCallbacks between guest and host | Vulkan 1.4.353 |
 | [v26.2.0-20260617-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260617-r5) | 2026-06-17 | [`66611c5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/66611c569f610372a14cd195268d1075ff22a0eb) | radv: fix setting COMPUTE_DISPATCH_INTERLEAVE on the gfx queue | Vulkan 1.4.353 |
