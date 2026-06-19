@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`805b6e7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/805b6e75e7e95ed78bf81c840878da572a1758ca) |
+| **Commit** | [`2ed09c8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2ed09c8b110f913365ba0bfd7e7d34cea26030f0) |
 | **Commit date** | 2026-06-19 |
-| **Commit title** | nvk: add env var to allow backwards compat in dlss |
+| **Commit title** | kraid: Add OpRegIn and OpRegOut |
 | **Build date** | 20260619 |
-| **Release** | [v26.2.0-20260619-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r6) |
+| **Release** | [v26.2.0-20260619-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r7) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260619-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r7) | 2026-06-19 | [`2ed09c8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2ed09c8b110f913365ba0bfd7e7d34cea26030f0) | kraid: Add OpRegIn and OpRegOut | Vulkan 1.4.354 |
 | [v26.2.0-20260619-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r6) | 2026-06-19 | [`805b6e7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/805b6e75e7e95ed78bf81c840878da572a1758ca) | nvk: add env var to allow backwards compat in dlss | Vulkan 1.4.354 |
 | [v26.2.0-20260619-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r5) | 2026-06-19 | [`08c2bb3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/08c2bb3b31db0eb9414ca0c8455c7a962797369c) | radeonsi/mm: Set correct usage in si_dec_fill_surface | Vulkan 1.4.354 |
 | [v26.2.0-20260619-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r4) | 2026-06-19 | [`a9d7022`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a9d70225eca226410a7455bbbb1eb6925b56b4b9) | gallivm: fix lp_build_round on altivec/VSX | Vulkan 1.4.354 |
