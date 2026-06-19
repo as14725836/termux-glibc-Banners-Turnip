@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`2ed09c8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2ed09c8b110f913365ba0bfd7e7d34cea26030f0) |
+| **Commit** | [`59a9e21`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/59a9e21652eaf7309b000a5ea751ec85a781f3ce) |
 | **Commit date** | 2026-06-19 |
-| **Commit title** | kraid: Add OpRegIn and OpRegOut |
+| **Commit title** | ac,radeonsi: remove uses_kernel_cu_mask and associated code |
 | **Build date** | 20260619 |
-| **Release** | [v26.2.0-20260619-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r7) |
+| **Release** | [v26.2.0-20260619-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r8) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260619-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r8) | 2026-06-19 | [`59a9e21`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/59a9e21652eaf7309b000a5ea751ec85a781f3ce) | ac,radeonsi: remove uses_kernel_cu_mask and associated code | Vulkan 1.4.354 |
 | [v26.2.0-20260619-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r7) | 2026-06-19 | [`2ed09c8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2ed09c8b110f913365ba0bfd7e7d34cea26030f0) | kraid: Add OpRegIn and OpRegOut | Vulkan 1.4.354 |
 | [v26.2.0-20260619-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r6) | 2026-06-19 | [`805b6e7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/805b6e75e7e95ed78bf81c840878da572a1758ca) | nvk: add env var to allow backwards compat in dlss | Vulkan 1.4.354 |
 | [v26.2.0-20260619-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r5) | 2026-06-19 | [`08c2bb3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/08c2bb3b31db0eb9414ca0c8455c7a962797369c) | radeonsi/mm: Set correct usage in si_dec_fill_surface | Vulkan 1.4.354 |
@@ -94,7 +95,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.2.0-20260619-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r3) | 2026-06-19 | [`ad4e3ca`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ad4e3cad54dde5fbb97483d51a325039ab18fce2) | etnaviv: Gate 128-bit render targets on HALF_FLOAT | Vulkan 1.4.354 |
 | [v26.2.0-20260619-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r2) | 2026-06-19 | [`c08dba8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c08dba83025533c3863349f147376b52528c4b3a) | kk: Move to Metal4 command encoding | Vulkan 1.4.354 |
 | [v26.2.0-20260619](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619) | 2026-06-19 | [`db25e87`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/db25e87243ed60d4dc41df575d2229999ae3ba67) | intel: Change dpas_intel source order to follow DPAS | Vulkan 1.4.354 |
-| [v26.2.0-20260618-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260618-r6) | 2026-06-18 | [`a4d9204`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a4d920454382d329658246a853df90a65f542dff) | pvr/ci: add some timing out tests on AXE-1-16M to skips list | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
