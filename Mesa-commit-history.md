@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260619-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r3) | 2026-06-19 | [`ad4e3ca`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ad4e3cad54dde5fbb97483d51a325039ab18fce2) | etnaviv: Gate 128-bit render targets on HALF_FLOAT | Vulkan 1.4.354 |
 | [v26.2.0-20260619-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r2) | 2026-06-19 | [`c08dba8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c08dba83025533c3863349f147376b52528c4b3a) | kk: Move to Metal4 command encoding | Vulkan 1.4.354 |
 | [v26.2.0-20260619](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619) | 2026-06-18 | [`db25e87`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/db25e87243ed60d4dc41df575d2229999ae3ba67) | intel: Change dpas_intel source order to follow DPAS | Vulkan 1.4.354 |
 | [v26.2.0-20260618-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260618-r6) | 2026-06-18 | [`a4d9204`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a4d920454382d329658246a853df90a65f542dff) | pvr/ci: add some timing out tests on AXE-1-16M to skips list | Vulkan 1.4.354 |

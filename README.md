@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`c08dba8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c08dba83025533c3863349f147376b52528c4b3a) |
+| **Commit** | [`ad4e3ca`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ad4e3cad54dde5fbb97483d51a325039ab18fce2) |
 | **Commit date** | 2026-06-19 |
-| **Commit title** | kk: Move to Metal4 command encoding |
+| **Commit title** | etnaviv: Gate 128-bit render targets on HALF_FLOAT |
 | **Build date** | 20260619 |
-| **Release** | [v26.2.0-20260619-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r2) |
+| **Release** | [v26.2.0-20260619-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,13 +87,13 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260619-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r3) | 2026-06-19 | [`ad4e3ca`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ad4e3cad54dde5fbb97483d51a325039ab18fce2) | etnaviv: Gate 128-bit render targets on HALF_FLOAT | Vulkan 1.4.354 |
 | [v26.2.0-20260619-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r2) | 2026-06-19 | [`c08dba8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c08dba83025533c3863349f147376b52528c4b3a) | kk: Move to Metal4 command encoding | Vulkan 1.4.354 |
 | [v26.2.0-20260619](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619) | 2026-06-19 | [`db25e87`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/db25e87243ed60d4dc41df575d2229999ae3ba67) | intel: Change dpas_intel source order to follow DPAS | Vulkan 1.4.354 |
 | [v26.2.0-20260618-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260618-r6) | 2026-06-18 | [`a4d9204`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a4d920454382d329658246a853df90a65f542dff) | pvr/ci: add some timing out tests on AXE-1-16M to skips list | Vulkan 1.4.354 |
 | [v26.2.0-20260618-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260618-r5) | 2026-06-18 | [`97bfc0f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/97bfc0f88f43554b47f05ad37512f98cd086a80d) | ac/nir/mem_vectorize: never create vec5 stores | Vulkan 1.4.354 |
 | [v26.2.0-20260618-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260618-r4) | 2026-06-18 | [`6380717`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6380717956ac12a574948b644456957518b67b68) | radv: clear gang cache flushes when the command buffer is reset | Vulkan 1.4.354 |
 | [v26.2.0-20260618-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260618-r3) | 2026-06-18 | [`3714a2a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3714a2a8dfd17042345cc09b72e3ea3aee111dbd) | docs: fix release notes for 26.1.3 | Vulkan 1.4.354 |
-| [v26.2.0-20260618-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260618-r2) | 2026-06-18 | [`93cb1a3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/93cb1a39f58667de6e3ad2bd9810939379d6abc6) | docs: add sha sum for 26.1.3 | Vulkan 1.4.353 |
 <!-- RECENT_BUILDS_END -->
 
 ---
