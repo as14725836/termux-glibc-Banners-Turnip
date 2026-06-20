@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260620-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260620-r7) | 2026-06-20 | [`ed78163`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ed781637fa11fb87bbeae10e0ad860fc69265f48) | nir: change nir_def_bits_used to accept nir_scalar | Vulkan 1.4.354 |
 | [v26.2.0-20260620-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260620-r6) | 2026-06-20 | [`1559e14`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1559e14770765627058bc2e6f3304b162af01efb) | nir/opt_varyings: shrink pathological varying arrays to 1 element | Vulkan 1.4.354 |
 | [v26.2.0-20260620-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260620-r5) | 2026-06-20 | [`304324e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/304324eb288de91ab6440d95a2d2e54e3d6573ee) | nak: convert base to iadd for non-uniform ldcx lowering | Vulkan 1.4.354 |
 | [v26.2.0-20260620-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260620-r4) | 2026-06-20 | [`6f0d6f7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6f0d6f7c044ab6a0d1a00d10367df01496c4eb16) | meson: require r300 LLVM draw only on x86 | Vulkan 1.4.354 |
