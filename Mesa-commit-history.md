@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260620](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260620) | 2026-06-19 | [`9dbe884`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9dbe8846f5f94699ef4080dd58e31f9a1fdca836) | d3d12/wgl: reclaim deferred BOs before ResizeBuffers | Vulkan 1.4.354 |
 | [v26.2.0-20260619-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r8) | 2026-06-19 | [`59a9e21`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/59a9e21652eaf7309b000a5ea751ec85a781f3ce) | ac,radeonsi: remove uses_kernel_cu_mask and associated code | Vulkan 1.4.354 |
 | [v26.2.0-20260619-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r7) | 2026-06-19 | [`2ed09c8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2ed09c8b110f913365ba0bfd7e7d34cea26030f0) | kraid: Add OpRegIn and OpRegOut | Vulkan 1.4.354 |
 | [v26.2.0-20260619-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r6) | 2026-06-19 | [`805b6e7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/805b6e75e7e95ed78bf81c840878da572a1758ca) | nvk: add env var to allow backwards compat in dlss | Vulkan 1.4.354 |
