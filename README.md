@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`27e63a9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/27e63a959ee44b7b18bce07cb32d7f3c6a08fb4b) |
+| **Commit** | [`2046b79`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2046b79f2f043502a44bd86b64f2db256b002697) |
 | **Commit date** | 2026-06-20 |
-| **Commit title** | nak: normalize lop3 constant sources |
+| **Commit title** | vulkan/wsi/wayland: Do a roundtrip after retiring the old swapchain. |
 | **Build date** | 20260620 |
-| **Release** | [v26.2.0-20260620-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260620-r2) |
+| **Release** | [v26.2.0-20260620-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260620-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260620-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260620-r3) | 2026-06-20 | [`2046b79`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2046b79f2f043502a44bd86b64f2db256b002697) | vulkan/wsi/wayland: Do a roundtrip after retiring the old swapchain. | Vulkan 1.4.354 |
 | [v26.2.0-20260620-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260620-r2) | 2026-06-20 | [`27e63a9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/27e63a959ee44b7b18bce07cb32d7f3c6a08fb4b) | nak: normalize lop3 constant sources | Vulkan 1.4.354 |
 | [v26.2.0-20260620](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260620) | 2026-06-20 | [`9dbe884`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9dbe8846f5f94699ef4080dd58e31f9a1fdca836) | d3d12/wgl: reclaim deferred BOs before ResizeBuffers | Vulkan 1.4.354 |
 | [v26.2.0-20260619-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r8) | 2026-06-19 | [`59a9e21`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/59a9e21652eaf7309b000a5ea751ec85a781f3ce) | ac,radeonsi: remove uses_kernel_cu_mask and associated code | Vulkan 1.4.354 |
@@ -95,7 +96,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.2.0-20260619-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r5) | 2026-06-19 | [`08c2bb3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/08c2bb3b31db0eb9414ca0c8455c7a962797369c) | radeonsi/mm: Set correct usage in si_dec_fill_surface | Vulkan 1.4.354 |
 | [v26.2.0-20260619-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r4) | 2026-06-19 | [`a9d7022`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a9d70225eca226410a7455bbbb1eb6925b56b4b9) | gallivm: fix lp_build_round on altivec/VSX | Vulkan 1.4.354 |
 | [v26.2.0-20260619-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r3) | 2026-06-19 | [`ad4e3ca`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ad4e3cad54dde5fbb97483d51a325039ab18fce2) | etnaviv: Gate 128-bit render targets on HALF_FLOAT | Vulkan 1.4.354 |
-| [v26.2.0-20260619-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260619-r2) | 2026-06-19 | [`c08dba8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c08dba83025533c3863349f147376b52528c4b3a) | kk: Move to Metal4 command encoding | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
