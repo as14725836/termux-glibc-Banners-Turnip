@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260622-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260622-r4) | 2026-06-22 | [`8e7d802`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8e7d802c1c12a5828f6c2e884a400c185ad6d8f2) | venus: fix typo in vn_queue_submit_2_to_1 | Vulkan 1.4.354 |
 | [v26.2.0-20260622-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260622-r3) | 2026-06-22 | [`0c925e0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0c925e0a3a04f825c6ad84e94e3c72ee9b4d05ae) | vulkan: fix incorrect sType for VkDebugUtilsObjectTagInfoEXT | Vulkan 1.4.354 |
 | [v26.2.0-20260622-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260622-r2) | 2026-06-22 | [`b43e7ab`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b43e7ab9edcf64e7224c8cba66d3def2704f2d18) | panvk: Advertise VK_EXT_image_sliced_view_of_3d | Vulkan 1.4.354 |
 | [v26.2.0-20260622](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260622) | 2026-06-21 | [`dc1db53`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/dc1db5367ef1245498d2d0fc74637a9e56e22f0d) | nvk/ci: document fixed tests, new failures, and recent flakes | Vulkan 1.4.354 |
