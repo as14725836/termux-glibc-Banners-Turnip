@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`512fe5b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/512fe5b687ac41a58fcc3518f69dc1004db4d6f3) |
+| **Commit** | [`7a5bcaa`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7a5bcaa35fb88d9ca69b2b35f0f6e41e9cae66ed) |
 | **Commit date** | 2026-06-23 |
-| **Commit title** | nir/opt_phi_precision: bail on load_const conversions between float and ints |
+| **Commit title** | brw: Add unit tests for brw_opt_predicate_logic |
 | **Build date** | 20260623 |
-| **Release** | [v26.2.0-20260623-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260623-r4) |
+| **Release** | [v26.2.0-20260623-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260623-r5) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,13 +87,13 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260623-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260623-r5) | 2026-06-23 | [`7a5bcaa`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7a5bcaa35fb88d9ca69b2b35f0f6e41e9cae66ed) | brw: Add unit tests for brw_opt_predicate_logic | Vulkan 1.4.354 |
 | [v26.2.0-20260623-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260623-r4) | 2026-06-23 | [`512fe5b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/512fe5b687ac41a58fcc3518f69dc1004db4d6f3) | nir/opt_phi_precision: bail on load_const conversions between float and ints | Vulkan 1.4.354 |
 | [v26.2.0-20260623-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260623-r3) | 2026-06-23 | [`b0d6b4c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b0d6b4c402ff52ff2b670db5875671c436617896) | r300: clean up endian swap selection | Vulkan 1.4.354 |
 | [v26.2.0-20260623-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260623-r2) | 2026-06-23 | [`475efed`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/475efed859b667388d60df1f4c1df2f0af7ac8c0) | Revert rusticl: fix leak in | Vulkan 1.4.354 |
 | [v26.2.0-20260623](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260623) | 2026-06-23 | [`501433d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/501433dff3dc46f1f3876dd32b6c1b731c7b2379) | util: remove bogus const attribute | Vulkan 1.4.354 |
 | [v26.2.0-20260622-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260622-r5) | 2026-06-22 | [`22abfc0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/22abfc06d7cf4c115ca2e368505d75ba4af174b4) | radv: Fix gnu-empty-initializer errors in ca9191a8 | Vulkan 1.4.354 |
 | [v26.2.0-20260622-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260622-r4) | 2026-06-22 | [`8e7d802`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8e7d802c1c12a5828f6c2e884a400c185ad6d8f2) | venus: fix typo in vn_queue_submit_2_to_1 | Vulkan 1.4.354 |
-| [v26.2.0-20260622-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260622-r3) | 2026-06-22 | [`0c925e0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0c925e0a3a04f825c6ad84e94e3c72ee9b4d05ae) | vulkan: fix incorrect sType for VkDebugUtilsObjectTagInfoEXT | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---

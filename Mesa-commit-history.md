@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260623-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260623-r5) | 2026-06-23 | [`7a5bcaa`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7a5bcaa35fb88d9ca69b2b35f0f6e41e9cae66ed) | brw: Add unit tests for brw_opt_predicate_logic | Vulkan 1.4.354 |
 | [v26.2.0-20260623-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260623-r4) | 2026-06-23 | [`512fe5b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/512fe5b687ac41a58fcc3518f69dc1004db4d6f3) | nir/opt_phi_precision: bail on load_const conversions between float and ints | Vulkan 1.4.354 |
 | [v26.2.0-20260623-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260623-r3) | 2026-06-23 | [`b0d6b4c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b0d6b4c402ff52ff2b670db5875671c436617896) | r300: clean up endian swap selection | Vulkan 1.4.354 |
 | [v26.2.0-20260623-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260623-r2) | 2026-06-23 | [`475efed`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/475efed859b667388d60df1f4c1df2f0af7ac8c0) | Revert rusticl: fix leak in  | Vulkan 1.4.354 |
