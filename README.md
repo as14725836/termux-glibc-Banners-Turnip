@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`22abfc0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/22abfc06d7cf4c115ca2e368505d75ba4af174b4) |
-| **Commit date** | 2026-06-22 |
-| **Commit title** | radv: Fix gnu-empty-initializer errors in ca9191a8 |
-| **Build date** | 20260622 |
-| **Release** | [v26.2.0-20260622-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260622-r5) |
+| **Commit** | [`501433d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/501433dff3dc46f1f3876dd32b6c1b731c7b2379) |
+| **Commit date** | 2026-06-23 |
+| **Commit title** | util: remove bogus const attribute |
+| **Build date** | 20260623 |
+| **Release** | [v26.2.0-20260623](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260623) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260623](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260623) | 2026-06-23 | [`501433d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/501433dff3dc46f1f3876dd32b6c1b731c7b2379) | util: remove bogus const attribute | Vulkan 1.4.354 |
 | [v26.2.0-20260622-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260622-r5) | 2026-06-22 | [`22abfc0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/22abfc06d7cf4c115ca2e368505d75ba4af174b4) | radv: Fix gnu-empty-initializer errors in ca9191a8 | Vulkan 1.4.354 |
 | [v26.2.0-20260622-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260622-r4) | 2026-06-22 | [`8e7d802`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8e7d802c1c12a5828f6c2e884a400c185ad6d8f2) | venus: fix typo in vn_queue_submit_2_to_1 | Vulkan 1.4.354 |
 | [v26.2.0-20260622-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260622-r3) | 2026-06-22 | [`0c925e0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0c925e0a3a04f825c6ad84e94e3c72ee9b4d05ae) | vulkan: fix incorrect sType for VkDebugUtilsObjectTagInfoEXT | Vulkan 1.4.354 |
