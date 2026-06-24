@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`da325ef`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/da325ef1d4c36dd29431ef7364b955fdea37c502) |
+| **Commit** | [`68468b6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/68468b6d1b918824ffa7de1dd11a29aff7c4781a) |
 | **Commit date** | 2026-06-24 |
-| **Commit title** | anv: Workaround game bug for Witcher3 |
+| **Commit title** | jay: add bfloat16 support |
 | **Build date** | 20260624 |
-| **Release** | [v26.2.0-20260624-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624-r7) |
+| **Release** | [v26.2.0-20260624-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624-r8) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260624-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624-r8) | 2026-06-24 | [`68468b6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/68468b6d1b918824ffa7de1dd11a29aff7c4781a) | jay: add bfloat16 support | Vulkan 1.4.354 |
 | [v26.2.0-20260624-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624-r7) | 2026-06-24 | [`da325ef`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/da325ef1d4c36dd29431ef7364b955fdea37c502) | anv: Workaround game bug for Witcher3 | Vulkan 1.4.354 |
 | [v26.2.0-20260624-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624-r6) | 2026-06-24 | [`34b4e94`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/34b4e94f9f182337fa3754d01625dd7f917d400f) | anv: don't put clear colors for aliased images in private bindings | Vulkan 1.4.354 |
 | [v26.2.0-20260624-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624-r5) | 2026-06-24 | [`1503c20`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1503c20f03d55174948a4979e1d6e14b9395adf7) | anv: Fix copy of sampler state for bindless | Vulkan 1.4.354 |
@@ -94,7 +95,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.2.0-20260624-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624-r3) | 2026-06-24 | [`36ad1ac`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/36ad1ac1a67eb1256cc9d156b74ae4903a4736bf) | ac/spm: clamp cache miss counts in derived counters | Vulkan 1.4.354 |
 | [v26.2.0-20260624-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624-r2) | 2026-06-24 | [`7ccd70b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7ccd70b9ec3853e05dde1dcc330fbc74331a5b51) | kk: Reduce root buffer pointer by replacing it with the GPU address | Vulkan 1.4.354 |
 | [v26.2.0-20260624](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624) | 2026-06-24 | [`e2785f1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e2785f1c751340ed8bbed65db70176d1ae56772b) | glx/apple: Replace apple_glx_diagnostic with apple_glx_log_* | Vulkan 1.4.354 |
-| [v26.2.0-20260623-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260623-r7) | 2026-06-23 | [`b9b3e80`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b9b3e80cc164270fdc6189b41a136e956f6bf3d7) | intel/common: remove fallthrough annotation in unreachable code | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
