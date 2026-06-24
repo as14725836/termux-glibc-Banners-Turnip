@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260624-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624-r4) | 2026-06-24 | [`a898f7a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a898f7a7d529cdd3bc969411ba60c1c1de644739) | radv: remove some dead compute scratch code | Vulkan 1.4.354 |
 | [v26.2.0-20260624-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624-r3) | 2026-06-24 | [`36ad1ac`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/36ad1ac1a67eb1256cc9d156b74ae4903a4736bf) | ac/spm: clamp cache miss counts in derived counters | Vulkan 1.4.354 |
 | [v26.2.0-20260624-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624-r2) | 2026-06-24 | [`7ccd70b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7ccd70b9ec3853e05dde1dcc330fbc74331a5b51) | kk: Reduce root buffer pointer by replacing it with the GPU address | Vulkan 1.4.354 |
 | [v26.2.0-20260624](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624) | 2026-06-24 | [`e2785f1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e2785f1c751340ed8bbed65db70176d1ae56772b) | glx/apple: Replace apple_glx_diagnostic with apple_glx_log_* | Vulkan 1.4.354 |
