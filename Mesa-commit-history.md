@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260624-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624-r6) | 2026-06-24 | [`34b4e94`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/34b4e94f9f182337fa3754d01625dd7f917d400f) | anv: don't put clear colors for aliased images in private bindings | Vulkan 1.4.354 |
 | [v26.2.0-20260624-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624-r5) | 2026-06-24 | [`1503c20`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1503c20f03d55174948a4979e1d6e14b9395adf7) | anv: Fix copy of sampler state for bindless | Vulkan 1.4.354 |
 | [v26.2.0-20260624-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624-r4) | 2026-06-24 | [`a898f7a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a898f7a7d529cdd3bc969411ba60c1c1de644739) | radv: remove some dead compute scratch code | Vulkan 1.4.354 |
 | [v26.2.0-20260624-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624-r3) | 2026-06-24 | [`36ad1ac`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/36ad1ac1a67eb1256cc9d156b74ae4903a4736bf) | ac/spm: clamp cache miss counts in derived counters | Vulkan 1.4.354 |
