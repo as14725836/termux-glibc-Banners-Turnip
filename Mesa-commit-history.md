@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260624](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624) | 2026-06-24 | [`e2785f1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e2785f1c751340ed8bbed65db70176d1ae56772b) | glx/apple: Replace apple_glx_diagnostic with apple_glx_log_* | Vulkan 1.4.354 |
 | [v26.2.0-20260623-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260623-r7) | 2026-06-23 | [`b9b3e80`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b9b3e80cc164270fdc6189b41a136e956f6bf3d7) | intel/common: remove fallthrough annotation in unreachable code | Vulkan 1.4.354 |
 | [v26.2.0-20260623-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260623-r6) | 2026-06-23 | [`bc649a0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/bc649a02d4c1ca2148ba6eb2e0a83fa774b4d037) | tu: handle partially set resolve attachment info without crashing | Vulkan 1.4.354 |
 | [v26.2.0-20260623-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260623-r5) | 2026-06-23 | [`7a5bcaa`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7a5bcaa35fb88d9ca69b2b35f0f6e41e9cae66ed) | brw: Add unit tests for brw_opt_predicate_logic | Vulkan 1.4.354 |
