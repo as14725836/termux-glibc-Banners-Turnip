@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`8b28b4d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8b28b4d615999390455c237e38ed921881c21de7) |
+| **Commit** | [`4734636`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/47346366b6bafb4fb39bff74c8b45f6a98ff9aab) |
 | **Commit date** | 2026-06-25 |
-| **Commit title** | doc/features.txt: enable VK_KHR_shader_float16_int8 for v3dv |
+| **Commit title** | mesa3d: gfxstream: Add P210 format support |
 | **Build date** | 20260625 |
-| **Release** | [v26.2.0-20260625-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260625-r4) |
+| **Release** | [v26.2.0-20260625-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260625-r5) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,14 +87,12 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260625-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260625-r5) | 2026-06-25 | [`4734636`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/47346366b6bafb4fb39bff74c8b45f6a98ff9aab) | mesa3d: gfxstream: Add P210 format support | Vulkan 1.4.354 |
 | [v26.2.0-20260625-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260625-r4) | 2026-06-25 | [`8b28b4d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8b28b4d615999390455c237e38ed921881c21de7) | doc/features.txt: enable VK_KHR_shader_float16_int8 for v3dv | Vulkan 1.4.354 |
 | [v26.2.0-20260625-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260625-r3) | 2026-06-25 | [`39fc756`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/39fc756d8fc8b03afd7e71ad2be74b52e1648d50) | tu/lrz: Pick correct depth attachments in msrtss case | Vulkan 1.4.354 |
 | [v26.2.0-20260625-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260625-r2) | 2026-06-25 | [`b021008`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b021008183e80cf53ab12b3e6b41dc305ef3eff0) | zink/ci: skip unvanquished-ultra trace on van gogh too | Vulkan 1.4.354 |
 | [v26.2.0-20260625](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260625) | 2026-06-25 | [`da95960`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/da959603a5fe273f77bff7cf5260a0b3d9b82745) | kraid/hw_tests: Use preloaded registers | Vulkan 1.4.354 |
 | [v26.2.0-20260624-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624-r8) | 2026-06-24 | [`68468b6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/68468b6d1b918824ffa7de1dd11a29aff7c4781a) | jay: add bfloat16 support | Vulkan 1.4.354 |
-| [v26.2.0-20260624-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624-r7) | 2026-06-24 | [`da325ef`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/da325ef1d4c36dd29431ef7364b955fdea37c502) | anv: Workaround game bug for Witcher3 | Vulkan 1.4.354 |
-| [v26.2.0-20260624-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624-r6) | 2026-06-24 | [`34b4e94`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/34b4e94f9f182337fa3754d01625dd7f917d400f) | anv: don't put clear colors for aliased images in private bindings | Vulkan 1.4.354 |
-| [v26.2.0-20260624-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624-r5) | 2026-06-24 | [`1503c20`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1503c20f03d55174948a4979e1d6e14b9395adf7) | anv: Fix copy of sampler state for bindless | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
