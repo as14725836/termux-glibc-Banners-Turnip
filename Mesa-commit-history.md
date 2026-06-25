@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260625-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260625-r4) | 2026-06-25 | [`8b28b4d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8b28b4d615999390455c237e38ed921881c21de7) | doc/features.txt: enable VK_KHR_shader_float16_int8 for v3dv | Vulkan 1.4.354 |
 | [v26.2.0-20260625-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260625-r3) | 2026-06-25 | [`39fc756`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/39fc756d8fc8b03afd7e71ad2be74b52e1648d50) | tu/lrz: Pick correct depth attachments in msrtss case | Vulkan 1.4.354 |
 | [v26.2.0-20260625-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260625-r2) | 2026-06-25 | [`b021008`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b021008183e80cf53ab12b3e6b41dc305ef3eff0) | zink/ci: skip unvanquished-ultra trace on van gogh too | Vulkan 1.4.354 |
 | [v26.2.0-20260625](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260625) | 2026-06-24 | [`da95960`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/da959603a5fe273f77bff7cf5260a0b3d9b82745) | kraid/hw_tests: Use preloaded registers | Vulkan 1.4.354 |
