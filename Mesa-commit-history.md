@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260625](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260625) | 2026-06-24 | [`da95960`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/da959603a5fe273f77bff7cf5260a0b3d9b82745) | kraid/hw_tests: Use preloaded registers | Vulkan 1.4.354 |
 | [v26.2.0-20260624-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624-r8) | 2026-06-24 | [`68468b6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/68468b6d1b918824ffa7de1dd11a29aff7c4781a) | jay: add bfloat16 support | Vulkan 1.4.354 |
 | [v26.2.0-20260624-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624-r7) | 2026-06-24 | [`da325ef`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/da325ef1d4c36dd29431ef7364b955fdea37c502) | anv: Workaround game bug for Witcher3 | Vulkan 1.4.354 |
 | [v26.2.0-20260624-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260624-r6) | 2026-06-24 | [`34b4e94`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/34b4e94f9f182337fa3754d01625dd7f917d400f) | anv: don't put clear colors for aliased images in private bindings | Vulkan 1.4.354 |
