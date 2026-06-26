@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260626-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r2) | 2026-06-26 | [`731548e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/731548ee6e800137b46c2cf71a890a4d4634fe16) | panfrost: Avoid race between bo import and unref | Vulkan 1.4.354 |
 | [v26.2.0-20260626](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626) | 2026-06-26 | [`22d11ef`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/22d11ef1e4c521a641ec0651860959fddbc20a3f) | nir: remove incorrect algebraic properties from intel mixed bf ops | Vulkan 1.4.354 |
 | [v26.2.0-20260625-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260625-r6) | 2026-06-25 | [`791cf54`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/791cf54f536a396b0cee4c1bba2842a37765bc18) | intel/gen: Add Xe3P compact support | Vulkan 1.4.354 |
 | [v26.2.0-20260625-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260625-r5) | 2026-06-25 | [`4734636`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/47346366b6bafb4fb39bff74c8b45f6a98ff9aab) | mesa3d: gfxstream: Add P210 format support | Vulkan 1.4.354 |
