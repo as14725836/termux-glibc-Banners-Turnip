@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`152921d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/152921d99105647fcbc3677d280a0f35e38f59c2) |
+| **Commit** | [`5bd6134`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5bd61342d349c3d768b916e7c7523855330a6c0c) |
 | **Commit date** | 2026-06-26 |
-| **Commit title** | Uprev VVL to 5e72d40395d07930c935d0624cd7db5f1a144c5e |
+| **Commit title** | mr-label-maker: Add rule for rust files |
 | **Build date** | 20260626 |
-| **Release** | [v26.2.0-20260626-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r7) |
+| **Release** | [v26.2.0-20260626-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r8) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260626-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r8) | 2026-06-26 | [`5bd6134`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5bd61342d349c3d768b916e7c7523855330a6c0c) | mr-label-maker: Add rule for rust files | Vulkan 1.4.354 |
 | [v26.2.0-20260626-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r7) | 2026-06-26 | [`152921d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/152921d99105647fcbc3677d280a0f35e38f59c2) | Uprev VVL to 5e72d40395d07930c935d0624cd7db5f1a144c5e | Vulkan 1.4.354 |
 | [v26.2.0-20260626-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r6) | 2026-06-26 | [`c41d800`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c41d800a3091a55c0ce3a06aedfea57bda1b9fd4) | nil: Pick tiling params closer to proprietary | Vulkan 1.4.354 |
 | [v26.2.0-20260626-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r5) | 2026-06-26 | [`04b23a9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/04b23a9251dcce9476c8db8be211aefae59c657a) | mesa/st: use col0 attrib from provoking vertex for feedback | Vulkan 1.4.354 |
@@ -95,7 +96,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.2.0-20260626-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r2) | 2026-06-26 | [`731548e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/731548ee6e800137b46c2cf71a890a4d4634fe16) | panfrost: Avoid race between bo import and unref | Vulkan 1.4.354 |
 | [v26.2.0-20260626](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626) | 2026-06-26 | [`22d11ef`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/22d11ef1e4c521a641ec0651860959fddbc20a3f) | nir: remove incorrect algebraic properties from intel mixed bf ops | Vulkan 1.4.354 |
 | [v26.2.0-20260625-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260625-r6) | 2026-06-25 | [`791cf54`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/791cf54f536a396b0cee4c1bba2842a37765bc18) | intel/gen: Add Xe3P compact support | Vulkan 1.4.354 |
-| [v26.2.0-20260625-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260625-r5) | 2026-06-25 | [`4734636`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/47346366b6bafb4fb39bff74c8b45f6a98ff9aab) | mesa3d: gfxstream: Add P210 format support | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
