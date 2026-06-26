@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`c41d800`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c41d800a3091a55c0ce3a06aedfea57bda1b9fd4) |
+| **Commit** | [`152921d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/152921d99105647fcbc3677d280a0f35e38f59c2) |
 | **Commit date** | 2026-06-26 |
-| **Commit title** | nil: Pick tiling params closer to proprietary |
+| **Commit title** | Uprev VVL to 5e72d40395d07930c935d0624cd7db5f1a144c5e |
 | **Build date** | 20260626 |
-| **Release** | [v26.2.0-20260626-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r6) |
+| **Release** | [v26.2.0-20260626-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r7) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260626-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r7) | 2026-06-26 | [`152921d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/152921d99105647fcbc3677d280a0f35e38f59c2) | Uprev VVL to 5e72d40395d07930c935d0624cd7db5f1a144c5e | Vulkan 1.4.354 |
 | [v26.2.0-20260626-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r6) | 2026-06-26 | [`c41d800`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c41d800a3091a55c0ce3a06aedfea57bda1b9fd4) | nil: Pick tiling params closer to proprietary | Vulkan 1.4.354 |
 | [v26.2.0-20260626-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r5) | 2026-06-26 | [`04b23a9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/04b23a9251dcce9476c8db8be211aefae59c657a) | mesa/st: use col0 attrib from provoking vertex for feedback | Vulkan 1.4.354 |
 | [v26.2.0-20260626-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r4) | 2026-06-26 | [`6adb0d5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6adb0d5e01dca952fcb04b7773ad92b0ab2e132d) | etnaviv: blt: Zero-initialize conv_swizzle | Vulkan 1.4.354 |
