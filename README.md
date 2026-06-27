@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`88bc7f1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/88bc7f1afd125512e2188c561fc373d2872efed8) |
+| **Commit** | [`4bf6f9c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4bf6f9c41c855e5e24f7d1ff1bb2fc67f72c2e1c) |
 | **Commit date** | 2026-06-27 |
-| **Commit title** | nir/to_lcssa: do not sort predecessors for phi sources |
+| **Commit title** | kraid: Add OpLd/StCvt and plumb them through |
 | **Build date** | 20260627 |
-| **Release** | [v26.2.0-20260627-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260627-r5) |
+| **Release** | [v26.2.0-20260627-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260627-r6) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260627-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260627-r6) | 2026-06-27 | [`4bf6f9c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4bf6f9c41c855e5e24f7d1ff1bb2fc67f72c2e1c) | kraid: Add OpLd/StCvt and plumb them through | Vulkan 1.4.354 |
 | [v26.2.0-20260627-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260627-r5) | 2026-06-27 | [`88bc7f1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/88bc7f1afd125512e2188c561fc373d2872efed8) | nir/to_lcssa: do not sort predecessors for phi sources | Vulkan 1.4.354 |
 | [v26.2.0-20260627-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260627-r4) | 2026-06-27 | [`019ee85`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/019ee85efbe5948c6a740da5fb383bd503133aa2) | util/u_trace: Release memory for reused timestamps | Vulkan 1.4.354 |
 | [v26.2.0-20260627-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260627-r3) | 2026-06-27 | [`d360c08`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d360c0895ca7738b20680b31b8697e46436f0bc4) | glx: simplify FBConfig wire decode | Vulkan 1.4.354 |
