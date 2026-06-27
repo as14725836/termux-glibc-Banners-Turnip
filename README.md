@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`d3c2dab`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d3c2dab2073a8604e2fec1367165fba54edad5fa) |
-| **Commit date** | 2026-06-27 |
-| **Commit title** | panvk: add P010 native YUV support |
+| **Commit** | [`d360c08`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d360c0895ca7738b20680b31b8697e46436f0bc4) |
+| **Commit date** | 2026-06-26 |
+| **Commit title** | glx: simplify FBConfig wire decode |
 | **Build date** | 20260627 |
-| **Release** | [v26.2.0-20260627-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260627-r2) |
+| **Release** | [v26.2.0-20260627-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260627-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260627-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260627-r3) | 2026-06-27 | [`d360c08`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d360c0895ca7738b20680b31b8697e46436f0bc4) | glx: simplify FBConfig wire decode | Vulkan 1.4.354 |
 | [v26.2.0-20260627-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260627-r2) | 2026-06-27 | [`d3c2dab`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d3c2dab2073a8604e2fec1367165fba54edad5fa) | panvk: add P010 native YUV support | Vulkan 1.4.354 |
 | [v26.2.0-20260627](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260627) | 2026-06-27 | [`97d398c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/97d398c6c34e9973c561516da3da8e3c362dcb07) | nir: Fix lower_fround_even to round half to even | Vulkan 1.4.354 |
 | [v26.2.0-20260626-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r8) | 2026-06-26 | [`5bd6134`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5bd61342d349c3d768b916e7c7523855330a6c0c) | mr-label-maker: Add rule for rust files | Vulkan 1.4.354 |
@@ -95,7 +96,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.2.0-20260626-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r5) | 2026-06-26 | [`04b23a9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/04b23a9251dcce9476c8db8be211aefae59c657a) | mesa/st: use col0 attrib from provoking vertex for feedback | Vulkan 1.4.354 |
 | [v26.2.0-20260626-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r4) | 2026-06-26 | [`6adb0d5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6adb0d5e01dca952fcb04b7773ad92b0ab2e132d) | etnaviv: blt: Zero-initialize conv_swizzle | Vulkan 1.4.354 |
 | [v26.2.0-20260626-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r3) | 2026-06-26 | [`c4b917d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c4b917d527201516ffadf14929dad924dbfac7d9) | pvr: enable VK_EXT_device_memory_report | Vulkan 1.4.354 |
-| [v26.2.0-20260626-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r2) | 2026-06-26 | [`731548e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/731548ee6e800137b46c2cf71a890a4d4634fe16) | panfrost: Avoid race between bo import and unref | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
