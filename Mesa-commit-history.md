@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260627](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260627) | 2026-06-26 | [`97d398c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/97d398c6c34e9973c561516da3da8e3c362dcb07) | nir: Fix lower_fround_even to round half to even | Vulkan 1.4.354 |
 | [v26.2.0-20260626-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r8) | 2026-06-26 | [`5bd6134`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5bd61342d349c3d768b916e7c7523855330a6c0c) | mr-label-maker: Add rule for rust files | Vulkan 1.4.354 |
 | [v26.2.0-20260626-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r7) | 2026-06-26 | [`152921d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/152921d99105647fcbc3677d280a0f35e38f59c2) | Uprev VVL to 5e72d40395d07930c935d0624cd7db5f1a144c5e | Vulkan 1.4.354 |
 | [v26.2.0-20260626-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r6) | 2026-06-26 | [`c41d800`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c41d800a3091a55c0ce3a06aedfea57bda1b9fd4) | nil: Pick tiling params closer to proprietary | Vulkan 1.4.354 |
