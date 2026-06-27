@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260627-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260627-r2) | 2026-06-27 | [`d3c2dab`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d3c2dab2073a8604e2fec1367165fba54edad5fa) | panvk: add P010 native YUV support | Vulkan 1.4.354 |
 | [v26.2.0-20260627](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260627) | 2026-06-26 | [`97d398c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/97d398c6c34e9973c561516da3da8e3c362dcb07) | nir: Fix lower_fround_even to round half to even | Vulkan 1.4.354 |
 | [v26.2.0-20260626-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r8) | 2026-06-26 | [`5bd6134`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5bd61342d349c3d768b916e7c7523855330a6c0c) | mr-label-maker: Add rule for rust files | Vulkan 1.4.354 |
 | [v26.2.0-20260626-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260626-r7) | 2026-06-26 | [`152921d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/152921d99105647fcbc3677d280a0f35e38f59c2) | Uprev VVL to 5e72d40395d07930c935d0624cd7db5f1a144c5e | Vulkan 1.4.354 |
