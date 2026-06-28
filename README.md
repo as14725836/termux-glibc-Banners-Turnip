@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`a7d8f5d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a7d8f5d5b305e876f871a6965036053f16fb414c) |
+| **Commit** | [`ea72882`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ea72882df13e275473b2a9c83e93786b58fadc80) |
 | **Commit date** | 2026-06-28 |
-| **Commit title** | kraid: Widen more ops |
+| **Commit title** | glx/apple: Add create_context_attribs entry to the applegl_screen_vtable |
 | **Build date** | 20260628 |
-| **Release** | [v26.2.0-20260628-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260628-r2) |
+| **Release** | [v26.2.0-20260628-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260628-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260628-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260628-r3) | 2026-06-28 | [`ea72882`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ea72882df13e275473b2a9c83e93786b58fadc80) | glx/apple: Add create_context_attribs entry to the applegl_screen_vtable | Vulkan 1.4.354 |
 | [v26.2.0-20260628-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260628-r2) | 2026-06-28 | [`a7d8f5d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a7d8f5d5b305e876f871a6965036053f16fb414c) | kraid: Widen more ops | Vulkan 1.4.354 |
 | [v26.2.0-20260628](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260628) | 2026-06-28 | [`8d3724c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8d3724cab138b645711bfa791f817bbb1ee179ee) | glx: free glx_drawable on CreateDRIDrawable failure | Vulkan 1.4.354 |
 | [v26.2.0-20260627-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260627-r7) | 2026-06-27 | [`4c1d39f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4c1d39fa98f7b2b3ac6cdfd4ce171b61ed618a9c) | compiler/rust: Add more methods/traits to U8EnumSet | Vulkan 1.4.354 |
