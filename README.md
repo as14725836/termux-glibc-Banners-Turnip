@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`c2950a1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c2950a1cade2671f0e1885a392c1e910fabf7eee) |
+| **Commit** | [`7906510`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7906510e0ec8480edfeecd9a8b4985e7e44abc2e) |
 | **Commit date** | 2026-06-29 |
-| **Commit title** | meson: Skip NIR tests with headers-only NIR |
+| **Commit title** | util: Fix u_math on MSVC arm64 |
 | **Build date** | 20260629 |
-| **Release** | [v26.2.0-20260629-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260629-r2) |
+| **Release** | [v26.2.0-20260629-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260629-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260629-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260629-r3) | 2026-06-29 | [`7906510`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7906510e0ec8480edfeecd9a8b4985e7e44abc2e) | util: Fix u_math on MSVC arm64 | Vulkan 1.4.354 |
 | [v26.2.0-20260629-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260629-r2) | 2026-06-29 | [`c2950a1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c2950a1cade2671f0e1885a392c1e910fabf7eee) | meson: Skip NIR tests with headers-only NIR | Vulkan 1.4.354 |
 | [v26.2.0-20260629](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260629) | 2026-06-29 | [`379cc7b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/379cc7b4a8f6b3cd85b31b11f8309f2ab6af28f1) | gallivm/llvmpipe: fix VK_EXT_image_view_min_lod via texture handle path | Vulkan 1.4.354 |
 | [v26.2.0-20260628-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260628-r5) | 2026-06-28 | [`2f5aee0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2f5aee03ceeb7c9ac38c06d0799380232ed3e693) | nil: enable PLC for compressed data | Vulkan 1.4.354 |
