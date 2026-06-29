@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260629-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260629-r2) | 2026-06-29 | [`c2950a1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c2950a1cade2671f0e1885a392c1e910fabf7eee) | meson: Skip NIR tests with headers-only NIR | Vulkan 1.4.354 |
 | [v26.2.0-20260629](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260629) | 2026-06-29 | [`379cc7b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/379cc7b4a8f6b3cd85b31b11f8309f2ab6af28f1) | gallivm/llvmpipe: fix VK_EXT_image_view_min_lod via texture handle path | Vulkan 1.4.354 |
 | [v26.2.0-20260628-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260628-r5) | 2026-06-28 | [`2f5aee0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2f5aee03ceeb7c9ac38c06d0799380232ed3e693) | nil: enable PLC for compressed data | Vulkan 1.4.354 |
 | [v26.2.0-20260628-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260628-r4) | 2026-06-28 | [`99734aa`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/99734aa206f5ee3e2b2a394b488566235afa956d) | anv: add infrastructure to deal with missing barriers in applications | Vulkan 1.4.354 |
