@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`0eeb51a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0eeb51a58d9abf5d48212b6b7ffe01d9085bffbd) |
+| **Commit** | [`c053340`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c05334058d5417b0986578c94b9aa6ab601f3ba8) |
 | **Commit date** | 2026-06-30 |
-| **Commit title** | anv: Support VK_ANDROID_native_buffer older than version 11 |
+| **Commit title** | pco: allow non-pure integer formats for image xchg atomics |
 | **Build date** | 20260630 |
-| **Release** | [v26.2.0-20260630-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260630-r3) |
+| **Release** | [v26.2.0-20260630-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260630-r4) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260630-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260630-r4) | 2026-06-30 | [`c053340`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c05334058d5417b0986578c94b9aa6ab601f3ba8) | pco: allow non-pure integer formats for image xchg atomics | Vulkan 1.4.354 |
 | [v26.2.0-20260630-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260630-r3) | 2026-06-30 | [`0eeb51a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0eeb51a58d9abf5d48212b6b7ffe01d9085bffbd) | anv: Support VK_ANDROID_native_buffer older than version 11 | Vulkan 1.4.354 |
 | [v26.2.0-20260630-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260630-r2) | 2026-06-30 | [`b6c9e1d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b6c9e1d42f85f448323eedb7001554a34bfdb8fa) | anv: fix 64bit image atomic emulation with EXT_descriptor_heap | Vulkan 1.4.354 |
 | [v26.2.0-20260630](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260630) | 2026-06-30 | [`9710884`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/97108842afd4a56885e51e596024514a880928a2) | anv: Compile init RT shader with Jay | Vulkan 1.4.354 |
