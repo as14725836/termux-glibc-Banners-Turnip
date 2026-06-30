@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`b0050c4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b0050c4e754172c1c986f34e4ac0333d3d01479b) |
+| **Commit** | [`9710884`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/97108842afd4a56885e51e596024514a880928a2) |
 | **Commit date** | 2026-06-29 |
-| **Commit title** | meson: drop misleading  values |
-| **Build date** | 20260629 |
-| **Release** | [v26.2.0-20260629-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260629-r5) |
+| **Commit title** | anv: Compile init RT shader with Jay |
+| **Build date** | 20260630 |
+| **Release** | [v26.2.0-20260630](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260630) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260630](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260630) | 2026-06-30 | [`9710884`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/97108842afd4a56885e51e596024514a880928a2) | anv: Compile init RT shader with Jay | Vulkan 1.4.354 |
 | [v26.2.0-20260629-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260629-r5) | 2026-06-29 | [`b0050c4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b0050c4e754172c1c986f34e4ac0333d3d01479b) | meson: drop misleading  values | Vulkan 1.4.354 |
 | [v26.2.0-20260629-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260629-r4) | 2026-06-29 | [`f39e380`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f39e380bd1aa5a340f60f05d6ec96caf2811972a) | ci/windows: Update WARP to 1.0.20 | Vulkan 1.4.354 |
 | [v26.2.0-20260629-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260629-r3) | 2026-06-29 | [`7906510`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7906510e0ec8480edfeecd9a8b4985e7e44abc2e) | util: Fix u_math on MSVC arm64 | Vulkan 1.4.354 |
