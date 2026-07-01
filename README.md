@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`a425e8f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a425e8f7ebb95193de5c5d8695d79335f0040bfa) |
+| **Commit** | [`d02b251`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d02b25157c68804c4e6da613faf0f38a3bcca6d3) |
 | **Commit date** | 2026-06-30 |
-| **Commit title** | kraid: Better RA |
-| **Build date** | 20260630 |
-| **Release** | [v26.2.0-20260630-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260630-r8) |
+| **Commit title** | vulkan/android: force linear for mutable format |
+| **Build date** | 20260701 |
+| **Release** | [v26.2.0-20260701](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260701](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701) | 2026-07-01 | [`d02b251`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d02b25157c68804c4e6da613faf0f38a3bcca6d3) | vulkan/android: force linear for mutable format | Vulkan 1.4.354 |
 | [v26.2.0-20260630-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260630-r8) | 2026-06-30 | [`a425e8f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a425e8f7ebb95193de5c5d8695d79335f0040bfa) | kraid: Better RA | Vulkan 1.4.354 |
 | [v26.2.0-20260630-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260630-r7) | 2026-06-30 | [`8cf9a06`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8cf9a06e154dec3854d3bdc1d050769e3d560423) | st/pbo_compute: account for drivers failing to create cs shaders | Vulkan 1.4.354 |
 | [v26.2.0-20260630-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260630-r6) | 2026-06-30 | [`0983c72`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0983c72a7ed9907cb494079260f1e15dd695ea42) | anv: fix push pointer optimization with DGC | Vulkan 1.4.354 |
