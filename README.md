@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`790bebe`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/790bebe7ca0d9625dc378a805540da07523b17ef) |
+| **Commit** | [`0d82e6c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0d82e6c4072c4fd7b551cf871ae5d81ea804d553) |
 | **Commit date** | 2026-07-01 |
-| **Commit title** | intel/gen: Use lookup tables for Gfx12+ short type encoding/decoding |
+| **Commit title** | nvk: Interp frag_coord at centroid for min_sample_shading |
 | **Build date** | 20260701 |
-| **Release** | [v26.2.0-20260701-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701-r7) |
+| **Release** | [v26.2.0-20260701-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701-r8) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260701-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701-r8) | 2026-07-01 | [`0d82e6c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0d82e6c4072c4fd7b551cf871ae5d81ea804d553) | nvk: Interp frag_coord at centroid for min_sample_shading | Vulkan 1.4.354 |
 | [v26.2.0-20260701-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701-r7) | 2026-07-01 | [`790bebe`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/790bebe7ca0d9625dc378a805540da07523b17ef) | intel/gen: Use lookup tables for Gfx12+ short type encoding/decoding | Vulkan 1.4.354 |
 | [v26.2.0-20260701-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701-r6) | 2026-07-01 | [`6fa81ed`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6fa81edf350ab680292e767ba407fc89f88b8da9) | dzn: silence PREfast C33010 warnings | Vulkan 1.4.354 |
 | [v26.2.0-20260701-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701-r5) | 2026-07-01 | [`25d1489`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/25d1489966d2f293f67bc5e653bce053bd3516e2) | tu: Force GMEM mode when renderpass has MSRTSS attachments | Vulkan 1.4.354 |
@@ -94,8 +95,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.2.0-20260701-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701-r3) | 2026-07-01 | [`8478de3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8478de3755dd74e31550e85346844256c578f686) | vulkan,anv,radv: do not crash when querying descriptor size for unsupported type | Vulkan 1.4.354 |
 | [v26.2.0-20260701-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701-r2) | 2026-07-01 | [`0c195a0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0c195a01b06d693274b51af58d921071643fb5a7) | drm-shim: Fix racy initialization. | Vulkan 1.4.354 |
 | [v26.2.0-20260701](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701) | 2026-07-01 | [`d02b251`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d02b25157c68804c4e6da613faf0f38a3bcca6d3) | vulkan/android: force linear for mutable format | Vulkan 1.4.354 |
-| [v26.2.0-20260630-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260630-r8) | 2026-06-30 | [`a425e8f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a425e8f7ebb95193de5c5d8695d79335f0040bfa) | kraid: Better RA | Vulkan 1.4.354 |
-| [v26.2.0-20260630-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260630-r7) | 2026-06-30 | [`8cf9a06`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8cf9a06e154dec3854d3bdc1d050769e3d560423) | st/pbo_compute: account for drivers failing to create cs shaders | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
