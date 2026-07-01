@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`25d1489`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/25d1489966d2f293f67bc5e653bce053bd3516e2) |
+| **Commit** | [`6fa81ed`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6fa81edf350ab680292e767ba407fc89f88b8da9) |
 | **Commit date** | 2026-07-01 |
-| **Commit title** | tu: Force GMEM mode when renderpass has MSRTSS attachments |
+| **Commit title** | dzn: silence PREfast C33010 warnings |
 | **Build date** | 20260701 |
-| **Release** | [v26.2.0-20260701-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701-r5) |
+| **Release** | [v26.2.0-20260701-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701-r6) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260701-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701-r6) | 2026-07-01 | [`6fa81ed`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6fa81edf350ab680292e767ba407fc89f88b8da9) | dzn: silence PREfast C33010 warnings | Vulkan 1.4.354 |
 | [v26.2.0-20260701-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701-r5) | 2026-07-01 | [`25d1489`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/25d1489966d2f293f67bc5e653bce053bd3516e2) | tu: Force GMEM mode when renderpass has MSRTSS attachments | Vulkan 1.4.354 |
 | [v26.2.0-20260701-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701-r4) | 2026-07-01 | [`e06a7cc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e06a7cc27746f6b7cce83806b87e2081f31ebe88) | svga: Update CI expectations. | Vulkan 1.4.354 |
 | [v26.2.0-20260701-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701-r3) | 2026-07-01 | [`8478de3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8478de3755dd74e31550e85346844256c578f686) | vulkan,anv,radv: do not crash when querying descriptor size for unsupported type | Vulkan 1.4.354 |
