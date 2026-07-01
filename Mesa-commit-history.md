@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260701-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701-r5) | 2026-07-01 | [`25d1489`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/25d1489966d2f293f67bc5e653bce053bd3516e2) | tu: Force GMEM mode when renderpass has MSRTSS attachments | Vulkan 1.4.354 |
 | [v26.2.0-20260701-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701-r4) | 2026-07-01 | [`e06a7cc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e06a7cc27746f6b7cce83806b87e2081f31ebe88) | svga: Update CI expectations. | Vulkan 1.4.354 |
 | [v26.2.0-20260701-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701-r3) | 2026-07-01 | [`8478de3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8478de3755dd74e31550e85346844256c578f686) | vulkan,anv,radv: do not crash when querying descriptor size for unsupported type | Vulkan 1.4.354 |
 | [v26.2.0-20260701-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701-r2) | 2026-07-01 | [`0c195a0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0c195a01b06d693274b51af58d921071643fb5a7) | drm-shim: Fix racy initialization. | Vulkan 1.4.354 |
