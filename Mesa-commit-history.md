@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260702-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260702-r9) | 2026-07-02 | [`d49a25f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d49a25f8526ce2a7fc67d0759fe6289fbd560e71) | etnaviv: Support native bitfield_insert | Vulkan 1.4.354 |
 | [v26.2.0-20260702-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260702-r8) | 2026-07-02 | [`57df60b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/57df60ba2819a0d11451591d67111e94bb033ac7) | nvk: Serialize shaders with asm | Vulkan 1.4.354 |
 | [v26.2.0-20260702-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260702-r7) | 2026-07-02 | [`5875055`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5875055a74ad15702ee467c2f6fa27bd6c0e9835) | nvk: Fix DGC localsize computation | Vulkan 1.4.354 |
 | [v26.2.0-20260702-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260702-r6) | 2026-07-02 | [`f98e13c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f98e13c1119f06c1d2f5f26e9393db980d7874b3) | panvk/v10+: Fix size gt -> gte for 64k alignment | Vulkan 1.4.354 |
