@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260702](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260702) | 2026-07-01 | [`68bef96`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/68bef96fa70bbc5fe66a3edd53c40385ceef5f3d) | glx/apple: silence OpenGL deprecation warnings | Vulkan 1.4.354 |
 | [v26.2.0-20260701-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701-r8) | 2026-07-01 | [`0d82e6c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0d82e6c4072c4fd7b551cf871ae5d81ea804d553) | nvk: Interp frag_coord at centroid for min_sample_shading | Vulkan 1.4.354 |
 | [v26.2.0-20260701-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701-r7) | 2026-07-01 | [`790bebe`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/790bebe7ca0d9625dc378a805540da07523b17ef) | intel/gen: Use lookup tables for Gfx12+ short type encoding/decoding | Vulkan 1.4.354 |
 | [v26.2.0-20260701-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260701-r6) | 2026-07-01 | [`6fa81ed`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6fa81edf350ab680292e767ba407fc89f88b8da9) | dzn: silence PREfast C33010 warnings | Vulkan 1.4.354 |
