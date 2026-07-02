@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260702-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260702-r5) | 2026-07-02 | [`1b48f61`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1b48f615f0bb215bab2f7ceb9efa319036ecc2a2) | teflon/tests: Use reference kernels | Vulkan 1.4.354 |
 | [v26.2.0-20260702-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260702-r4) | 2026-07-02 | [`ec6d468`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ec6d468134f739c68a77e5637d6eb9a599d97710) | radv: use PKT3_SET_SH_REG_PAIRS for setting multiple view_index SGPRs on gfx12 | Vulkan 1.4.354 |
 | [v26.2.0-20260702-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260702-r3) | 2026-07-02 | [`1635938`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1635938004d07cb4ab2f95dffd169091200c17d8) | etnaviv: use buffer resource accessor for indirect draws | Vulkan 1.4.354 |
 | [v26.2.0-20260702-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260702-r2) | 2026-07-01 | [`5d4b3d6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5d4b3d64982c42614873880764d3ae392cf1ca0d) | glx/apple: return CGLError from apple_visual_create_pfobj instead of aborting | Vulkan 1.4.354 |
