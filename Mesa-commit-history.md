@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260703-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r2) | 2026-07-03 | [`9c8b8df`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9c8b8dfc16f748fc231833185687210a1db6f9d4) | nir: add pass to optimize shared variables to subgroup operations | Vulkan 1.4.354 |
 | [v26.2.0-20260703](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703) | 2026-07-02 | [`9963753`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/99637537e1b33afb21b21bb39290b647b7b67e59) | kraid/nir: Plumb through texture ops | Vulkan 1.4.354 |
 | [v26.2.0-20260702-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260702-r9) | 2026-07-02 | [`d49a25f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d49a25f8526ce2a7fc67d0759fe6289fbd560e71) | etnaviv: Support native bitfield_insert | Vulkan 1.4.354 |
 | [v26.2.0-20260702-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260702-r8) | 2026-07-02 | [`57df60b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/57df60ba2819a0d11451591d67111e94bb033ac7) | nvk: Serialize shaders with asm | Vulkan 1.4.354 |
