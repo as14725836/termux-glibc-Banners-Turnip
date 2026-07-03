@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`d0c6929`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d0c692978cf52e7ecd02a700da3c3b0398cb22f0) |
+| **Commit** | [`fe54903`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fe549034510744348b51df3f3e521670341fec14) |
 | **Commit date** | 2026-07-03 |
-| **Commit title** | rusticl/device: use OpenCL spec minimum for mem_base_addr_align |
+| **Commit title** | kraid: dead-code elimination pass |
 | **Build date** | 20260703 |
-| **Release** | [v26.2.0-20260703-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r7) |
+| **Release** | [v26.2.0-20260703-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r8) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260703-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r8) | 2026-07-03 | [`fe54903`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fe549034510744348b51df3f3e521670341fec14) | kraid: dead-code elimination pass | Vulkan 1.4.354 |
 | [v26.2.0-20260703-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r7) | 2026-07-03 | [`d0c6929`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d0c692978cf52e7ecd02a700da3c3b0398cb22f0) | rusticl/device: use OpenCL spec minimum for mem_base_addr_align | Vulkan 1.4.354 |
 | [v26.2.0-20260703-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r6) | 2026-07-03 | [`64763b2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/64763b243c07104b73893af7cf8e2c96c9eece34) | v3d: fix slot and input indexing in v3d_set_global_binding | Vulkan 1.4.354 |
 | [v26.2.0-20260703-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r5) | 2026-07-03 | [`705146f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/705146f62779c261320404b89e26fdca3fe5c37a) | ci/vulkan: remove long outdated skips | Vulkan 1.4.354 |
@@ -95,7 +96,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.2.0-20260703-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r2) | 2026-07-03 | [`9c8b8df`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9c8b8dfc16f748fc231833185687210a1db6f9d4) | nir: add pass to optimize shared variables to subgroup operations | Vulkan 1.4.354 |
 | [v26.2.0-20260703](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703) | 2026-07-03 | [`9963753`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/99637537e1b33afb21b21bb39290b647b7b67e59) | kraid/nir: Plumb through texture ops | Vulkan 1.4.354 |
 | [v26.2.0-20260702-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260702-r9) | 2026-07-02 | [`d49a25f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d49a25f8526ce2a7fc67d0759fe6289fbd560e71) | etnaviv: Support native bitfield_insert | Vulkan 1.4.354 |
-| [v26.2.0-20260702-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260702-r8) | 2026-07-02 | [`57df60b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/57df60ba2819a0d11451591d67111e94bb033ac7) | nvk: Serialize shaders with asm | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
