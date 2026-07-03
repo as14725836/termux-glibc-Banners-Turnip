@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260703-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r5) | 2026-07-03 | [`705146f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/705146f62779c261320404b89e26fdca3fe5c37a) | ci/vulkan: remove long outdated skips | Vulkan 1.4.354 |
 | [v26.2.0-20260703-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r4) | 2026-07-03 | [`4e62e83`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4e62e8370978595c4dd13fff23ec472e469e4038) | drm-shim/freedreno: Fix fprintf format specifier | Vulkan 1.4.354 |
 | [v26.2.0-20260703-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r3) | 2026-07-03 | [`5d276f3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5d276f3ffbaea18bbb722f5a1ad7e13178767cb8) | radv,anv: Enable BVH updates | Vulkan 1.4.354 |
 | [v26.2.0-20260703-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r2) | 2026-07-03 | [`9c8b8df`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9c8b8dfc16f748fc231833185687210a1db6f9d4) | nir: add pass to optimize shared variables to subgroup operations | Vulkan 1.4.354 |
