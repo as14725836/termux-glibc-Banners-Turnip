@@ -86,19 +86,41 @@ build_lib_for_linux(){
 	export LDFLAGS="-flto=thin"
 	
 	# 使用系统 meson
-	 meson setup build \
-	    --libdir=lib \
-		--prefix /data/data/com.termux/files/usr/glibc \
-		-Dbuildtype=release \
-		-Dstrip=true \
-		-Dplatforms=x11,wayland \
-		-Dvulkan-drivers=freedreno \
-		-Dvulkan-beta=true \
-		-Dfreedreno-kmds=kgsl \
-		-Dgallium-drivers= \
-		-Degl=disabled \
-		-Dtools=freedreno \
-		--reconfigure
+	 meson setup builddir \
+            --libdir=lib \
+            -Dprefix=/data/data/com.termux/files/usr/glibc \
+            -Dbuildtype=release \
+            -Dplatforms=x11 \
+            -Degl-native-platform=x11 \
+            -Dglx=dri \
+            -Dglx-direct=true \
+            -Dopengl=true \
+            -Dgles1=enabled \
+            -Dgles2=enabled \
+            -Dglvnd=disabled \
+            -Degl=enabled \
+            -Dllvm=disabled \
+            -Dshared-llvm=enabled \
+            -Dshader-cache=enabled \
+            -Dshared-glapi=enabled \
+            -Dxlib-lease=enabled \
+            -Dvulkan-beta=true \
+            -Dlibunwind=disabled \
+            -Dvalgrind=disabled \
+            -Dmicrosoft-clc=disabled \
+            -Dgallium-rusticl=false \
+            -Dgallium-extra-hud=true \
+            -Dgallium-drivers=zink,freedreno,virgl,softpipe \
+            -Dgallium-rusticl-enable-drivers=freedreno \
+            -Dshader-cache-default=true \
+            -Dvulkan-drivers=freedreno,swrast,virtio \
+            -Dfreedreno-kmds=kgsl \
+            -Dvulkan-layers=anti-lag \
+            -Dvideo-codecs=all \
+            -Dgbm=enabled \
+            -Db_ndebug=true \
+            -Dstrip=true \
+		    --reconfigure
 
 	echo "Compiling build files..."
 	ninja -C build
