@@ -85,7 +85,7 @@ build_lib_for_linux(){
 	export LDFLAGS="-flto=thin"
 	
 	# 使用 Termux 路径作为 prefix
-	meson setup builddir \
+	meson setup build \
             --libdir=lib \
             -Dprefix=/data/data/com.termux/files/usr/glibc \
             -Dbuildtype=release \
