@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260703-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r7) | 2026-07-03 | [`d0c6929`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d0c692978cf52e7ecd02a700da3c3b0398cb22f0) | rusticl/device: use OpenCL spec minimum for mem_base_addr_align | Vulkan 1.4.354 |
 | [v26.2.0-20260703-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r6) | 2026-07-03 | [`64763b2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/64763b243c07104b73893af7cf8e2c96c9eece34) | v3d: fix slot and input indexing in v3d_set_global_binding | Vulkan 1.4.354 |
 | [v26.2.0-20260703-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r5) | 2026-07-03 | [`705146f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/705146f62779c261320404b89e26fdca3fe5c37a) | ci/vulkan: remove long outdated skips | Vulkan 1.4.354 |
 | [v26.2.0-20260703-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r4) | 2026-07-03 | [`4e62e83`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4e62e8370978595c4dd13fff23ec472e469e4038) | drm-shim/freedreno: Fix fprintf format specifier | Vulkan 1.4.354 |
