@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`fe54903`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fe549034510744348b51df3f3e521670341fec14) |
+| **Commit** | [`77338bc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/77338bc274a02d6335813f786c7db780db99c848) |
 | **Commit date** | 2026-07-03 |
-| **Commit title** | kraid: dead-code elimination pass |
+| **Commit title** | va: Stop using vl_compositor |
 | **Build date** | 20260703 |
-| **Release** | [v26.2.0-20260703-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r8) |
+| **Release** | [v26.2.0-20260703-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r9) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260703-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r9) | 2026-07-03 | [`77338bc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/77338bc274a02d6335813f786c7db780db99c848) | va: Stop using vl_compositor | Vulkan 1.4.354 |
 | [v26.2.0-20260703-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r8) | 2026-07-03 | [`fe54903`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fe549034510744348b51df3f3e521670341fec14) | kraid: dead-code elimination pass | Vulkan 1.4.354 |
 | [v26.2.0-20260703-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r7) | 2026-07-03 | [`d0c6929`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d0c692978cf52e7ecd02a700da3c3b0398cb22f0) | rusticl/device: use OpenCL spec minimum for mem_base_addr_align | Vulkan 1.4.354 |
 | [v26.2.0-20260703-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r6) | 2026-07-03 | [`64763b2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/64763b243c07104b73893af7cf8e2c96c9eece34) | v3d: fix slot and input indexing in v3d_set_global_binding | Vulkan 1.4.354 |
