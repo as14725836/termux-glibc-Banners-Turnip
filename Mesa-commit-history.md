@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260704](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260704) | 2026-07-04 | [`9092781`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9092781412a8e828ff36a838ee870a5dff7d56be) | anv: enable VK_KHR_shader_fma | Vulkan 1.4.354 |
 | [v26.2.0-20260703-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r9) | 2026-07-03 | [`77338bc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/77338bc274a02d6335813f786c7db780db99c848) | va: Stop using vl_compositor | Vulkan 1.4.354 |
 | [v26.2.0-20260703-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r8) | 2026-07-03 | [`fe54903`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fe549034510744348b51df3f3e521670341fec14) | kraid: dead-code elimination pass | Vulkan 1.4.354 |
 | [v26.2.0-20260703-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r7) | 2026-07-03 | [`d0c6929`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d0c692978cf52e7ecd02a700da3c3b0398cb22f0) | rusticl/device: use OpenCL spec minimum for mem_base_addr_align | Vulkan 1.4.354 |
