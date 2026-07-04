@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260704-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260704-r2) | 2026-07-04 | [`4274cd9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4274cd9ca6ba528651fc60eb035e3b1154cd5b2d) | kraid: Add OpAtom* and plumb them through | Vulkan 1.4.354 |
 | [v26.2.0-20260704](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260704) | 2026-07-04 | [`9092781`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9092781412a8e828ff36a838ee870a5dff7d56be) | anv: enable VK_KHR_shader_fma | Vulkan 1.4.354 |
 | [v26.2.0-20260703-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r9) | 2026-07-03 | [`77338bc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/77338bc274a02d6335813f786c7db780db99c848) | va: Stop using vl_compositor | Vulkan 1.4.354 |
 | [v26.2.0-20260703-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260703-r8) | 2026-07-03 | [`fe54903`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fe549034510744348b51df3f3e521670341fec14) | kraid: dead-code elimination pass | Vulkan 1.4.354 |
