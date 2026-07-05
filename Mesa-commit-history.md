@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260705-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260705-r3) | 2026-07-05 | [`19b7200`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/19b72005ca21f21bf398a53c967ddfddf443968f) | Uprev Piglit to 9a0eab5e1f7f009b4f72c25d23faf937b38354a6 | Vulkan 1.4.354 |
 | [v26.2.0-20260705-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260705-r2) | 2026-07-05 | [`0b17f5d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0b17f5d2f2858650c19f666337d590ca35591912) | rocket: simplify input/output tensor creation | Vulkan 1.4.354 |
 | [v26.2.0-20260705](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260705) | 2026-07-04 | [`58513e4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/58513e4bb72e29fac2abb5e89c6ef308d7cbe658) | kraid/copy-prop: Add byte-based copy propagation | Vulkan 1.4.354 |
 | [v26.2.0-20260704-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260704-r5) | 2026-07-04 | [`6ff5ff2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6ff5ff273649a2b6d81febe50f9b161054fcd27d) | nir/opt_varyings: move (c ? interp_input0 : interp_input1) into the prev shader | Vulkan 1.4.354 |
