@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260705](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260705) | 2026-07-04 | [`58513e4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/58513e4bb72e29fac2abb5e89c6ef308d7cbe658) | kraid/copy-prop: Add byte-based copy propagation | Vulkan 1.4.354 |
 | [v26.2.0-20260704-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260704-r5) | 2026-07-04 | [`6ff5ff2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6ff5ff273649a2b6d81febe50f9b161054fcd27d) | nir/opt_varyings: move (c ? interp_input0 : interp_input1) into the prev shader | Vulkan 1.4.354 |
 | [v26.2.0-20260704-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260704-r4) | 2026-07-04 | [`75d5cde`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/75d5cded5a582f721f1cebc7b97d1366eb3e1d85) | rocket: fix mmap leak in buffer map/unmap | Vulkan 1.4.354 |
 | [v26.2.0-20260704-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260704-r3) | 2026-07-04 | [`12cb6da`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/12cb6dace72c043969dac8a05e2c15ee8c8cd2e0) | Uprev VVL to 6906fd94f2f422beb682d43d8b1af872aaff97b0 | Vulkan 1.4.354 |
