@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`6b5b7d4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6b5b7d405cee79cee97044710fe273f0aa331f09) |
-| **Commit date** | 2026-07-05 |
-| **Commit title** | glx: remove GLX_USE_APPLE and collapse the guards it gated |
-| **Build date** | 20260705 |
-| **Release** | [v26.2.0-20260705-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260705-r6) |
+| **Commit** | [`0a82f9d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0a82f9d2af1fee7a14a878da05353db8a5f8cf21) |
+| **Commit date** | 2026-07-06 |
+| **Commit title** | radeonsi: avoid unmatched Perfetto events |
+| **Build date** | 20260706 |
+| **Release** | [v26.2.0-20260706](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260706) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260706](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260706) | 2026-07-06 | [`0a82f9d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0a82f9d2af1fee7a14a878da05353db8a5f8cf21) | radeonsi: avoid unmatched Perfetto events | Vulkan 1.4.354 |
 | [v26.2.0-20260705-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260705-r6) | 2026-07-05 | [`6b5b7d4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6b5b7d405cee79cee97044710fe273f0aa331f09) | glx: remove GLX_USE_APPLE and collapse the guards it gated | Vulkan 1.4.354 |
 | [v26.2.0-20260705-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260705-r5) | 2026-07-05 | [`114ec04`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/114ec04a6063041524cefd69426eff86f7b141c1) | glx: extract drawable lifecycle into a vtable | Vulkan 1.4.354 |
 | [v26.2.0-20260705-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260705-r4) | 2026-07-05 | [`8d839e9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8d839e912544df2a132f6edde3c89ea4d3114a5a) | ci/piglit: fix nightly expectations after piglit uprev | Vulkan 1.4.354 |
