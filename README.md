@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`338abd1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/338abd18af44da3671cab7e4c95e9bd123dd12b8) |
+| **Commit** | [`3cb0eb1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3cb0eb19f9cacec6ccc71cd8b036b8a5604f2d09) |
 | **Commit date** | 2026-07-06 |
-| **Commit title** | doc/features.txt: fix VK_KHR_shader_float16_int8 for v3dv |
+| **Commit title** | panfrost/ci: Use Linux 7.1 kernel for more jobs |
 | **Build date** | 20260706 |
-| **Release** | [v26.2.0-20260706-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260706-r3) |
+| **Release** | [v26.2.0-20260706-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260706-r4) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260706-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260706-r4) | 2026-07-06 | [`3cb0eb1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3cb0eb19f9cacec6ccc71cd8b036b8a5604f2d09) | panfrost/ci: Use Linux 7.1 kernel for more jobs | Vulkan 1.4.354 |
 | [v26.2.0-20260706-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260706-r3) | 2026-07-06 | [`338abd1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/338abd18af44da3671cab7e4c95e9bd123dd12b8) | doc/features.txt: fix VK_KHR_shader_float16_int8 for v3dv | Vulkan 1.4.354 |
 | [v26.2.0-20260706-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260706-r2) | 2026-07-06 | [`c4d58b2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c4d58b2013a8ada998a1132481ad9d63cc8e26dc) | radv: Fix destroying address binding reports | Vulkan 1.4.354 |
 | [v26.2.0-20260706](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260706) | 2026-07-06 | [`0a82f9d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0a82f9d2af1fee7a14a878da05353db8a5f8cf21) | radeonsi: avoid unmatched Perfetto events | Vulkan 1.4.354 |
