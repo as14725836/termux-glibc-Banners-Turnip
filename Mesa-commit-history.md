@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260706-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260706-r2) | 2026-07-06 | [`c4d58b2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c4d58b2013a8ada998a1132481ad9d63cc8e26dc) | radv: Fix destroying address binding reports | Vulkan 1.4.354 |
 | [v26.2.0-20260706](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260706) | 2026-07-06 | [`0a82f9d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0a82f9d2af1fee7a14a878da05353db8a5f8cf21) | radeonsi: avoid unmatched Perfetto events | Vulkan 1.4.354 |
 | [v26.2.0-20260705-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260705-r6) | 2026-07-05 | [`6b5b7d4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6b5b7d405cee79cee97044710fe273f0aa331f09) | glx: remove GLX_USE_APPLE and collapse the guards it gated | Vulkan 1.4.354 |
 | [v26.2.0-20260705-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260705-r5) | 2026-07-05 | [`114ec04`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/114ec04a6063041524cefd69426eff86f7b141c1) | glx: extract drawable lifecycle into a vtable | Vulkan 1.4.354 |
