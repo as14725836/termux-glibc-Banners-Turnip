@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260707-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260707-r4) | 2026-07-07 | [`eda938d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/eda938dc6f3d9a28f5453aff97902406d49284ff) | anv/brw: limit push constant promotion in vertex shaders | Vulkan 1.4.354 |
 | [v26.2.0-20260707-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260707-r3) | 2026-07-07 | [`01cdd69`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/01cdd69fdf1f3636a81bcf56de8e696415cc690b) | zink: Add missing link against libxcb-present | Vulkan 1.4.354 |
 | [v26.2.0-20260707-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260707-r2) | 2026-07-07 | [`eaa4b57`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/eaa4b57774d1f8825dcdfc280ceb8adbecfd19d3) | anv: Initialize shader debug archive key size | Vulkan 1.4.354 |
 | [v26.2.0-20260707](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260707) | 2026-07-06 | [`6a50eba`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6a50eba471c56c045a07b00811cc95246de7faa7) | anv: Bump subgroup size for histogram and prefix shader | Vulkan 1.4.354 |
