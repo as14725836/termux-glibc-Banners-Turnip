@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260707-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260707-r6) | 2026-07-07 | [`bd496df`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/bd496df452033d04798141eb11bf375807780f03) | v3d: clamp transform feedback offset to buffer size | Vulkan 1.4.354 |
 | [v26.2.0-20260707-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260707-r5) | 2026-07-07 | [`19a58c4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/19a58c4b4f5f83e2a16c768ec1afe2011ee76460) | llvmpipe: Enable PIPE_CAP_SHAREABLE_SHADERS | Vulkan 1.4.354 |
 | [v26.2.0-20260707-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260707-r4) | 2026-07-07 | [`eda938d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/eda938dc6f3d9a28f5453aff97902406d49284ff) | anv/brw: limit push constant promotion in vertex shaders | Vulkan 1.4.354 |
 | [v26.2.0-20260707-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260707-r3) | 2026-07-07 | [`01cdd69`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/01cdd69fdf1f3636a81bcf56de8e696415cc690b) | zink: Add missing link against libxcb-present | Vulkan 1.4.354 |
