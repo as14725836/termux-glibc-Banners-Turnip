@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260708-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r6) | 2026-07-08 | [`7619c45`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7619c456ddf129a91d0242c3e0c71a02d3bcecf4) | kk: Pre-declare texture SSA variables | Vulkan 1.4.354 |
 | [v26.2.0-20260708-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r5) | 2026-07-08 | [`b820907`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b8209078389c19d79e81639732f00a62fc2425ae) | vulkan: use center/extent form for instance node AABB transform | Vulkan 1.4.354 |
 | [v26.2.0-20260708-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r4) | 2026-07-08 | [`c1f982a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c1f982af998de92052901e73aefe486620867e06) | kraid/copy-prop: Treat F16ToF32 as a widening copy | Vulkan 1.4.354 |
 | [v26.2.0-20260708-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r3) | 2026-07-08 | [`0e20c07`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0e20c07faef2b9768a6ce7ccade1962775581fdf) | lavapipe: handle depth blit aspect masking | Vulkan 1.4.354 |
