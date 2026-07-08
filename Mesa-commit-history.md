@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260708-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r10) | 2026-07-08 | [`d8bda1b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d8bda1b651002e8b6585a672125550255c8bdf7c) | mediafoundation: ask for temporal delimiter for AV1 via raw header | Vulkan 1.4.354 |
 | [v26.2.0-20260708-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r9) | 2026-07-08 | [`41ff765`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/41ff765c8bfe0737206809a42ece12bacbd9b0f7) | tu: Use application_name_match instead of exe match for workarounds | Vulkan 1.4.354 |
 | [v26.2.0-20260708-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r8) | 2026-07-08 | [`3db7625`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3db76251251c91885e488fdfc5b68644890eef10) | jay: add real cycle model | Vulkan 1.4.354 |
 | [v26.2.0-20260708-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r7) | 2026-07-08 | [`601343f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/601343f4050c4c5bb47bc1e086e15ccecebb3511) | anv/ci: turn on astc emulation testing | Vulkan 1.4.354 |
