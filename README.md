@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`fb8742a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fb8742a4b97bb1bef0fc2f2902523e766bb78e2d) |
+| **Commit** | [`0e20c07`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0e20c07faef2b9768a6ce7ccade1962775581fdf) |
 | **Commit date** | 2026-07-08 |
-| **Commit title** | util/tests: fix unused variable warnings in cache List test |
+| **Commit title** | lavapipe: handle depth blit aspect masking |
 | **Build date** | 20260708 |
-| **Release** | [v26.2.0-20260708-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r2) |
+| **Release** | [v26.2.0-20260708-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260708-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r3) | 2026-07-08 | [`0e20c07`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0e20c07faef2b9768a6ce7ccade1962775581fdf) | lavapipe: handle depth blit aspect masking | Vulkan 1.4.354 |
 | [v26.2.0-20260708-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r2) | 2026-07-08 | [`fb8742a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fb8742a4b97bb1bef0fc2f2902523e766bb78e2d) | util/tests: fix unused variable warnings in cache List test | Vulkan 1.4.354 |
 | [v26.2.0-20260708](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708) | 2026-07-08 | [`64578c2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/64578c2de5a06ac2b1e03b70ab5e5a39abc3b316) | kraid: Stop re-sorting blocks with CFGBuilder | Vulkan 1.4.354 |
 | [v26.2.0-20260707-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260707-r9) | 2026-07-07 | [`ada811f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ada811fb72ee5d2ea698d675bd0399186f9582ab) | pan/nir: Lower read_invocation to 32 bits | Vulkan 1.4.354 |
@@ -96,7 +97,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.2.0-20260707-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260707-r5) | 2026-07-07 | [`19a58c4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/19a58c4b4f5f83e2a16c768ec1afe2011ee76460) | llvmpipe: Enable PIPE_CAP_SHAREABLE_SHADERS | Vulkan 1.4.354 |
 | [v26.2.0-20260707-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260707-r4) | 2026-07-07 | [`eda938d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/eda938dc6f3d9a28f5453aff97902406d49284ff) | anv/brw: limit push constant promotion in vertex shaders | Vulkan 1.4.354 |
 | [v26.2.0-20260707-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260707-r3) | 2026-07-07 | [`01cdd69`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/01cdd69fdf1f3636a81bcf56de8e696415cc690b) | zink: Add missing link against libxcb-present | Vulkan 1.4.354 |
-| [v26.2.0-20260707-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260707-r2) | 2026-07-07 | [`eaa4b57`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/eaa4b57774d1f8825dcdfc280ceb8adbecfd19d3) | anv: Initialize shader debug archive key size | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
