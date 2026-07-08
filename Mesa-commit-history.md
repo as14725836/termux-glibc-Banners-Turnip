@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260708](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708) | 2026-07-07 | [`64578c2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/64578c2de5a06ac2b1e03b70ab5e5a39abc3b316) | kraid: Stop re-sorting blocks with CFGBuilder | Vulkan 1.4.354 |
 | [v26.2.0-20260707-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260707-r9) | 2026-07-07 | [`ada811f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ada811fb72ee5d2ea698d675bd0399186f9582ab) | pan/nir: Lower read_invocation to 32 bits | Vulkan 1.4.354 |
 | [v26.2.0-20260707-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260707-r8) | 2026-07-07 | [`fb3e58f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fb3e58f4d849545533388e7e29cf54f67a8835f7) | radv/meta: fix restoring descriptor heaps | Vulkan 1.4.354 |
 | [v26.2.0-20260707-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260707-r7) | 2026-07-07 | [`cff43b5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/cff43b5af37049b167d4a6046c65f3cef32cce1c) | v3dv: enable VK_KHR_shader_subgroup_rotate / rotate subgroups | Vulkan 1.4.354 |
