@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`c1f982a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c1f982af998de92052901e73aefe486620867e06) |
+| **Commit** | [`b820907`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b8209078389c19d79e81639732f00a62fc2425ae) |
 | **Commit date** | 2026-07-08 |
-| **Commit title** | kraid/copy-prop: Treat F16ToF32 as a widening copy |
+| **Commit title** | vulkan: use center/extent form for instance node AABB transform |
 | **Build date** | 20260708 |
-| **Release** | [v26.2.0-20260708-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r4) |
+| **Release** | [v26.2.0-20260708-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r5) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260708-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r5) | 2026-07-08 | [`b820907`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b8209078389c19d79e81639732f00a62fc2425ae) | vulkan: use center/extent form for instance node AABB transform | Vulkan 1.4.354 |
 | [v26.2.0-20260708-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r4) | 2026-07-08 | [`c1f982a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c1f982af998de92052901e73aefe486620867e06) | kraid/copy-prop: Treat F16ToF32 as a widening copy | Vulkan 1.4.354 |
 | [v26.2.0-20260708-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r3) | 2026-07-08 | [`0e20c07`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0e20c07faef2b9768a6ce7ccade1962775581fdf) | lavapipe: handle depth blit aspect masking | Vulkan 1.4.354 |
 | [v26.2.0-20260708-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r2) | 2026-07-08 | [`fb8742a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fb8742a4b97bb1bef0fc2f2902523e766bb78e2d) | util/tests: fix unused variable warnings in cache List test | Vulkan 1.4.354 |
