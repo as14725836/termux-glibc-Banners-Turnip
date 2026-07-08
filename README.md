@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`3db7625`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3db76251251c91885e488fdfc5b68644890eef10) |
+| **Commit** | [`41ff765`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/41ff765c8bfe0737206809a42ece12bacbd9b0f7) |
 | **Commit date** | 2026-07-08 |
-| **Commit title** | jay: add real cycle model |
+| **Commit title** | tu: Use application_name_match instead of exe match for workarounds |
 | **Build date** | 20260708 |
-| **Release** | [v26.2.0-20260708-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r8) |
+| **Release** | [v26.2.0-20260708-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r9) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260708-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r9) | 2026-07-08 | [`41ff765`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/41ff765c8bfe0737206809a42ece12bacbd9b0f7) | tu: Use application_name_match instead of exe match for workarounds | Vulkan 1.4.354 |
 | [v26.2.0-20260708-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r8) | 2026-07-08 | [`3db7625`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3db76251251c91885e488fdfc5b68644890eef10) | jay: add real cycle model | Vulkan 1.4.354 |
 | [v26.2.0-20260708-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r7) | 2026-07-08 | [`601343f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/601343f4050c4c5bb47bc1e086e15ccecebb3511) | anv/ci: turn on astc emulation testing | Vulkan 1.4.354 |
 | [v26.2.0-20260708-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r6) | 2026-07-08 | [`7619c45`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7619c456ddf129a91d0242c3e0c71a02d3bcecf4) | kk: Pre-declare texture SSA variables | Vulkan 1.4.354 |
