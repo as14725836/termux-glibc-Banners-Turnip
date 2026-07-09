@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`ce2c2a2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ce2c2a29f135993d2a26e1407236716f47b6043d) |
+| **Commit** | [`4fd7b49`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4fd7b49406b50f3f9a03ee53e7c1dc615d7a8549) |
 | **Commit date** | 2026-07-09 |
-| **Commit title** | zink/ci: update trace checksums |
+| **Commit title** | dri/st: Fall back to Z32_FLOAT depth configs when Z32_UNORM is unsupported |
 | **Build date** | 20260709 |
-| **Release** | [v26.2.0-20260709](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260709) |
+| **Release** | [v26.2.0-20260709-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260709-r2) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260709-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260709-r2) | 2026-07-09 | [`4fd7b49`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4fd7b49406b50f3f9a03ee53e7c1dc615d7a8549) | dri/st: Fall back to Z32_FLOAT depth configs when Z32_UNORM is unsupported | Vulkan 1.4.354 |
 | [v26.2.0-20260709](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260709) | 2026-07-09 | [`ce2c2a2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ce2c2a29f135993d2a26e1407236716f47b6043d) | zink/ci: update trace checksums | Vulkan 1.4.354 |
 | [v26.2.0-20260708-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r11) | 2026-07-08 | [`712ebaa`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/712ebaa4b1a9f3e2f05ac436f456c080b9bb30c4) | pan: Add BIFROST_MESA_DUMP_DIR option to dump shader binaries | Vulkan 1.4.354 |
 | [v26.2.0-20260708-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r10) | 2026-07-08 | [`d8bda1b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d8bda1b651002e8b6585a672125550255c8bdf7c) | mediafoundation: ask for temporal delimiter for AV1 via raw header | Vulkan 1.4.354 |
@@ -96,7 +97,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.2.0-20260708-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r6) | 2026-07-08 | [`7619c45`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7619c456ddf129a91d0242c3e0c71a02d3bcecf4) | kk: Pre-declare texture SSA variables | Vulkan 1.4.354 |
 | [v26.2.0-20260708-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r5) | 2026-07-08 | [`b820907`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b8209078389c19d79e81639732f00a62fc2425ae) | vulkan: use center/extent form for instance node AABB transform | Vulkan 1.4.354 |
 | [v26.2.0-20260708-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r4) | 2026-07-08 | [`c1f982a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c1f982af998de92052901e73aefe486620867e06) | kraid/copy-prop: Treat F16ToF32 as a widening copy | Vulkan 1.4.354 |
-| [v26.2.0-20260708-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r3) | 2026-07-08 | [`0e20c07`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0e20c07faef2b9768a6ce7ccade1962775581fdf) | lavapipe: handle depth blit aspect masking | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
