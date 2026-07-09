@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260709-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260709-r3) | 2026-07-09 | [`dcceedf`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/dcceedff82a9037812f7d1d13b646869ac90f436) | xfiles: update expectations based on 2026-7-8 nightly | Vulkan 1.4.354 |
 | [v26.2.0-20260709-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260709-r2) | 2026-07-09 | [`4fd7b49`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4fd7b49406b50f3f9a03ee53e7c1dc615d7a8549) | dri/st: Fall back to Z32_FLOAT depth configs when Z32_UNORM is unsupported | Vulkan 1.4.354 |
 | [v26.2.0-20260709](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260709) | 2026-07-09 | [`ce2c2a2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ce2c2a29f135993d2a26e1407236716f47b6043d) | zink/ci: update trace checksums | Vulkan 1.4.354 |
 | [v26.2.0-20260708-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260708-r11) | 2026-07-08 | [`712ebaa`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/712ebaa4b1a9f3e2f05ac436f456c080b9bb30c4) | pan: Add BIFROST_MESA_DUMP_DIR option to dump shader binaries | Vulkan 1.4.354 |
