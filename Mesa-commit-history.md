@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260710](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710) | 2026-07-09 | [`83c85cf`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/83c85cf2b3f305f01a5a01e77a950c58bf7f2601) | rusticl: enable panfrost by default | Vulkan 1.4.354 |
 | [v26.2.0-20260709-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260709-r7) | 2026-07-09 | [`d0b72ee`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d0b72eefb3ec1e0211bb65bc449d9b217c6b0b29) | radv: call nir_opt_phi_precision | Vulkan 1.4.354 |
 | [v26.2.0-20260709-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260709-r6) | 2026-07-09 | [`1078b01`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1078b01f634c60e52a7e07bf71756a071703c094) | u_trace: Initialize fuzzy_* callbacks correctly | Vulkan 1.4.354 |
 | [v26.2.0-20260709-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260709-r5) | 2026-07-09 | [`8ccc7f5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8ccc7f5632ad21e821e32902173256dfff85a2de) | nvk: Add an NVK_DEBUG=no_compression flag | Vulkan 1.4.354 |
