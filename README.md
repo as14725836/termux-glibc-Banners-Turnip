@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`0e5b555`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0e5b555e1854c662ffb02f3162d63b3832955a00) |
+| **Commit** | [`ec2a340`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ec2a3402c2977ee050aa80eb9cdf1a5b2b678122) |
 | **Commit date** | 2026-07-10 |
-| **Commit title** | meson: ensure that libdrm auto-features match requirements |
+| **Commit title** | nak/hw_tests: add F2I test for NaN behavior |
 | **Build date** | 20260710 |
-| **Release** | [v26.2.0-20260710-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r6) |
+| **Release** | [v26.2.0-20260710-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r7) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260710-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r7) | 2026-07-10 | [`ec2a340`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ec2a3402c2977ee050aa80eb9cdf1a5b2b678122) | nak/hw_tests: add F2I test for NaN behavior | Vulkan 1.4.354 |
 | [v26.2.0-20260710-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r6) | 2026-07-10 | [`0e5b555`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0e5b555e1854c662ffb02f3162d63b3832955a00) | meson: ensure that libdrm auto-features match requirements | Vulkan 1.4.354 |
 | [v26.2.0-20260710-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r5) | 2026-07-10 | [`f7aa181`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f7aa181f89fad702d5df57079831766c08c7a00a) | gen/print: include pipes for jay_print | Vulkan 1.4.354 |
 | [v26.2.0-20260710-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r4) | 2026-07-10 | [`a6a11a4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a6a11a453c8c75742284a57bf9fc9a73f0f76ae5) | radv: Use 64bit keys on GFX12 | Vulkan 1.4.354 |
