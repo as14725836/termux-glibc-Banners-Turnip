@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260710-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r5) | 2026-07-10 | [`f7aa181`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f7aa181f89fad702d5df57079831766c08c7a00a) | gen/print: include pipes for jay_print | Vulkan 1.4.354 |
 | [v26.2.0-20260710-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r4) | 2026-07-10 | [`a6a11a4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a6a11a453c8c75742284a57bf9fc9a73f0f76ae5) | radv: Use 64bit keys on GFX12 | Vulkan 1.4.354 |
 | [v26.2.0-20260710-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r3) | 2026-07-10 | [`128614a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/128614a39136e1d4e3a25ae2ee426e18b6fa4366) | kk: Expose shaderSignedZeroInfNanPreserveFloat16/32 | Vulkan 1.4.354 |
 | [v26.2.0-20260710-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r2) | 2026-07-09 | [`a1b50db`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a1b50dbcd751bbb24ac717927c627a30e5969657) | vulkan/screenshot-layer: replace itoa/sprintf with snprintf | Vulkan 1.4.354 |
