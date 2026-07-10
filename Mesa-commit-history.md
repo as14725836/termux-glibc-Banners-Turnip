@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260710-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r8) | 2026-07-10 | [`578bf3c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/578bf3cf273a46f36a9b89f2591fc071216484ad) | intel/gen: allow dead loops | Vulkan 1.4.354 |
 | [v26.2.0-20260710-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r7) | 2026-07-10 | [`ec2a340`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ec2a3402c2977ee050aa80eb9cdf1a5b2b678122) | nak/hw_tests: add F2I test for NaN behavior | Vulkan 1.4.354 |
 | [v26.2.0-20260710-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r6) | 2026-07-10 | [`0e5b555`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0e5b555e1854c662ffb02f3162d63b3832955a00) | meson: ensure that libdrm auto-features match requirements | Vulkan 1.4.354 |
 | [v26.2.0-20260710-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r5) | 2026-07-10 | [`f7aa181`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f7aa181f89fad702d5df57079831766c08c7a00a) | gen/print: include pipes for jay_print | Vulkan 1.4.354 |
