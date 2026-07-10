@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`578bf3c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/578bf3cf273a46f36a9b89f2591fc071216484ad) |
+| **Commit** | [`b16af1f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b16af1f337c3de61aa4da7349bde5061b1736170) |
 | **Commit date** | 2026-07-10 |
-| **Commit title** | intel/gen: allow dead loops |
+| **Commit title** | d3d12: Use res_device to import resource from different device via handle |
 | **Build date** | 20260710 |
-| **Release** | [v26.2.0-20260710-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r8) |
+| **Release** | [v26.2.0-20260710-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r9) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260710-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r9) | 2026-07-10 | [`b16af1f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b16af1f337c3de61aa4da7349bde5061b1736170) | d3d12: Use res_device to import resource from different device via handle | Vulkan 1.4.354 |
 | [v26.2.0-20260710-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r8) | 2026-07-10 | [`578bf3c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/578bf3cf273a46f36a9b89f2591fc071216484ad) | intel/gen: allow dead loops | Vulkan 1.4.354 |
 | [v26.2.0-20260710-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r7) | 2026-07-10 | [`ec2a340`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ec2a3402c2977ee050aa80eb9cdf1a5b2b678122) | nak/hw_tests: add F2I test for NaN behavior | Vulkan 1.4.354 |
 | [v26.2.0-20260710-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r6) | 2026-07-10 | [`0e5b555`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0e5b555e1854c662ffb02f3162d63b3832955a00) | meson: ensure that libdrm auto-features match requirements | Vulkan 1.4.354 |
@@ -96,7 +97,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.2.0-20260710-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r2) | 2026-07-10 | [`a1b50db`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a1b50dbcd751bbb24ac717927c627a30e5969657) | vulkan/screenshot-layer: replace itoa/sprintf with snprintf | Vulkan 1.4.354 |
 | [v26.2.0-20260710](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710) | 2026-07-10 | [`83c85cf`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/83c85cf2b3f305f01a5a01e77a950c58bf7f2601) | rusticl: enable panfrost by default | Vulkan 1.4.354 |
 | [v26.2.0-20260709-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260709-r7) | 2026-07-09 | [`d0b72ee`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d0b72eefb3ec1e0211bb65bc449d9b217c6b0b29) | radv: call nir_opt_phi_precision | Vulkan 1.4.354 |
-| [v26.2.0-20260709-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260709-r6) | 2026-07-09 | [`1078b01`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1078b01f634c60e52a7e07bf71756a071703c094) | u_trace: Initialize fuzzy_* callbacks correctly | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
