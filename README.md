@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`93dc351`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/93dc3517e870f80821542dd6d8e5edb63cdf68b3) |
+| **Commit** | [`44be0a7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/44be0a749aec7f3da73a1251b00a3eea535abb4e) |
 | **Commit date** | 2026-07-11 |
-| **Commit title** | panvk: simplify non_polygon calculation |
+| **Commit title** | pan: Use Kraid's NIR options when it's enabled |
 | **Build date** | 20260711 |
-| **Release** | [v26.2.0-20260711-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260711-r2) |
+| **Release** | [v26.2.0-20260711-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260711-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260711-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260711-r3) | 2026-07-11 | [`44be0a7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/44be0a749aec7f3da73a1251b00a3eea535abb4e) | pan: Use Kraid's NIR options when it's enabled | Vulkan 1.4.354 |
 | [v26.2.0-20260711-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260711-r2) | 2026-07-11 | [`93dc351`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/93dc3517e870f80821542dd6d8e5edb63cdf68b3) | panvk: simplify non_polygon calculation | Vulkan 1.4.354 |
 | [v26.2.0-20260711](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260711) | 2026-07-11 | [`74b5819`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/74b5819d5ff2d5a9435c9ff4bad44a70f18b6780) | gfxstream: Validate guest mapped-memory ranges in flush/invalidate | Vulkan 1.4.354 |
 | [v26.2.0-20260710-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r9) | 2026-07-10 | [`b16af1f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b16af1f337c3de61aa4da7349bde5061b1736170) | d3d12: Use res_device to import resource from different device via handle | Vulkan 1.4.354 |
@@ -94,7 +95,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.2.0-20260710-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r7) | 2026-07-10 | [`ec2a340`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ec2a3402c2977ee050aa80eb9cdf1a5b2b678122) | nak/hw_tests: add F2I test for NaN behavior | Vulkan 1.4.354 |
 | [v26.2.0-20260710-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r6) | 2026-07-10 | [`0e5b555`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0e5b555e1854c662ffb02f3162d63b3832955a00) | meson: ensure that libdrm auto-features match requirements | Vulkan 1.4.354 |
 | [v26.2.0-20260710-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r5) | 2026-07-10 | [`f7aa181`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f7aa181f89fad702d5df57079831766c08c7a00a) | gen/print: include pipes for jay_print | Vulkan 1.4.354 |
-| [v26.2.0-20260710-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r4) | 2026-07-10 | [`a6a11a4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a6a11a453c8c75742284a57bf9fc9a73f0f76ae5) | radv: Use 64bit keys on GFX12 | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
