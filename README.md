@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`2e0ad86`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2e0ad862b586804965889307d4dae54dc8a77c17) |
+| **Commit** | [`9e6e6e5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9e6e6e5db7c892447496aef01892464142adfcd8) |
 | **Commit date** | 2026-07-11 |
-| **Commit title** | nvk: Use ?: in nvk_physical_device_compiler_flags |
+| **Commit title** | pan/perf: fix building error due to 'Mali G1.xml' file name with space |
 | **Build date** | 20260711 |
-| **Release** | [v26.2.0-20260711-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260711-r6) |
+| **Release** | [v26.2.0-20260711-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260711-r7) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260711-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260711-r7) | 2026-07-11 | [`9e6e6e5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9e6e6e5db7c892447496aef01892464142adfcd8) | pan/perf: fix building error due to 'Mali G1.xml' file name with space | Vulkan 1.4.354 |
 | [v26.2.0-20260711-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260711-r6) | 2026-07-11 | [`2e0ad86`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2e0ad862b586804965889307d4dae54dc8a77c17) | nvk: Use ?: in nvk_physical_device_compiler_flags | Vulkan 1.4.354 |
 | [v26.2.0-20260711-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260711-r5) | 2026-07-11 | [`2d21262`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2d212623b38423e9c0754d79f2323bd6cabf25b3) | kraid/nir: Implement nir_op_[iu]mul_2x32_64 | Vulkan 1.4.354 |
 | [v26.2.0-20260711-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260711-r4) | 2026-07-11 | [`03696e9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/03696e9a6d73d46a6cc4cbdb378ddaac02efd42a) | Uprev VVL to e875181c4f0fab1bd0c4926c21a21de0bd967bb3 | Vulkan 1.4.354 |
