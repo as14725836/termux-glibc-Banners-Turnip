@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260711](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260711) | 2026-07-10 | [`74b5819`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/74b5819d5ff2d5a9435c9ff4bad44a70f18b6780) | gfxstream: Validate guest mapped-memory ranges in flush/invalidate | Vulkan 1.4.354 |
 | [v26.2.0-20260710-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r9) | 2026-07-10 | [`b16af1f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b16af1f337c3de61aa4da7349bde5061b1736170) | d3d12: Use res_device to import resource from different device via handle | Vulkan 1.4.354 |
 | [v26.2.0-20260710-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r8) | 2026-07-10 | [`578bf3c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/578bf3cf273a46f36a9b89f2591fc071216484ad) | intel/gen: allow dead loops | Vulkan 1.4.354 |
 | [v26.2.0-20260710-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260710-r7) | 2026-07-10 | [`ec2a340`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ec2a3402c2977ee050aa80eb9cdf1a5b2b678122) | nak/hw_tests: add F2I test for NaN behavior | Vulkan 1.4.354 |
