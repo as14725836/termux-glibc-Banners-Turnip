@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260711-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260711-r4) | 2026-07-11 | [`03696e9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/03696e9a6d73d46a6cc4cbdb378ddaac02efd42a) | Uprev VVL to e875181c4f0fab1bd0c4926c21a21de0bd967bb3 | Vulkan 1.4.354 |
 | [v26.2.0-20260711-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260711-r3) | 2026-07-11 | [`44be0a7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/44be0a749aec7f3da73a1251b00a3eea535abb4e) | pan: Use Kraid's NIR options when it's enabled | Vulkan 1.4.354 |
 | [v26.2.0-20260711-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260711-r2) | 2026-07-11 | [`93dc351`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/93dc3517e870f80821542dd6d8e5edb63cdf68b3) | panvk: simplify non_polygon calculation | Vulkan 1.4.354 |
 | [v26.2.0-20260711](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260711) | 2026-07-10 | [`74b5819`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/74b5819d5ff2d5a9435c9ff4bad44a70f18b6780) | gfxstream: Validate guest mapped-memory ranges in flush/invalidate | Vulkan 1.4.354 |
