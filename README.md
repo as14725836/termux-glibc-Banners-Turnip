@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`fb774cf`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fb774cf7a1ee4640b820427384e4085b2e6f1086) |
+| **Commit** | [`079d247`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/079d247d84026a69c0878bf1ddb138de46f84ff7) |
 | **Commit date** | 2026-07-13 |
-| **Commit title** | radv: run nir_opt_reassociate_for_fma for VS/GS too |
+| **Commit title** | panfrost: Promote constants to FAU |
 | **Build date** | 20260713 |
-| **Release** | [v26.2.0-20260713-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260713-r4) |
+| **Release** | [v26.2.0-20260713-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260713-r5) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260713-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260713-r5) | 2026-07-13 | [`079d247`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/079d247d84026a69c0878bf1ddb138de46f84ff7) | panfrost: Promote constants to FAU | Vulkan 1.4.354 |
 | [v26.2.0-20260713-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260713-r4) | 2026-07-13 | [`fb774cf`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fb774cf7a1ee4640b820427384e4085b2e6f1086) | radv: run nir_opt_reassociate_for_fma for VS/GS too | Vulkan 1.4.354 |
 | [v26.2.0-20260713-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260713-r3) | 2026-07-13 | [`8210ad6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8210ad6512f6a84b8de5330ad460b6b14b50b64e) | zink: Gate tess/geom barrier stages on feature support | Vulkan 1.4.354 |
 | [v26.2.0-20260713-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260713-r2) | 2026-07-13 | [`bd05ab6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/bd05ab638556df2646be6e66aa65e201ddff5b46) | ir3/opt_preamble: lower load_global_offset to preamble | Vulkan 1.4.354 |
