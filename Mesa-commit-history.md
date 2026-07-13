@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260713-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260713-r8) | 2026-07-13 | [`ef330b6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ef330b6e3cdfbb61eb5bed383729ae1a22c20dd9) | mailmap: update my email address | Vulkan 1.4.354 |
 | [v26.2.0-20260713-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260713-r7) | 2026-07-13 | [`865d2c9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/865d2c9b96470135a4abf813215bc5967f6190dd) | panvk: Wire up VK_EXT_shader_image_atomic_int64 on v9+ | Vulkan 1.4.354 |
 | [v26.2.0-20260713-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260713-r6) | 2026-07-13 | [`67139ce`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/67139ce1482cc48bdca9eefac8ee2183554debe6) | zink: revert cached mem handling for staging uploads | Vulkan 1.4.354 |
 | [v26.2.0-20260713-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260713-r5) | 2026-07-13 | [`079d247`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/079d247d84026a69c0878bf1ddb138de46f84ff7) | panfrost: Promote constants to FAU | Vulkan 1.4.354 |
