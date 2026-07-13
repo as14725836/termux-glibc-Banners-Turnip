@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260713-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260713-r2) | 2026-07-13 | [`bd05ab6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/bd05ab638556df2646be6e66aa65e201ddff5b46) | ir3/opt_preamble: lower load_global_offset to preamble | Vulkan 1.4.354 |
 | [v26.2.0-20260713](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260713) | 2026-07-13 | [`bc287ff`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/bc287ffaffe540ba9e1514fbdafd9a4b9f4b8b51) | ci: disable Collabora's farm due to maintenance | Vulkan 1.4.354 |
 | [v26.2.0-20260712-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260712-r3) | 2026-07-12 | [`f768c98`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f768c98f3181f1255ed0315391435501b9839e72) | freedreno/ci: document fixed tests | Vulkan 1.4.354 |
 | [v26.2.0-20260712-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260712-r2) | 2026-07-12 | [`58373d6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/58373d6addcec1dcd42be42273338f5157dfb744) | venus: properly clean up driver internal sim syncobj allocs | Vulkan 1.4.354 |
