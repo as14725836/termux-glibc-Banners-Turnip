@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260713-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260713-r3) | 2026-07-13 | [`8210ad6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8210ad6512f6a84b8de5330ad460b6b14b50b64e) | zink: Gate tess/geom barrier stages on feature support | Vulkan 1.4.354 |
 | [v26.2.0-20260713-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260713-r2) | 2026-07-13 | [`bd05ab6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/bd05ab638556df2646be6e66aa65e201ddff5b46) | ir3/opt_preamble: lower load_global_offset to preamble | Vulkan 1.4.354 |
 | [v26.2.0-20260713](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260713) | 2026-07-13 | [`bc287ff`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/bc287ffaffe540ba9e1514fbdafd9a4b9f4b8b51) | ci: disable Collabora's farm due to maintenance | Vulkan 1.4.354 |
 | [v26.2.0-20260712-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260712-r3) | 2026-07-12 | [`f768c98`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f768c98f3181f1255ed0315391435501b9839e72) | freedreno/ci: document fixed tests | Vulkan 1.4.354 |
