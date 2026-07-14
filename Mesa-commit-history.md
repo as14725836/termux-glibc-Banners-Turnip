@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260714-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r12) | 2026-07-14 | [`fb2e7af`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fb2e7af27ecfd5a3707ac17205467c2df5050bd5) | brw: Rework FS SIMD selection to follow requirements over debug flags | Vulkan 1.4.354 |
 | [v26.2.0-20260714-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r11) | 2026-07-14 | [`3f9451b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3f9451b54c42a37b41246de3ceea991111389c37) | meson: add rusticl to with_driver_using_cl | Vulkan 1.4.354 |
 | [v26.2.0-20260714-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r10) | 2026-07-14 | [`f72c93c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f72c93ca8aacbcecaa86103c56656282bdfb6c71) | brw/predicate: Add missing test with farther_flags | Vulkan 1.4.354 |
 | [v26.2.0-20260714-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r9) | 2026-07-14 | [`62c2d96`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/62c2d96247de306d68c9d811dc38c95ec168ff21) | radeonsi: convert gather_instruction to nir_function_instructions_pass | Vulkan 1.4.354 |
