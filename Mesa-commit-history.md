@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260714-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r3) | 2026-07-14 | [`c275a9a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c275a9a384c4e5e8589efdf7e0e3efa4b622fbb5) | radv: add dword alignment information to descriptor set/heap pointers | Vulkan 1.4.354 |
 | [v26.2.0-20260714-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r2) | 2026-07-14 | [`ca08532`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ca08532f91e3efc551d6284f99ba39861dbb3e6f) | venus: allow to use vtest as a fallback for virtgpu | Vulkan 1.4.354 |
 | [v26.2.0-20260714](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714) | 2026-07-13 | [`4def7fb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4def7fb90a9b39367f819275ff9af93965679dd1) | brw: Fix GS EOTs to not have an empty channel mask on LSC platforms | Vulkan 1.4.354 |
 | [v26.2.0-20260713-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260713-r8) | 2026-07-13 | [`ef330b6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ef330b6e3cdfbb61eb5bed383729ae1a22c20dd9) | mailmap: update my email address | Vulkan 1.4.354 |
