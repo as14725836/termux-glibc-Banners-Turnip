@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`fb2e7af`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fb2e7af27ecfd5a3707ac17205467c2df5050bd5) |
+| **Commit** | [`ae820e2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ae820e242697ab7e8de3d3652cfd7188267a10b4) |
 | **Commit date** | 2026-07-14 |
-| **Commit title** | brw: Rework FS SIMD selection to follow requirements over debug flags |
+| **Commit title** | kk: expose Vulkan 1.4 |
 | **Build date** | 20260714 |
-| **Release** | [v26.2.0-20260714-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r12) |
+| **Release** | [v26.2.0-20260714-r13](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r13) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260714-r13](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r13) | 2026-07-14 | [`ae820e2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ae820e242697ab7e8de3d3652cfd7188267a10b4) | kk: expose Vulkan 1.4 | Vulkan 1.4.354 |
 | [v26.2.0-20260714-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r12) | 2026-07-14 | [`fb2e7af`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fb2e7af27ecfd5a3707ac17205467c2df5050bd5) | brw: Rework FS SIMD selection to follow requirements over debug flags | Vulkan 1.4.354 |
 | [v26.2.0-20260714-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r11) | 2026-07-14 | [`3f9451b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3f9451b54c42a37b41246de3ceea991111389c37) | meson: add rusticl to with_driver_using_cl | Vulkan 1.4.354 |
 | [v26.2.0-20260714-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r10) | 2026-07-14 | [`f72c93c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f72c93ca8aacbcecaa86103c56656282bdfb6c71) | brw/predicate: Add missing test with farther_flags | Vulkan 1.4.354 |
