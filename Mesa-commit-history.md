@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260714-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r6) | 2026-07-14 | [`34014c9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/34014c9bf73de2956eda8a64644bc1c511e0f9e8) | d3d12: Remove event cleanup since d3d12_fence now uses lazy SEOC | Vulkan 1.4.354 |
 | [v26.2.0-20260714-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r5) | 2026-07-14 | [`84f2f1f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/84f2f1fddfcd11f2a3d4c6d4d1bd1a35aac494f5) | vc4: free vertex and constant buffers on context destroy | Vulkan 1.4.354 |
 | [v26.2.0-20260714-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r4) | 2026-07-14 | [`9a8d947`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9a8d9478c6bb749f850514876c0ab94063cfc5cd) | pipe: Remove pipe_video_codec::expect_chunked_decode | Vulkan 1.4.354 |
 | [v26.2.0-20260714-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r3) | 2026-07-14 | [`c275a9a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c275a9a384c4e5e8589efdf7e0e3efa4b622fbb5) | radv: add dword alignment information to descriptor set/heap pointers | Vulkan 1.4.354 |
