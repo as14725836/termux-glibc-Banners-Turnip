@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260715](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260715) | 2026-07-15 | [`0b3f266`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0b3f2666029d6296cc4f9fcccbe71bbfabe4fcb7) | mesa: fix variable shadowing | Vulkan 1.4.354 |
 | [v26.2.0-20260715-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260715-r6) | 2026-07-15 | [`91b68c0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/91b68c0bc325d86b60e16752b7d35ead5ffc957e) | jay: add geometry shader support. | Vulkan 1.4.354 |
 | [v26.2.0-20260715-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260715-r5) | 2026-07-15 | [`48d3a8d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/48d3a8d8371ac488767e870b8c7497b32d8d9b30) | tu: Enable tu_allow_oob_indirect_ubo_loads for Clausewitz engine | Vulkan 1.4.354 |
 | [v26.2.0-20260715-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260715-r4) | 2026-07-15 | [`ca7b41f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ca7b41f1e10a45fa7200a520e78c3c825a7ee0a7) | kk: Only support 1 sample for storage images | Vulkan 1.4.354 |
