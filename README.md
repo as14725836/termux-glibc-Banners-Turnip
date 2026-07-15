@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.2.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`c00a5eb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c00a5eb353fad3517fbd99127a553d4b11745540) |
+| **Commit** | [`ca7b41f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ca7b41f1e10a45fa7200a520e78c3c825a7ee0a7) |
 | **Commit date** | 2026-07-15 |
-| **Commit title** | r300: emulate gl_FrontFacing on R3xx/R4xx |
+| **Commit title** | kk: Only support 1 sample for storage images |
 | **Build date** | 20260715 |
-| **Release** | [v26.2.0-20260715-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260715-r3) |
+| **Release** | [v26.2.0-20260715-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260715-r4) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.2.0-20260715-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260715-r4) | 2026-07-15 | [`ca7b41f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ca7b41f1e10a45fa7200a520e78c3c825a7ee0a7) | kk: Only support 1 sample for storage images | Vulkan 1.4.354 |
 | [v26.2.0-20260715-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260715-r3) | 2026-07-15 | [`c00a5eb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c00a5eb353fad3517fbd99127a553d4b11745540) | r300: emulate gl_FrontFacing on R3xx/R4xx | Vulkan 1.4.354 |
 | [v26.2.0-20260715-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260715-r2) | 2026-07-15 | [`0f90865`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0f9086520f0ed1ba8fdd81548e6b4e1a6dc2ad65) | panvk/csf: flush primitives generated query writes from CSF | Vulkan 1.4.354 |
 | [v26.2.0-20260715](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260715) | 2026-07-15 | [`4195130`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4195130407d4c9256d29baac001c49dc98bf2906) | jay: Add loop_once_halt opcode | Vulkan 1.4.354 |
@@ -99,8 +100,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.2.0-20260714-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r7) | 2026-07-14 | [`423f8b9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/423f8b97e2c6f5a07cd311e113e023bed920c65b) | nv30: fix truncated values in line_stipple_pattern | Vulkan 1.4.354 |
 | [v26.2.0-20260714-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r6) | 2026-07-14 | [`34014c9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/34014c9bf73de2956eda8a64644bc1c511e0f9e8) | d3d12: Remove event cleanup since d3d12_fence now uses lazy SEOC | Vulkan 1.4.354 |
 | [v26.2.0-20260714-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r5) | 2026-07-14 | [`84f2f1f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/84f2f1fddfcd11f2a3d4c6d4d1bd1a35aac494f5) | vc4: free vertex and constant buffers on context destroy | Vulkan 1.4.354 |
-| [v26.2.0-20260714-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r4) | 2026-07-14 | [`9a8d947`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9a8d9478c6bb749f850514876c0ab94063cfc5cd) | pipe: Remove pipe_video_codec::expect_chunked_decode | Vulkan 1.4.354 |
-| [v26.2.0-20260714-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r3) | 2026-07-14 | [`c275a9a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c275a9a384c4e5e8589efdf7e0e3efa4b622fbb5) | radv: add dword alignment information to descriptor set/heap pointers | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
