@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260715-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260715-r5) | 2026-07-15 | [`48297c8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/48297c8344669c4a867fae28e2cafb646218016e) | intel: Fix operator precedence in intel_simd_overridden | Vulkan 1.4.354 |
 | [v26.3.0-20260715-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260715-r4) | 2026-07-15 | [`779cdb8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/779cdb8eaaffc05ce56f197ea6a955b9edca8967) | freedreno/a6xx: Fix query barriers for gen8+ | Vulkan 1.4.354 |
 | [v26.3.0-20260715-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260715-r3) | 2026-07-15 | [`d021138`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d021138b4100bf1dc876e930645f3a382d1ed78d) | anv: hide Intel vendor ID for Cyberpunk | Vulkan 1.4.354 |
 | [v26.3.0-20260715-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260715-r2) | 2026-07-15 | [`f449a3a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f449a3ae575910ab6ee06d9607d2ffcdf442aae2) | freedreno/a6xx: Split VS driver params | Vulkan 1.4.354 |
