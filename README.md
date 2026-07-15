@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`d021138`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d021138b4100bf1dc876e930645f3a382d1ed78d) |
+| **Commit** | [`779cdb8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/779cdb8eaaffc05ce56f197ea6a955b9edca8967) |
 | **Commit date** | 2026-07-15 |
-| **Commit title** | anv: hide Intel vendor ID for Cyberpunk |
+| **Commit title** | freedreno/a6xx: Fix query barriers for gen8+ |
 | **Build date** | 20260715 |
-| **Release** | [v26.3.0-20260715-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260715-r3) |
+| **Release** | [v26.3.0-20260715-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260715-r4) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260715-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260715-r4) | 2026-07-15 | [`779cdb8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/779cdb8eaaffc05ce56f197ea6a955b9edca8967) | freedreno/a6xx: Fix query barriers for gen8+ | Vulkan 1.4.354 |
 | [v26.3.0-20260715-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260715-r3) | 2026-07-15 | [`d021138`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d021138b4100bf1dc876e930645f3a382d1ed78d) | anv: hide Intel vendor ID for Cyberpunk | Vulkan 1.4.354 |
 | [v26.3.0-20260715-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260715-r2) | 2026-07-15 | [`f449a3a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f449a3ae575910ab6ee06d9607d2ffcdf442aae2) | freedreno/a6xx: Split VS driver params | Vulkan 1.4.354 |
 | [v26.3.0-20260715](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260715) | 2026-07-15 | [`0b3f266`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0b3f2666029d6296cc4f9fcccbe71bbfabe4fcb7) | mesa: fix variable shadowing | Vulkan 1.4.354 |
@@ -98,7 +99,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.2.0-20260715](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260715) | 2026-07-15 | [`4195130`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4195130407d4c9256d29baac001c49dc98bf2906) | jay: Add loop_once_halt opcode | Vulkan 1.4.354 |
 | [v26.2.0-20260714-r13](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r13) | 2026-07-14 | [`ae820e2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ae820e242697ab7e8de3d3652cfd7188267a10b4) | kk: expose Vulkan 1.4 | Vulkan 1.4.354 |
 | [v26.2.0-20260714-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r12) | 2026-07-14 | [`fb2e7af`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fb2e7af27ecfd5a3707ac17205467c2df5050bd5) | brw: Rework FS SIMD selection to follow requirements over debug flags | Vulkan 1.4.354 |
-| [v26.2.0-20260714-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.2.0-20260714-r11) | 2026-07-14 | [`3f9451b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3f9451b54c42a37b41246de3ceea991111389c37) | meson: add rusticl to with_driver_using_cl | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
