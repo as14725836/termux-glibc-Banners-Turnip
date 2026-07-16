@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260716-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r4) | 2026-07-16 | [`108c928`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/108c92894a9a01dcdd34e3d6f1a0c3012452d146) | kk: remove deprecated storeActionOptions in macOS27 | Vulkan 1.4.354 |
 | [v26.3.0-20260716-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r3) | 2026-07-16 | [`09180f0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/09180f0eed603872b75f44b398048db06f236f54) | zink: fix swap interval changes being dropped | Vulkan 1.4.354 |
 | [v26.3.0-20260716-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r2) | 2026-07-16 | [`c6b5729`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c6b5729a78343383ff43cf2883c04e08e6fd62cd) | brw: Ignore source modifiers in needs_dst_copy | Vulkan 1.4.354 |
 | [v26.3.0-20260716](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716) | 2026-07-15 | [`372c609`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/372c609834c0d9378391ee57c6f7e15a096a6cbb) | kk: Move nir_lower_io_vars_to_temporaries to early msl_preprocess_nir | Vulkan 1.4.354 |
