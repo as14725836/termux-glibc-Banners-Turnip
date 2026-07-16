@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`87afa31`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/87afa3193eee4c6dbdef4306a7c6ead6a5a4d825) |
+| **Commit** | [`97c9a4e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/97c9a4eaa40b41739c20948117a1b977704f5c50) |
 | **Commit date** | 2026-07-16 |
-| **Commit title** | iris: set 3DSTATE_SF::LastPixelEnable with smooth lines |
+| **Commit title** | venus: recycle idle sfb cmds only after async wait |
 | **Build date** | 20260716 |
-| **Release** | [v26.3.0-20260716-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r7) |
+| **Release** | [v26.3.0-20260716-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r8) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260716-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r8) | 2026-07-16 | [`97c9a4e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/97c9a4eaa40b41739c20948117a1b977704f5c50) | venus: recycle idle sfb cmds only after async wait | Vulkan 1.4.354 |
 | [v26.3.0-20260716-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r7) | 2026-07-16 | [`87afa31`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/87afa3193eee4c6dbdef4306a7c6ead6a5a4d825) | iris: set 3DSTATE_SF::LastPixelEnable with smooth lines | Vulkan 1.4.354 |
 | [v26.3.0-20260716-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r6) | 2026-07-16 | [`c6f6c9b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c6f6c9b02da991c9c878d8992b4074bbba70aa73) | anv: flush accumulated barriers for top of TOP_OF_PIPE | Vulkan 1.4.354 |
 | [v26.3.0-20260716-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r5) | 2026-07-16 | [`b2c8320`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b2c832063be1b2f56019a6b9739bae42649541e6) | rusticl/meta: split out ulong kernels | Vulkan 1.4.354 |
