@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260716-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r9) | 2026-07-16 | [`b473d5d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b473d5ddf62c0dadf544ff866eb9b766adf86d15) | gfxstream: add build system TOML files | Vulkan 1.4.354 |
 | [v26.3.0-20260716-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r8) | 2026-07-16 | [`97c9a4e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/97c9a4eaa40b41739c20948117a1b977704f5c50) | venus: recycle idle sfb cmds only after async wait | Vulkan 1.4.354 |
 | [v26.3.0-20260716-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r7) | 2026-07-16 | [`87afa31`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/87afa3193eee4c6dbdef4306a7c6ead6a5a4d825) | iris: set 3DSTATE_SF::LastPixelEnable with smooth lines | Vulkan 1.4.354 |
 | [v26.3.0-20260716-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r6) | 2026-07-16 | [`c6f6c9b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c6f6c9b02da991c9c878d8992b4074bbba70aa73) | anv: flush accumulated barriers for top of TOP_OF_PIPE | Vulkan 1.4.354 |
