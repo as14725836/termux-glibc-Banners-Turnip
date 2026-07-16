@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260716-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r2) | 2026-07-16 | [`c6b5729`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c6b5729a78343383ff43cf2883c04e08e6fd62cd) | brw: Ignore source modifiers in needs_dst_copy | Vulkan 1.4.354 |
 | [v26.3.0-20260716](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716) | 2026-07-15 | [`372c609`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/372c609834c0d9378391ee57c6f7e15a096a6cbb) | kk: Move nir_lower_io_vars_to_temporaries to early msl_preprocess_nir | Vulkan 1.4.354 |
 | [v26.3.0-20260715-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260715-r5) | 2026-07-15 | [`48297c8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/48297c8344669c4a867fae28e2cafb646218016e) | intel: Fix operator precedence in intel_simd_overridden | Vulkan 1.4.354 |
 | [v26.3.0-20260715-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260715-r4) | 2026-07-15 | [`779cdb8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/779cdb8eaaffc05ce56f197ea6a955b9edca8967) | freedreno/a6xx: Fix query barriers for gen8+ | Vulkan 1.4.354 |
