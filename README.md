@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`76307db`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/76307db83a3ad9f402143de785f138f4044e3bfb) |
+| **Commit** | [`52b5500`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/52b5500e2572f082cf36e7c70f8924db8b9ef86e) |
 | **Commit date** | 2026-07-17 |
-| **Commit title** | gfxstream: fix semaphore pruning with empty timeline semaphore lists |
+| **Commit title** | anv: factor out compute breakpoint |
 | **Build date** | 20260717 |
-| **Release** | [v26.3.0-20260717-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260717-r3) |
+| **Release** | [v26.3.0-20260717-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260717-r4) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260717-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260717-r4) | 2026-07-17 | [`52b5500`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/52b5500e2572f082cf36e7c70f8924db8b9ef86e) | anv: factor out compute breakpoint | Vulkan 1.4.354 |
 | [v26.3.0-20260717-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260717-r3) | 2026-07-17 | [`76307db`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/76307db83a3ad9f402143de785f138f4044e3bfb) | gfxstream: fix semaphore pruning with empty timeline semaphore lists | Vulkan 1.4.354 |
 | [v26.3.0-20260717-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260717-r2) | 2026-07-17 | [`be69637`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/be696377a17b63228fc4ff78284ac1379506d0ae) | anv: fix Wa_18040903259 | Vulkan 1.4.354 |
 | [v26.3.0-20260717](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260717) | 2026-07-17 | [`20f4f9f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/20f4f9f45057559475600b60364b60643011990f) | kraid/ra: Rework the RA flow | Vulkan 1.4.354 |
@@ -97,7 +98,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260716-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r8) | 2026-07-16 | [`97c9a4e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/97c9a4eaa40b41739c20948117a1b977704f5c50) | venus: recycle idle sfb cmds only after async wait | Vulkan 1.4.354 |
 | [v26.3.0-20260716-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r7) | 2026-07-16 | [`87afa31`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/87afa3193eee4c6dbdef4306a7c6ead6a5a4d825) | iris: set 3DSTATE_SF::LastPixelEnable with smooth lines | Vulkan 1.4.354 |
 | [v26.3.0-20260716-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r6) | 2026-07-16 | [`c6f6c9b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c6f6c9b02da991c9c878d8992b4074bbba70aa73) | anv: flush accumulated barriers for top of TOP_OF_PIPE | Vulkan 1.4.354 |
-| [v26.3.0-20260716-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r5) | 2026-07-16 | [`b2c8320`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b2c832063be1b2f56019a6b9739bae42649541e6) | rusticl/meta: split out ulong kernels | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
