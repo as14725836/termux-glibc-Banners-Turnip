@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`80e1e58`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/80e1e584d734797b33352881872bf6bc5d497c8d) |
+| **Commit** | [`4ce4fef`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4ce4feff89bad1ffd2ac7933ab25b44b6cca38d9) |
 | **Commit date** | 2026-07-17 |
-| **Commit title** | kraid: Validate swizzle invariants |
+| **Commit title** | nv30: fix an issue when this push buffer is NULL |
 | **Build date** | 20260717 |
-| **Release** | [v26.3.0-20260717-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260717-r6) |
+| **Release** | [v26.3.0-20260717-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260717-r7) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260717-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260717-r7) | 2026-07-17 | [`4ce4fef`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4ce4feff89bad1ffd2ac7933ab25b44b6cca38d9) | nv30: fix an issue when this push buffer is NULL | Vulkan 1.4.354 |
 | [v26.3.0-20260717-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260717-r6) | 2026-07-17 | [`80e1e58`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/80e1e584d734797b33352881872bf6bc5d497c8d) | kraid: Validate swizzle invariants | Vulkan 1.4.354 |
 | [v26.3.0-20260717-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260717-r5) | 2026-07-17 | [`74a9470`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/74a947082e896661d4f2e9176f10da744bbe7a8e) | freedreno/ci: Limit edgeflag and stipple skips to Piglit tests | Vulkan 1.4.354 |
 | [v26.3.0-20260717-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260717-r4) | 2026-07-17 | [`52b5500`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/52b5500e2572f082cf36e7c70f8924db8b9ef86e) | anv: factor out compute breakpoint | Vulkan 1.4.354 |
@@ -94,9 +95,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260717-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260717-r2) | 2026-07-17 | [`be69637`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/be696377a17b63228fc4ff78284ac1379506d0ae) | anv: fix Wa_18040903259 | Vulkan 1.4.354 |
 | [v26.3.0-20260717](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260717) | 2026-07-17 | [`20f4f9f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/20f4f9f45057559475600b60364b60643011990f) | kraid/ra: Rework the RA flow | Vulkan 1.4.354 |
 | [v26.3.0-20260716-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r12) | 2026-07-17 | [`99bf1b9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/99bf1b953cba11d41dbee519ae1b53387477df9e) | intel/compiler: Add assertion to help coverity out | Vulkan 1.4.354 |
-| [v26.3.0-20260716-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r11) | 2026-07-16 | [`ba8a17a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ba8a17affc15e694af4543694d188f081ad6c5a2) | r300: fix DXT1 RGB border color alpha | Vulkan 1.4.354 |
-| [v26.3.0-20260716-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r10) | 2026-07-16 | [`3e21310`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3e21310d5c94c8fe9a51310494d4ce73830db582) | anv: add per-shader brw_prefer_simd32_fs driconf option | Vulkan 1.4.354 |
-| [v26.3.0-20260716-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r9) | 2026-07-16 | [`b473d5d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b473d5ddf62c0dadf544ff866eb9b766adf86d15) | gfxstream: add build system TOML files | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
