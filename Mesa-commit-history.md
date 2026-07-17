@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260717](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260717) | 2026-07-17 | [`20f4f9f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/20f4f9f45057559475600b60364b60643011990f) | kraid/ra: Rework the RA flow | Vulkan 1.4.354 |
 | [v26.3.0-20260716-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r12) | 2026-07-16 | [`99bf1b9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/99bf1b953cba11d41dbee519ae1b53387477df9e) | intel/compiler: Add assertion to help coverity out | Vulkan 1.4.354 |
 | [v26.3.0-20260716-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r11) | 2026-07-16 | [`ba8a17a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ba8a17affc15e694af4543694d188f081ad6c5a2) | r300: fix DXT1 RGB border color alpha | Vulkan 1.4.354 |
 | [v26.3.0-20260716-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r10) | 2026-07-16 | [`3e21310`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3e21310d5c94c8fe9a51310494d4ce73830db582) | anv: add per-shader brw_prefer_simd32_fs driconf option | Vulkan 1.4.354 |

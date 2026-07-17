@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`99bf1b9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/99bf1b953cba11d41dbee519ae1b53387477df9e) |
-| **Commit date** | 2026-07-16 |
-| **Commit title** | intel/compiler: Add assertion to help coverity out |
-| **Build date** | 20260716 |
-| **Release** | [v26.3.0-20260716-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r12) |
+| **Commit** | [`20f4f9f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/20f4f9f45057559475600b60364b60643011990f) |
+| **Commit date** | 2026-07-17 |
+| **Commit title** | kraid/ra: Rework the RA flow |
+| **Build date** | 20260717 |
+| **Release** | [v26.3.0-20260717](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260717) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260717](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260717) | 2026-07-17 | [`20f4f9f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/20f4f9f45057559475600b60364b60643011990f) | kraid/ra: Rework the RA flow | Vulkan 1.4.354 |
 | [v26.3.0-20260716-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r12) | 2026-07-17 | [`99bf1b9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/99bf1b953cba11d41dbee519ae1b53387477df9e) | intel/compiler: Add assertion to help coverity out | Vulkan 1.4.354 |
 | [v26.3.0-20260716-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r11) | 2026-07-16 | [`ba8a17a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ba8a17affc15e694af4543694d188f081ad6c5a2) | r300: fix DXT1 RGB border color alpha | Vulkan 1.4.354 |
 | [v26.3.0-20260716-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r10) | 2026-07-16 | [`3e21310`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3e21310d5c94c8fe9a51310494d4ce73830db582) | anv: add per-shader brw_prefer_simd32_fs driconf option | Vulkan 1.4.354 |
@@ -96,9 +97,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260716-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r6) | 2026-07-16 | [`c6f6c9b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c6f6c9b02da991c9c878d8992b4074bbba70aa73) | anv: flush accumulated barriers for top of TOP_OF_PIPE | Vulkan 1.4.354 |
 | [v26.3.0-20260716-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r5) | 2026-07-16 | [`b2c8320`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b2c832063be1b2f56019a6b9739bae42649541e6) | rusticl/meta: split out ulong kernels | Vulkan 1.4.354 |
 | [v26.3.0-20260716-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r4) | 2026-07-16 | [`108c928`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/108c92894a9a01dcdd34e3d6f1a0c3012452d146) | kk: remove deprecated storeActionOptions in macOS27 | Vulkan 1.4.354 |
-| [v26.3.0-20260716-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r3) | 2026-07-16 | [`09180f0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/09180f0eed603872b75f44b398048db06f236f54) | zink: fix swap interval changes being dropped | Vulkan 1.4.354 |
-| [v26.3.0-20260716-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r2) | 2026-07-16 | [`c6b5729`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c6b5729a78343383ff43cf2883c04e08e6fd62cd) | brw: Ignore source modifiers in needs_dst_copy | Vulkan 1.4.354 |
-| [v26.3.0-20260716](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716) | 2026-07-16 | [`372c609`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/372c609834c0d9378391ee57c6f7e15a096a6cbb) | kk: Move nir_lower_io_vars_to_temporaries to early msl_preprocess_nir | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
