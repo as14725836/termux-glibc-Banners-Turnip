@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260717-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260717-r3) | 2026-07-17 | [`76307db`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/76307db83a3ad9f402143de785f138f4044e3bfb) | gfxstream: fix semaphore pruning with empty timeline semaphore lists | Vulkan 1.4.354 |
 | [v26.3.0-20260717-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260717-r2) | 2026-07-17 | [`be69637`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/be696377a17b63228fc4ff78284ac1379506d0ae) | anv: fix Wa_18040903259 | Vulkan 1.4.354 |
 | [v26.3.0-20260717](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260717) | 2026-07-17 | [`20f4f9f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/20f4f9f45057559475600b60364b60643011990f) | kraid/ra: Rework the RA flow | Vulkan 1.4.354 |
 | [v26.3.0-20260716-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260716-r12) | 2026-07-16 | [`99bf1b9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/99bf1b953cba11d41dbee519ae1b53387477df9e) | intel/compiler: Add assertion to help coverity out | Vulkan 1.4.354 |
