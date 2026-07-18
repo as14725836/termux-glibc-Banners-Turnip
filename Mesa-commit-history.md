@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260718-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260718-r5) | 2026-07-18 | [`db128e2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/db128e2f552610de79e2912925929c40c9a55652) | Uprev VVL to 6727ae4734bf9e1e6f6954254bbc382687a3866d | Vulkan 1.4.354 |
 | [v26.3.0-20260718-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260718-r4) | 2026-07-18 | [`879365e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/879365ec9f06adef47f116d11b88632264c1f271) | vulkan/runtime: fixup vk_shader leak on RT group recompile | Vulkan 1.4.354 |
 | [v26.3.0-20260718-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260718-r3) | 2026-07-18 | [`cf0588a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/cf0588a5b835916ec031d9f47d0a0b6ef6c9745e) | vulkan: Implement a late triangles -> quads pass | Vulkan 1.4.354 |
 | [v26.3.0-20260718-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260718-r2) | 2026-07-18 | [`4b9c74d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4b9c74d0af56b7a9cea3384965934a20ce95bfc4) | tu: Don't truncate subdraw size | Vulkan 1.4.354 |
