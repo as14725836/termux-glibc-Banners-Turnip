@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260720-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260720-r3) | 2026-07-20 | [`208edab`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/208edabb69d2dba9518c29b7f351f0db637a66ba) | mesa/glapi: trace bitfields symbolically | Vulkan 1.4.354 |
 | [v26.3.0-20260720-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260720-r2) | 2026-07-20 | [`07e937f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/07e937fdb73195e1962c5cbf306f6e427178f9ab) | panfrost/midgard: Fix fau max not initialized | Vulkan 1.4.354 |
 | [v26.3.0-20260720](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260720) | 2026-07-20 | [`df73bd9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/df73bd930ae57bc1928beb1fdfb30bc3ab41b684) | util: add Blockland workaround for crash | Vulkan 1.4.354 |
 | [v26.3.0-20260719-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260719-r2) | 2026-07-19 | [`3bf5a8d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3bf5a8d0b0ea547c965bc02fdd9137e2f9189213) | kosmickrisp: don't cache a NULL Metal compiler | Vulkan 1.4.354 |
