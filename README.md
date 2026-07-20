@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`42f636b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/42f636bee95409f8ac89a453ab0edcbe58530180) |
+| **Commit** | [`249f0ee`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/249f0ee4eb9266ac0dd59ba93b156f71f19184e3) |
 | **Commit date** | 2026-07-20 |
-| **Commit title** | d3d12/video: Don't reset batches in fence_wait |
+| **Commit title** | Uprev Piglit to fa1953546a74ad0f91f0b13f7ca28a25706842fc |
 | **Build date** | 20260720 |
-| **Release** | [v26.3.0-20260720-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260720-r6) |
+| **Release** | [v26.3.0-20260720-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260720-r7) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260720-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260720-r7) | 2026-07-20 | [`249f0ee`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/249f0ee4eb9266ac0dd59ba93b156f71f19184e3) | Uprev Piglit to fa1953546a74ad0f91f0b13f7ca28a25706842fc | Vulkan 1.4.354 |
 | [v26.3.0-20260720-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260720-r6) | 2026-07-20 | [`42f636b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/42f636bee95409f8ac89a453ab0edcbe58530180) | d3d12/video: Don't reset batches in fence_wait | Vulkan 1.4.354 |
 | [v26.3.0-20260720-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260720-r5) | 2026-07-20 | [`4752db0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4752db0e88a2980fb44534952e439964583f40ad) | vulkan/video: Remove always true checks in encode_av1_seq_hdr | Vulkan 1.4.354 |
 | [v26.3.0-20260720-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260720-r4) | 2026-07-20 | [`15e0654`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/15e06548daba70c7adb222fdffbdf2f0d7f1e0d1) | radeonsi/vcn: fail feedback for truncated encodes | Vulkan 1.4.354 |
