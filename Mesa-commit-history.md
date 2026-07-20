@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260720-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260720-r5) | 2026-07-20 | [`4752db0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4752db0e88a2980fb44534952e439964583f40ad) | vulkan/video: Remove always true checks in encode_av1_seq_hdr | Vulkan 1.4.354 |
 | [v26.3.0-20260720-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260720-r4) | 2026-07-20 | [`15e0654`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/15e06548daba70c7adb222fdffbdf2f0d7f1e0d1) | radeonsi/vcn: fail feedback for truncated encodes | Vulkan 1.4.354 |
 | [v26.3.0-20260720-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260720-r3) | 2026-07-20 | [`208edab`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/208edabb69d2dba9518c29b7f351f0db637a66ba) | mesa/glapi: trace bitfields symbolically | Vulkan 1.4.354 |
 | [v26.3.0-20260720-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260720-r2) | 2026-07-20 | [`07e937f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/07e937fdb73195e1962c5cbf306f6e427178f9ab) | panfrost/midgard: Fix fau max not initialized | Vulkan 1.4.354 |
