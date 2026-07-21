@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260721-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721-r7) | 2026-07-21 | [`ea77d4e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ea77d4e261806c642f168beb5aac671b626bb2c5) | intel/dev: Clamp PTL+ CS workgroup threads to 32 | Vulkan 1.4.354 |
 | [v26.3.0-20260721-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721-r6) | 2026-07-21 | [`61aaad5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/61aaad5a1add1bcea822c9ad8334dd52cb950254) | virtio: magma-gpu-rs: add android to supported systems | Vulkan 1.4.354 |
 | [v26.3.0-20260721-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721-r5) | 2026-07-21 | [`935b49f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/935b49fcea98bae63d0b2b51caac9109b398f41a) | kk: Advertise proper rendering granularity | Vulkan 1.4.354 |
 | [v26.3.0-20260721-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721-r4) | 2026-07-21 | [`53a453b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/53a453b3ef7f3eb6a0e7ae37bd93985916497885) | vulkan/runtime: Fix bad assumption in GetPipelineBinaryDataKHR | Vulkan 1.4.354 |
