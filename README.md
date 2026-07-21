@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`38169ed`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/38169ede9b24ccadd84e972bbc39feb4c042e9c5) |
+| **Commit** | [`53a453b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/53a453b3ef7f3eb6a0e7ae37bd93985916497885) |
 | **Commit date** | 2026-07-21 |
-| **Commit title** | broadcom/ci: updated expected results |
+| **Commit title** | vulkan/runtime: Fix bad assumption in GetPipelineBinaryDataKHR |
 | **Build date** | 20260721 |
-| **Release** | [v26.3.0-20260721-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721-r3) |
+| **Release** | [v26.3.0-20260721-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721-r4) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260721-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721-r4) | 2026-07-21 | [`53a453b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/53a453b3ef7f3eb6a0e7ae37bd93985916497885) | vulkan/runtime: Fix bad assumption in GetPipelineBinaryDataKHR | Vulkan 1.4.354 |
 | [v26.3.0-20260721-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721-r3) | 2026-07-21 | [`38169ed`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/38169ede9b24ccadd84e972bbc39feb4c042e9c5) | broadcom/ci: updated expected results | Vulkan 1.4.354 |
 | [v26.3.0-20260721-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721-r2) | 2026-07-21 | [`817eb95`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/817eb9548fd8d4ad6545dab9e45dd639c1f160cb) | brw: Make brw_geometry_stage_dispatch_width available to C code | Vulkan 1.4.354 |
 | [v26.3.0-20260721](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721) | 2026-07-21 | [`772cb76`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/772cb76cc80ed5bde9c8a3972f0852d68fa54f9d) | venus: relax SYNC_FD fence export requirement | Vulkan 1.4.354 |
@@ -96,7 +97,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260720-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260720-r6) | 2026-07-20 | [`42f636b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/42f636bee95409f8ac89a453ab0edcbe58530180) | d3d12/video: Don't reset batches in fence_wait | Vulkan 1.4.354 |
 | [v26.3.0-20260720-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260720-r5) | 2026-07-20 | [`4752db0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4752db0e88a2980fb44534952e439964583f40ad) | vulkan/video: Remove always true checks in encode_av1_seq_hdr | Vulkan 1.4.354 |
 | [v26.3.0-20260720-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260720-r4) | 2026-07-20 | [`15e0654`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/15e06548daba70c7adb222fdffbdf2f0d7f1e0d1) | radeonsi/vcn: fail feedback for truncated encodes | Vulkan 1.4.354 |
-| [v26.3.0-20260720-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260720-r3) | 2026-07-20 | [`208edab`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/208edabb69d2dba9518c29b7f351f0db637a66ba) | mesa/glapi: trace bitfields symbolically | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---

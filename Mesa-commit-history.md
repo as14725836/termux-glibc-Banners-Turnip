@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260721-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721-r4) | 2026-07-21 | [`53a453b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/53a453b3ef7f3eb6a0e7ae37bd93985916497885) | vulkan/runtime: Fix bad assumption in GetPipelineBinaryDataKHR | Vulkan 1.4.354 |
 | [v26.3.0-20260721-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721-r3) | 2026-07-21 | [`38169ed`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/38169ede9b24ccadd84e972bbc39feb4c042e9c5) | broadcom/ci: updated expected results | Vulkan 1.4.354 |
 | [v26.3.0-20260721-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721-r2) | 2026-07-21 | [`817eb95`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/817eb9548fd8d4ad6545dab9e45dd639c1f160cb) | brw: Make brw_geometry_stage_dispatch_width available to C code | Vulkan 1.4.354 |
 | [v26.3.0-20260721](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721) | 2026-07-20 | [`772cb76`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/772cb76cc80ed5bde9c8a3972f0852d68fa54f9d) | venus: relax SYNC_FD fence export requirement | Vulkan 1.4.354 |
