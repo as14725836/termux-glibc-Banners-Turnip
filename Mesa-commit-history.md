@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260721-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721-r2) | 2026-07-21 | [`817eb95`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/817eb9548fd8d4ad6545dab9e45dd639c1f160cb) | brw: Make brw_geometry_stage_dispatch_width available to C code | Vulkan 1.4.354 |
 | [v26.3.0-20260721](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721) | 2026-07-20 | [`772cb76`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/772cb76cc80ed5bde9c8a3972f0852d68fa54f9d) | venus: relax SYNC_FD fence export requirement | Vulkan 1.4.354 |
 | [v26.3.0-20260720-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260720-r9) | 2026-07-20 | [`8abf7d1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8abf7d19736e5b0bf4112cbb3787f9a7b2c4f2c9) | anv/rt: Add parent child count map instead of using pad field | Vulkan 1.4.354 |
 | [v26.3.0-20260720-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260720-r8) | 2026-07-20 | [`9adc7dd`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9adc7dd3fa68d4ef659364075c8583f873d8a464) | anv: Use quad primitives for BVH encoding | Vulkan 1.4.354 |
