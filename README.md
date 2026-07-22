@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`84c7fef`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/84c7fef4581a4bd6673923240dab1a0fb6795e7a) |
+| **Commit** | [`52ee87d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/52ee87d6dcac1f2e3c1b086d0fc53e526d904ad0) |
 | **Commit date** | 2026-07-22 |
-| **Commit title** | nvk: free copy_memory_indirect_temps on command buffer destroy |
+| **Commit title** | intel/executor: Add block2d example for Xe2 |
 | **Build date** | 20260722 |
-| **Release** | [v26.3.0-20260722-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260722-r6) |
+| **Release** | [v26.3.0-20260722-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260722-r7) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260722-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260722-r7) | 2026-07-22 | [`52ee87d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/52ee87d6dcac1f2e3c1b086d0fc53e526d904ad0) | intel/executor: Add block2d example for Xe2 | Vulkan 1.4.354 |
 | [v26.3.0-20260722-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260722-r6) | 2026-07-22 | [`84c7fef`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/84c7fef4581a4bd6673923240dab1a0fb6795e7a) | nvk: free copy_memory_indirect_temps on command buffer destroy | Vulkan 1.4.354 |
 | [v26.3.0-20260722-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260722-r5) | 2026-07-22 | [`34beb8d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/34beb8d55310fdbf250f1cb8c352fa427160faf2) | docs: update calendar for 26.2.0-rc2 | Vulkan 1.4.354 |
 | [v26.3.0-20260722-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260722-r4) | 2026-07-22 | [`0aba464`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0aba464832e3f2bae16fb47a825cdbcfa68246d4) | kraid/v9: Fix op_dst_supported_lanes() for vecsize dsts | Vulkan 1.4.354 |
@@ -94,8 +95,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260722-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260722-r2) | 2026-07-22 | [`38ba9dd`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/38ba9dd991a2a221719212740222f048c070aeeb) | kk: Remove unused mtl_drawable_present | Vulkan 1.4.354 |
 | [v26.3.0-20260722](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260722) | 2026-07-22 | [`d49a00b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d49a00bdf15fd48b31af93aaf5feed3eebcbda12) | r300: fixes for UB around left shifts | Vulkan 1.4.354 |
 | [v26.3.0-20260721-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721-r8) | 2026-07-21 | [`6b89caf`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6b89caf0e02686ddf2afaac53280d1a1d2d5b79b) | tu: AVOID_CCU should avoid depth CCU if custom resolve writes D/S | Vulkan 1.4.354 |
-| [v26.3.0-20260721-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721-r7) | 2026-07-21 | [`ea77d4e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ea77d4e261806c642f168beb5aac671b626bb2c5) | intel/dev: Clamp PTL+ CS workgroup threads to 32 | Vulkan 1.4.354 |
-| [v26.3.0-20260721-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721-r6) | 2026-07-21 | [`61aaad5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/61aaad5a1add1bcea822c9ad8334dd52cb950254) | virtio: magma-gpu-rs: add android to supported systems | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
