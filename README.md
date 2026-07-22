@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`6b89caf`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6b89caf0e02686ddf2afaac53280d1a1d2d5b79b) |
-| **Commit date** | 2026-07-21 |
-| **Commit title** | tu: AVOID_CCU should avoid depth CCU if custom resolve writes D/S |
-| **Build date** | 20260721 |
-| **Release** | [v26.3.0-20260721-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721-r8) |
+| **Commit** | [`d49a00b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d49a00bdf15fd48b31af93aaf5feed3eebcbda12) |
+| **Commit date** | 2026-07-22 |
+| **Commit title** | r300: fixes for UB around left shifts |
+| **Build date** | 20260722 |
+| **Release** | [v26.3.0-20260722](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260722) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260722](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260722) | 2026-07-22 | [`d49a00b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d49a00bdf15fd48b31af93aaf5feed3eebcbda12) | r300: fixes for UB around left shifts | Vulkan 1.4.354 |
 | [v26.3.0-20260721-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721-r8) | 2026-07-21 | [`6b89caf`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6b89caf0e02686ddf2afaac53280d1a1d2d5b79b) | tu: AVOID_CCU should avoid depth CCU if custom resolve writes D/S | Vulkan 1.4.354 |
 | [v26.3.0-20260721-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721-r7) | 2026-07-21 | [`ea77d4e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ea77d4e261806c642f168beb5aac671b626bb2c5) | intel/dev: Clamp PTL+ CS workgroup threads to 32 | Vulkan 1.4.354 |
 | [v26.3.0-20260721-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721-r6) | 2026-07-21 | [`61aaad5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/61aaad5a1add1bcea822c9ad8334dd52cb950254) | virtio: magma-gpu-rs: add android to supported systems | Vulkan 1.4.354 |
@@ -95,8 +96,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260721-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721-r3) | 2026-07-21 | [`38169ed`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/38169ede9b24ccadd84e972bbc39feb4c042e9c5) | broadcom/ci: updated expected results | Vulkan 1.4.354 |
 | [v26.3.0-20260721-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721-r2) | 2026-07-21 | [`817eb95`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/817eb9548fd8d4ad6545dab9e45dd639c1f160cb) | brw: Make brw_geometry_stage_dispatch_width available to C code | Vulkan 1.4.354 |
 | [v26.3.0-20260721](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260721) | 2026-07-21 | [`772cb76`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/772cb76cc80ed5bde9c8a3972f0852d68fa54f9d) | venus: relax SYNC_FD fence export requirement | Vulkan 1.4.354 |
-| [v26.3.0-20260720-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260720-r9) | 2026-07-20 | [`8abf7d1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8abf7d19736e5b0bf4112cbb3787f9a7b2c4f2c9) | anv/rt: Add parent child count map instead of using pad field | Vulkan 1.4.354 |
-| [v26.3.0-20260720-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260720-r8) | 2026-07-20 | [`9adc7dd`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9adc7dd3fa68d4ef659364075c8583f873d8a464) | anv: Use quad primitives for BVH encoding | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
