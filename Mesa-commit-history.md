@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260723](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723) | 2026-07-22 | [`3d2de67`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3d2de671faaf917a370713c6afd87eb8446cbf87) | ac/nir/lower_ps_early: port radv_nir_trim_fs_color_exports in here | Vulkan 1.4.354 |
 | [v26.3.0-20260722-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260722-r7) | 2026-07-22 | [`52ee87d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/52ee87d6dcac1f2e3c1b086d0fc53e526d904ad0) | intel/executor: Add block2d example for Xe2 | Vulkan 1.4.354 |
 | [v26.3.0-20260722-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260722-r6) | 2026-07-22 | [`84c7fef`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/84c7fef4581a4bd6673923240dab1a0fb6795e7a) | nvk: free copy_memory_indirect_temps on command buffer destroy | Vulkan 1.4.354 |
 | [v26.3.0-20260722-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260722-r5) | 2026-07-22 | [`34beb8d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/34beb8d55310fdbf250f1cb8c352fa427160faf2) | docs: update calendar for 26.2.0-rc2 | Vulkan 1.4.354 |
