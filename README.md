@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`2e8e61c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2e8e61c1fb1a77d72d31ca010ed90c516e45f849) |
+| **Commit** | [`7193e63`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7193e63ef562f4ca4d18613d68ede849e6cbb4c3) |
 | **Commit date** | 2026-07-23 |
-| **Commit title** | v3dv: propagate failure when getting a stage's NIR fails |
+| **Commit title** | kk: Set store action dynamically |
 | **Build date** | 20260723 |
-| **Release** | [v26.3.0-20260723-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r4) |
+| **Release** | [v26.3.0-20260723-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r5) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260723-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r5) | 2026-07-23 | [`7193e63`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7193e63ef562f4ca4d18613d68ede849e6cbb4c3) | kk: Set store action dynamically | Vulkan 1.4.354 |
 | [v26.3.0-20260723-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r4) | 2026-07-23 | [`2e8e61c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2e8e61c1fb1a77d72d31ca010ed90c516e45f849) | v3dv: propagate failure when getting a stage's NIR fails | Vulkan 1.4.354 |
 | [v26.3.0-20260723-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r3) | 2026-07-23 | [`73e7b38`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/73e7b3847f3231ac40da194ed384ac781d8cc6c2) | panfrost: Fix wrong layout reuse in user clip planes | Vulkan 1.4.354 |
 | [v26.3.0-20260723-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r2) | 2026-07-23 | [`fa95a76`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fa95a76636f25ee3399f72b86e1c0648af333991) | nir/lower_io_indirect_loads: implement lowering indirect vertex index | Vulkan 1.4.354 |
@@ -95,7 +96,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260722-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260722-r6) | 2026-07-22 | [`84c7fef`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/84c7fef4581a4bd6673923240dab1a0fb6795e7a) | nvk: free copy_memory_indirect_temps on command buffer destroy | Vulkan 1.4.354 |
 | [v26.3.0-20260722-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260722-r5) | 2026-07-22 | [`34beb8d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/34beb8d55310fdbf250f1cb8c352fa427160faf2) | docs: update calendar for 26.2.0-rc2 | Vulkan 1.4.354 |
 | [v26.3.0-20260722-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260722-r4) | 2026-07-22 | [`0aba464`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0aba464832e3f2bae16fb47a825cdbcfa68246d4) | kraid/v9: Fix op_dst_supported_lanes() for vecsize dsts | Vulkan 1.4.354 |
-| [v26.3.0-20260722-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260722-r3) | 2026-07-22 | [`d3d45a7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d3d45a7fb41433149924d0bbbf9d9bd1ddb9c33a) | pvr: Implementation of VK_KHR_maintenance7 | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---

@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260723-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r5) | 2026-07-23 | [`7193e63`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7193e63ef562f4ca4d18613d68ede849e6cbb4c3) | kk: Set store action dynamically | Vulkan 1.4.354 |
 | [v26.3.0-20260723-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r4) | 2026-07-23 | [`2e8e61c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2e8e61c1fb1a77d72d31ca010ed90c516e45f849) | v3dv: propagate failure when getting a stage's NIR fails | Vulkan 1.4.354 |
 | [v26.3.0-20260723-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r3) | 2026-07-23 | [`73e7b38`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/73e7b3847f3231ac40da194ed384ac781d8cc6c2) | panfrost: Fix wrong layout reuse in user clip planes | Vulkan 1.4.354 |
 | [v26.3.0-20260723-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r2) | 2026-07-22 | [`fa95a76`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fa95a76636f25ee3399f72b86e1c0648af333991) | nir/lower_io_indirect_loads: implement lowering indirect vertex index | Vulkan 1.4.354 |
