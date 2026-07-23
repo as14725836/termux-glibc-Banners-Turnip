@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`a82f885`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a82f8853888a0cf80e864d53ebf3cfb5ec64962f) |
+| **Commit** | [`eadcadf`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/eadcadf067ede525b5f511d22215272bb31eaa41) |
 | **Commit date** | 2026-07-23 |
-| **Commit title** | ir3/disasm: Check for invalid alias register |
+| **Commit title** | nvk: report fills from memory correctly |
 | **Build date** | 20260723 |
-| **Release** | [v26.3.0-20260723-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r8) |
+| **Release** | [v26.3.0-20260723-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r9) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260723-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r9) | 2026-07-23 | [`eadcadf`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/eadcadf067ede525b5f511d22215272bb31eaa41) | nvk: report fills from memory correctly | Vulkan 1.4.354 |
 | [v26.3.0-20260723-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r8) | 2026-07-23 | [`a82f885`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a82f8853888a0cf80e864d53ebf3cfb5ec64962f) | ir3/disasm: Check for invalid alias register | Vulkan 1.4.354 |
 | [v26.3.0-20260723-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r7) | 2026-07-23 | [`a0052e8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a0052e8ebc3b8f58445dc9664e867ba711a6ea02) | brw: Make sure all coalesced source slots are filled | Vulkan 1.4.354 |
 | [v26.3.0-20260723-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r6) | 2026-07-23 | [`594f44b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/594f44bdf48ceea0591c928a8cdb13f56d009899) | mediafoundation: removing dependency of pipe_screen from CD3D12BitstreamMFBuffer | Vulkan 1.4.354 |
