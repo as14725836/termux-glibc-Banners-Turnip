@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260723-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r7) | 2026-07-23 | [`a0052e8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a0052e8ebc3b8f58445dc9664e867ba711a6ea02) | brw: Make sure all coalesced source slots are filled | Vulkan 1.4.354 |
 | [v26.3.0-20260723-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r6) | 2026-07-23 | [`594f44b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/594f44bdf48ceea0591c928a8cdb13f56d009899) | mediafoundation: removing dependency of pipe_screen from CD3D12BitstreamMFBuffer | Vulkan 1.4.354 |
 | [v26.3.0-20260723-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r5) | 2026-07-23 | [`7193e63`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7193e63ef562f4ca4d18613d68ede849e6cbb4c3) | kk: Set store action dynamically | Vulkan 1.4.354 |
 | [v26.3.0-20260723-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r4) | 2026-07-23 | [`2e8e61c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2e8e61c1fb1a77d72d31ca010ed90c516e45f849) | v3dv: propagate failure when getting a stage's NIR fails | Vulkan 1.4.354 |
