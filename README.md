@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`8b794a5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8b794a5167a729758cac9bde45fbe1886eb89c91) |
-| **Commit date** | 2026-07-23 |
-| **Commit title** | venus: document timeline semaphore implementation |
-| **Build date** | 20260723 |
-| **Release** | [v26.3.0-20260723-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r10) |
+| **Commit** | [`479773c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/479773c7e4264506f2d9ec4bf15c6bf677f0d67a) |
+| **Commit date** | 2026-07-24 |
+| **Commit title** | mesa/st: Invalidate FS sampler views after PBO texture transfers |
+| **Build date** | 20260724 |
+| **Release** | [v26.3.0-20260724](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260724) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260724](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260724) | 2026-07-24 | [`479773c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/479773c7e4264506f2d9ec4bf15c6bf677f0d67a) | mesa/st: Invalidate FS sampler views after PBO texture transfers | Vulkan 1.4.354 |
 | [v26.3.0-20260723-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r10) | 2026-07-23 | [`8b794a5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8b794a5167a729758cac9bde45fbe1886eb89c91) | venus: document timeline semaphore implementation | Vulkan 1.4.354 |
 | [v26.3.0-20260723-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r9) | 2026-07-23 | [`eadcadf`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/eadcadf067ede525b5f511d22215272bb31eaa41) | nvk: report fills from memory correctly | Vulkan 1.4.354 |
 | [v26.3.0-20260723-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r8) | 2026-07-23 | [`a82f885`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a82f8853888a0cf80e864d53ebf3cfb5ec64962f) | ir3/disasm: Check for invalid alias register | Vulkan 1.4.354 |
@@ -95,8 +96,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260723-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r5) | 2026-07-23 | [`7193e63`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7193e63ef562f4ca4d18613d68ede849e6cbb4c3) | kk: Set store action dynamically | Vulkan 1.4.354 |
 | [v26.3.0-20260723-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r4) | 2026-07-23 | [`2e8e61c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2e8e61c1fb1a77d72d31ca010ed90c516e45f849) | v3dv: propagate failure when getting a stage's NIR fails | Vulkan 1.4.354 |
 | [v26.3.0-20260723-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r3) | 2026-07-23 | [`73e7b38`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/73e7b3847f3231ac40da194ed384ac781d8cc6c2) | panfrost: Fix wrong layout reuse in user clip planes | Vulkan 1.4.354 |
-| [v26.3.0-20260723-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r2) | 2026-07-23 | [`fa95a76`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fa95a76636f25ee3399f72b86e1c0648af333991) | nir/lower_io_indirect_loads: implement lowering indirect vertex index | Vulkan 1.4.354 |
-| [v26.3.0-20260723](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723) | 2026-07-23 | [`3d2de67`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3d2de671faaf917a370713c6afd87eb8446cbf87) | ac/nir/lower_ps_early: port radv_nir_trim_fs_color_exports in here | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
