@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`1d899a4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1d899a489de21796a28075b8a4aed8a5954b0057) |
+| **Commit** | [`0409984`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0409984f27a183d833c6633b0981f1d99208400f) |
 | **Commit date** | 2026-07-24 |
-| **Commit title** | pvr: Fix for depth stencil 2d array writes. |
+| **Commit title** | lavapipe: add tensorlayout and blockloads NV_cooperative_matrix2 support |
 | **Build date** | 20260724 |
-| **Release** | [v26.3.0-20260724-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260724-r2) |
+| **Release** | [v26.3.0-20260724-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260724-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260724-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260724-r3) | 2026-07-24 | [`0409984`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0409984f27a183d833c6633b0981f1d99208400f) | lavapipe: add tensorlayout and blockloads NV_cooperative_matrix2 support | Vulkan 1.4.354 |
 | [v26.3.0-20260724-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260724-r2) | 2026-07-24 | [`1d899a4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1d899a489de21796a28075b8a4aed8a5954b0057) | pvr: Fix for depth stencil 2d array writes. | Vulkan 1.4.354 |
 | [v26.3.0-20260724](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260724) | 2026-07-24 | [`479773c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/479773c7e4264506f2d9ec4bf15c6bf677f0d67a) | mesa/st: Invalidate FS sampler views after PBO texture transfers | Vulkan 1.4.354 |
 | [v26.3.0-20260723-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r10) | 2026-07-23 | [`8b794a5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8b794a5167a729758cac9bde45fbe1886eb89c91) | venus: document timeline semaphore implementation | Vulkan 1.4.354 |
@@ -95,7 +96,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260723-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r7) | 2026-07-23 | [`a0052e8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a0052e8ebc3b8f58445dc9664e867ba711a6ea02) | brw: Make sure all coalesced source slots are filled | Vulkan 1.4.354 |
 | [v26.3.0-20260723-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r6) | 2026-07-23 | [`594f44b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/594f44bdf48ceea0591c928a8cdb13f56d009899) | mediafoundation: removing dependency of pipe_screen from CD3D12BitstreamMFBuffer | Vulkan 1.4.354 |
 | [v26.3.0-20260723-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r5) | 2026-07-23 | [`7193e63`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7193e63ef562f4ca4d18613d68ede849e6cbb4c3) | kk: Set store action dynamically | Vulkan 1.4.354 |
-| [v26.3.0-20260723-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260723-r4) | 2026-07-23 | [`2e8e61c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2e8e61c1fb1a77d72d31ca010ed90c516e45f849) | v3dv: propagate failure when getting a stage's NIR fails | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
