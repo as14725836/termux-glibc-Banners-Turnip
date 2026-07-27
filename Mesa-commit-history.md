@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260727-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260727-r7) | 2026-07-27 | [`c276444`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c276444b7190c2feaa722168253baaf9f3c737e9) | asahi: ci: Add failing b10g11r11 and e5b9g9r9 copy tests | Vulkan 1.4.354 |
 | [v26.3.0-20260727-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260727-r6) | 2026-07-27 | [`0989349`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0989349030b36e6ce587cf70f2a5c7615465f04f) | virtio: magma-gpu-rs: accept a null device in virtgpu_kumquat_finish | Vulkan 1.4.354 |
 | [v26.3.0-20260727-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260727-r5) | 2026-07-27 | [`adca1f2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/adca1f255fd5cb9702db1e0a2bc25d13a521ae5f) | tu: Fix LRZ handling for VK_EXT_custom_resolve | Vulkan 1.4.354 |
 | [v26.3.0-20260727-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260727-r4) | 2026-07-27 | [`4791a68`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4791a686b3c38f1ebf70074f1c27ae15ff4ffab5) | kraid/legalize: Fix FAU User legalization for v13 | Vulkan 1.4.354 |
