@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`3fb6907`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3fb69077ed183f8baaa95912e16c643cbf447e0b) |
+| **Commit** | [`4791a68`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4791a686b3c38f1ebf70074f1c27ae15ff4ffab5) |
 | **Commit date** | 2026-07-27 |
-| **Commit title** | broadcom/ci: update fractions for non-full jobs |
+| **Commit title** | kraid/legalize: Fix FAU User legalization for v13 |
 | **Build date** | 20260727 |
-| **Release** | [v26.3.0-20260727-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260727-r3) |
+| **Release** | [v26.3.0-20260727-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260727-r4) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,11 +87,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260727-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260727-r4) | 2026-07-27 | [`4791a68`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4791a686b3c38f1ebf70074f1c27ae15ff4ffab5) | kraid/legalize: Fix FAU User legalization for v13 | Vulkan 1.4.354 |
 | [v26.3.0-20260727-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260727-r3) | 2026-07-27 | [`3fb6907`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3fb69077ed183f8baaa95912e16c643cbf447e0b) | broadcom/ci: update fractions for non-full jobs | Vulkan 1.4.354 |
 | [v26.3.0-20260727-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260727-r2) | 2026-07-27 | [`ba8dfc5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ba8dfc5aa8ac3af757d7330f69e1cd8573f5772e) | ac/nir/ngg: track uniformity with multiple set_vertex_and_primitive_count | Vulkan 1.4.354 |
 | [v26.3.0-20260727](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260727) | 2026-07-27 | [`0d4d190`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0d4d1907bd35acfe80208d10deeb0cb134f79c60) | freedreno/a702: drop passing test | Vulkan 1.4.354 |
 | [v26.3.0-20260726-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260726-r5) | 2026-07-26 | [`19ffa05`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/19ffa058b441e7f25f9cec774e26b0c1ac29f03d) | anv: add infrastructure to force tagged compute shaders to SIMD32 | Vulkan 1.4.354 |
-| [v26.3.0-20260726-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260726-r4) | 2026-07-26 | [`780727e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/780727e68adc62f446dc1df7bcaf86f20b6c03d1) | rusticl/kernel: add libclc source hash to kernel shader keys | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
