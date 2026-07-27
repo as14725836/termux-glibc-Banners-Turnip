@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260727-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260727-r5) | 2026-07-27 | [`adca1f2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/adca1f255fd5cb9702db1e0a2bc25d13a521ae5f) | tu: Fix LRZ handling for VK_EXT_custom_resolve | Vulkan 1.4.354 |
 | [v26.3.0-20260727-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260727-r4) | 2026-07-27 | [`4791a68`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4791a686b3c38f1ebf70074f1c27ae15ff4ffab5) | kraid/legalize: Fix FAU User legalization for v13 | Vulkan 1.4.354 |
 | [v26.3.0-20260727-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260727-r3) | 2026-07-27 | [`3fb6907`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3fb69077ed183f8baaa95912e16c643cbf447e0b) | broadcom/ci: update fractions for non-full jobs | Vulkan 1.4.354 |
 | [v26.3.0-20260727-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260727-r2) | 2026-07-27 | [`ba8dfc5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ba8dfc5aa8ac3af757d7330f69e1cd8573f5772e) | ac/nir/ngg: track uniformity with multiple set_vertex_and_primitive_count | Vulkan 1.4.354 |
