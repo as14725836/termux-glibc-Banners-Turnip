@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260728-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260728-r6) | 2026-07-28 | [`a62fdf8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a62fdf8200c59412988f84d392008a8e33d974c8) | bifrost/nir: Don't lower 16-bit flog2/fexp2/fpow for Kraid | Vulkan 1.4.354 |
 | [v26.3.0-20260728-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260728-r5) | 2026-07-28 | [`4cbcea7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4cbcea7fc583bbb5a1796524ab18fd44a9ddb63e) | intel: Disable 16x MSAA support | Vulkan 1.4.354 |
 | [v26.3.0-20260728-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260728-r4) | 2026-07-28 | [`c810f97`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c810f97ad70db582277b74326d610ec62528eeb9) | glx/apple: only skip AppleGL election on macOS 26.0 through 26.5 | Vulkan 1.4.354 |
 | [v26.3.0-20260728-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260728-r3) | 2026-07-28 | [`4aebb3c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4aebb3c743115f0c46fb75978a80fdeccaa0d419) | anv/rt: Update the parent child count map for valid nodes | Vulkan 1.4.354 |
