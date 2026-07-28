@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260728-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260728-r9) | 2026-07-28 | [`26e8f3d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/26e8f3d056941c51d1e47e0eea50f6d313181017) | zink: advertise device type | Vulkan 1.4.354 |
 | [v26.3.0-20260728-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260728-r8) | 2026-07-28 | [`f5302d0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f5302d0b394b20729b14da829389cb4203006676) | intel/executor: Add support for thread groups | Vulkan 1.4.354 |
 | [v26.3.0-20260728-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260728-r7) | 2026-07-28 | [`18456c4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/18456c4eeddb9be64f29d3c74a632ebcdcfa8e1a) | anv: Convert oversubscription ANV_DEBUG to drirc | Vulkan 1.4.354 |
 | [v26.3.0-20260728-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260728-r6) | 2026-07-28 | [`a62fdf8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a62fdf8200c59412988f84d392008a8e33d974c8) | bifrost/nir: Don't lower 16-bit flog2/fexp2/fpow for Kraid | Vulkan 1.4.354 |
