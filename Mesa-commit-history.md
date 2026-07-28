@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260728-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260728-r3) | 2026-07-28 | [`4aebb3c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4aebb3c743115f0c46fb75978a80fdeccaa0d419) | anv/rt: Update the parent child count map for valid nodes | Vulkan 1.4.354 |
 | [v26.3.0-20260728-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260728-r2) | 2026-07-28 | [`4f4b73d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4f4b73dfe58171865f95e8ef1b52236ad341dea0) | nir/opt_dead_write_vars: remove some shared writes after barriers | Vulkan 1.4.354 |
 | [v26.3.0-20260728](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260728) | 2026-07-27 | [`c5f10a8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c5f10a8501ca964ef24570f430a99633c689f656) | anv: Enable the temporary RE engine workaround for several titles | Vulkan 1.4.354 |
 | [v26.3.0-20260727-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260727-r7) | 2026-07-27 | [`c276444`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c276444b7190c2feaa722168253baaf9f3c737e9) | asahi: ci: Add failing b10g11r11 and e5b9g9r9 copy tests | Vulkan 1.4.354 |
