@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`6f19fc9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6f19fc972f4d3004a6719ccbcca221e33098a481) |
+| **Commit** | [`de40450`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/de40450ca19cf17f7a390088c83f1a185f8f860c) |
 | **Commit date** | 2026-07-29 |
-| **Commit title** | nouveau: Fix return of dangling pointer in nouveau_fence_new |
+| **Commit title** | panvk/decode: implement nop strings |
 | **Build date** | 20260729 |
-| **Release** | [v26.3.0-20260729-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r5) |
+| **Release** | [v26.3.0-20260729-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r6) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260729-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r6) | 2026-07-29 | [`de40450`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/de40450ca19cf17f7a390088c83f1a185f8f860c) | panvk/decode: implement nop strings | Vulkan 1.4.354 |
 | [v26.3.0-20260729-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r5) | 2026-07-29 | [`6f19fc9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6f19fc972f4d3004a6719ccbcca221e33098a481) | nouveau: Fix return of dangling pointer in nouveau_fence_new | Vulkan 1.4.354 |
 | [v26.3.0-20260729-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r4) | 2026-07-29 | [`2a46b60`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2a46b601be9403db3f26b9f8313127b676d9563d) | turnip/ci: drop invalid FREEDRENO_HANGCHECK_MS in a618 and a750 toml suites | Vulkan 1.4.354 |
 | [v26.3.0-20260729-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r3) | 2026-07-29 | [`f44a6b5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f44a6b57f0b83b952144b7210831b6f82f507627) | radv/nir/opt_tid_function: optimize (local_index & #c)  even with large workgroups | Vulkan 1.4.354 |
