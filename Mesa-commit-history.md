@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260729-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r8) | 2026-07-29 | [`e36f7e6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e36f7e6e092c485a72415b4fd54efe80b17b9b49) | iris: fix barrier for Wa_1508744258 / Wa_14024015672 | Vulkan 1.4.354 |
 | [v26.3.0-20260729-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r7) | 2026-07-29 | [`c2dd50c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c2dd50cb516ab42d8c880f9114bd046e51bc20a2) | zink: gate some EXT_descriptor_indexing related code | Vulkan 1.4.354 |
 | [v26.3.0-20260729-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r6) | 2026-07-29 | [`de40450`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/de40450ca19cf17f7a390088c83f1a185f8f860c) | panvk/decode: implement nop strings | Vulkan 1.4.354 |
 | [v26.3.0-20260729-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r5) | 2026-07-29 | [`6f19fc9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6f19fc972f4d3004a6719ccbcca221e33098a481) | nouveau: Fix return of dangling pointer in nouveau_fence_new | Vulkan 1.4.354 |

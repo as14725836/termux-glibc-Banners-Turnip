@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`c2dd50c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c2dd50cb516ab42d8c880f9114bd046e51bc20a2) |
+| **Commit** | [`e36f7e6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e36f7e6e092c485a72415b4fd54efe80b17b9b49) |
 | **Commit date** | 2026-07-29 |
-| **Commit title** | zink: gate some EXT_descriptor_indexing related code |
+| **Commit title** | iris: fix barrier for Wa_1508744258 / Wa_14024015672 |
 | **Build date** | 20260729 |
-| **Release** | [v26.3.0-20260729-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r7) |
+| **Release** | [v26.3.0-20260729-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r8) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260729-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r8) | 2026-07-29 | [`e36f7e6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e36f7e6e092c485a72415b4fd54efe80b17b9b49) | iris: fix barrier for Wa_1508744258 / Wa_14024015672 | Vulkan 1.4.354 |
 | [v26.3.0-20260729-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r7) | 2026-07-29 | [`c2dd50c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c2dd50cb516ab42d8c880f9114bd046e51bc20a2) | zink: gate some EXT_descriptor_indexing related code | Vulkan 1.4.354 |
 | [v26.3.0-20260729-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r6) | 2026-07-29 | [`de40450`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/de40450ca19cf17f7a390088c83f1a185f8f860c) | panvk/decode: implement nop strings | Vulkan 1.4.354 |
 | [v26.3.0-20260729-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r5) | 2026-07-29 | [`6f19fc9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6f19fc972f4d3004a6719ccbcca221e33098a481) | nouveau: Fix return of dangling pointer in nouveau_fence_new | Vulkan 1.4.354 |
@@ -97,7 +98,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260728-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260728-r11) | 2026-07-28 | [`a25e41d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a25e41df17602b3c3962805be6fe748ad226abbc) | d3d12: fix msvc build warning C4819 | Vulkan 1.4.354 |
 | [v26.3.0-20260728-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260728-r10) | 2026-07-28 | [`7f28365`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7f283654f602088d0ecb4f022eaa105629a5515e) | etnaviv: Set the ASTC sRGB bit in the texture descriptor | Vulkan 1.4.354 |
 | [v26.3.0-20260728-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260728-r9) | 2026-07-28 | [`26e8f3d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/26e8f3d056941c51d1e47e0eea50f6d313181017) | zink: advertise device type | Vulkan 1.4.354 |
-| [v26.3.0-20260728-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260728-r8) | 2026-07-28 | [`f5302d0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f5302d0b394b20729b14da829389cb4203006676) | intel/executor: Add support for thread groups | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
