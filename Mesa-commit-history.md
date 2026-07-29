@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260729-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r4) | 2026-07-29 | [`2a46b60`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2a46b601be9403db3f26b9f8313127b676d9563d) | turnip/ci: drop invalid FREEDRENO_HANGCHECK_MS in a618 and a750 toml suites | Vulkan 1.4.354 |
 | [v26.3.0-20260729-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r3) | 2026-07-29 | [`f44a6b5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f44a6b57f0b83b952144b7210831b6f82f507627) | radv/nir/opt_tid_function: optimize (local_index & #c)  even with large workgroups | Vulkan 1.4.354 |
 | [v26.3.0-20260729-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r2) | 2026-07-29 | [`5b7bcac`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5b7bcac9bab7044034a6031fdf46ea803f92e861) | brw: Respect LSC data sizes and address alignment | Vulkan 1.4.354 |
 | [v26.3.0-20260729](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729) | 2026-07-28 | [`21dc9d4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/21dc9d41551d94cb0a28a1a2a904a2c179c47b25) | anv: delay binding point state allocations | Vulkan 1.4.354 |
