@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`5b7bcac`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5b7bcac9bab7044034a6031fdf46ea803f92e861) |
+| **Commit** | [`f44a6b5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f44a6b57f0b83b952144b7210831b6f82f507627) |
 | **Commit date** | 2026-07-29 |
-| **Commit title** | brw: Respect LSC data sizes and address alignment |
+| **Commit title** | radv/nir/opt_tid_function: optimize (local_index & #c)  even with large workgroups |
 | **Build date** | 20260729 |
-| **Release** | [v26.3.0-20260729-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r2) |
+| **Release** | [v26.3.0-20260729-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260729-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r3) | 2026-07-29 | [`f44a6b5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f44a6b57f0b83b952144b7210831b6f82f507627) | radv/nir/opt_tid_function: optimize (local_index & #c)  even with large workgroups | Vulkan 1.4.354 |
 | [v26.3.0-20260729-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r2) | 2026-07-29 | [`5b7bcac`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5b7bcac9bab7044034a6031fdf46ea803f92e861) | brw: Respect LSC data sizes and address alignment | Vulkan 1.4.354 |
 | [v26.3.0-20260729](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729) | 2026-07-29 | [`21dc9d4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/21dc9d41551d94cb0a28a1a2a904a2c179c47b25) | anv: delay binding point state allocations | Vulkan 1.4.354 |
 | [v26.3.0-20260728-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260728-r11) | 2026-07-28 | [`a25e41d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a25e41df17602b3c3962805be6fe748ad226abbc) | d3d12: fix msvc build warning C4819 | Vulkan 1.4.354 |
@@ -96,7 +97,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260728-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260728-r7) | 2026-07-28 | [`18456c4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/18456c4eeddb9be64f29d3c74a632ebcdcfa8e1a) | anv: Convert oversubscription ANV_DEBUG to drirc | Vulkan 1.4.354 |
 | [v26.3.0-20260728-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260728-r6) | 2026-07-28 | [`a62fdf8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a62fdf8200c59412988f84d392008a8e33d974c8) | bifrost/nir: Don't lower 16-bit flog2/fexp2/fpow for Kraid | Vulkan 1.4.354 |
 | [v26.3.0-20260728-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260728-r5) | 2026-07-28 | [`4cbcea7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4cbcea7fc583bbb5a1796524ab18fd44a9ddb63e) | intel: Disable 16x MSAA support | Vulkan 1.4.354 |
-| [v26.3.0-20260728-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260728-r4) | 2026-07-28 | [`c810f97`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c810f97ad70db582277b74326d610ec62528eeb9) | glx/apple: only skip AppleGL election on macOS 26.0 through 26.5 | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
