@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260730-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r8) | 2026-07-30 | [`209e682`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/209e68250df169301db18c4cce8f512d67f2faf4) | rusticl: Stop taking references to temporaries | Vulkan 1.4.354 |
 | [v26.3.0-20260730-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r7) | 2026-07-30 | [`fa01834`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fa0183466d7be5ce337980aeb71df74e2b6deb07) | radv/nir/opt_tid_function: try to use amd permute intrinsics | Vulkan 1.4.354 |
 | [v26.3.0-20260730-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r6) | 2026-07-30 | [`201cbc4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/201cbc4880398c19d06bf8da4d333084ef1d7f8c) | tu: Merge disable_write_for_rp from secondary to primary | Vulkan 1.4.354 |
 | [v26.3.0-20260730-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r5) | 2026-07-30 | [`ae84646`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ae84646e30cb2a4e2665b19b5d41b0b66827f116) | tu: Fix tu_event not being reset on creation | Vulkan 1.4.354 |
