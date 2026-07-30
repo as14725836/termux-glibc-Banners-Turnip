@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`e79dfca`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e79dfca9f9f2eba934d35dd77206503c5f9e8def) |
+| **Commit** | [`4b37c2f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4b37c2f5cb546d948b7afdfe647cab7a43fe8a4b) |
 | **Commit date** | 2026-07-30 |
-| **Commit title** | glthread: fix check for unroll draws using user VBOs when the ctx supports GLES |
+| **Commit title** | v3dv: advertise VK_EXT_device_memory_report |
 | **Build date** | 20260730 |
-| **Release** | [v26.3.0-20260730-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r3) |
+| **Release** | [v26.3.0-20260730-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r4) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260730-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r4) | 2026-07-30 | [`4b37c2f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4b37c2f5cb546d948b7afdfe647cab7a43fe8a4b) | v3dv: advertise VK_EXT_device_memory_report | Vulkan 1.4.354 |
 | [v26.3.0-20260730-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r3) | 2026-07-30 | [`e79dfca`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e79dfca9f9f2eba934d35dd77206503c5f9e8def) | glthread: fix check for unroll draws using user VBOs when the ctx supports GLES | Vulkan 1.4.354 |
 | [v26.3.0-20260730-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r2) | 2026-07-30 | [`ba09d29`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ba09d293e54663d0cb83aac7ea11f261f284f033) | panvk: expose vulkan 1.3 on bifrost | Vulkan 1.4.354 |
 | [v26.3.0-20260730](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730) | 2026-07-30 | [`13e6e00`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/13e6e00b1a56a21392bdd43c8f1154eb4063cfa4) | kraid: Implement derivatives | Vulkan 1.4.354 |
