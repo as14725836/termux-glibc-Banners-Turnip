@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`ae84646`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ae84646e30cb2a4e2665b19b5d41b0b66827f116) |
+| **Commit** | [`201cbc4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/201cbc4880398c19d06bf8da4d333084ef1d7f8c) |
 | **Commit date** | 2026-07-30 |
-| **Commit title** | tu: Fix tu_event not being reset on creation |
+| **Commit title** | tu: Merge disable_write_for_rp from secondary to primary |
 | **Build date** | 20260730 |
-| **Release** | [v26.3.0-20260730-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r5) |
+| **Release** | [v26.3.0-20260730-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r6) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260730-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r6) | 2026-07-30 | [`201cbc4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/201cbc4880398c19d06bf8da4d333084ef1d7f8c) | tu: Merge disable_write_for_rp from secondary to primary | Vulkan 1.4.354 |
 | [v26.3.0-20260730-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r5) | 2026-07-30 | [`ae84646`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ae84646e30cb2a4e2665b19b5d41b0b66827f116) | tu: Fix tu_event not being reset on creation | Vulkan 1.4.354 |
 | [v26.3.0-20260730-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r4) | 2026-07-30 | [`4b37c2f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4b37c2f5cb546d948b7afdfe647cab7a43fe8a4b) | v3dv: advertise VK_EXT_device_memory_report | Vulkan 1.4.354 |
 | [v26.3.0-20260730-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r3) | 2026-07-30 | [`e79dfca`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e79dfca9f9f2eba934d35dd77206503c5f9e8def) | glthread: fix check for unroll draws using user VBOs when the ctx supports GLES | Vulkan 1.4.354 |
@@ -94,8 +95,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260730](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730) | 2026-07-30 | [`13e6e00`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/13e6e00b1a56a21392bdd43c8f1154eb4063cfa4) | kraid: Implement derivatives | Vulkan 1.4.354 |
 | [v26.3.0-20260729-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r9) | 2026-07-29 | [`4e2e284`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4e2e284654faf92b3cb755f0bd1bd4d7e158b0bc) | panvk: advertise VK_KHR_maintenance6 on v6-7 | Vulkan 1.4.354 |
 | [v26.3.0-20260729-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r8) | 2026-07-29 | [`e36f7e6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e36f7e6e092c485a72415b4fd54efe80b17b9b49) | iris: fix barrier for Wa_1508744258 / Wa_14024015672 | Vulkan 1.4.354 |
-| [v26.3.0-20260729-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r7) | 2026-07-29 | [`c2dd50c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c2dd50cb516ab42d8c880f9114bd046e51bc20a2) | zink: gate some EXT_descriptor_indexing related code | Vulkan 1.4.354 |
-| [v26.3.0-20260729-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r6) | 2026-07-29 | [`de40450`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/de40450ca19cf17f7a390088c83f1a185f8f860c) | panvk/decode: implement nop strings | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---

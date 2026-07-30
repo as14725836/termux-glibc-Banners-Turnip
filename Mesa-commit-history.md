@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260730-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r6) | 2026-07-30 | [`201cbc4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/201cbc4880398c19d06bf8da4d333084ef1d7f8c) | tu: Merge disable_write_for_rp from secondary to primary | Vulkan 1.4.354 |
 | [v26.3.0-20260730-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r5) | 2026-07-30 | [`ae84646`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ae84646e30cb2a4e2665b19b5d41b0b66827f116) | tu: Fix tu_event not being reset on creation | Vulkan 1.4.354 |
 | [v26.3.0-20260730-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r4) | 2026-07-30 | [`4b37c2f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4b37c2f5cb546d948b7afdfe647cab7a43fe8a4b) | v3dv: advertise VK_EXT_device_memory_report | Vulkan 1.4.354 |
 | [v26.3.0-20260730-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r3) | 2026-07-30 | [`e79dfca`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e79dfca9f9f2eba934d35dd77206503c5f9e8def) | glthread: fix check for unroll draws using user VBOs when the ctx supports GLES | Vulkan 1.4.354 |
