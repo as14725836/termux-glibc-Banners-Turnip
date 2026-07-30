@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`4e2e284`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4e2e284654faf92b3cb755f0bd1bd4d7e158b0bc) |
-| **Commit date** | 2026-07-29 |
-| **Commit title** | panvk: advertise VK_KHR_maintenance6 on v6-7 |
-| **Build date** | 20260729 |
-| **Release** | [v26.3.0-20260729-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r9) |
+| **Commit** | [`13e6e00`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/13e6e00b1a56a21392bdd43c8f1154eb4063cfa4) |
+| **Commit date** | 2026-07-30 |
+| **Commit title** | kraid: Implement derivatives |
+| **Build date** | 20260730 |
+| **Release** | [v26.3.0-20260730](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260730](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730) | 2026-07-30 | [`13e6e00`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/13e6e00b1a56a21392bdd43c8f1154eb4063cfa4) | kraid: Implement derivatives | Vulkan 1.4.354 |
 | [v26.3.0-20260729-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r9) | 2026-07-29 | [`4e2e284`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4e2e284654faf92b3cb755f0bd1bd4d7e158b0bc) | panvk: advertise VK_KHR_maintenance6 on v6-7 | Vulkan 1.4.354 |
 | [v26.3.0-20260729-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r8) | 2026-07-29 | [`e36f7e6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e36f7e6e092c485a72415b4fd54efe80b17b9b49) | iris: fix barrier for Wa_1508744258 / Wa_14024015672 | Vulkan 1.4.354 |
 | [v26.3.0-20260729-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r7) | 2026-07-29 | [`c2dd50c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c2dd50cb516ab42d8c880f9114bd046e51bc20a2) | zink: gate some EXT_descriptor_indexing related code | Vulkan 1.4.354 |
@@ -95,9 +96,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260729-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r4) | 2026-07-29 | [`2a46b60`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2a46b601be9403db3f26b9f8313127b676d9563d) | turnip/ci: drop invalid FREEDRENO_HANGCHECK_MS in a618 and a750 toml suites | Vulkan 1.4.354 |
 | [v26.3.0-20260729-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r3) | 2026-07-29 | [`f44a6b5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f44a6b57f0b83b952144b7210831b6f82f507627) | radv/nir/opt_tid_function: optimize (local_index & #c)  even with large workgroups | Vulkan 1.4.354 |
 | [v26.3.0-20260729-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729-r2) | 2026-07-29 | [`5b7bcac`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5b7bcac9bab7044034a6031fdf46ea803f92e861) | brw: Respect LSC data sizes and address alignment | Vulkan 1.4.354 |
-| [v26.3.0-20260729](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260729) | 2026-07-29 | [`21dc9d4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/21dc9d41551d94cb0a28a1a2a904a2c179c47b25) | anv: delay binding point state allocations | Vulkan 1.4.354 |
-| [v26.3.0-20260728-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260728-r11) | 2026-07-28 | [`a25e41d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a25e41df17602b3c3962805be6fe748ad226abbc) | d3d12: fix msvc build warning C4819 | Vulkan 1.4.354 |
-| [v26.3.0-20260728-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260728-r10) | 2026-07-28 | [`7f28365`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7f283654f602088d0ecb4f022eaa105629a5515e) | etnaviv: Set the ASTC sRGB bit in the texture descriptor | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
