@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`32b2249`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/32b22499f488c169d2d5d5d00b6f299b17839f82) |
+| **Commit** | [`52c5c8d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/52c5c8d3d0bac33d55cda858ca975685c606700c) |
 | **Commit date** | 2026-07-31 |
-| **Commit title** | glx/apple: implement swap control on top of kCGLCPSwapInterval |
+| **Commit title** | lavapipe: Embed bindless sampler views by value |
 | **Build date** | 20260731 |
-| **Release** | [v26.3.0-20260731](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731) |
+| **Release** | [v26.3.0-20260731-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r2) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260731-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r2) | 2026-07-31 | [`52c5c8d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/52c5c8d3d0bac33d55cda858ca975685c606700c) | lavapipe: Embed bindless sampler views by value | Vulkan 1.4.354 |
 | [v26.3.0-20260731](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731) | 2026-07-31 | [`32b2249`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/32b22499f488c169d2d5d5d00b6f299b17839f82) | glx/apple: implement swap control on top of kCGLCPSwapInterval | Vulkan 1.4.354 |
 | [v26.3.0-20260730-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r9) | 2026-07-30 | [`a62bd97`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a62bd97754eb52d2ba875528f832c5acbcf9d2db) | jay: copy resource_intel surface handle value | Vulkan 1.4.354 |
 | [v26.3.0-20260730-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r8) | 2026-07-30 | [`209e682`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/209e68250df169301db18c4cce8f512d67f2faf4) | rusticl: Stop taking references to temporaries | Vulkan 1.4.354 |
@@ -96,7 +97,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260730-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r4) | 2026-07-30 | [`4b37c2f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4b37c2f5cb546d948b7afdfe647cab7a43fe8a4b) | v3dv: advertise VK_EXT_device_memory_report | Vulkan 1.4.354 |
 | [v26.3.0-20260730-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r3) | 2026-07-30 | [`e79dfca`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e79dfca9f9f2eba934d35dd77206503c5f9e8def) | glthread: fix check for unroll draws using user VBOs when the ctx supports GLES | Vulkan 1.4.354 |
 | [v26.3.0-20260730-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r2) | 2026-07-30 | [`ba09d29`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ba09d293e54663d0cb83aac7ea11f261f284f033) | panvk: expose vulkan 1.3 on bifrost | Vulkan 1.4.354 |
-| [v26.3.0-20260730](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730) | 2026-07-30 | [`13e6e00`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/13e6e00b1a56a21392bdd43c8f1154eb4063cfa4) | kraid: Implement derivatives | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
