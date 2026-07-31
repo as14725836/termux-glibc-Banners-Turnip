@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`7dd7147`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7dd7147b9cd44a0b75bb3a02a081448b87d542a9) |
+| **Commit** | [`15c7cc5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/15c7cc550a05ba6ea34799a16f64a8689d1abc76) |
 | **Commit date** | 2026-07-31 |
-| **Commit title** | pvr: re-enable VK_KHR_shader_expect_assume |
+| **Commit title** | pan/rusticl: Update the last OpenCL conformance version passed value |
 | **Build date** | 20260731 |
-| **Release** | [v26.3.0-20260731-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r5) |
+| **Release** | [v26.3.0-20260731-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r6) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260731-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r6) | 2026-07-31 | [`15c7cc5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/15c7cc550a05ba6ea34799a16f64a8689d1abc76) | pan/rusticl: Update the last OpenCL conformance version passed value | Vulkan 1.4.354 |
 | [v26.3.0-20260731-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r5) | 2026-07-31 | [`7dd7147`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7dd7147b9cd44a0b75bb3a02a081448b87d542a9) | pvr: re-enable VK_KHR_shader_expect_assume | Vulkan 1.4.354 |
 | [v26.3.0-20260731-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r4) | 2026-07-31 | [`08ca847`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/08ca8475faeeb84053ccf7e98c8a61273f01e6ec) | radv: use a compute copy for large GTT/host copies on dGPUs | Vulkan 1.4.354 |
 | [v26.3.0-20260731-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r3) | 2026-07-31 | [`b3f90ce`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b3f90cea88602d8bec6ea2bb48c6650329aef852) | pan: check full fb coverage on has_partial_tiles | Vulkan 1.4.354 |
@@ -96,7 +97,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260730-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r8) | 2026-07-30 | [`209e682`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/209e68250df169301db18c4cce8f512d67f2faf4) | rusticl: Stop taking references to temporaries | Vulkan 1.4.354 |
 | [v26.3.0-20260730-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r7) | 2026-07-30 | [`fa01834`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fa0183466d7be5ce337980aeb71df74e2b6deb07) | radv/nir/opt_tid_function: try to use amd permute intrinsics | Vulkan 1.4.354 |
 | [v26.3.0-20260730-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r6) | 2026-07-30 | [`201cbc4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/201cbc4880398c19d06bf8da4d333084ef1d7f8c) | tu: Merge disable_write_for_rp from secondary to primary | Vulkan 1.4.354 |
-| [v26.3.0-20260730-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r5) | 2026-07-30 | [`ae84646`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ae84646e30cb2a4e2665b19b5d41b0b66827f116) | tu: Fix tu_event not being reset on creation | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
