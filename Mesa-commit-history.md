@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260731-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r5) | 2026-07-31 | [`7dd7147`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7dd7147b9cd44a0b75bb3a02a081448b87d542a9) | pvr: re-enable VK_KHR_shader_expect_assume | Vulkan 1.4.354 |
 | [v26.3.0-20260731-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r4) | 2026-07-31 | [`08ca847`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/08ca8475faeeb84053ccf7e98c8a61273f01e6ec) | radv: use a compute copy for large GTT/host copies on dGPUs | Vulkan 1.4.354 |
 | [v26.3.0-20260731-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r3) | 2026-07-31 | [`b3f90ce`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b3f90cea88602d8bec6ea2bb48c6650329aef852) | pan: check full fb coverage on has_partial_tiles | Vulkan 1.4.354 |
 | [v26.3.0-20260731-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r2) | 2026-07-31 | [`52c5c8d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/52c5c8d3d0bac33d55cda858ca975685c606700c) | lavapipe: Embed bindless sampler views by value | Vulkan 1.4.354 |
