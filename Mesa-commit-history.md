@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260801-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260801-r2) | 2026-08-01 | [`0baeca3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0baeca38c72ae4af7c464644189853b66af153e7) | glx/apple: silence OpenGL deprecation warnings in libglx | Vulkan 1.4.354 |
 | [v26.3.0-20260801](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260801) | 2026-07-31 | [`3e3631d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3e3631d98d0a0a3ba3f6ea71ea398bde2002c8e8) | brw: Enforce Gfx9 restriction 3-source destination must be GRF | Vulkan 1.4.354 |
 | [v26.3.0-20260731-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r8) | 2026-07-31 | [`6c306fd`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6c306fd75a9a3bad31ef779f8607d557524e2277) | d3d12: Disable vao fast path for AMD | Vulkan 1.4.354 |
 | [v26.3.0-20260731-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r7) | 2026-07-31 | [`cc82e15`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/cc82e157111d488c5c7540f4042884803293ebf7) | pan/compiler/stats: Fix ALU not being used in instruction bounds | Vulkan 1.4.354 |
