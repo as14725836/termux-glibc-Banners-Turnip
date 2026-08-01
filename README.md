@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`a5ab305`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a5ab30520c7b29b519dd1464e8af8b27c9a37cb3) |
+| **Commit** | [`959d6a4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/959d6a425da065879e181726603b7b76d435b109) |
 | **Commit date** | 2026-08-01 |
-| **Commit title** | mesa/st: approximate fog distance in the frag shader |
+| **Commit title** | radv: Fix gnu-empty-initializer error in 6cad4ee1 |
 | **Build date** | 20260801 |
-| **Release** | [v26.3.0-20260801-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260801-r4) |
+| **Release** | [v26.3.0-20260801-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260801-r5) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260801-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260801-r5) | 2026-08-01 | [`959d6a4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/959d6a425da065879e181726603b7b76d435b109) | radv: Fix gnu-empty-initializer error in 6cad4ee1 | Vulkan 1.4.354 |
 | [v26.3.0-20260801-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260801-r4) | 2026-08-01 | [`a5ab305`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a5ab30520c7b29b519dd1464e8af8b27c9a37cb3) | mesa/st: approximate fog distance in the frag shader | Vulkan 1.4.354 |
 | [v26.3.0-20260801-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260801-r3) | 2026-08-01 | [`bc99a09`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/bc99a094bd926ae7b5ab8643947ce1438c950720) | panfrost: Fix copyright header typos | Vulkan 1.4.354 |
 | [v26.3.0-20260801-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260801-r2) | 2026-08-01 | [`0baeca3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0baeca38c72ae4af7c464644189853b66af153e7) | glx/apple: silence OpenGL deprecation warnings in libglx | Vulkan 1.4.354 |
@@ -94,9 +95,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260731-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r8) | 2026-07-31 | [`6c306fd`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6c306fd75a9a3bad31ef779f8607d557524e2277) | d3d12: Disable vao fast path for AMD | Vulkan 1.4.354 |
 | [v26.3.0-20260731-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r7) | 2026-07-31 | [`cc82e15`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/cc82e157111d488c5c7540f4042884803293ebf7) | pan/compiler/stats: Fix ALU not being used in instruction bounds | Vulkan 1.4.354 |
 | [v26.3.0-20260731-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r6) | 2026-07-31 | [`15c7cc5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/15c7cc550a05ba6ea34799a16f64a8689d1abc76) | pan/rusticl: Update the last OpenCL conformance version passed value | Vulkan 1.4.354 |
-| [v26.3.0-20260731-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r5) | 2026-07-31 | [`7dd7147`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7dd7147b9cd44a0b75bb3a02a081448b87d542a9) | pvr: re-enable VK_KHR_shader_expect_assume | Vulkan 1.4.354 |
-| [v26.3.0-20260731-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r4) | 2026-07-31 | [`08ca847`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/08ca8475faeeb84053ccf7e98c8a61273f01e6ec) | radv: use a compute copy for large GTT/host copies on dGPUs | Vulkan 1.4.354 |
-| [v26.3.0-20260731-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r3) | 2026-07-31 | [`b3f90ce`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b3f90cea88602d8bec6ea2bb48c6650329aef852) | pan: check full fb coverage on has_partial_tiles | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
