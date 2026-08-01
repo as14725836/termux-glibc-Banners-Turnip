@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`6c306fd`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6c306fd75a9a3bad31ef779f8607d557524e2277) |
+| **Commit** | [`3e3631d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3e3631d98d0a0a3ba3f6ea71ea398bde2002c8e8) |
 | **Commit date** | 2026-07-31 |
-| **Commit title** | d3d12: Disable vao fast path for AMD |
-| **Build date** | 20260731 |
-| **Release** | [v26.3.0-20260731-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r8) |
+| **Commit title** | brw: Enforce Gfx9 restriction 3-source destination must be GRF |
+| **Build date** | 20260801 |
+| **Release** | [v26.3.0-20260801](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260801) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260801](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260801) | 2026-08-01 | [`3e3631d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3e3631d98d0a0a3ba3f6ea71ea398bde2002c8e8) | brw: Enforce Gfx9 restriction 3-source destination must be GRF | Vulkan 1.4.354 |
 | [v26.3.0-20260731-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r8) | 2026-07-31 | [`6c306fd`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6c306fd75a9a3bad31ef779f8607d557524e2277) | d3d12: Disable vao fast path for AMD | Vulkan 1.4.354 |
 | [v26.3.0-20260731-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r7) | 2026-07-31 | [`cc82e15`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/cc82e157111d488c5c7540f4042884803293ebf7) | pan/compiler/stats: Fix ALU not being used in instruction bounds | Vulkan 1.4.354 |
 | [v26.3.0-20260731-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r6) | 2026-07-31 | [`15c7cc5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/15c7cc550a05ba6ea34799a16f64a8689d1abc76) | pan/rusticl: Update the last OpenCL conformance version passed value | Vulkan 1.4.354 |
@@ -95,8 +96,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260731-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r3) | 2026-07-31 | [`b3f90ce`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b3f90cea88602d8bec6ea2bb48c6650329aef852) | pan: check full fb coverage on has_partial_tiles | Vulkan 1.4.354 |
 | [v26.3.0-20260731-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731-r2) | 2026-07-31 | [`52c5c8d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/52c5c8d3d0bac33d55cda858ca975685c606700c) | lavapipe: Embed bindless sampler views by value | Vulkan 1.4.354 |
 | [v26.3.0-20260731](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260731) | 2026-07-31 | [`32b2249`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/32b22499f488c169d2d5d5d00b6f299b17839f82) | glx/apple: implement swap control on top of kCGLCPSwapInterval | Vulkan 1.4.354 |
-| [v26.3.0-20260730-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r9) | 2026-07-30 | [`a62bd97`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a62bd97754eb52d2ba875528f832c5acbcf9d2db) | jay: copy resource_intel surface handle value | Vulkan 1.4.354 |
-| [v26.3.0-20260730-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260730-r8) | 2026-07-30 | [`209e682`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/209e68250df169301db18c4cce8f512d67f2faf4) | rusticl: Stop taking references to temporaries | Vulkan 1.4.354 |
 <!-- RECENT_BUILDS_END -->
 
 ---
