@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260803-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260803-r3) | 2026-08-03 | [`c9e4f18`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c9e4f184e59365b3d9ae6813c9c0c57f72faaa1a) | pan/bi: Use kraid for OpenCL kernels when PAN_USE_KRAID=cs | Vulkan 1.4.354 |
 | [v26.3.0-20260803-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260803-r2) | 2026-08-03 | [`cf41ce6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/cf41ce6ac45c97fb8565e6e4326380955f922f50) | nir/opt_varyings: fix incorrect counting of emit_vertex within a block | Vulkan 1.4.354 |
 | [v26.3.0-20260803](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260803) | 2026-08-03 | [`8e71240`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8e71240ad60f0dfceb4d28b548fa0f20f491affc) | tu: Avoid retroactive LRZ disable for S/R and secondaries | Vulkan 1.4.354 |
 | [v26.3.0-20260802-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260802-r2) | 2026-08-02 | [`99098b3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/99098b31471dc07c815a421c56da243b79c73b26) | intel/nir: Allow V8 load/stores when known to be SIMD16 or smaller | Vulkan 1.4.354 |
