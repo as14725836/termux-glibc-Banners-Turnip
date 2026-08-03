@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.354 |
-| **Commit** | [`65ac5d3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/65ac5d301434bfff9e0619ea85afd2e7bd31d24a) |
+| **Commit** | [`b683b5a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b683b5a33e7a9fba20bb872c0772c886dcfc8ace) |
 | **Commit date** | 2026-08-03 |
-| **Commit title** | wgl: Add driconf for XELive to force GDI compat |
+| **Commit title** | anv: fixup the logic dealing with STATE_BYTE_STRIDE |
 | **Build date** | 20260803 |
-| **Release** | [v26.3.0-20260803-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260803-r4) |
+| **Release** | [v26.3.0-20260803-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260803-r5) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260803-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260803-r5) | 2026-08-03 | [`b683b5a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b683b5a33e7a9fba20bb872c0772c886dcfc8ace) | anv: fixup the logic dealing with STATE_BYTE_STRIDE | Vulkan 1.4.354 |
 | [v26.3.0-20260803-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260803-r4) | 2026-08-03 | [`65ac5d3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/65ac5d301434bfff9e0619ea85afd2e7bd31d24a) | wgl: Add driconf for XELive to force GDI compat | Vulkan 1.4.354 |
 | [v26.3.0-20260803-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260803-r3) | 2026-08-03 | [`c9e4f18`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c9e4f184e59365b3d9ae6813c9c0c57f72faaa1a) | pan/bi: Use kraid for OpenCL kernels when PAN_USE_KRAID=cs | Vulkan 1.4.354 |
 | [v26.3.0-20260803-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260803-r2) | 2026-08-03 | [`cf41ce6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/cf41ce6ac45c97fb8565e6e4326380955f922f50) | nir/opt_varyings: fix incorrect counting of emit_vertex within a block | Vulkan 1.4.354 |
