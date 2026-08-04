@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.358 |
-| **Commit** | [`6e5468f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6e5468f75eddf86b56e343748285026659ca9078) |
+| **Commit** | [`090905a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/090905aeaf31f530a2bff97f451aad26d05eb45f) |
 | **Commit date** | 2026-08-04 |
-| **Commit title** | magma-gpu-rs: change Event methods to &self |
+| **Commit title** | venus: support VK_KHR_maintenance11 |
 | **Build date** | 20260804 |
-| **Release** | [v26.3.0-20260804-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260804-r8) |
+| **Release** | [v26.3.0-20260804-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260804-r9) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260804-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260804-r9) | 2026-08-04 | [`090905a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/090905aeaf31f530a2bff97f451aad26d05eb45f) | venus: support VK_KHR_maintenance11 | Vulkan 1.4.358 |
 | [v26.3.0-20260804-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260804-r8) | 2026-08-04 | [`6e5468f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6e5468f75eddf86b56e343748285026659ca9078) | magma-gpu-rs: change Event methods to &self | Vulkan 1.4.358 |
 | [v26.3.0-20260804-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260804-r7) | 2026-08-04 | [`5173525`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/51735259659644ccec13a3cb1b2f22d37c3d635c) | anv: only consider active view-capable queues for image views | Vulkan 1.4.358 |
 | [v26.3.0-20260804-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260804-r6) | 2026-08-04 | [`e492a27`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e492a278685f16e480624172724b1e4282876968) | pvr: enable global priority related extensions | Vulkan 1.4.358 |
