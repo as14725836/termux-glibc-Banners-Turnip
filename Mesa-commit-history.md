@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260804-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260804-r5) | 2026-08-04 | [`0973b92`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0973b92ec25a73c30ef53e4d79b6b5d5b845e075) | radv: Support video_encode_feedback2 (frame) stats | Vulkan 1.4.358 |
 | [v26.3.0-20260804-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260804-r4) | 2026-08-04 | [`b2f967e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b2f967eeef9ed5b6a7efc53efc1ed42c334f7e93) | Uprev Piglit to 65f44948b98d21f82ac119f8b3b5cfd866d2698a | Vulkan 1.4.358 |
 | [v26.3.0-20260804-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260804-r3) | 2026-08-04 | [`7af5c50`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7af5c5006f7be4a3e343e6539cd0887fb9106411) | vulkan/runtime: avoid rehashing shader stage hashes | Vulkan 1.4.358 |
 | [v26.3.0-20260804-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260804-r2) | 2026-08-04 | [`0269993`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0269993175d37cd35094d0d5ee704d1f5bb85a7a) | radeonsi,radv: avoid timestamp conversion overflow | Vulkan 1.4.354 |
