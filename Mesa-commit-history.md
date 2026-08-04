@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260804](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260804) | 2026-08-03 | [`b460cff`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b460cff22a56043e48e9ba083a8314b9a52840b4) | svga: Pass buffer handle for fd handles for resource_from_handle() | Vulkan 1.4.354 |
 | [v26.3.0-20260803-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260803-r5) | 2026-08-03 | [`b683b5a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b683b5a33e7a9fba20bb872c0772c886dcfc8ace) | anv: fixup the logic dealing with STATE_BYTE_STRIDE | Vulkan 1.4.354 |
 | [v26.3.0-20260803-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260803-r4) | 2026-08-03 | [`65ac5d3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/65ac5d301434bfff9e0619ea85afd2e7bd31d24a) | wgl: Add driconf for XELive to force GDI compat | Vulkan 1.4.354 |
 | [v26.3.0-20260803-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260803-r3) | 2026-08-03 | [`c9e4f18`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c9e4f184e59365b3d9ae6813c9c0c57f72faaa1a) | pan/bi: Use kraid for OpenCL kernels when PAN_USE_KRAID=cs | Vulkan 1.4.354 |
