@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.358 |
-| **Commit** | [`4a126f4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4a126f4d242ae845504a00fbaa51fd1814c6fc02) |
+| **Commit** | [`b148245`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b148245240eebd6b4c708fa3dccf561dca7c38da) |
 | **Commit date** | 2026-08-05 |
-| **Commit title** | zink/ci: skip occlusion queries on ADL/TGL |
+| **Commit title** | freedreno: Add missing <type_traits> include |
 | **Build date** | 20260805 |
-| **Release** | [v26.3.0-20260805-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r7) |
+| **Release** | [v26.3.0-20260805-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r8) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260805-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r8) | 2026-08-05 | [`b148245`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b148245240eebd6b4c708fa3dccf561dca7c38da) | freedreno: Add missing <type_traits> include | Vulkan 1.4.358 |
 | [v26.3.0-20260805-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r7) | 2026-08-05 | [`4a126f4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4a126f4d242ae845504a00fbaa51fd1814c6fc02) | zink/ci: skip occlusion queries on ADL/TGL | Vulkan 1.4.358 |
 | [v26.3.0-20260805-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r6) | 2026-08-05 | [`075f0eb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/075f0eb7abc59a7f2d4f2178ea95899b20e8b98b) | radv: fix invalid assertions in DGC when queues aren't enabled | Vulkan 1.4.358 |
 | [v26.3.0-20260805-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r5) | 2026-08-05 | [`588c0ea`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/588c0eacc1739562c261263dc67cc5defef3b906) | radv/android: suggest narrow YCbCr range for AHB YCbCr formats | Vulkan 1.4.358 |
@@ -97,7 +98,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260804-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260804-r9) | 2026-08-04 | [`090905a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/090905aeaf31f530a2bff97f451aad26d05eb45f) | venus: support VK_KHR_maintenance11 | Vulkan 1.4.358 |
 | [v26.3.0-20260804-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260804-r8) | 2026-08-04 | [`6e5468f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6e5468f75eddf86b56e343748285026659ca9078) | magma-gpu-rs: change Event methods to &self | Vulkan 1.4.358 |
 | [v26.3.0-20260804-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260804-r7) | 2026-08-04 | [`5173525`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/51735259659644ccec13a3cb1b2f22d37c3d635c) | anv: only consider active view-capable queues for image views | Vulkan 1.4.358 |
-| [v26.3.0-20260804-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260804-r6) | 2026-08-04 | [`e492a27`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e492a278685f16e480624172724b1e4282876968) | pvr: enable global priority related extensions | Vulkan 1.4.358 |
 <!-- RECENT_BUILDS_END -->
 
 ---
