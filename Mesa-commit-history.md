@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260805-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r6) | 2026-08-05 | [`075f0eb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/075f0eb7abc59a7f2d4f2178ea95899b20e8b98b) | radv: fix invalid assertions in DGC when queues aren't enabled | Vulkan 1.4.358 |
 | [v26.3.0-20260805-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r5) | 2026-08-05 | [`588c0ea`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/588c0eacc1739562c261263dc67cc5defef3b906) | radv/android: suggest narrow YCbCr range for AHB YCbCr formats | Vulkan 1.4.358 |
 | [v26.3.0-20260805-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r4) | 2026-08-05 | [`7901613`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7901613dc36ad8c652459967689ab212221ded4c) | vc4: don't save the fragment constant buffer for the ZS surface clear | Vulkan 1.4.358 |
 | [v26.3.0-20260805-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r3) | 2026-08-05 | [`64f9ff1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/64f9ff1d26fe56acedc50f484bc0e2bb2ed07942) | nir/nir_builder: inline dst_bit_size calculation in assert | Vulkan 1.4.358 |
