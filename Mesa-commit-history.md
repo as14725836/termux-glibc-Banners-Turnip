@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260805-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r9) | 2026-08-05 | [`2b545d2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2b545d2cef1f8ee54789a2fbd817395799f64740) | kraid/nir: Emit OpIMul signless | Vulkan 1.4.358 |
 | [v26.3.0-20260805-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r8) | 2026-08-05 | [`b148245`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b148245240eebd6b4c708fa3dccf561dca7c38da) | freedreno: Add missing <type_traits> include | Vulkan 1.4.358 |
 | [v26.3.0-20260805-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r7) | 2026-08-05 | [`4a126f4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4a126f4d242ae845504a00fbaa51fd1814c6fc02) | zink/ci: skip occlusion queries on ADL/TGL | Vulkan 1.4.358 |
 | [v26.3.0-20260805-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r6) | 2026-08-05 | [`075f0eb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/075f0eb7abc59a7f2d4f2178ea95899b20e8b98b) | radv: fix invalid assertions in DGC when queues aren't enabled | Vulkan 1.4.358 |
