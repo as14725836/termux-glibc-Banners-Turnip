@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260805-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r2) | 2026-08-05 | [`db70cf6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/db70cf645dc92e300b18975e3d6d4be0f3799e49) | nir, spirv: Pad 3-component debug printf arguments to 4 components | Vulkan 1.4.358 |
 | [v26.3.0-20260805](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805) | 2026-08-04 | [`ec34234`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ec3423445db1ebb62945e5651223e25e18617926) | kraid: Build variant without psiz | Vulkan 1.4.358 |
 | [v26.3.0-20260804-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260804-r9) | 2026-08-04 | [`090905a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/090905aeaf31f530a2bff97f451aad26d05eb45f) | venus: support VK_KHR_maintenance11 | Vulkan 1.4.358 |
 | [v26.3.0-20260804-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260804-r8) | 2026-08-04 | [`6e5468f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6e5468f75eddf86b56e343748285026659ca9078) | magma-gpu-rs: change Event methods to &self | Vulkan 1.4.358 |
