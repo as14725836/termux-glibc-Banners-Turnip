@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.358 |
-| **Commit** | [`93a1ab8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/93a1ab86ffa11f65a0906244b31260f50f4a0dbd) |
+| **Commit** | [`1e2a9c2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1e2a9c2217273a71cee4e27baa743b68df19178e) |
 | **Commit date** | 2026-08-05 |
-| **Commit title** | etnaviv: Turn the sampler parameter loads into constants |
-| **Build date** | 20260805 |
-| **Release** | [v26.3.0-20260805-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r11) |
+| **Commit title** | docs: add release dates for the 26.2.x cycle |
+| **Build date** | 20260806 |
+| **Release** | [v26.3.0-20260806](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260806) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260806](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260806) | 2026-08-06 | [`1e2a9c2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1e2a9c2217273a71cee4e27baa743b68df19178e) | docs: add release dates for the 26.2.x cycle | Vulkan 1.4.358 |
 | [v26.3.0-20260805-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r11) | 2026-08-05 | [`93a1ab8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/93a1ab86ffa11f65a0906244b31260f50f4a0dbd) | etnaviv: Turn the sampler parameter loads into constants | Vulkan 1.4.358 |
 | [v26.3.0-20260805-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r10) | 2026-08-05 | [`ab9632d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ab9632da84408217d643b61affd69e7e1163103a) | v3dv: cap CL BO growth when doubling | Vulkan 1.4.358 |
 | [v26.3.0-20260805-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r9) | 2026-08-05 | [`2b545d2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2b545d2cef1f8ee54789a2fbd817395799f64740) | kraid/nir: Emit OpIMul signless | Vulkan 1.4.358 |
@@ -98,7 +99,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260805-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r3) | 2026-08-05 | [`64f9ff1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/64f9ff1d26fe56acedc50f484bc0e2bb2ed07942) | nir/nir_builder: inline dst_bit_size calculation in assert | Vulkan 1.4.358 |
 | [v26.3.0-20260805-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r2) | 2026-08-05 | [`db70cf6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/db70cf645dc92e300b18975e3d6d4be0f3799e49) | nir, spirv: Pad 3-component debug printf arguments to 4 components | Vulkan 1.4.358 |
 | [v26.3.0-20260805](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805) | 2026-08-05 | [`ec34234`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ec3423445db1ebb62945e5651223e25e18617926) | kraid: Build variant without psiz | Vulkan 1.4.358 |
-| [v26.3.0-20260804-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260804-r9) | 2026-08-04 | [`090905a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/090905aeaf31f530a2bff97f451aad26d05eb45f) | venus: support VK_KHR_maintenance11 | Vulkan 1.4.358 |
 <!-- RECENT_BUILDS_END -->
 
 ---
