@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260806-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260806-r4) | 2026-08-06 | [`8ca152c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8ca152c8cdb1525e37b4d6351257a34559303f4c) | panvk/ci: Add a Kraid job on G925 | Vulkan 1.4.358 |
 | [v26.3.0-20260806-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260806-r3) | 2026-08-06 | [`4317b23`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4317b2391da019cd02f7b16af429db5638079893) | amd: add gfx1171 | Vulkan 1.4.358 |
 | [v26.3.0-20260806-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260806-r2) | 2026-08-06 | [`43ec7c6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/43ec7c6b0bca7d405a5e69bf7743afc92600268f) | kk: Disable allowGPUOptimizedContents on M5 for e5b9g9r9 | Vulkan 1.4.358 |
 | [v26.3.0-20260806](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260806) | 2026-08-05 | [`1e2a9c2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1e2a9c2217273a71cee4e27baa743b68df19178e) | docs: add release dates for the 26.2.x cycle | Vulkan 1.4.358 |
