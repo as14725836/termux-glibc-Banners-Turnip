@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.358 |
-| **Commit** | [`43ec7c6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/43ec7c6b0bca7d405a5e69bf7743afc92600268f) |
+| **Commit** | [`4317b23`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4317b2391da019cd02f7b16af429db5638079893) |
 | **Commit date** | 2026-08-06 |
-| **Commit title** | kk: Disable allowGPUOptimizedContents on M5 for e5b9g9r9 |
+| **Commit title** | amd: add gfx1171 |
 | **Build date** | 20260806 |
-| **Release** | [v26.3.0-20260806-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260806-r2) |
+| **Release** | [v26.3.0-20260806-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260806-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260806-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260806-r3) | 2026-08-06 | [`4317b23`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4317b2391da019cd02f7b16af429db5638079893) | amd: add gfx1171 | Vulkan 1.4.358 |
 | [v26.3.0-20260806-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260806-r2) | 2026-08-06 | [`43ec7c6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/43ec7c6b0bca7d405a5e69bf7743afc92600268f) | kk: Disable allowGPUOptimizedContents on M5 for e5b9g9r9 | Vulkan 1.4.358 |
 | [v26.3.0-20260806](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260806) | 2026-08-06 | [`1e2a9c2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1e2a9c2217273a71cee4e27baa743b68df19178e) | docs: add release dates for the 26.2.x cycle | Vulkan 1.4.358 |
 | [v26.3.0-20260805-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r11) | 2026-08-05 | [`93a1ab8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/93a1ab86ffa11f65a0906244b31260f50f4a0dbd) | etnaviv: Turn the sampler parameter loads into constants | Vulkan 1.4.358 |
@@ -97,8 +98,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260805-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r6) | 2026-08-05 | [`075f0eb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/075f0eb7abc59a7f2d4f2178ea95899b20e8b98b) | radv: fix invalid assertions in DGC when queues aren't enabled | Vulkan 1.4.358 |
 | [v26.3.0-20260805-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r5) | 2026-08-05 | [`588c0ea`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/588c0eacc1739562c261263dc67cc5defef3b906) | radv/android: suggest narrow YCbCr range for AHB YCbCr formats | Vulkan 1.4.358 |
 | [v26.3.0-20260805-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r4) | 2026-08-05 | [`7901613`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7901613dc36ad8c652459967689ab212221ded4c) | vc4: don't save the fragment constant buffer for the ZS surface clear | Vulkan 1.4.358 |
-| [v26.3.0-20260805-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r3) | 2026-08-05 | [`64f9ff1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/64f9ff1d26fe56acedc50f484bc0e2bb2ed07942) | nir/nir_builder: inline dst_bit_size calculation in assert | Vulkan 1.4.358 |
-| [v26.3.0-20260805-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260805-r2) | 2026-08-05 | [`db70cf6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/db70cf645dc92e300b18975e3d6d4be0f3799e49) | nir, spirv: Pad 3-component debug printf arguments to 4 components | Vulkan 1.4.358 |
 <!-- RECENT_BUILDS_END -->
 
 ---
