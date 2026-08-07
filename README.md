@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.358 |
-| **Commit** | [`8dd0282`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8dd0282c298962e8124acd303b093656dcb7b770) |
+| **Commit** | [`de048b7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/de048b7cda65e634e19ea66cfec4bdcdbd0ee0e6) |
 | **Commit date** | 2026-08-07 |
-| **Commit title** | kk: Improve workaround 14 |
+| **Commit title** | pco: drop i2i16 conversion for nir_interleave srcs |
 | **Build date** | 20260807 |
-| **Release** | [v26.3.0-20260807-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r8) |
+| **Release** | [v26.3.0-20260807-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r9) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260807-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r9) | 2026-08-07 | [`de048b7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/de048b7cda65e634e19ea66cfec4bdcdbd0ee0e6) | pco: drop i2i16 conversion for nir_interleave srcs | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r8) | 2026-08-07 | [`8dd0282`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8dd0282c298962e8124acd303b093656dcb7b770) | kk: Improve workaround 14 | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r7) | 2026-08-07 | [`11cbf14`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/11cbf14d2918c28387bb288ee85301b88752ae4f) | etnaviv: Keep the SE scissor rectangle within the hardware limit | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r6) | 2026-08-07 | [`ac913db`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ac913db67c9de4c3bf0f7ca67296b9b7bc69d20c) | etnaviv: make fence fd checks more robust | Vulkan 1.4.358 |
