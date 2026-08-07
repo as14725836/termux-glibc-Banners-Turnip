@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260807-r13](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r13) | 2026-08-07 | [`61656d7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/61656d744be6101fe2e807ee6feca9d61724f2bc) | wsi/display: free the previous display name when EDID is parsed | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r12) | 2026-08-07 | [`e40d93a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e40d93a8ea98966ecb33b3a273c1633ea9ea0ea4) | ci/rusticl: Update nightly expectations after spirv-llvm-translator bump | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r11) | 2026-08-07 | [`5737bc7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5737bc78fe4421fbb45e2d4dd282684feb1c7fcc) | etnaviv: Use the 12 bit vertex stride field of the NFE | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r10) | 2026-08-07 | [`525aac8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/525aac88c53be55f5958122e590fea2edcdc05d1) | freedreno/a2xx: remove the IO variables of lowered TGSI shaders | Vulkan 1.4.358 |
