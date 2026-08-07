@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260807](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807) | 2026-08-07 | [`6a5c13b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6a5c13b36021b7049a2be13f7a70a04758d11487) | kraid: Add opt_promote_consts | Vulkan 1.4.358 |
 | [v26.3.0-20260806-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260806-r5) | 2026-08-06 | [`410a764`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/410a764236d2918fba636330a978ce6ab53d22b2) | util/dynarray: outline the growth slow path | Vulkan 1.4.358 |
 | [v26.3.0-20260806-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260806-r4) | 2026-08-06 | [`8ca152c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8ca152c8cdb1525e37b4d6351257a34559303f4c) | panvk/ci: Add a Kraid job on G925 | Vulkan 1.4.358 |
 | [v26.3.0-20260806-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260806-r3) | 2026-08-06 | [`4317b23`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4317b2391da019cd02f7b16af429db5638079893) | amd: add gfx1171 | Vulkan 1.4.358 |
