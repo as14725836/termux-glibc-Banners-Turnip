@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260807-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r6) | 2026-08-07 | [`ac913db`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ac913db67c9de4c3bf0f7ca67296b9b7bc69d20c) | etnaviv: make fence fd checks more robust | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r5) | 2026-08-07 | [`7ebac10`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7ebac1033ef0b75f1f45f3626e18d3c45b637576) | kk: Do not pass layer count to Metal for attachment-less rendering | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r4) | 2026-08-07 | [`33780ef`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/33780ef17231d34dc2c1348e9b967fb0f1f37cda) | docs: fix reporting VK_KHR_index_type_uint8 on RADV | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r3) | 2026-08-07 | [`fde6d51`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fde6d5183a3aaf379cb7cc684e4d798a79fe7f12) | nv30: add todo comments | Vulkan 1.4.358 |
