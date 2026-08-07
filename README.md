@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.358 |
-| **Commit** | [`11cbf14`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/11cbf14d2918c28387bb288ee85301b88752ae4f) |
+| **Commit** | [`8dd0282`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8dd0282c298962e8124acd303b093656dcb7b770) |
 | **Commit date** | 2026-08-07 |
-| **Commit title** | etnaviv: Keep the SE scissor rectangle within the hardware limit |
+| **Commit title** | kk: Improve workaround 14 |
 | **Build date** | 20260807 |
-| **Release** | [v26.3.0-20260807-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r7) |
+| **Release** | [v26.3.0-20260807-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r8) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260807-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r8) | 2026-08-07 | [`8dd0282`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8dd0282c298962e8124acd303b093656dcb7b770) | kk: Improve workaround 14 | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r7) | 2026-08-07 | [`11cbf14`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/11cbf14d2918c28387bb288ee85301b88752ae4f) | etnaviv: Keep the SE scissor rectangle within the hardware limit | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r6) | 2026-08-07 | [`ac913db`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ac913db67c9de4c3bf0f7ca67296b9b7bc69d20c) | etnaviv: make fence fd checks more robust | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r5) | 2026-08-07 | [`7ebac10`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7ebac1033ef0b75f1f45f3626e18d3c45b637576) | kk: Do not pass layer count to Metal for attachment-less rendering | Vulkan 1.4.358 |
@@ -95,7 +96,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260807-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r2) | 2026-08-07 | [`75b4d6b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/75b4d6b0b4bdd0a8d61468f8e6faf4aa7309342f) | anv/rt: Use 64bit keys for sorting | Vulkan 1.4.358 |
 | [v26.3.0-20260807](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807) | 2026-08-07 | [`6a5c13b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6a5c13b36021b7049a2be13f7a70a04758d11487) | kraid: Add opt_promote_consts | Vulkan 1.4.358 |
 | [v26.3.0-20260806-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260806-r5) | 2026-08-06 | [`410a764`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/410a764236d2918fba636330a978ce6ab53d22b2) | util/dynarray: outline the growth slow path | Vulkan 1.4.358 |
-| [v26.3.0-20260806-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260806-r4) | 2026-08-06 | [`8ca152c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8ca152c8cdb1525e37b4d6351257a34559303f4c) | panvk/ci: Add a Kraid job on G925 | Vulkan 1.4.358 |
 <!-- RECENT_BUILDS_END -->
 
 ---

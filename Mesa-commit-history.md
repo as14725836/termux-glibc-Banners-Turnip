@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260807-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r8) | 2026-08-07 | [`8dd0282`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8dd0282c298962e8124acd303b093656dcb7b770) | kk: Improve workaround 14 | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r7) | 2026-08-07 | [`11cbf14`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/11cbf14d2918c28387bb288ee85301b88752ae4f) | etnaviv: Keep the SE scissor rectangle within the hardware limit | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r6) | 2026-08-07 | [`ac913db`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ac913db67c9de4c3bf0f7ca67296b9b7bc69d20c) | etnaviv: make fence fd checks more robust | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r5) | 2026-08-07 | [`7ebac10`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7ebac1033ef0b75f1f45f3626e18d3c45b637576) | kk: Do not pass layer count to Metal for attachment-less rendering | Vulkan 1.4.358 |
