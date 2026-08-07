@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.358 |
-| **Commit** | [`de048b7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/de048b7cda65e634e19ea66cfec4bdcdbd0ee0e6) |
+| **Commit** | [`525aac8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/525aac88c53be55f5958122e590fea2edcdc05d1) |
 | **Commit date** | 2026-08-07 |
-| **Commit title** | pco: drop i2i16 conversion for nir_interleave srcs |
+| **Commit title** | freedreno/a2xx: remove the IO variables of lowered TGSI shaders |
 | **Build date** | 20260807 |
-| **Release** | [v26.3.0-20260807-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r9) |
+| **Release** | [v26.3.0-20260807-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r10) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260807-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r10) | 2026-08-07 | [`525aac8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/525aac88c53be55f5958122e590fea2edcdc05d1) | freedreno/a2xx: remove the IO variables of lowered TGSI shaders | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r9) | 2026-08-07 | [`de048b7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/de048b7cda65e634e19ea66cfec4bdcdbd0ee0e6) | pco: drop i2i16 conversion for nir_interleave srcs | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r8) | 2026-08-07 | [`8dd0282`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8dd0282c298962e8124acd303b093656dcb7b770) | kk: Improve workaround 14 | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r7) | 2026-08-07 | [`11cbf14`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/11cbf14d2918c28387bb288ee85301b88752ae4f) | etnaviv: Keep the SE scissor rectangle within the hardware limit | Vulkan 1.4.358 |
@@ -96,7 +97,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260807-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r3) | 2026-08-07 | [`fde6d51`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fde6d5183a3aaf379cb7cc684e4d798a79fe7f12) | nv30: add todo comments | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r2) | 2026-08-07 | [`75b4d6b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/75b4d6b0b4bdd0a8d61468f8e6faf4aa7309342f) | anv/rt: Use 64bit keys for sorting | Vulkan 1.4.358 |
 | [v26.3.0-20260807](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807) | 2026-08-07 | [`6a5c13b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6a5c13b36021b7049a2be13f7a70a04758d11487) | kraid: Add opt_promote_consts | Vulkan 1.4.358 |
-| [v26.3.0-20260806-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260806-r5) | 2026-08-06 | [`410a764`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/410a764236d2918fba636330a978ce6ab53d22b2) | util/dynarray: outline the growth slow path | Vulkan 1.4.358 |
 <!-- RECENT_BUILDS_END -->
 
 ---
