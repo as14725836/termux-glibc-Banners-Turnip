@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.358 |
-| **Commit** | [`fde6d51`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fde6d5183a3aaf379cb7cc684e4d798a79fe7f12) |
+| **Commit** | [`33780ef`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/33780ef17231d34dc2c1348e9b967fb0f1f37cda) |
 | **Commit date** | 2026-08-07 |
-| **Commit title** | nv30: add todo comments |
+| **Commit title** | docs: fix reporting VK_KHR_index_type_uint8 on RADV |
 | **Build date** | 20260807 |
-| **Release** | [v26.3.0-20260807-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r3) |
+| **Release** | [v26.3.0-20260807-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r4) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260807-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r4) | 2026-08-07 | [`33780ef`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/33780ef17231d34dc2c1348e9b967fb0f1f37cda) | docs: fix reporting VK_KHR_index_type_uint8 on RADV | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r3) | 2026-08-07 | [`fde6d51`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fde6d5183a3aaf379cb7cc684e4d798a79fe7f12) | nv30: add todo comments | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r2) | 2026-08-07 | [`75b4d6b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/75b4d6b0b4bdd0a8d61468f8e6faf4aa7309342f) | anv/rt: Use 64bit keys for sorting | Vulkan 1.4.358 |
 | [v26.3.0-20260807](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807) | 2026-08-07 | [`6a5c13b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6a5c13b36021b7049a2be13f7a70a04758d11487) | kraid: Add opt_promote_consts | Vulkan 1.4.358 |
