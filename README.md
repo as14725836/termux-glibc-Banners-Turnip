@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.358 |
-| **Commit** | [`2a2cc31`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2a2cc31dd7d2b7197a4de13818ed6ae2a251c78e) |
-| **Commit date** | 2026-08-07 |
-| **Commit title** | anv: Bump up the subgroup size to 32 |
-| **Build date** | 20260807 |
-| **Release** | [v26.3.0-20260807-r18](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r18) |
+| **Commit** | [`bd52ca4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/bd52ca4c90ae17cd690256ec4650de1af6f739ca) |
+| **Commit date** | 2026-08-08 |
+| **Commit title** | freedreno/a2xx: stop advertising GL_EXT_frag_depth |
+| **Build date** | 20260808 |
+| **Release** | [v26.3.0-20260808](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260808) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260808](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260808) | 2026-08-08 | [`bd52ca4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/bd52ca4c90ae17cd690256ec4650de1af6f739ca) | freedreno/a2xx: stop advertising GL_EXT_frag_depth | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r18](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r18) | 2026-08-07 | [`2a2cc31`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2a2cc31dd7d2b7197a4de13818ed6ae2a251c78e) | anv: Bump up the subgroup size to 32 | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r17](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r17) | 2026-08-07 | [`0deba49`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0deba49b3d91eb510e47cbd52678b862af7b1c58) | svga: do y flip back only for non negative svga->curr.viewport[0].scale[1] | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r16](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r16) | 2026-08-07 | [`0138d2e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0138d2e800fcec8b65dc92a2e519cdf4c1a8c8fa) | nak: Serialize carry access in instr_sched_prepass | Vulkan 1.4.358 |
@@ -104,7 +105,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260807-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r4) | 2026-08-07 | [`33780ef`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/33780ef17231d34dc2c1348e9b967fb0f1f37cda) | docs: fix reporting VK_KHR_index_type_uint8 on RADV | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r3) | 2026-08-07 | [`fde6d51`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fde6d5183a3aaf379cb7cc684e4d798a79fe7f12) | nv30: add todo comments | Vulkan 1.4.358 |
 | [v26.3.0-20260807-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807-r2) | 2026-08-07 | [`75b4d6b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/75b4d6b0b4bdd0a8d61468f8e6faf4aa7309342f) | anv/rt: Use 64bit keys for sorting | Vulkan 1.4.358 |
-| [v26.3.0-20260807](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260807) | 2026-08-07 | [`6a5c13b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6a5c13b36021b7049a2be13f7a70a04758d11487) | kraid: Add opt_promote_consts | Vulkan 1.4.358 |
 <!-- RECENT_BUILDS_END -->
 
 ---
