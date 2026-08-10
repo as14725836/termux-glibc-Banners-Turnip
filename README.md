@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.358 |
-| **Commit** | [`74d4e41`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/74d4e41b2bb1e77ef4e022a6a1329d6cc782c4c6) |
+| **Commit** | [`b587ce6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b587ce63f66f0a6b5136bd5d27d6f793410629ad) |
 | **Commit date** | 2026-08-10 |
-| **Commit title** | tu: Use correct pointer for vis stream patchpoint cs fence |
+| **Commit title** | brw: Respect execution mask when resetting GS control data |
 | **Build date** | 20260810 |
-| **Release** | [v26.3.0-20260810-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260810-r8) |
+| **Release** | [v26.3.0-20260810-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260810-r9) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260810-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260810-r9) | 2026-08-10 | [`b587ce6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b587ce63f66f0a6b5136bd5d27d6f793410629ad) | brw: Respect execution mask when resetting GS control data | Vulkan 1.4.358 |
 | [v26.3.0-20260810-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260810-r8) | 2026-08-10 | [`74d4e41`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/74d4e41b2bb1e77ef4e022a6a1329d6cc782c4c6) | tu: Use correct pointer for vis stream patchpoint cs fence | Vulkan 1.4.358 |
 | [v26.3.0-20260810-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260810-r7) | 2026-08-10 | [`541c56a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/541c56aa3fd24027ed46ae350287d21dcd56c901) | freedreno/a2xx: don't abort on a shader that does nothing | Vulkan 1.4.358 |
 | [v26.3.0-20260810-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260810-r6) | 2026-08-10 | [`742af79`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/742af792775f21e29e154a4e35b8c1a2e3103de4) | radv/meta: fix resolving to 3D color images | Vulkan 1.4.358 |
