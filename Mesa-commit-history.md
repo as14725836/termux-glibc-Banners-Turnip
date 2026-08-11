@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260811-r16](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r16) | 2026-08-11 | [`7f564d4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7f564d43c819405a09213e72860ac40d47723c9a) | anv/rt: split encode into multiple batched, breadth-first dispatches | Vulkan 1.4.358 |
 | [v26.3.0-20260811-r15](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r15) | 2026-08-11 | [`aa6f912`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/aa6f9121f0fb76446f1fb48cb9284380a64f9686) | anv: let's not crash everywhere | Vulkan 1.4.358 |
 | [v26.3.0-20260811-r14](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r14) | 2026-08-11 | [`76e9e97`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/76e9e975a4f530a160efcb86fb8bf62ebe5dfc77) | anv: fix binding mode flush | Vulkan 1.4.358 |
 | [v26.3.0-20260811-r13](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r13) | 2026-08-11 | [`47bc087`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/47bc0871f64477bf2d013bfab1c0774a221ef5cf) | freedreno/ci: Switch a200 to gfx-ci/linux kernel | Vulkan 1.4.358 |
