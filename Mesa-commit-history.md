@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260811](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811) | 2026-08-11 | [`e060f20`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e060f20717a311059ba2ccc34cd52516c1c8865d) | kk: Disable workaround 8 and 11 on macOS 27 | Vulkan 1.4.358 |
 | [v26.3.0-20260810-r13](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260810-r13) | 2026-08-10 | [`1b2e70d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1b2e70de00f68f8cf32dca8cd1a64fba9b6410a8) | nak: improve implementation of global_bounded | Vulkan 1.4.358 |
 | [v26.3.0-20260810-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260810-r12) | 2026-08-10 | [`fc8b192`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fc8b1928cbc21099d1428299bf7d0c86da9f7b65) | intel/compiler: Don't vectorize URB access to vec8 in SIMD32 | Vulkan 1.4.358 |
 | [v26.3.0-20260810-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260810-r11) | 2026-08-10 | [`62585e8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/62585e8940a6ccb920e7b5bd8bc1235e6cabedc2) | anv: Close shader dump archive on device destruction | Vulkan 1.4.358 |
