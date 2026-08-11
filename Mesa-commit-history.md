@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260811-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r6) | 2026-08-11 | [`c95c270`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c95c27078e54cd1334cb150d9c4591c0dcdc6a36) | st/mesa: Only drop ARB_depth_buffer_float on desktop GL | Vulkan 1.4.358 |
 | [v26.3.0-20260811-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r5) | 2026-08-11 | [`4e66d3c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4e66d3ca29458c0c749c199255e348b09e81c514) | broadcom/compiler: handle 16-bit fsat | Vulkan 1.4.358 |
 | [v26.3.0-20260811-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r4) | 2026-08-11 | [`6aef757`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6aef757b7fc407b7901bd52acbfcc87dec3f4636) | ci: add radv-validate-cache to verify precompilation doesn't break | Vulkan 1.4.358 |
 | [v26.3.0-20260811-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r3) | 2026-08-11 | [`28285e6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/28285e672f37407afce95adafcb9218bc7c2faeb) | docs/features: v3d and panfrost supports GL_EXT_color_buffer_half_float and GL_EXT_texture_norm16 | Vulkan 1.4.358 |
