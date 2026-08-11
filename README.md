@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.358 |
-| **Commit** | [`47bc087`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/47bc0871f64477bf2d013bfab1c0774a221ef5cf) |
+| **Commit** | [`76e9e97`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/76e9e975a4f530a160efcb86fb8bf62ebe5dfc77) |
 | **Commit date** | 2026-08-11 |
-| **Commit title** | freedreno/ci: Switch a200 to gfx-ci/linux kernel |
+| **Commit title** | anv: fix binding mode flush |
 | **Build date** | 20260811 |
-| **Release** | [v26.3.0-20260811-r13](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r13) |
+| **Release** | [v26.3.0-20260811-r14](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r14) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260811-r14](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r14) | 2026-08-11 | [`76e9e97`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/76e9e975a4f530a160efcb86fb8bf62ebe5dfc77) | anv: fix binding mode flush | Vulkan 1.4.358 |
 | [v26.3.0-20260811-r13](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r13) | 2026-08-11 | [`47bc087`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/47bc0871f64477bf2d013bfab1c0774a221ef5cf) | freedreno/ci: Switch a200 to gfx-ci/linux kernel | Vulkan 1.4.358 |
 | [v26.3.0-20260811-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r12) | 2026-08-11 | [`fdaeb5a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fdaeb5a757599841ec9c95a548f8849066bd2fc3) | etnaviv: reorder state emission to optimize loads | Vulkan 1.4.358 |
 | [v26.3.0-20260811-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r11) | 2026-08-11 | [`58f6bc5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/58f6bc5eab77cd818d0a0e20d32c6859b67ed174) | anv: remove all code related to INTEL_performance_query not using metrics_library | Vulkan 1.4.358 |
@@ -102,7 +103,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260811](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811) | 2026-08-11 | [`e060f20`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e060f20717a311059ba2ccc34cd52516c1c8865d) | kk: Disable workaround 8 and 11 on macOS 27 | Vulkan 1.4.358 |
 | [v26.3.0-20260810-r13](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260810-r13) | 2026-08-10 | [`1b2e70d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1b2e70de00f68f8cf32dca8cd1a64fba9b6410a8) | nak: improve implementation of global_bounded | Vulkan 1.4.358 |
 | [v26.3.0-20260810-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260810-r12) | 2026-08-10 | [`fc8b192`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fc8b1928cbc21099d1428299bf7d0c86da9f7b65) | intel/compiler: Don't vectorize URB access to vec8 in SIMD32 | Vulkan 1.4.358 |
-| [v26.3.0-20260810-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260810-r11) | 2026-08-10 | [`62585e8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/62585e8940a6ccb920e7b5bd8bc1235e6cabedc2) | anv: Close shader dump archive on device destruction | Vulkan 1.4.358 |
 <!-- RECENT_BUILDS_END -->
 
 ---
