@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260811-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r11) | 2026-08-11 | [`58f6bc5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/58f6bc5eab77cd818d0a0e20d32c6859b67ed174) | anv: remove all code related to INTEL_performance_query not using metrics_library | Vulkan 1.4.358 |
 | [v26.3.0-20260811-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r10) | 2026-08-11 | [`56f473c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/56f473cc63e86c74e815c5f44e3cdc7ddd6d665f) | freedreno/a2xx: read gl_FragCoord from the component asked for | Vulkan 1.4.358 |
 | [v26.3.0-20260811-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r9) | 2026-08-11 | [`b061696`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b0616965331138387d63402f1d17f4ecc5245511) | kk: Fix disable of workaround 8 | Vulkan 1.4.358 |
 | [v26.3.0-20260811-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r8) | 2026-08-11 | [`8efc749`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8efc749775ea43474a2f1f7ebb93d1c8bf34ae46) | ac/uvd_dec: Only send SESSION_CONTEXT_BUFFER if needed | Vulkan 1.4.358 |
