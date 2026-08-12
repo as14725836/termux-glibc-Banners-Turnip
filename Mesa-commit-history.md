@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260812-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r6) | 2026-08-12 | [`724bffd`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/724bffde435bd1055a07db34cd8252d809d37a4f) | radv/ci: use all drm-shim devices in radv-validate-cache | Vulkan 1.4.358 |
 | [v26.3.0-20260812-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r5) | 2026-08-12 | [`6b80f6d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6b80f6da762ce8d69a85bf4912ccac82f678afe3) | anv/video: Enable KHR_video_encode_av1 on Gen125 | Vulkan 1.4.358 |
 | [v26.3.0-20260812-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r4) | 2026-08-12 | [`5af4976`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5af4976e23a6dd361f5a1e0d26595b47d228c191) | radeonsi/mm: Don't use HEVC per slice loop filter across slices on old FW | Vulkan 1.4.358 |
 | [v26.3.0-20260812-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r3) | 2026-08-12 | [`ab9bbb8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ab9bbb89a310c63b49793d9ea9d5fe6fc832feec) | tu/ci: Add Android coverage for VK_EXT_image_compression_control | Vulkan 1.4.358 |

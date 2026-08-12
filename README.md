@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.358 |
-| **Commit** | [`6b80f6d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6b80f6da762ce8d69a85bf4912ccac82f678afe3) |
+| **Commit** | [`724bffd`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/724bffde435bd1055a07db34cd8252d809d37a4f) |
 | **Commit date** | 2026-08-12 |
-| **Commit title** | anv/video: Enable KHR_video_encode_av1 on Gen125 |
+| **Commit title** | radv/ci: use all drm-shim devices in radv-validate-cache |
 | **Build date** | 20260812 |
-| **Release** | [v26.3.0-20260812-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r5) |
+| **Release** | [v26.3.0-20260812-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r6) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260812-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r6) | 2026-08-12 | [`724bffd`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/724bffde435bd1055a07db34cd8252d809d37a4f) | radv/ci: use all drm-shim devices in radv-validate-cache | Vulkan 1.4.358 |
 | [v26.3.0-20260812-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r5) | 2026-08-12 | [`6b80f6d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6b80f6da762ce8d69a85bf4912ccac82f678afe3) | anv/video: Enable KHR_video_encode_av1 on Gen125 | Vulkan 1.4.358 |
 | [v26.3.0-20260812-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r4) | 2026-08-12 | [`5af4976`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5af4976e23a6dd361f5a1e0d26595b47d228c191) | radeonsi/mm: Don't use HEVC per slice loop filter across slices on old FW | Vulkan 1.4.358 |
 | [v26.3.0-20260812-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r3) | 2026-08-12 | [`ab9bbb8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ab9bbb89a310c63b49793d9ea9d5fe6fc832feec) | tu/ci: Add Android coverage for VK_EXT_image_compression_control | Vulkan 1.4.358 |
@@ -103,7 +104,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260811-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r8) | 2026-08-11 | [`8efc749`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8efc749775ea43474a2f1f7ebb93d1c8bf34ae46) | ac/uvd_dec: Only send SESSION_CONTEXT_BUFFER if needed | Vulkan 1.4.358 |
 | [v26.3.0-20260811-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r7) | 2026-08-11 | [`94073fb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/94073fb459293cebe10c4e74ee28e7d2879cc917) | pan/genxml/v14: Clean up format list | Vulkan 1.4.358 |
 | [v26.3.0-20260811-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r6) | 2026-08-11 | [`c95c270`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c95c27078e54cd1334cb150d9c4591c0dcdc6a36) | st/mesa: Only drop ARB_depth_buffer_float on desktop GL | Vulkan 1.4.358 |
-| [v26.3.0-20260811-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r5) | 2026-08-11 | [`4e66d3c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4e66d3ca29458c0c749c199255e348b09e81c514) | broadcom/compiler: handle 16-bit fsat | Vulkan 1.4.358 |
 <!-- RECENT_BUILDS_END -->
 
 ---
