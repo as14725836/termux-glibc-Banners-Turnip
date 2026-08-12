@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260812-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r2) | 2026-08-12 | [`b7314ee`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b7314eec75b007efd0569cbd1df046e6da3b6e90) | kk: Move kk_buffer Metal members into its own struct | Vulkan 1.4.358 |
 | [v26.3.0-20260812](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812) | 2026-08-11 | [`eb03131`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/eb03131ca07be8a8f4abd09fcae66686007afd13) | brw/rt: Accept hit directly based on condition | Vulkan 1.4.358 |
 | [v26.3.0-20260811-r16](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r16) | 2026-08-11 | [`7f564d4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7f564d43c819405a09213e72860ac40d47723c9a) | anv/rt: split encode into multiple batched, breadth-first dispatches | Vulkan 1.4.358 |
 | [v26.3.0-20260811-r15](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r15) | 2026-08-11 | [`aa6f912`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/aa6f9121f0fb76446f1fb48cb9284380a64f9686) | anv: let's not crash everywhere | Vulkan 1.4.358 |
