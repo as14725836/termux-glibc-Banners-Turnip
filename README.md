@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`61f62f5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/61f62f590d026f80d22976371719ff8bb7d9e66c) |
+| **Commit** | [`5ece56a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5ece56a815c9fc341ec92add086eeec1b2d358e9) |
 | **Commit date** | 2026-08-12 |
-| **Commit title** | gfxstream: default unknown AHB dataspace to BT.709 (sRGB) |
+| **Commit title** | tu: Fix condition for implicit dep of separate DS resolve |
 | **Build date** | 20260812 |
-| **Release** | [v26.3.0-20260812-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r8) |
+| **Release** | [v26.3.0-20260812-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r9) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260812-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r9) | 2026-08-12 | [`5ece56a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5ece56a815c9fc341ec92add086eeec1b2d358e9) | tu: Fix condition for implicit dep of separate DS resolve | Vulkan 1.4.359 |
 | [v26.3.0-20260812-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r8) | 2026-08-12 | [`61f62f5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/61f62f590d026f80d22976371719ff8bb7d9e66c) | gfxstream: default unknown AHB dataspace to BT.709 (sRGB) | Vulkan 1.4.359 |
 | [v26.3.0-20260812-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r7) | 2026-08-12 | [`4e171a2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4e171a2330deb370bbf2c3afc1887727b9e06cbd) | tu: Simplify query pool resets | Vulkan 1.4.359 |
 | [v26.3.0-20260812-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r6) | 2026-08-12 | [`724bffd`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/724bffde435bd1055a07db34cd8252d809d37a4f) | radv/ci: use all drm-shim devices in radv-validate-cache | Vulkan 1.4.358 |
