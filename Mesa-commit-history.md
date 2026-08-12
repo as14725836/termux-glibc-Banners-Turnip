@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260812-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r11) | 2026-08-12 | [`e2c33e7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e2c33e79025d7bc2eb6cdce21353cee71bb63491) | pvr: fix sampler handle dereference with immutable samplers | Vulkan 1.4.359 |
 | [v26.3.0-20260812-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r10) | 2026-08-12 | [`e651fb7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e651fb738a6110049c8546b23796d40ec454e323) | brw: Vectorize URB for task and mesh shaders after SIMD is set | Vulkan 1.4.359 |
 | [v26.3.0-20260812-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r9) | 2026-08-12 | [`5ece56a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5ece56a815c9fc341ec92add086eeec1b2d358e9) | tu: Fix condition for implicit dep of separate DS resolve | Vulkan 1.4.359 |
 | [v26.3.0-20260812-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r8) | 2026-08-12 | [`61f62f5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/61f62f590d026f80d22976371719ff8bb7d9e66c) | gfxstream: default unknown AHB dataspace to BT.709 (sRGB) | Vulkan 1.4.359 |
