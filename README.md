@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.358 |
-| **Commit** | [`b7314ee`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b7314eec75b007efd0569cbd1df046e6da3b6e90) |
+| **Commit** | [`ab9bbb8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ab9bbb89a310c63b49793d9ea9d5fe6fc832feec) |
 | **Commit date** | 2026-08-12 |
-| **Commit title** | kk: Move kk_buffer Metal members into its own struct |
+| **Commit title** | tu/ci: Add Android coverage for VK_EXT_image_compression_control |
 | **Build date** | 20260812 |
-| **Release** | [v26.3.0-20260812-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r2) |
+| **Release** | [v26.3.0-20260812-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260812-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r3) | 2026-08-12 | [`ab9bbb8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ab9bbb89a310c63b49793d9ea9d5fe6fc832feec) | tu/ci: Add Android coverage for VK_EXT_image_compression_control | Vulkan 1.4.358 |
 | [v26.3.0-20260812-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r2) | 2026-08-12 | [`b7314ee`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b7314eec75b007efd0569cbd1df046e6da3b6e90) | kk: Move kk_buffer Metal members into its own struct | Vulkan 1.4.358 |
 | [v26.3.0-20260812](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812) | 2026-08-12 | [`eb03131`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/eb03131ca07be8a8f4abd09fcae66686007afd13) | brw/rt: Accept hit directly based on condition | Vulkan 1.4.358 |
 | [v26.3.0-20260811-r16](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r16) | 2026-08-11 | [`7f564d4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7f564d43c819405a09213e72860ac40d47723c9a) | anv/rt: split encode into multiple batched, breadth-first dispatches | Vulkan 1.4.358 |
@@ -103,8 +104,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260811-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r5) | 2026-08-11 | [`4e66d3c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4e66d3ca29458c0c749c199255e348b09e81c514) | broadcom/compiler: handle 16-bit fsat | Vulkan 1.4.358 |
 | [v26.3.0-20260811-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r4) | 2026-08-11 | [`6aef757`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6aef757b7fc407b7901bd52acbfcc87dec3f4636) | ci: add radv-validate-cache to verify precompilation doesn't break | Vulkan 1.4.358 |
 | [v26.3.0-20260811-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r3) | 2026-08-11 | [`28285e6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/28285e672f37407afce95adafcb9218bc7c2faeb) | docs/features: v3d and panfrost supports GL_EXT_color_buffer_half_float and GL_EXT_texture_norm16 | Vulkan 1.4.358 |
-| [v26.3.0-20260811-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811-r2) | 2026-08-11 | [`0df67d4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0df67d43c8159854ef5e1b45155542a977666b72) | radv: add a workaround for broken multi viewport with UE5 | Vulkan 1.4.358 |
-| [v26.3.0-20260811](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260811) | 2026-08-11 | [`e060f20`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e060f20717a311059ba2ccc34cd52516c1c8865d) | kk: Disable workaround 8 and 11 on macOS 27 | Vulkan 1.4.358 |
 <!-- RECENT_BUILDS_END -->
 
 ---
