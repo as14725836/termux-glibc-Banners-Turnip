@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`15fd588`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/15fd588bae91a937a96ed3af6432ccf9ee6e891a) |
+| **Commit** | [`771ade1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/771ade18e3f5068e59a523d7a5538b0160acb750) |
 | **Commit date** | 2026-08-13 |
-| **Commit title** | radv: fix cmdbuf alignment with DGC when queues aren't enabled |
+| **Commit title** | anv: flush L1/L2 caches on end of command buffer |
 | **Build date** | 20260813 |
-| **Release** | [v26.3.0-20260813-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r5) |
+| **Release** | [v26.3.0-20260813-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r6) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260813-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r6) | 2026-08-13 | [`771ade1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/771ade18e3f5068e59a523d7a5538b0160acb750) | anv: flush L1/L2 caches on end of command buffer | Vulkan 1.4.359 |
 | [v26.3.0-20260813-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r5) | 2026-08-13 | [`15fd588`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/15fd588bae91a937a96ed3af6432ccf9ee6e891a) | radv: fix cmdbuf alignment with DGC when queues aren't enabled | Vulkan 1.4.359 |
 | [v26.3.0-20260813-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r4) | 2026-08-13 | [`f640713`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f640713b89e37ca939f3941ceb31b7af283fefc5) | radv/amdgpu: prevent a rare issue when setting pstate | Vulkan 1.4.359 |
 | [v26.3.0-20260813-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r3) | 2026-08-13 | [`b342710`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b342710032c8b422ae05ae6de31031d7637f9288) | kk: Don't split compute encoders when possible to add a marker | Vulkan 1.4.359 |
@@ -101,7 +102,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260812-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r8) | 2026-08-12 | [`61f62f5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/61f62f590d026f80d22976371719ff8bb7d9e66c) | gfxstream: default unknown AHB dataspace to BT.709 (sRGB) | Vulkan 1.4.359 |
 | [v26.3.0-20260812-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r7) | 2026-08-12 | [`4e171a2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4e171a2330deb370bbf2c3afc1887727b9e06cbd) | tu: Simplify query pool resets | Vulkan 1.4.359 |
 | [v26.3.0-20260812-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r6) | 2026-08-12 | [`724bffd`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/724bffde435bd1055a07db34cd8252d809d37a4f) | radv/ci: use all drm-shim devices in radv-validate-cache | Vulkan 1.4.358 |
-| [v26.3.0-20260812-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r5) | 2026-08-12 | [`6b80f6d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6b80f6da762ce8d69a85bf4912ccac82f678afe3) | anv/video: Enable KHR_video_encode_av1 on Gen125 | Vulkan 1.4.358 |
 <!-- RECENT_BUILDS_END -->
 
 ---
