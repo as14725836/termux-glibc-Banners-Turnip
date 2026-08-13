@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260813-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r4) | 2026-08-13 | [`f640713`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f640713b89e37ca939f3941ceb31b7af283fefc5) | radv/amdgpu: prevent a rare issue when setting pstate | Vulkan 1.4.359 |
 | [v26.3.0-20260813-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r3) | 2026-08-13 | [`b342710`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b342710032c8b422ae05ae6de31031d7637f9288) | kk: Don't split compute encoders when possible to add a marker | Vulkan 1.4.359 |
 | [v26.3.0-20260813-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r2) | 2026-08-13 | [`c3105f2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c3105f2cf210deb2f6df71d5ff7b7241991c2359) | panfrost: allow explicit layout for array images | Vulkan 1.4.359 |
 | [v26.3.0-20260813](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813) | 2026-08-13 | [`ac021d1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ac021d175341483cd267111d5cc160a4a8fa7c16) | subprojects: Use CDN URLs for crates.io | Vulkan 1.4.359 |
