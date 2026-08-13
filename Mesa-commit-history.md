@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260813-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r7) | 2026-08-13 | [`885b390`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/885b39075fc18c8a1ae075395912819f7f74fc39) | radv: add radv_cmd_buffer_end_rendering() | Vulkan 1.4.359 |
 | [v26.3.0-20260813-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r6) | 2026-08-13 | [`771ade1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/771ade18e3f5068e59a523d7a5538b0160acb750) | anv: flush L1/L2 caches on end of command buffer | Vulkan 1.4.359 |
 | [v26.3.0-20260813-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r5) | 2026-08-13 | [`15fd588`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/15fd588bae91a937a96ed3af6432ccf9ee6e891a) | radv: fix cmdbuf alignment with DGC when queues aren't enabled | Vulkan 1.4.359 |
 | [v26.3.0-20260813-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r4) | 2026-08-13 | [`f640713`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f640713b89e37ca939f3941ceb31b7af283fefc5) | radv/amdgpu: prevent a rare issue when setting pstate | Vulkan 1.4.359 |
