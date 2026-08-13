@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260813-r13](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r13) | 2026-08-13 | [`00a4c00`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/00a4c003792ae069217bed9b49ffd089afaa69b7) | panfrost: Add CPU trace to panfrost_blitter_draw_rectangle() | Vulkan 1.4.359 |
 | [v26.3.0-20260813-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r12) | 2026-08-13 | [`899bfd8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/899bfd8e713122dde4dcfdd03e7651e2a232508a) | gfxstream/guest: let the Vulkan driver link on Mach-O | Vulkan 1.4.359 |
 | [v26.3.0-20260813-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r11) | 2026-08-13 | [`2b7a724`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2b7a72457a55b80e02700debdbc11037db7201e2) | anv: Add missing ANV_BO_ALLOC_INTERNAL flags | Vulkan 1.4.359 |
 | [v26.3.0-20260813-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r10) | 2026-08-13 | [`2c90739`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2c9073912232b93eb9b60486edbd72d53e5f3d26) | radv: Prefer STRUCTURED OOB over STRUCTURED_OFFSET for texel buffers. | Vulkan 1.4.359 |
