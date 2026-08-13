@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`c3105f2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c3105f2cf210deb2f6df71d5ff7b7241991c2359) |
+| **Commit** | [`b342710`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b342710032c8b422ae05ae6de31031d7637f9288) |
 | **Commit date** | 2026-08-13 |
-| **Commit title** | panfrost: allow explicit layout for array images |
+| **Commit title** | kk: Don't split compute encoders when possible to add a marker |
 | **Build date** | 20260813 |
-| **Release** | [v26.3.0-20260813-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r2) |
+| **Release** | [v26.3.0-20260813-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260813-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r3) | 2026-08-13 | [`b342710`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b342710032c8b422ae05ae6de31031d7637f9288) | kk: Don't split compute encoders when possible to add a marker | Vulkan 1.4.359 |
 | [v26.3.0-20260813-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r2) | 2026-08-13 | [`c3105f2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c3105f2cf210deb2f6df71d5ff7b7241991c2359) | panfrost: allow explicit layout for array images | Vulkan 1.4.359 |
 | [v26.3.0-20260813](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813) | 2026-08-13 | [`ac021d1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ac021d175341483cd267111d5cc160a4a8fa7c16) | subprojects: Use CDN URLs for crates.io | Vulkan 1.4.359 |
 | [v26.3.0-20260812-r14](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260812-r14) | 2026-08-12 | [`175e1f3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/175e1f3cf5347c8a9a104dfcd64d32d7583642b2) | nir: Set info->fs.color_is_dual_source for DUAL_SRC_BLEND var locations | Vulkan 1.4.359 |
