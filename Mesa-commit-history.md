@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260814-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r4) | 2026-08-14 | [`6eccd73`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6eccd73966b9d4a348aa7cff8db2b64b68556117) | panvk/v10+: Fix unbound LD_ATTR.auto32 | Vulkan 1.4.359 |
 | [v26.3.0-20260814-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r3) | 2026-08-14 | [`d67b04a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d67b04a356d5191424136b3140d370d453e09886) | radv/ci: skip two more tests that use custom border color on compute | Vulkan 1.4.359 |
 | [v26.3.0-20260814-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r2) | 2026-08-14 | [`72c8f5c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/72c8f5c89b3849b2b4444ebc53dd3b84ac70c2e2) | meson: Drop version check for GCC < 4.4.6 | Vulkan 1.4.359 |
 | [v26.3.0-20260814](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814) | 2026-08-14 | [`2cd04a5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2cd04a54ece55e27a58470949fb74870fe656f24) | glsl: Store the type name as a pointer | Vulkan 1.4.359 |
