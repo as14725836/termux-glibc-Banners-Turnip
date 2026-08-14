@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`944ef80`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/944ef80b85da5a98ca92b2f9a616151cc562de0c) |
-| **Commit date** | 2026-08-13 |
-| **Commit title** | anv: Require dedicated allocation query on scanout images from WSI |
-| **Build date** | 20260813 |
-| **Release** | [v26.3.0-20260813-r15](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r15) |
+| **Commit** | [`2cd04a5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2cd04a54ece55e27a58470949fb74870fe656f24) |
+| **Commit date** | 2026-08-14 |
+| **Commit title** | glsl: Store the type name as a pointer |
+| **Build date** | 20260814 |
+| **Release** | [v26.3.0-20260814](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260814](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814) | 2026-08-14 | [`2cd04a5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2cd04a54ece55e27a58470949fb74870fe656f24) | glsl: Store the type name as a pointer | Vulkan 1.4.359 |
 | [v26.3.0-20260813-r15](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r15) | 2026-08-13 | [`944ef80`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/944ef80b85da5a98ca92b2f9a616151cc562de0c) | anv: Require dedicated allocation query on scanout images from WSI | Vulkan 1.4.359 |
 | [v26.3.0-20260813-r14](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r14) | 2026-08-13 | [`8613a71`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8613a718f2ae2d17ecab84eef8868e997b4d4d73) | dri-sw: Use size and offset from whandle in create_mapped() | Vulkan 1.4.359 |
 | [v26.3.0-20260813-r13](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r13) | 2026-08-13 | [`00a4c00`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/00a4c003792ae069217bed9b49ffd089afaa69b7) | panfrost: Add CPU trace to panfrost_blitter_draw_rectangle() | Vulkan 1.4.359 |
