@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260814-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r8) | 2026-08-14 | [`f08c9d9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f08c9d96432513af146575e03f03a623c6395e7d) | nv30/ci: add notes about piglit tests | Vulkan 1.4.359 |
 | [v26.3.0-20260814-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r7) | 2026-08-14 | [`8cafe2c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8cafe2c1a7db42c2972eb44e83becd14a9c532bb) | radeonsi: fix AMD_DEBUG=usellvm usage | Vulkan 1.4.359 |
 | [v26.3.0-20260814-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r6) | 2026-08-14 | [`81d8a64`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/81d8a64ba81a97fefc08c8e88288b6ea1463689e) | kms-dri-sw: Deduplicate displaytargets by handle in create_mapped() | Vulkan 1.4.359 |
 | [v26.3.0-20260814-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r5) | 2026-08-14 | [`4566d5c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4566d5ceef26132710b8db4330634aa847801235) | aco/tests: test cndmask condition invert | Vulkan 1.4.359 |
