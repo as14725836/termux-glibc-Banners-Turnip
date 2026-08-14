@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`81d8a64`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/81d8a64ba81a97fefc08c8e88288b6ea1463689e) |
+| **Commit** | [`8cafe2c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8cafe2c1a7db42c2972eb44e83becd14a9c532bb) |
 | **Commit date** | 2026-08-14 |
-| **Commit title** | kms-dri-sw: Deduplicate displaytargets by handle in create_mapped() |
+| **Commit title** | radeonsi: fix AMD_DEBUG=usellvm usage |
 | **Build date** | 20260814 |
-| **Release** | [v26.3.0-20260814-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r6) |
+| **Release** | [v26.3.0-20260814-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r7) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260814-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r7) | 2026-08-14 | [`8cafe2c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8cafe2c1a7db42c2972eb44e83becd14a9c532bb) | radeonsi: fix AMD_DEBUG=usellvm usage | Vulkan 1.4.359 |
 | [v26.3.0-20260814-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r6) | 2026-08-14 | [`81d8a64`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/81d8a64ba81a97fefc08c8e88288b6ea1463689e) | kms-dri-sw: Deduplicate displaytargets by handle in create_mapped() | Vulkan 1.4.359 |
 | [v26.3.0-20260814-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r5) | 2026-08-14 | [`4566d5c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4566d5ceef26132710b8db4330634aa847801235) | aco/tests: test cndmask condition invert | Vulkan 1.4.359 |
 | [v26.3.0-20260814-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r4) | 2026-08-14 | [`6eccd73`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6eccd73966b9d4a348aa7cff8db2b64b68556117) | panvk/v10+: Fix unbound LD_ATTR.auto32 | Vulkan 1.4.359 |
@@ -101,7 +102,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260813-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r10) | 2026-08-13 | [`2c90739`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2c9073912232b93eb9b60486edbd72d53e5f3d26) | radv: Prefer STRUCTURED OOB over STRUCTURED_OFFSET for texel buffers. | Vulkan 1.4.359 |
 | [v26.3.0-20260813-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r9) | 2026-08-13 | [`6f34944`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6f34944c756c72ecc64cfede1670d4f3aae44857) | radeonsi/test: update navi10 failures | Vulkan 1.4.359 |
 | [v26.3.0-20260813-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r8) | 2026-08-13 | [`b3fba9b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b3fba9b4e64e093f6cfbf39fb3fd4ef55e8dc3e3) | brw: handle load_ubo through memory_access on lsc platforms | Vulkan 1.4.359 |
-| [v26.3.0-20260813-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r7) | 2026-08-13 | [`885b390`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/885b39075fc18c8a1ae075395912819f7f74fc39) | radv: add radv_cmd_buffer_end_rendering() | Vulkan 1.4.359 |
 <!-- RECENT_BUILDS_END -->
 
 ---
