@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`72c8f5c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/72c8f5c89b3849b2b4444ebc53dd3b84ac70c2e2) |
+| **Commit** | [`d67b04a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d67b04a356d5191424136b3140d370d453e09886) |
 | **Commit date** | 2026-08-14 |
-| **Commit title** | meson: Drop version check for GCC < 4.4.6 |
+| **Commit title** | radv/ci: skip two more tests that use custom border color on compute |
 | **Build date** | 20260814 |
-| **Release** | [v26.3.0-20260814-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r2) |
+| **Release** | [v26.3.0-20260814-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260814-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r3) | 2026-08-14 | [`d67b04a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d67b04a356d5191424136b3140d370d453e09886) | radv/ci: skip two more tests that use custom border color on compute | Vulkan 1.4.359 |
 | [v26.3.0-20260814-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r2) | 2026-08-14 | [`72c8f5c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/72c8f5c89b3849b2b4444ebc53dd3b84ac70c2e2) | meson: Drop version check for GCC < 4.4.6 | Vulkan 1.4.359 |
 | [v26.3.0-20260814](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814) | 2026-08-14 | [`2cd04a5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2cd04a54ece55e27a58470949fb74870fe656f24) | glsl: Store the type name as a pointer | Vulkan 1.4.359 |
 | [v26.3.0-20260813-r15](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r15) | 2026-08-13 | [`944ef80`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/944ef80b85da5a98ca92b2f9a616151cc562de0c) | anv: Require dedicated allocation query on scanout images from WSI | Vulkan 1.4.359 |
@@ -101,8 +102,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260813-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r6) | 2026-08-13 | [`771ade1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/771ade18e3f5068e59a523d7a5538b0160acb750) | anv: flush L1/L2 caches on end of command buffer | Vulkan 1.4.359 |
 | [v26.3.0-20260813-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r5) | 2026-08-13 | [`15fd588`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/15fd588bae91a937a96ed3af6432ccf9ee6e891a) | radv: fix cmdbuf alignment with DGC when queues aren't enabled | Vulkan 1.4.359 |
 | [v26.3.0-20260813-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r4) | 2026-08-13 | [`f640713`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f640713b89e37ca939f3941ceb31b7af283fefc5) | radv/amdgpu: prevent a rare issue when setting pstate | Vulkan 1.4.359 |
-| [v26.3.0-20260813-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r3) | 2026-08-13 | [`b342710`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b342710032c8b422ae05ae6de31031d7637f9288) | kk: Don't split compute encoders when possible to add a marker | Vulkan 1.4.359 |
-| [v26.3.0-20260813-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r2) | 2026-08-13 | [`c3105f2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c3105f2cf210deb2f6df71d5ff7b7241991c2359) | panfrost: allow explicit layout for array images | Vulkan 1.4.359 |
 <!-- RECENT_BUILDS_END -->
 
 ---

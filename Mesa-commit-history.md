@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260814-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r3) | 2026-08-14 | [`d67b04a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d67b04a356d5191424136b3140d370d453e09886) | radv/ci: skip two more tests that use custom border color on compute | Vulkan 1.4.359 |
 | [v26.3.0-20260814-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r2) | 2026-08-14 | [`72c8f5c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/72c8f5c89b3849b2b4444ebc53dd3b84ac70c2e2) | meson: Drop version check for GCC < 4.4.6 | Vulkan 1.4.359 |
 | [v26.3.0-20260814](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814) | 2026-08-14 | [`2cd04a5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2cd04a54ece55e27a58470949fb74870fe656f24) | glsl: Store the type name as a pointer | Vulkan 1.4.359 |
 | [v26.3.0-20260813-r15](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r15) | 2026-08-13 | [`944ef80`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/944ef80b85da5a98ca92b2f9a616151cc562de0c) | anv: Require dedicated allocation query on scanout images from WSI | Vulkan 1.4.359 |
