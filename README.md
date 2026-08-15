@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`e999786`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e999786ac06e1708d18bc5b2211258934e5c5c20) |
+| **Commit** | [`558688a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/558688a73c7894b46b511e0c485f8eb0de0d9526) |
 | **Commit date** | 2026-08-14 |
-| **Commit title** | tu/lrz: Fast-clear the part of LRZ that the flag RAM covers |
-| **Build date** | 20260814 |
-| **Release** | [v26.3.0-20260814-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r11) |
+| **Commit title** | kraid/stats: Fix spill cost |
+| **Build date** | 20260815 |
+| **Release** | [v26.3.0-20260815](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260815) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260815](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260815) | 2026-08-15 | [`558688a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/558688a73c7894b46b511e0c485f8eb0de0d9526) | kraid/stats: Fix spill cost | Vulkan 1.4.359 |
 | [v26.3.0-20260814-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r11) | 2026-08-14 | [`e999786`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e999786ac06e1708d18bc5b2211258934e5c5c20) | tu/lrz: Fast-clear the part of LRZ that the flag RAM covers | Vulkan 1.4.359 |
 | [v26.3.0-20260814-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r10) | 2026-08-14 | [`7486528`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/74865282cf8eb12a9b4e1ce5d001c7fa7f04358e) | tu: Don't write LRZ direction when not writing LRZ | Vulkan 1.4.359 |
 | [v26.3.0-20260814-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r9) | 2026-08-14 | [`f413ab8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f413ab8ccd882b27738667ddedc078b0e6a697f9) | radv/video: Fix out of bounds reads of AV1 tile params | Vulkan 1.4.359 |
@@ -98,7 +99,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260814-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r3) | 2026-08-14 | [`d67b04a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d67b04a356d5191424136b3140d370d453e09886) | radv/ci: skip two more tests that use custom border color on compute | Vulkan 1.4.359 |
 | [v26.3.0-20260814-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814-r2) | 2026-08-14 | [`72c8f5c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/72c8f5c89b3849b2b4444ebc53dd3b84ac70c2e2) | meson: Drop version check for GCC < 4.4.6 | Vulkan 1.4.359 |
 | [v26.3.0-20260814](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260814) | 2026-08-14 | [`2cd04a5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2cd04a54ece55e27a58470949fb74870fe656f24) | glsl: Store the type name as a pointer | Vulkan 1.4.359 |
-| [v26.3.0-20260813-r15](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260813-r15) | 2026-08-13 | [`944ef80`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/944ef80b85da5a98ca92b2f9a616151cc562de0c) | anv: Require dedicated allocation query on scanout images from WSI | Vulkan 1.4.359 |
 <!-- RECENT_BUILDS_END -->
 
 ---
