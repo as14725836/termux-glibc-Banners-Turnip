@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`0b1b879`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0b1b8798d81cb4da8c181c7d81076a0541006853) |
+| **Commit** | [`3c4d3e4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3c4d3e46d19f2f4e951f3ae059543b03592f7944) |
 | **Commit date** | 2026-08-17 |
-| **Commit title** | wsi/wayland: send tearing hints when present mode changes to IMMEDIATE |
+| **Commit title** | radeonsi/mm: Fix AV1 decode qmatrix params |
 | **Build date** | 20260817 |
-| **Release** | [v26.3.0-20260817-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260817-r6) |
+| **Release** | [v26.3.0-20260817-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260817-r7) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260817-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260817-r7) | 2026-08-17 | [`3c4d3e4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3c4d3e46d19f2f4e951f3ae059543b03592f7944) | radeonsi/mm: Fix AV1 decode qmatrix params | Vulkan 1.4.359 |
 | [v26.3.0-20260817-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260817-r6) | 2026-08-17 | [`0b1b879`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0b1b8798d81cb4da8c181c7d81076a0541006853) | wsi/wayland: send tearing hints when present mode changes to IMMEDIATE | Vulkan 1.4.359 |
 | [v26.3.0-20260817-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260817-r5) | 2026-08-17 | [`5842099`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5842099c6db8f91f91fb4f2e454ebba4139da5f2) | radeonsi/mm: Use correct feedback size for VCE | Vulkan 1.4.359 |
 | [v26.3.0-20260817-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260817-r4) | 2026-08-17 | [`dddaef6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/dddaef6f8c970770cc60f6bab6ab5392f54e7679) | radv: try to clarify RECTLIST/RECT_2D differences | Vulkan 1.4.359 |
