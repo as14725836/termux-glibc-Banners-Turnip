@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`dddaef6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/dddaef6f8c970770cc60f6bab6ab5392f54e7679) |
+| **Commit** | [`5842099`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5842099c6db8f91f91fb4f2e454ebba4139da5f2) |
 | **Commit date** | 2026-08-17 |
-| **Commit title** | radv: try to clarify RECTLIST/RECT_2D differences |
+| **Commit title** | radeonsi/mm: Use correct feedback size for VCE |
 | **Build date** | 20260817 |
-| **Release** | [v26.3.0-20260817-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260817-r4) |
+| **Release** | [v26.3.0-20260817-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260817-r5) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260817-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260817-r5) | 2026-08-17 | [`5842099`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5842099c6db8f91f91fb4f2e454ebba4139da5f2) | radeonsi/mm: Use correct feedback size for VCE | Vulkan 1.4.359 |
 | [v26.3.0-20260817-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260817-r4) | 2026-08-17 | [`dddaef6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/dddaef6f8c970770cc60f6bab6ab5392f54e7679) | radv: try to clarify RECTLIST/RECT_2D differences | Vulkan 1.4.359 |
 | [v26.3.0-20260817-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260817-r3) | 2026-08-17 | [`efeda58`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/efeda58bb23294b848e846219c37fe95c6d939b8) | gallivm: orcjit: fix use-after-free in remove_jd() during exit | Vulkan 1.4.359 |
 | [v26.3.0-20260817-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260817-r2) | 2026-08-17 | [`e2340e1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e2340e192a1260561a9f7a62936c4d11d100dc0a) | nir/opt_varyings: Change non-interpolated I/O to uint type. | Vulkan 1.4.359 |
