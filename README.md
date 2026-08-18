@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`dcb4727`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/dcb47270b483a3e9c34847dcdc31d0fa74a3414f) |
+| **Commit** | [`27a599c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/27a599c994b4a9d03ac98e789798e69ce5fadf72) |
 | **Commit date** | 2026-08-18 |
-| **Commit title** | radv/gamma: Fix geometry counts |
+| **Commit title** | glapi: fix call to function compar_nr through pointer to incorrect function type |
 | **Build date** | 20260818 |
-| **Release** | [v26.3.0-20260818-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r12) |
+| **Release** | [v26.3.0-20260818-r13](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r13) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260818-r13](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r13) | 2026-08-18 | [`27a599c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/27a599c994b4a9d03ac98e789798e69ce5fadf72) | glapi: fix call to function compar_nr through pointer to incorrect function type | Vulkan 1.4.359 |
 | [v26.3.0-20260818-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r12) | 2026-08-18 | [`dcb4727`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/dcb47270b483a3e9c34847dcdc31d0fa74a3414f) | radv/gamma: Fix geometry counts | Vulkan 1.4.359 |
 | [v26.3.0-20260818-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r11) | 2026-08-18 | [`d22b355`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d22b355f035c57d2051575cd93c05bb98dbb455e) | panvk/utrace: handle clone CS heap exhaustion gracefully | Vulkan 1.4.359 |
 | [v26.3.0-20260818-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r10) | 2026-08-18 | [`1a12d71`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1a12d7188b46703d433f4d909b0e8e0d6c5bbe5d) | radv: disable nir_opt_reassociate_for_fma for VS if it's not the last pre FS shader | Vulkan 1.4.359 |
