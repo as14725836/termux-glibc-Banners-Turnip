@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`b87749b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b87749b99a30ffab4cf2bd1d7e1d85feccf7428b) |
+| **Commit** | [`f2d9c30`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f2d9c300b9c99c4b861912638d9548ca8d692a71) |
 | **Commit date** | 2026-08-18 |
-| **Commit title** | tool/gamma: Add virtual destructor for gamma_file_view |
+| **Commit title** | gfxstream/guest: do not define VK_ANDROID_native_buffer on Apple |
 | **Build date** | 20260818 |
-| **Release** | [v26.3.0-20260818-r15](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r15) |
+| **Release** | [v26.3.0-20260818-r16](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r16) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260818-r16](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r16) | 2026-08-18 | [`f2d9c30`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f2d9c300b9c99c4b861912638d9548ca8d692a71) | gfxstream/guest: do not define VK_ANDROID_native_buffer on Apple | Vulkan 1.4.359 |
 | [v26.3.0-20260818-r15](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r15) | 2026-08-18 | [`b87749b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b87749b99a30ffab4cf2bd1d7e1d85feccf7428b) | tool/gamma: Add virtual destructor for gamma_file_view | Vulkan 1.4.359 |
 | [v26.3.0-20260818-r14](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r14) | 2026-08-18 | [`fe1491b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fe1491b758fe6aec57f5109a12821accd2d5efce) | tu: Set MSM_SUBMIT_SYNCOBJ_* when there are only internal syncobjs | Vulkan 1.4.359 |
 | [v26.3.0-20260818-r13](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r13) | 2026-08-18 | [`27a599c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/27a599c994b4a9d03ac98e789798e69ce5fadf72) | glapi: fix call to function compar_nr through pointer to incorrect function type | Vulkan 1.4.359 |
