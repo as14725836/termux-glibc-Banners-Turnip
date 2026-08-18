@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260818-r15](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r15) | 2026-08-18 | [`b87749b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b87749b99a30ffab4cf2bd1d7e1d85feccf7428b) | tool/gamma: Add virtual destructor for gamma_file_view | Vulkan 1.4.359 |
 | [v26.3.0-20260818-r14](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r14) | 2026-08-18 | [`fe1491b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fe1491b758fe6aec57f5109a12821accd2d5efce) | tu: Set MSM_SUBMIT_SYNCOBJ_* when there are only internal syncobjs | Vulkan 1.4.359 |
 | [v26.3.0-20260818-r13](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r13) | 2026-08-18 | [`27a599c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/27a599c994b4a9d03ac98e789798e69ce5fadf72) | glapi: fix call to function compar_nr through pointer to incorrect function type | Vulkan 1.4.359 |
 | [v26.3.0-20260818-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r12) | 2026-08-18 | [`dcb4727`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/dcb47270b483a3e9c34847dcdc31d0fa74a3414f) | radv/gamma: Fix geometry counts | Vulkan 1.4.359 |
