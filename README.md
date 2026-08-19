@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`0ab6d7e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0ab6d7e3db5bb6fdcce8e913d9ae03a34083651e) |
+| **Commit** | [`95c504f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/95c504fa17a3912e56df37a7c24ca983d69be33e) |
 | **Commit date** | 2026-08-19 |
-| **Commit title** | pvr: advertise fragmentStoresAndAtomics |
+| **Commit title** | zink: enable renderpass tracking for KosmicKrisp |
 | **Build date** | 20260819 |
-| **Release** | [v26.3.0-20260819-r14](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r14) |
+| **Release** | [v26.3.0-20260819-r15](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r15) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260819-r15](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r15) | 2026-08-19 | [`95c504f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/95c504fa17a3912e56df37a7c24ca983d69be33e) | zink: enable renderpass tracking for KosmicKrisp | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r14](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r14) | 2026-08-19 | [`0ab6d7e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0ab6d7e3db5bb6fdcce8e913d9ae03a34083651e) | pvr: advertise fragmentStoresAndAtomics | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r13](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r13) | 2026-08-19 | [`88be0c1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/88be0c15190df9c46d42dca3e14cb42ba8cd3f8d) | anv: Allow CCS_E without a format list more often | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r12) | 2026-08-19 | [`68831cc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/68831ccfb655d691bebb945b84d2c9c22046b9e0) | kk: use fb fetch and avoid breaking render passes in barriers when possible | Vulkan 1.4.359 |
@@ -104,8 +105,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260818-r21](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r21) | 2026-08-18 | [`fcee81a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fcee81a38d8e4b4c77c3d45261e2d50205b6400f) | spirv: Discard excess image coordinate components | Vulkan 1.4.359 |
 | [v26.3.0-20260818-r20](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r20) | 2026-08-18 | [`7cee821`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7cee821cdec35e68d46c5313db19488b9bbe116e) | rusticl: fix wrong destination offset in Image::copy_to_buffer | Vulkan 1.4.359 |
 | [v26.3.0-20260818-r19](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r19) | 2026-08-18 | [`3c56bd8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3c56bd8ded62ba90a766254b4d985ef8197d8787) | etnaviv: Cache the shader key and variant lookup | Vulkan 1.4.359 |
-| [v26.3.0-20260818-r18](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r18) | 2026-08-18 | [`ecbc99d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ecbc99d70862f3f4d842657558e1ec51abc09033) | gfxstream: map DRM_FORMAT_ARGB8888/XRGB8888 to VK_FORMAT_B8G8R8A8_UNORM | Vulkan 1.4.359 |
-| [v26.3.0-20260818-r17](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r17) | 2026-08-18 | [`7f760b8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7f760b878f2686de303b5d07512ad3a2ca1ab441) | ir3: Handle sparse loads in ir3_nir_lower_64b_image | Vulkan 1.4.359 |
 <!-- RECENT_BUILDS_END -->
 
 ---
