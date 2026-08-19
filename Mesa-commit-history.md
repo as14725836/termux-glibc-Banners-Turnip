@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260819-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r6) | 2026-08-19 | [`632e69b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/632e69b6a34aad25cddb06be5b0c159f5e529ff5) | panfrost: clear shader image mask on trailing unbinds | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r5) | 2026-08-19 | [`a3283f7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a3283f729970b46bc2653ad72171b4adf3a15e2e) | Uprev VVL to 84449ddbb2d0769b07483f1cf09fe30e64040e34 | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r4) | 2026-08-19 | [`87082b0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/87082b07d00f742392cd8d5ef6bd6b5382894c97) | broadcom/ci: restore kernel for vc4 pre-merge jobs | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r3) | 2026-08-18 | [`276eace`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/276eace58baa521a306b72a8b3fce06445a11fea) | kk: Enable nir_io_non_interpolated_as_uint | Vulkan 1.4.359 |
