@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`87082b0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/87082b07d00f742392cd8d5ef6bd6b5382894c97) |
+| **Commit** | [`a3283f7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a3283f729970b46bc2653ad72171b4adf3a15e2e) |
 | **Commit date** | 2026-08-19 |
-| **Commit title** | broadcom/ci: restore kernel for vc4 pre-merge jobs |
+| **Commit title** | Uprev VVL to 84449ddbb2d0769b07483f1cf09fe30e64040e34 |
 | **Build date** | 20260819 |
-| **Release** | [v26.3.0-20260819-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r4) |
+| **Release** | [v26.3.0-20260819-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r5) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260819-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r5) | 2026-08-19 | [`a3283f7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a3283f729970b46bc2653ad72171b4adf3a15e2e) | Uprev VVL to 84449ddbb2d0769b07483f1cf09fe30e64040e34 | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r4) | 2026-08-19 | [`87082b0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/87082b07d00f742392cd8d5ef6bd6b5382894c97) | broadcom/ci: restore kernel for vc4 pre-merge jobs | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r3) | 2026-08-19 | [`276eace`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/276eace58baa521a306b72a8b3fce06445a11fea) | kk: Enable nir_io_non_interpolated_as_uint | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r2) | 2026-08-19 | [`24c8a88`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/24c8a889798562010742bc58bb0fc9c6bdc4ed07) | vulkan/android: allow optimal tiling for unorm and srgb mutation | Vulkan 1.4.359 |
@@ -105,7 +106,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260818-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r10) | 2026-08-18 | [`1a12d71`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1a12d7188b46703d433f4d909b0e8e0d6c5bbe5d) | radv: disable nir_opt_reassociate_for_fma for VS if it's not the last pre FS shader | Vulkan 1.4.359 |
 | [v26.3.0-20260818-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r9) | 2026-08-18 | [`f38b05e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f38b05eaaf2d4f570fa417c6ac3fe80939d71c47) | radv/meta: fix using aspects for blits | Vulkan 1.4.359 |
 | [v26.3.0-20260818-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r8) | 2026-08-18 | [`ec9f041`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ec9f0419f530119537d822b206c40c4b9f4cb873) | tu: Allow multi-layer images with explicit DRM format modifiers | Vulkan 1.4.359 |
-| [v26.3.0-20260818-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r7) | 2026-08-18 | [`9075f69`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9075f69cd0cb55e126d88ab91e547ecec0cba560) | radv/ci: add khronos link to the bfloat16 dequant failures. | Vulkan 1.4.359 |
 <!-- RECENT_BUILDS_END -->
 
 ---
