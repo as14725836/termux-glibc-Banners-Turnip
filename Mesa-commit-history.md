@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260819-r17](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r17) | 2026-08-19 | [`c207014`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c2070149bc92bb76ee88cfcf772810eb0b047d52) | docs: add sha sum for 26.1.8 | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r16](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r16) | 2026-08-19 | [`13ecff6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/13ecff6e2f5335c5ab9c2823d3fed7753ae3e219) | ci: uprev vkd3d | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r15](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r15) | 2026-08-19 | [`95c504f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/95c504fa17a3912e56df37a7c24ca983d69be33e) | zink: enable renderpass tracking for KosmicKrisp | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r14](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r14) | 2026-08-19 | [`0ab6d7e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0ab6d7e3db5bb6fdcce8e913d9ae03a34083651e) | pvr: advertise fragmentStoresAndAtomics | Vulkan 1.4.359 |
