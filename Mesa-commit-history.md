@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260819-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r8) | 2026-08-19 | [`914e6ae`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/914e6ae217f398da1ac7d9bc4321eafe14fa547c) | aco/sched_vopd: create v_dual_and_b32 from v_cvt_u32_u16 | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r7) | 2026-08-19 | [`9486299`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9486299e0c38ac8036716b923bf534f2728f9070) | freedreno/ci: correctly tag the qualcomm jobs | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r6) | 2026-08-19 | [`632e69b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/632e69b6a34aad25cddb06be5b0c159f5e529ff5) | panfrost: clear shader image mask on trailing unbinds | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r5) | 2026-08-19 | [`a3283f7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a3283f729970b46bc2653ad72171b4adf3a15e2e) | Uprev VVL to 84449ddbb2d0769b07483f1cf09fe30e64040e34 | Vulkan 1.4.359 |
