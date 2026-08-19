@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260819](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819) | 2026-08-19 | [`dac3c31`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/dac3c31e00bbccd5de8c7277049d813d38210d93) | jay: lower nir_intrinsic_load_sample_pos in NIR | Vulkan 1.4.359 |
 | [v26.3.0-20260818-r21](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r21) | 2026-08-18 | [`fcee81a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fcee81a38d8e4b4c77c3d45261e2d50205b6400f) | spirv: Discard excess image coordinate components | Vulkan 1.4.359 |
 | [v26.3.0-20260818-r20](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r20) | 2026-08-18 | [`7cee821`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7cee821cdec35e68d46c5313db19488b9bbe116e) | rusticl: fix wrong destination offset in Image::copy_to_buffer | Vulkan 1.4.359 |
 | [v26.3.0-20260818-r19](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r19) | 2026-08-18 | [`3c56bd8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3c56bd8ded62ba90a766254b4d985ef8197d8787) | etnaviv: Cache the shader key and variant lookup | Vulkan 1.4.359 |
