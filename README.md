@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`68831cc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/68831ccfb655d691bebb945b84d2c9c22046b9e0) |
+| **Commit** | [`88be0c1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/88be0c15190df9c46d42dca3e14cb42ba8cd3f8d) |
 | **Commit date** | 2026-08-19 |
-| **Commit title** | kk: use fb fetch and avoid breaking render passes in barriers when possible |
+| **Commit title** | anv: Allow CCS_E without a format list more often |
 | **Build date** | 20260819 |
-| **Release** | [v26.3.0-20260819-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r12) |
+| **Release** | [v26.3.0-20260819-r13](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r13) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260819-r13](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r13) | 2026-08-19 | [`88be0c1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/88be0c15190df9c46d42dca3e14cb42ba8cd3f8d) | anv: Allow CCS_E without a format list more often | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r12) | 2026-08-19 | [`68831cc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/68831ccfb655d691bebb945b84d2c9c22046b9e0) | kk: use fb fetch and avoid breaking render passes in barriers when possible | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r11) | 2026-08-19 | [`0e6ae6a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0e6ae6a4dca6d8c46b4e3a1d18d28a521af7b70a) | radv/rt: Use CPS function signature for raygen if CPS is used | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r10) | 2026-08-19 | [`586fc2f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/586fc2f5e096855c3828644bb212634f1f664682) | radv/nir: do not always lower push constants to SMEM | Vulkan 1.4.359 |
@@ -105,7 +106,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260818-r18](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r18) | 2026-08-18 | [`ecbc99d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ecbc99d70862f3f4d842657558e1ec51abc09033) | gfxstream: map DRM_FORMAT_ARGB8888/XRGB8888 to VK_FORMAT_B8G8R8A8_UNORM | Vulkan 1.4.359 |
 | [v26.3.0-20260818-r17](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r17) | 2026-08-18 | [`7f760b8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7f760b878f2686de303b5d07512ad3a2ca1ab441) | ir3: Handle sparse loads in ir3_nir_lower_64b_image | Vulkan 1.4.359 |
 | [v26.3.0-20260818-r16](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r16) | 2026-08-18 | [`f2d9c30`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f2d9c300b9c99c4b861912638d9548ca8d692a71) | gfxstream/guest: do not define VK_ANDROID_native_buffer on Apple | Vulkan 1.4.359 |
-| [v26.3.0-20260818-r15](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r15) | 2026-08-18 | [`b87749b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b87749b99a30ffab4cf2bd1d7e1d85feccf7428b) | tool/gamma: Add virtual destructor for gamma_file_view | Vulkan 1.4.359 |
 <!-- RECENT_BUILDS_END -->
 
 ---

@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260819-r13](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r13) | 2026-08-19 | [`88be0c1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/88be0c15190df9c46d42dca3e14cb42ba8cd3f8d) | anv: Allow CCS_E without a format list more often | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r12) | 2026-08-19 | [`68831cc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/68831ccfb655d691bebb945b84d2c9c22046b9e0) | kk: use fb fetch and avoid breaking render passes in barriers when possible | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r11) | 2026-08-19 | [`0e6ae6a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0e6ae6a4dca6d8c46b4e3a1d18d28a521af7b70a) | radv/rt: Use CPS function signature for raygen if CPS is used | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r10) | 2026-08-19 | [`586fc2f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/586fc2f5e096855c3828644bb212634f1f664682) | radv/nir: do not always lower push constants to SMEM | Vulkan 1.4.359 |
