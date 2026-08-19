@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260819-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r3) | 2026-08-18 | [`276eace`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/276eace58baa521a306b72a8b3fce06445a11fea) | kk: Enable nir_io_non_interpolated_as_uint | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r2) | 2026-08-19 | [`24c8a88`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/24c8a889798562010742bc58bb0fc9c6bdc4ed07) | vulkan/android: allow optimal tiling for unorm and srgb mutation | Vulkan 1.4.359 |
 | [v26.3.0-20260819](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819) | 2026-08-19 | [`dac3c31`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/dac3c31e00bbccd5de8c7277049d813d38210d93) | jay: lower nir_intrinsic_load_sample_pos in NIR | Vulkan 1.4.359 |
 | [v26.3.0-20260818-r21](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260818-r21) | 2026-08-18 | [`fcee81a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fcee81a38d8e4b4c77c3d45261e2d50205b6400f) | spirv: Discard excess image coordinate components | Vulkan 1.4.359 |
