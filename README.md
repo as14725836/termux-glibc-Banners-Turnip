@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`c363342`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c363342a1130b8e00743337492055c71541724af) |
+| **Commit** | [`6f55c61`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6f55c6188bf3b4ef9c903498a896a2ec78e3f77c) |
 | **Commit date** | 2026-08-20 |
-| **Commit title** | freedreno/ci: Document cl-cts test bugs |
+| **Commit title** | ci/deqp: Update VK CTS to 1.4.6.2 |
 | **Build date** | 20260820 |
-| **Release** | [v26.3.0-20260820-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260820-r4) |
+| **Release** | [v26.3.0-20260820-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260820-r5) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260820-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260820-r5) | 2026-08-20 | [`6f55c61`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6f55c6188bf3b4ef9c903498a896a2ec78e3f77c) | ci/deqp: Update VK CTS to 1.4.6.2 | Vulkan 1.4.359 |
 | [v26.3.0-20260820-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260820-r4) | 2026-08-20 | [`c363342`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c363342a1130b8e00743337492055c71541724af) | freedreno/ci: Document cl-cts test bugs | Vulkan 1.4.359 |
 | [v26.3.0-20260820-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260820-r3) | 2026-08-20 | [`302736b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/302736bcf272ccf12572879dcc6846196a45f143) | nir: add a central load struct field helper. | Vulkan 1.4.359 |
 | [v26.3.0-20260820-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260820-r2) | 2026-08-20 | [`f30ebdf`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f30ebdf012b7b60f06230d5d87d8969f9653a99e) | brw: Skip unspilling the destination when nothing is defined | Vulkan 1.4.359 |
@@ -102,9 +103,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260819-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r9) | 2026-08-19 | [`6609a0e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6609a0e7a66288ee338e6ef0e5622d33923755e7) | Uprev Piglit to 372590d39085e8640742341b5ec5a8a72ad1c56f | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r8) | 2026-08-19 | [`914e6ae`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/914e6ae217f398da1ac7d9bc4321eafe14fa547c) | aco/sched_vopd: create v_dual_and_b32 from v_cvt_u32_u16 | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r7) | 2026-08-19 | [`9486299`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9486299e0c38ac8036716b923bf534f2728f9070) | freedreno/ci: correctly tag the qualcomm jobs | Vulkan 1.4.359 |
-| [v26.3.0-20260819-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r6) | 2026-08-19 | [`632e69b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/632e69b6a34aad25cddb06be5b0c159f5e529ff5) | panfrost: clear shader image mask on trailing unbinds | Vulkan 1.4.359 |
-| [v26.3.0-20260819-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r5) | 2026-08-19 | [`a3283f7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a3283f729970b46bc2653ad72171b4adf3a15e2e) | Uprev VVL to 84449ddbb2d0769b07483f1cf09fe30e64040e34 | Vulkan 1.4.359 |
-| [v26.3.0-20260819-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r4) | 2026-08-19 | [`87082b0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/87082b07d00f742392cd8d5ef6bd6b5382894c97) | broadcom/ci: restore kernel for vc4 pre-merge jobs | Vulkan 1.4.359 |
 <!-- RECENT_BUILDS_END -->
 
 ---
