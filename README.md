@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`30a5b4c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/30a5b4c95b9ed9c172cdd2b4aa6caae8c62e08dc) |
+| **Commit** | [`d2ce69d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d2ce69d4373284e6e3863d4201ec8e46b50cd58a) |
 | **Commit date** | 2026-08-20 |
-| **Commit title** | zink: Handle max_varying where maxVertexOutputComponents value is too low. |
+| **Commit title** | radv: only split the right aspect for depth/stencil internal views |
 | **Build date** | 20260820 |
-| **Release** | [v26.3.0-20260820-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260820-r12) |
+| **Release** | [v26.3.0-20260820-r13](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260820-r13) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260820-r13](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260820-r13) | 2026-08-20 | [`d2ce69d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d2ce69d4373284e6e3863d4201ec8e46b50cd58a) | radv: only split the right aspect for depth/stencil internal views | Vulkan 1.4.359 |
 | [v26.3.0-20260820-r12](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260820-r12) | 2026-08-20 | [`30a5b4c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/30a5b4c95b9ed9c172cdd2b4aa6caae8c62e08dc) | zink: Handle max_varying where maxVertexOutputComponents value is too low. | Vulkan 1.4.359 |
 | [v26.3.0-20260820-r11](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260820-r11) | 2026-08-20 | [`b78fc73`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b78fc73dd898a7dfa87448a4b5ff4459a870e21a) | docs: add missing VK_EXT_cooperative_matrix_maintenance1 for radv, lvp | Vulkan 1.4.359 |
 | [v26.3.0-20260820-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260820-r10) | 2026-08-20 | [`20c66a6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/20c66a6e8da4a04ad97bb23e0c9db31d1a62125c) | broadcom/qpu: drop obsolete pre-4.0 UNIFA check | Vulkan 1.4.359 |
@@ -103,7 +104,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260819-r16](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r16) | 2026-08-19 | [`13ecff6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/13ecff6e2f5335c5ab9c2823d3fed7753ae3e219) | ci: uprev vkd3d | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r15](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r15) | 2026-08-19 | [`95c504f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/95c504fa17a3912e56df37a7c24ca983d69be33e) | zink: enable renderpass tracking for KosmicKrisp | Vulkan 1.4.359 |
 | [v26.3.0-20260819-r14](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r14) | 2026-08-19 | [`0ab6d7e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0ab6d7e3db5bb6fdcce8e913d9ae03a34083651e) | pvr: advertise fragmentStoresAndAtomics | Vulkan 1.4.359 |
-| [v26.3.0-20260819-r13](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260819-r13) | 2026-08-19 | [`88be0c1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/88be0c15190df9c46d42dca3e14cb42ba8cd3f8d) | anv: Allow CCS_E without a format list more often | Vulkan 1.4.359 |
 <!-- RECENT_BUILDS_END -->
 
 ---
