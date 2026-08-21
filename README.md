@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`355091f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/355091fc91bf49e853967b62a04c6acce0b09af7) |
+| **Commit** | [`00e42c5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/00e42c51b10d8e0769489156fa414f111897d515) |
 | **Commit date** | 2026-08-21 |
-| **Commit title** | intel/brw: Add support to TANH instruction in Gfx 35 |
+| **Commit title** | nvk: add a nvk_video_enabled() helper |
 | **Build date** | 20260821 |
-| **Release** | [v26.3.0-20260821-r16](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260821-r16) |
+| **Release** | [v26.3.0-20260821-r17](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260821-r17) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260821-r17](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260821-r17) | 2026-08-21 | [`00e42c5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/00e42c51b10d8e0769489156fa414f111897d515) | nvk: add a nvk_video_enabled() helper | Vulkan 1.4.359 |
 | [v26.3.0-20260821-r16](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260821-r16) | 2026-08-21 | [`355091f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/355091fc91bf49e853967b62a04c6acce0b09af7) | intel/brw: Add support to TANH instruction in Gfx 35 | Vulkan 1.4.359 |
 | [v26.3.0-20260821-r15](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260821-r15) | 2026-08-21 | [`4bd7d5b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4bd7d5bc0686d2ab0a80b5f0c4d38da0ccdb49c8) | anv: don't forget to hash render pass color attachments | Vulkan 1.4.359 |
 | [v26.3.0-20260821-r14](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260821-r14) | 2026-08-21 | [`71738e5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/71738e55f90ca02688fa93af1b8cb4452ff7c727) | vulkan: Move barriers before encode pass at driver level | Vulkan 1.4.359 |
@@ -105,7 +106,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260821](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260821) | 2026-08-21 | [`19e447e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/19e447e5309d86a62471b46c7a9c60247ced4624) | nv30/ci: update fails/flakes | Vulkan 1.4.359 |
 | [v26.3.0-20260820-r18](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260820-r18) | 2026-08-20 | [`bb3fef5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/bb3fef572518943e78af2ccde943f7559dbd5a5a) | jay: bump JAY_PARTITION_BLOCKS | Vulkan 1.4.359 |
 | [v26.3.0-20260820-r17](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260820-r17) | 2026-08-20 | [`dbda147`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/dbda14734f3be9163eadaf7c68dafc98952da9ec) | panfrost/mid: Disable mediump lowering entirely | Vulkan 1.4.359 |
-| [v26.3.0-20260820-r16](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260820-r16) | 2026-08-20 | [`6dd2f29`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6dd2f2919e74a1e038485b1dd08eb062c4230ebb) | radeonsi: try to clarify RECTLIST/RECT_2D differences | Vulkan 1.4.359 |
 <!-- RECENT_BUILDS_END -->
 
 ---
