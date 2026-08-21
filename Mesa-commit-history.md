@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260821-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260821-r7) | 2026-08-21 | [`d945492`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d945492cc49648ed7aeec490f4adc327aa849557) | va: Set a reasonable minimum size for coded buffer | Vulkan 1.4.359 |
 | [v26.3.0-20260821-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260821-r6) | 2026-08-21 | [`88c960b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/88c960b769045c40b2f5d5c5364c2f64ae178fdf) | nvk: Advertise VK_KHR_device_address_commands | Vulkan 1.4.359 |
 | [v26.3.0-20260821-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260821-r5) | 2026-08-21 | [`5ecf1f7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5ecf1f76324238cfd21f767e3b74fccd14c5c958) | vulkan: fix strict aliasing violations with vk_foreach_struct | Vulkan 1.4.359 |
 | [v26.3.0-20260821-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260821-r4) | 2026-08-21 | [`8bfe318`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8bfe3182c03fb557e7bd949224d02b648b254f36) | radv: allow enabling the SDMA transfer queue per-application | Vulkan 1.4.359 |
