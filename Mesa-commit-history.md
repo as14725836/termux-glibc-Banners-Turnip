@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260824-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r6) | 2026-08-24 | [`4c1c22e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4c1c22e9d1a483b27f2502d9becc213257cfa7c5) | kk: Expose shaderSharedFloat32AtomicAdd for MSL >= 4.1 | Vulkan 1.4.359 |
 | [v26.3.0-20260824-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r5) | 2026-08-24 | [`55e1284`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/55e128478ec9082da7cc023a8e093c941780774f) | kk: Support depthBounds on M5+ | Vulkan 1.4.359 |
 | [v26.3.0-20260824-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r4) | 2026-08-24 | [`84d3619`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/84d36193fdfe344986fa93f76c67954136803c6d) | tu: Disable LRZ for depth resolve targets | Vulkan 1.4.359 |
 | [v26.3.0-20260824-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r3) | 2026-08-24 | [`0dadb17`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0dadb17223fa30175c5996f093fe0e830f87e3c2) | kraid: Do not encode empty shaders | Vulkan 1.4.359 |

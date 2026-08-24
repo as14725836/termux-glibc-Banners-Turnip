@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`55e1284`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/55e128478ec9082da7cc023a8e093c941780774f) |
+| **Commit** | [`4c1c22e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4c1c22e9d1a483b27f2502d9becc213257cfa7c5) |
 | **Commit date** | 2026-08-24 |
-| **Commit title** | kk: Support depthBounds on M5+ |
+| **Commit title** | kk: Expose shaderSharedFloat32AtomicAdd for MSL >= 4.1 |
 | **Build date** | 20260824 |
-| **Release** | [v26.3.0-20260824-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r5) |
+| **Release** | [v26.3.0-20260824-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r6) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260824-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r6) | 2026-08-24 | [`4c1c22e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4c1c22e9d1a483b27f2502d9becc213257cfa7c5) | kk: Expose shaderSharedFloat32AtomicAdd for MSL >= 4.1 | Vulkan 1.4.359 |
 | [v26.3.0-20260824-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r5) | 2026-08-24 | [`55e1284`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/55e128478ec9082da7cc023a8e093c941780774f) | kk: Support depthBounds on M5+ | Vulkan 1.4.359 |
 | [v26.3.0-20260824-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r4) | 2026-08-24 | [`84d3619`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/84d36193fdfe344986fa93f76c67954136803c6d) | tu: Disable LRZ for depth resolve targets | Vulkan 1.4.359 |
 | [v26.3.0-20260824-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r3) | 2026-08-24 | [`0dadb17`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0dadb17223fa30175c5996f093fe0e830f87e3c2) | kraid: Do not encode empty shaders | Vulkan 1.4.359 |
