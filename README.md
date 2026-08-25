@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`dc33057`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/dc330577adb9e98363ef6061e09062f171d0d053) |
+| **Commit** | [`118ec7f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/118ec7f45b1300d0d5b304bb2b34b53a20f09c9e) |
 | **Commit date** | 2026-08-25 |
-| **Commit title** | amd/common: update TRUNC_COORD documentation |
+| **Commit title** | tu: Workaround 32B rollover bug in GPU firmware |
 | **Build date** | 20260825 |
-| **Release** | [v26.3.0-20260825-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r9) |
+| **Release** | [v26.3.0-20260825-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r10) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260825-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r10) | 2026-08-25 | [`118ec7f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/118ec7f45b1300d0d5b304bb2b34b53a20f09c9e) | tu: Workaround 32B rollover bug in GPU firmware | Vulkan 1.4.359 |
 | [v26.3.0-20260825-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r9) | 2026-08-25 | [`dc33057`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/dc330577adb9e98363ef6061e09062f171d0d053) | amd/common: update TRUNC_COORD documentation | Vulkan 1.4.359 |
 | [v26.3.0-20260825-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r8) | 2026-08-25 | [`1eb29b2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1eb29b2f2f0f8a7c0a0d1251d9f26c5fb5d26902) | v3dv: keep CPU mapping alive for the cached BOs | Vulkan 1.4.359 |
 | [v26.3.0-20260825-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r7) | 2026-08-25 | [`630840b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/630840b3333ac6eafce6029ad153a47db97dd091) | amd/common/virtio: fix import/free race that detaches a live res_id | Vulkan 1.4.359 |
@@ -100,8 +101,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260824-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r10) | 2026-08-24 | [`087e24f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/087e24f91ea9357c1c704c588df335ecfe6bfda3) | brw: Use reaching definitions when skipping destination fills | Vulkan 1.4.359 |
 | [v26.3.0-20260824-r9](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r9) | 2026-08-24 | [`4f14e16`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4f14e16ba953b87286dfc3ddcbfc511ea2e60b9a) | nouveau/mme/tu104: add test and simulator code for DMA_READ and DMA_SYNC | Vulkan 1.4.359 |
 | [v26.3.0-20260824-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r8) | 2026-08-24 | [`4641f00`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4641f0094f29752f2774e5c0cbfc75d5c76a2f26) | frontends/va: report processing entrypoint only if VPP is supported | Vulkan 1.4.359 |
-| [v26.3.0-20260824-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r7) | 2026-08-24 | [`0cd184e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0cd184e94fc4233d72fba6b9b266a943df4da13a) | tu: Don't reuse LRZ when it is cleared with partial render area | Vulkan 1.4.359 |
-| [v26.3.0-20260824-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r6) | 2026-08-24 | [`4c1c22e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4c1c22e9d1a483b27f2502d9becc213257cfa7c5) | kk: Expose shaderSharedFloat32AtomicAdd for MSL >= 4.1 | Vulkan 1.4.359 |
 <!-- RECENT_BUILDS_END -->
 
 ---
