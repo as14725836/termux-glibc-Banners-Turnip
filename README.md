@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`630840b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/630840b3333ac6eafce6029ad153a47db97dd091) |
+| **Commit** | [`1eb29b2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1eb29b2f2f0f8a7c0a0d1251d9f26c5fb5d26902) |
 | **Commit date** | 2026-08-25 |
-| **Commit title** | amd/common/virtio: fix import/free race that detaches a live res_id |
+| **Commit title** | v3dv: keep CPU mapping alive for the cached BOs |
 | **Build date** | 20260825 |
-| **Release** | [v26.3.0-20260825-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r7) |
+| **Release** | [v26.3.0-20260825-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r8) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260825-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r8) | 2026-08-25 | [`1eb29b2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1eb29b2f2f0f8a7c0a0d1251d9f26c5fb5d26902) | v3dv: keep CPU mapping alive for the cached BOs | Vulkan 1.4.359 |
 | [v26.3.0-20260825-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r7) | 2026-08-25 | [`630840b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/630840b3333ac6eafce6029ad153a47db97dd091) | amd/common/virtio: fix import/free race that detaches a live res_id | Vulkan 1.4.359 |
 | [v26.3.0-20260825-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r6) | 2026-08-25 | [`e79595e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e79595e37b64d6c84b1962f5adc1bb61fa2ef165) | radeonsi/ci: update expectations | Vulkan 1.4.359 |
 | [v26.3.0-20260825-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r5) | 2026-08-25 | [`2aa64dc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2aa64dcf1ceb523aca350a25ef64adb3437d35ab) | radv: enable HTILE for mips+layers on GFX10+ | Vulkan 1.4.359 |
@@ -100,8 +101,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260824-r8](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r8) | 2026-08-24 | [`4641f00`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4641f0094f29752f2774e5c0cbfc75d5c76a2f26) | frontends/va: report processing entrypoint only if VPP is supported | Vulkan 1.4.359 |
 | [v26.3.0-20260824-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r7) | 2026-08-24 | [`0cd184e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0cd184e94fc4233d72fba6b9b266a943df4da13a) | tu: Don't reuse LRZ when it is cleared with partial render area | Vulkan 1.4.359 |
 | [v26.3.0-20260824-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r6) | 2026-08-24 | [`4c1c22e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4c1c22e9d1a483b27f2502d9becc213257cfa7c5) | kk: Expose shaderSharedFloat32AtomicAdd for MSL >= 4.1 | Vulkan 1.4.359 |
-| [v26.3.0-20260824-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r5) | 2026-08-24 | [`55e1284`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/55e128478ec9082da7cc023a8e093c941780774f) | kk: Support depthBounds on M5+ | Vulkan 1.4.359 |
-| [v26.3.0-20260824-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r4) | 2026-08-24 | [`84d3619`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/84d36193fdfe344986fa93f76c67954136803c6d) | tu: Disable LRZ for depth resolve targets | Vulkan 1.4.359 |
 <!-- RECENT_BUILDS_END -->
 
 ---
