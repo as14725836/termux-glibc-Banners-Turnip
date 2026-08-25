@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260825-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r6) | 2026-08-25 | [`e79595e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e79595e37b64d6c84b1962f5adc1bb61fa2ef165) | radeonsi/ci: update expectations | Vulkan 1.4.359 |
 | [v26.3.0-20260825-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r5) | 2026-08-25 | [`2aa64dc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2aa64dcf1ceb523aca350a25ef64adb3437d35ab) | radv: enable HTILE for mips+layers on GFX10+ | Vulkan 1.4.359 |
 | [v26.3.0-20260825-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r4) | 2026-08-25 | [`9bb9a74`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9bb9a74414d69c18eadc5a01b1efe04a6928da51) | freedreno, tu: Limit XFB streams on GPUs lacking multi-stream query support | Vulkan 1.4.359 |
 | [v26.3.0-20260825-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r3) | 2026-08-25 | [`f9831d4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f9831d49c18291fa557ade665bf3cf86282ad5ff) | radv: fix copying VRS rates with a non-zero base layer correctly | Vulkan 1.4.359 |
