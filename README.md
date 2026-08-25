@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`9bb9a74`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9bb9a74414d69c18eadc5a01b1efe04a6928da51) |
+| **Commit** | [`2aa64dc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2aa64dcf1ceb523aca350a25ef64adb3437d35ab) |
 | **Commit date** | 2026-08-25 |
-| **Commit title** | freedreno, tu: Limit XFB streams on GPUs lacking multi-stream query support |
+| **Commit title** | radv: enable HTILE for mips+layers on GFX10+ |
 | **Build date** | 20260825 |
-| **Release** | [v26.3.0-20260825-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r4) |
+| **Release** | [v26.3.0-20260825-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r5) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260825-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r5) | 2026-08-25 | [`2aa64dc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2aa64dcf1ceb523aca350a25ef64adb3437d35ab) | radv: enable HTILE for mips+layers on GFX10+ | Vulkan 1.4.359 |
 | [v26.3.0-20260825-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r4) | 2026-08-25 | [`9bb9a74`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9bb9a74414d69c18eadc5a01b1efe04a6928da51) | freedreno, tu: Limit XFB streams on GPUs lacking multi-stream query support | Vulkan 1.4.359 |
 | [v26.3.0-20260825-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r3) | 2026-08-25 | [`f9831d4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f9831d49c18291fa557ade665bf3cf86282ad5ff) | radv: fix copying VRS rates with a non-zero base layer correctly | Vulkan 1.4.359 |
 | [v26.3.0-20260825-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r2) | 2026-08-25 | [`7fa9a25`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7fa9a25398a75fb7ef3c0656e4667ff9f6e9f2c1) | kk: Add feature check when setting depth bounds test | Vulkan 1.4.359 |
@@ -101,7 +102,6 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | [v26.3.0-20260824-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r4) | 2026-08-24 | [`84d3619`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/84d36193fdfe344986fa93f76c67954136803c6d) | tu: Disable LRZ for depth resolve targets | Vulkan 1.4.359 |
 | [v26.3.0-20260824-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r3) | 2026-08-24 | [`0dadb17`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0dadb17223fa30175c5996f093fe0e830f87e3c2) | kraid: Do not encode empty shaders | Vulkan 1.4.359 |
 | [v26.3.0-20260824-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824-r2) | 2026-08-24 | [`ac75cf5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ac75cf5a5bab59f86119d97f21d9b8cd0f85f4f8) | v3d: flush jobs that queue too many draw calls | Vulkan 1.4.359 |
-| [v26.3.0-20260824](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260824) | 2026-08-24 | [`6f03332`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6f0333205471a6d894dff5246aeabf3e8ff3d311) | tu: Advertise VK_EXT_shader_subgroup_ballot | Vulkan 1.4.359 |
 <!-- RECENT_BUILDS_END -->
 
 ---
