@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260826-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260826-r2) | 2026-08-26 | [`bb63b17`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/bb63b1797b657b64dac605391d251a22e1c9cefc) | amd/virtio: request deferred mapping for blob BOs | Vulkan 1.4.359 |
 | [v26.3.0-20260826](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260826) | 2026-08-26 | [`28ce274`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/28ce274f4e5b0da78025b36c32f239549e09d012) | spirv: Fix bounds check in OpSpecConstantOp CompositeExtract/Insert | Vulkan 1.4.359 |
 | [v26.3.0-20260825-r17](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r17) | 2026-08-25 | [`8cc4fe5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8cc4fe51fe781163d0345320a7a04520ecfcdb8d) | panvk/android: avoid pNext injection of caller ANB info | Vulkan 1.4.359 |
 | [v26.3.0-20260825-r16](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260825-r16) | 2026-08-25 | [`2e70082`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2e7008210fcc59013f0fdfec3f65c36ab65b3f45) | Uprev Piglit to 136db767d5eb88eb439574a25ba429926170da4b | Vulkan 1.4.359 |
