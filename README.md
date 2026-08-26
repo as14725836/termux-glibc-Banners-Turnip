@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`263eb47`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/263eb470f257fa4dedf74c568825d53abb244853) |
+| **Commit** | [`ca0c5d3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ca0c5d3b7d92b41d985562e32b77b8415014eb5c) |
 | **Commit date** | 2026-08-26 |
-| **Commit title** | pan/compiler: Optimize flat 16-bit load on linked shaders |
+| **Commit title** | r600/sfn: lower BUF txf in nir when on PRE-EG |
 | **Build date** | 20260826 |
-| **Release** | [v26.3.0-20260826-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260826-r6) |
+| **Release** | [v26.3.0-20260826-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260826-r7) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260826-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260826-r7) | 2026-08-26 | [`ca0c5d3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ca0c5d3b7d92b41d985562e32b77b8415014eb5c) | r600/sfn: lower BUF txf in nir when on PRE-EG | Vulkan 1.4.359 |
 | [v26.3.0-20260826-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260826-r6) | 2026-08-26 | [`263eb47`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/263eb470f257fa4dedf74c568825d53abb244853) | pan/compiler: Optimize flat 16-bit load on linked shaders | Vulkan 1.4.359 |
 | [v26.3.0-20260826-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260826-r5) | 2026-08-26 | [`31c4715`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/31c4715fa834dc1da66db38f8360bd796ce39a74) | kraid: Check mods and more swizzles for small constants | Vulkan 1.4.359 |
 | [v26.3.0-20260826-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260826-r4) | 2026-08-26 | [`b9a2bf3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b9a2bf372bf71eb6080fbfe7a75638bfb14e451c) | broadcom/ci: update expected results | Vulkan 1.4.359 |
