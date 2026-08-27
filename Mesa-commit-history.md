@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260827-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260827-r3) | 2026-08-27 | [`2329baf`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2329baffd13c67e7f82af81a543a8074cb9b325b) | nir, spirv: Widen boolean DebugPrintf arguments to 32-bit | Vulkan 1.4.359 |
 | [v26.3.0-20260827-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260827-r2) | 2026-08-27 | [`1a3bc6e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1a3bc6e571fa5a165171d958c5a0c0890a4184e6) | docs: fix javascript-warning on search-page | Vulkan 1.4.359 |
 | [v26.3.0-20260827](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260827) | 2026-08-27 | [`d0b3b0f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d0b3b0fc8797b9609cc3a2f23273efd9e6f04d29) | kk: Wrap meta operations in debug groups | Vulkan 1.4.359 |
 | [v26.3.0-20260826-r10](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260826-r10) | 2026-08-26 | [`d45779b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d45779b345cc183527bc0db91865977b088cb4b4) | vk/wsi/win32: Stop using D3D12_IGNORE_SDK_LAYERS | Vulkan 1.4.359 |
