@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`2329baf`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2329baffd13c67e7f82af81a543a8074cb9b325b) |
-| **Commit date** | 2026-08-27 |
-| **Commit title** | nir, spirv: Widen boolean DebugPrintf arguments to 32-bit |
-| **Build date** | 20260827 |
-| **Release** | [v26.3.0-20260827-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260827-r3) |
+| **Commit** | [`4143bcc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4143bccccc026e1c3469d41ccedfe86a98e227ec) |
+| **Commit date** | 2026-08-28 |
+| **Commit title** | ci: update contact information for the imagination farm |
+| **Build date** | 20260828 |
+| **Release** | [v26.3.0-20260828](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260828) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,9 +87,9 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260828](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260828) | 2026-08-28 | [`4143bcc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4143bccccc026e1c3469d41ccedfe86a98e227ec) | ci: update contact information for the imagination farm | Vulkan 1.4.359 |
 | [v26.3.0-20260827-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260827-r3) | 2026-08-27 | [`2329baf`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2329baffd13c67e7f82af81a543a8074cb9b325b) | nir, spirv: Widen boolean DebugPrintf arguments to 32-bit | Vulkan 1.4.359 |
 | [v26.3.0-20260827-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260827-r2) | 2026-08-27 | [`1a3bc6e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1a3bc6e571fa5a165171d958c5a0c0890a4184e6) | docs: fix javascript-warning on search-page | Vulkan 1.4.359 |
-| [v26.3.0-20260827](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260827) | 2026-08-27 | [`d0b3b0f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d0b3b0fc8797b9609cc3a2f23273efd9e6f04d29) | kk: Wrap meta operations in debug groups | Vulkan 1.4.359 |
 <!-- RECENT_BUILDS_END -->
 
 ---
