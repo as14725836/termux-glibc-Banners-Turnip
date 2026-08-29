@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260829](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260829) | 2026-08-29 | [`e881540`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e881540692daac6532cefec76699f7a025563767) | jay: Mask shuffle lane index to avoid out-of-bounds register file access | Vulkan 1.4.359 |
 | [v26.3.0-20260828-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260828-r2) | 2026-08-28 | [`f5f8413`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f5f841333e6936e6d561c699c2d8ca73817aec55) | tu: Add TU_DEBUG=gmem_warmup to preallocate a large VSC for GMEM rendering. | Vulkan 1.4.359 |
 | [v26.3.0-20260828](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260828) | 2026-08-28 | [`4143bcc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4143bccccc026e1c3469d41ccedfe86a98e227ec) | ci: update contact information for the imagination farm | Vulkan 1.4.359 |
 | [v26.3.0-20260827-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260827-r3) | 2026-08-27 | [`2329baf`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2329baffd13c67e7f82af81a543a8074cb9b325b) | nir, spirv: Widen boolean DebugPrintf arguments to 32-bit | Vulkan 1.4.359 |
