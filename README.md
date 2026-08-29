@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`4a7a29d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4a7a29d007446f68ac6ac3633b58282fe99cd700) |
+| **Commit** | [`e87a037`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e87a03754d9a39632a78503f551d51bab2a6c5a5) |
 | **Commit date** | 2026-08-29 |
-| **Commit title** | kk: Handle NULL object names in vkSetDebugUtilsObjectNameEXT() |
+| **Commit title** | winsys/radeon: reuse GEM_OPEN handles for display |
 | **Build date** | 20260829 |
-| **Release** | [v26.3.0-20260829-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260829-r2) |
+| **Release** | [v26.3.0-20260829-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260829-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,9 +87,9 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260829-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260829-r3) | 2026-08-29 | [`e87a037`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e87a03754d9a39632a78503f551d51bab2a6c5a5) | winsys/radeon: reuse GEM_OPEN handles for display | Vulkan 1.4.359 |
 | [v26.3.0-20260829-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260829-r2) | 2026-08-29 | [`4a7a29d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4a7a29d007446f68ac6ac3633b58282fe99cd700) | kk: Handle NULL object names in vkSetDebugUtilsObjectNameEXT() | Vulkan 1.4.359 |
 | [v26.3.0-20260829](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260829) | 2026-08-29 | [`e881540`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e881540692daac6532cefec76699f7a025563767) | jay: Mask shuffle lane index to avoid out-of-bounds register file access | Vulkan 1.4.359 |
-| [v26.3.0-20260828-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260828-r2) | 2026-08-28 | [`f5f8413`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f5f841333e6936e6d561c699c2d8ca73817aec55) | tu: Add TU_DEBUG=gmem_warmup to preallocate a large VSC for GMEM rendering. | Vulkan 1.4.359 |
 <!-- RECENT_BUILDS_END -->
 
 ---
