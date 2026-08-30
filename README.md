@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`ac5ecd1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ac5ecd1ca46ce624060a01854f55dc1f60d1329b) |
+| **Commit** | [`cf63745`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/cf63745aa2dfdb88eafb4ac2b619f95c09cfd832) |
 | **Commit date** | 2026-08-30 |
-| **Commit title** | nvk/meson: add build root dir to nvk_include_directories |
+| **Commit title** | anv: fix regression on coopmat per element operations feature. |
 | **Build date** | 20260830 |
-| **Release** | [v26.3.0-20260830-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260830-r3) |
+| **Release** | [v26.3.0-20260830-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260830-r4) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,10 +87,10 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260830-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260830-r4) | 2026-08-30 | [`cf63745`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/cf63745aa2dfdb88eafb4ac2b619f95c09cfd832) | anv: fix regression on coopmat per element operations feature. | Vulkan 1.4.359 |
 | [v26.3.0-20260830-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260830-r3) | 2026-08-30 | [`ac5ecd1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ac5ecd1ca46ce624060a01854f55dc1f60d1329b) | nvk/meson: add build root dir to nvk_include_directories | Vulkan 1.4.359 |
 | [v26.3.0-20260830-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260830-r2) | 2026-08-30 | [`29c5f0a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/29c5f0ad445246ba8352aee61702bc3b5887389d) | etnaviv: nir: Call nir_opt_combine_stores(..) | Vulkan 1.4.359 |
 | [v26.3.0-20260830](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260830) | 2026-08-30 | [`06ec2d8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/06ec2d8e5f676b5071c204c58c9a524713d923da) | nir/lower_io_indirect_loads: add an option to skip lowering convergent loads | Vulkan 1.4.359 |
-| [v26.3.0-20260829-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260829-r3) | 2026-08-29 | [`e87a037`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e87a03754d9a39632a78503f551d51bab2a6c5a5) | winsys/radeon: reuse GEM_OPEN handles for display | Vulkan 1.4.359 |
 <!-- RECENT_BUILDS_END -->
 
 ---
