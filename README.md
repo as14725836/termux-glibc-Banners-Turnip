@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`06ec2d8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/06ec2d8e5f676b5071c204c58c9a524713d923da) |
+| **Commit** | [`29c5f0a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/29c5f0ad445246ba8352aee61702bc3b5887389d) |
 | **Commit date** | 2026-08-30 |
-| **Commit title** | nir/lower_io_indirect_loads: add an option to skip lowering convergent loads |
+| **Commit title** | etnaviv: nir: Call nir_opt_combine_stores(..) |
 | **Build date** | 20260830 |
-| **Release** | [v26.3.0-20260830](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260830) |
+| **Release** | [v26.3.0-20260830-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260830-r2) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,9 +87,9 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260830-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260830-r2) | 2026-08-30 | [`29c5f0a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/29c5f0ad445246ba8352aee61702bc3b5887389d) | etnaviv: nir: Call nir_opt_combine_stores(..) | Vulkan 1.4.359 |
 | [v26.3.0-20260830](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260830) | 2026-08-30 | [`06ec2d8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/06ec2d8e5f676b5071c204c58c9a524713d923da) | nir/lower_io_indirect_loads: add an option to skip lowering convergent loads | Vulkan 1.4.359 |
 | [v26.3.0-20260829-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260829-r3) | 2026-08-29 | [`e87a037`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e87a03754d9a39632a78503f551d51bab2a6c5a5) | winsys/radeon: reuse GEM_OPEN handles for display | Vulkan 1.4.359 |
-| [v26.3.0-20260829-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260829-r2) | 2026-08-29 | [`4a7a29d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4a7a29d007446f68ac6ac3633b58282fe99cd700) | kk: Handle NULL object names in vkSetDebugUtilsObjectNameEXT() | Vulkan 1.4.359 |
 <!-- RECENT_BUILDS_END -->
 
 ---
