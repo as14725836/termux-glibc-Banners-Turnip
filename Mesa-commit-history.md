@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260831-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260831-r2) | 2026-08-31 | [`df7fda4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/df7fda4b20e7f6e1e35136a811799a9bbe7a68c0) | panfrost/csf: flush GPU caches after XFB compute in csf_launch_xfb | Vulkan 1.4.359 |
 | [v26.3.0-20260831](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260831) | 2026-08-31 | [`7f19691`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7f196910eb35aca76cf58d0c572c72c099e971a2) | radv: skip some depth metadata init for zero-initialized images | Vulkan 1.4.359 |
 | [v26.3.0-20260830-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260830-r4) | 2026-08-30 | [`cf63745`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/cf63745aa2dfdb88eafb4ac2b619f95c09cfd832) | anv: fix regression on coopmat per element operations feature. | Vulkan 1.4.359 |
 | [v26.3.0-20260830-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260830-r3) | 2026-08-30 | [`ac5ecd1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ac5ecd1ca46ce624060a01854f55dc1f60d1329b) | nvk/meson: add build root dir to nvk_include_directories | Vulkan 1.4.359 |
