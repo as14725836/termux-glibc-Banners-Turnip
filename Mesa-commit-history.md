@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260901-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260901-r5) | 2026-09-01 | [`73ff21e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/73ff21ef2d03f8b57a1470dad49ed49ae71913c5) | gfxstream: Fixes for extensions with type erased objects | Vulkan 1.4.359 |
 | [v26.3.0-20260901-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260901-r4) | 2026-09-01 | [`33d40be`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/33d40be976ad2c2adbfce6e593be6829be864ea7) | radv: validate pipeline stage flags in radv_stage_flush() | Vulkan 1.4.359 |
 | [v26.3.0-20260901-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260901-r3) | 2026-09-01 | [`9fba08b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9fba08bd2366853c357df2c2a0be779351babfb5) | brw: use constant offset in extended descriptor for spill/fill | Vulkan 1.4.359 |
 | [v26.3.0-20260901-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260901-r2) | 2026-09-01 | [`e4b19cb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e4b19cb28a6ef3ce6922102fc6eaafcfb9e3be64) | radv/ci: update list of expected failures for TAHITI/HAWAII | Vulkan 1.4.359 |
