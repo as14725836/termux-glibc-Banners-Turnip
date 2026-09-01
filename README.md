@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`8e12d60`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8e12d6000b247715b7c9bfaac67bca565dd8b9d8) |
+| **Commit** | [`e4b19cb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e4b19cb28a6ef3ce6922102fc6eaafcfb9e3be64) |
 | **Commit date** | 2026-09-01 |
-| **Commit title** | nv30/ci: add recent regression |
+| **Commit title** | radv/ci: update list of expected failures for TAHITI/HAWAII |
 | **Build date** | 20260901 |
-| **Release** | [v26.3.0-20260901](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260901) |
+| **Release** | [v26.3.0-20260901-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260901-r2) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260901-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260901-r2) | 2026-09-01 | [`e4b19cb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e4b19cb28a6ef3ce6922102fc6eaafcfb9e3be64) | radv/ci: update list of expected failures for TAHITI/HAWAII | Vulkan 1.4.359 |
 | [v26.3.0-20260901](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260901) | 2026-09-01 | [`8e12d60`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8e12d6000b247715b7c9bfaac67bca565dd8b9d8) | nv30/ci: add recent regression | Vulkan 1.4.359 |
 | [v26.3.0-20260831-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260831-r3) | 2026-08-31 | [`610b6a6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/610b6a66664d54ae9faebe85c76cca8f299f1e02) | freedreno/registers: Rename CP_MEM_TO_OC_MEM | Vulkan 1.4.359 |
 | [v26.3.0-20260831-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260831-r2) | 2026-08-31 | [`df7fda4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/df7fda4b20e7f6e1e35136a811799a9bbe7a68c0) | panfrost/csf: flush GPU caches after XFB compute in csf_launch_xfb | Vulkan 1.4.359 |
