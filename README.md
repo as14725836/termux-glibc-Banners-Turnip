@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`73ff21e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/73ff21ef2d03f8b57a1470dad49ed49ae71913c5) |
+| **Commit** | [`cd2e2b0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/cd2e2b0bb4b92d7f4b1965a1eeb839f0389bc7d5) |
 | **Commit date** | 2026-09-01 |
-| **Commit title** | gfxstream: Fixes for extensions with type erased objects |
+| **Commit title** | docs: add a link to gpu-ratemeter |
 | **Build date** | 20260901 |
-| **Release** | [v26.3.0-20260901-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260901-r5) |
+| **Release** | [v26.3.0-20260901-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260901-r6) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,12 +87,12 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260901-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260901-r6) | 2026-09-01 | [`cd2e2b0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/cd2e2b0bb4b92d7f4b1965a1eeb839f0389bc7d5) | docs: add a link to gpu-ratemeter | Vulkan 1.4.359 |
 | [v26.3.0-20260901-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260901-r5) | 2026-09-01 | [`73ff21e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/73ff21ef2d03f8b57a1470dad49ed49ae71913c5) | gfxstream: Fixes for extensions with type erased objects | Vulkan 1.4.359 |
 | [v26.3.0-20260901-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260901-r4) | 2026-09-01 | [`33d40be`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/33d40be976ad2c2adbfce6e593be6829be864ea7) | radv: validate pipeline stage flags in radv_stage_flush() | Vulkan 1.4.359 |
 | [v26.3.0-20260901-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260901-r3) | 2026-09-01 | [`9fba08b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9fba08bd2366853c357df2c2a0be779351babfb5) | brw: use constant offset in extended descriptor for spill/fill | Vulkan 1.4.359 |
 | [v26.3.0-20260901-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260901-r2) | 2026-09-01 | [`e4b19cb`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e4b19cb28a6ef3ce6922102fc6eaafcfb9e3be64) | radv/ci: update list of expected failures for TAHITI/HAWAII | Vulkan 1.4.359 |
 | [v26.3.0-20260901](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260901) | 2026-09-01 | [`8e12d60`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8e12d6000b247715b7c9bfaac67bca565dd8b9d8) | nv30/ci: add recent regression | Vulkan 1.4.359 |
-| [v26.3.0-20260831-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260831-r3) | 2026-08-31 | [`610b6a6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/610b6a66664d54ae9faebe85c76cca8f299f1e02) | freedreno/registers: Rename CP_MEM_TO_OC_MEM | Vulkan 1.4.359 |
 <!-- RECENT_BUILDS_END -->
 
 ---
