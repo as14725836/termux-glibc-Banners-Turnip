@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`4840738`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4840738ca8f6b6d4c0add66b2605e772a31d4399) |
+| **Commit** | [`c0682c5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c0682c54768a5e247c6627fc3b632eb81b7af2a4) |
 | **Commit date** | 2026-09-02 |
-| **Commit title** | anv: fix 64bit values promoted to inline register |
+| **Commit title** | freedreno/a5xx: implement dual-source blending |
 | **Build date** | 20260902 |
-| **Release** | [v26.3.0-20260902-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260902-r4) |
+| **Release** | [v26.3.0-20260902-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260902-r5) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,13 +87,13 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260902-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260902-r5) | 2026-09-02 | [`c0682c5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c0682c54768a5e247c6627fc3b632eb81b7af2a4) | freedreno/a5xx: implement dual-source blending | Vulkan 1.4.359 |
 | [v26.3.0-20260902-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260902-r4) | 2026-09-02 | [`4840738`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4840738ca8f6b6d4c0add66b2605e772a31d4399) | anv: fix 64bit values promoted to inline register | Vulkan 1.4.359 |
 | [v26.3.0-20260902-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260902-r3) | 2026-09-02 | [`0327e12`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0327e124df425706bb3acb64625959b87ef9af49) | panfrost/csf: initialize flush_id to zero in the tiler OOM handler | Vulkan 1.4.359 |
 | [v26.3.0-20260902-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260902-r2) | 2026-09-02 | [`d870cef`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d870cef8b7c8a4a11edc669669c9f18ae402314a) | intel/isl: Bump HALIGN from 16B to 32B on Xe2+ | Vulkan 1.4.359 |
 | [v26.3.0-20260902](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260902) | 2026-09-02 | [`dd40672`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/dd4067299bfa2e2537645d42226bce4887ff144f) | kraid/ra: Clean up clippy complaints | Vulkan 1.4.359 |
 | [v26.3.0-20260901-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260901-r6) | 2026-09-01 | [`cd2e2b0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/cd2e2b0bb4b92d7f4b1965a1eeb839f0389bc7d5) | docs: add a link to gpu-ratemeter | Vulkan 1.4.359 |
 | [v26.3.0-20260901-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260901-r5) | 2026-09-01 | [`73ff21e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/73ff21ef2d03f8b57a1470dad49ed49ae71913c5) | gfxstream: Fixes for extensions with type erased objects | Vulkan 1.4.359 |
-| [v26.3.0-20260901-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260901-r4) | 2026-09-01 | [`33d40be`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/33d40be976ad2c2adbfce6e593be6829be864ea7) | radv: validate pipeline stage flags in radv_stage_flush() | Vulkan 1.4.359 |
 <!-- RECENT_BUILDS_END -->
 
 ---
