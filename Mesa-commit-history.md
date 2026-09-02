@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260902](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260902) | 2026-09-02 | [`dd40672`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/dd4067299bfa2e2537645d42226bce4887ff144f) | kraid/ra: Clean up clippy complaints | Vulkan 1.4.359 |
 | [v26.3.0-20260901-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260901-r6) | 2026-09-01 | [`cd2e2b0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/cd2e2b0bb4b92d7f4b1965a1eeb839f0389bc7d5) | docs: add a link to gpu-ratemeter | Vulkan 1.4.359 |
 | [v26.3.0-20260901-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260901-r5) | 2026-09-01 | [`73ff21e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/73ff21ef2d03f8b57a1470dad49ed49ae71913c5) | gfxstream: Fixes for extensions with type erased objects | Vulkan 1.4.359 |
 | [v26.3.0-20260901-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260901-r4) | 2026-09-01 | [`33d40be`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/33d40be976ad2c2adbfce6e593be6829be864ea7) | radv: validate pipeline stage flags in radv_stage_flush() | Vulkan 1.4.359 |
