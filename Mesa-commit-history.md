@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260902-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260902-r7) | 2026-09-02 | [`946b15e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/946b15ec48a54142efc15b97aa44b06df74f2062) | etnaviv: Widen 32bpc RT colormasks without PE_32BPC_COLORMASK_FIX | Vulkan 1.4.359 |
 | [v26.3.0-20260902-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260902-r6) | 2026-09-02 | [`2a54dde`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2a54dde047764428674d06c9da1c34764f1339a7) | docs: discourage AI-generated code comments, commit messages, gitlab comments | Vulkan 1.4.359 |
 | [v26.3.0-20260902-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260902-r5) | 2026-09-02 | [`c0682c5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c0682c54768a5e247c6627fc3b632eb81b7af2a4) | freedreno/a5xx: implement dual-source blending | Vulkan 1.4.359 |
 | [v26.3.0-20260902-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260902-r4) | 2026-09-02 | [`4840738`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4840738ca8f6b6d4c0add66b2605e772a31d4399) | anv: fix 64bit values promoted to inline register | Vulkan 1.4.359 |
