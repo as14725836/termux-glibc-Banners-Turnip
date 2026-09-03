@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`f8dadab`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f8dadabfb2dbf5436540cd45a69604c3673a1252) |
+| **Commit** | [`607be81`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/607be812628d226bb0814f56a462e49adac0b3a6) |
 | **Commit date** | 2026-09-03 |
-| **Commit title** | radv: add a drirc option to select the image clear/copy/blit/resolve path |
+| **Commit title** | brw: Try harder at fill-to-fill propagation |
 | **Build date** | 20260903 |
-| **Release** | [v26.3.0-20260903-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260903-r4) |
+| **Release** | [v26.3.0-20260903-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260903-r5) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,12 +87,12 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260903-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260903-r5) | 2026-09-03 | [`607be81`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/607be812628d226bb0814f56a462e49adac0b3a6) | brw: Try harder at fill-to-fill propagation | Vulkan 1.4.359 |
 | [v26.3.0-20260903-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260903-r4) | 2026-09-03 | [`f8dadab`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f8dadabfb2dbf5436540cd45a69604c3673a1252) | radv: add a drirc option to select the image clear/copy/blit/resolve path | Vulkan 1.4.359 |
 | [v26.3.0-20260903-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260903-r3) | 2026-09-03 | [`ea488f6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ea488f65d44b3eb98336e790bd209966c63a458d) | tu: Don't try to use lazy allocation for MSRTSS if the device can't. | Vulkan 1.4.359 |
 | [v26.3.0-20260903-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260903-r2) | 2026-09-03 | [`4caded3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4caded39910a4d181e0e4c3dd0f5812b7434c922) | pan/ci: document recent regression in xfails | Vulkan 1.4.359 |
 | [v26.3.0-20260903](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260903) | 2026-09-03 | [`9b3b1dd`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9b3b1dddb1825e36edc376f3e41700b43e1517a3) | zink/ci: mark spec@arb_timer_query@timestamp-get as flakes for RADV | Vulkan 1.4.359 |
 | [v26.3.0-20260902-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260902-r7) | 2026-09-02 | [`946b15e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/946b15ec48a54142efc15b97aa44b06df74f2062) | etnaviv: Widen 32bpc RT colormasks without PE_32BPC_COLORMASK_FIX | Vulkan 1.4.359 |
-| [v26.3.0-20260902-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260902-r6) | 2026-09-02 | [`2a54dde`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2a54dde047764428674d06c9da1c34764f1339a7) | docs: discourage AI-generated code comments, commit messages, gitlab comments | Vulkan 1.4.359 |
 <!-- RECENT_BUILDS_END -->
 
 ---
