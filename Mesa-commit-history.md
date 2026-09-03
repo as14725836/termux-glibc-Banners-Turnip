@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260903-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260903-r4) | 2026-09-03 | [`f8dadab`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f8dadabfb2dbf5436540cd45a69604c3673a1252) | radv: add a drirc option to select the image clear/copy/blit/resolve path | Vulkan 1.4.359 |
 | [v26.3.0-20260903-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260903-r3) | 2026-09-03 | [`ea488f6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ea488f65d44b3eb98336e790bd209966c63a458d) | tu: Don't try to use lazy allocation for MSRTSS if the device can't. | Vulkan 1.4.359 |
 | [v26.3.0-20260903-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260903-r2) | 2026-09-03 | [`4caded3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4caded39910a4d181e0e4c3dd0f5812b7434c922) | pan/ci: document recent regression in xfails | Vulkan 1.4.359 |
 | [v26.3.0-20260903](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260903) | 2026-09-03 | [`9b3b1dd`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9b3b1dddb1825e36edc376f3e41700b43e1517a3) | zink/ci: mark spec@arb_timer_query@timestamp-get as flakes for RADV | Vulkan 1.4.359 |
