@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260904-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260904-r2) | 2026-09-04 | [`9311c93`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9311c93dbef6b87a30bc282c3683efefc5f26f77) | kraid/liveness: Calculate max live bytes up-front | Vulkan 1.4.359 |
 | [v26.3.0-20260904](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260904) | 2026-09-04 | [`69945fe`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/69945fe72ff9042493adf9e62eb9d7e7fdb003d9) | virgl/ci: update expectations for nightly jobs | Vulkan 1.4.359 |
 | [v26.3.0-20260903-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260903-r5) | 2026-09-03 | [`607be81`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/607be812628d226bb0814f56a462e49adac0b3a6) | brw: Try harder at fill-to-fill propagation | Vulkan 1.4.359 |
 | [v26.3.0-20260903-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260903-r4) | 2026-09-03 | [`f8dadab`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f8dadabfb2dbf5436540cd45a69604c3673a1252) | radv: add a drirc option to select the image clear/copy/blit/resolve path | Vulkan 1.4.359 |
