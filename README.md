@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.359 |
-| **Commit** | [`e62173b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e62173bc072083f50f1f140ce41ac431ee029da8) |
+| **Commit** | [`61b95d3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/61b95d331d7a9c8346d4d601796f81c15c99e89e) |
 | **Commit date** | 2026-09-04 |
-| **Commit title** | ac/nir/fixup_smem_loads_null_prt: stop manually chasing scalars |
+| **Commit title** | tu/tile_config: fix extent compatibility check when merging FDM bins |
 | **Build date** | 20260904 |
-| **Release** | [v26.3.0-20260904-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260904-r4) |
+| **Release** | [v26.3.0-20260904-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260904-r5) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,13 +87,13 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260904-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260904-r5) | 2026-09-04 | [`61b95d3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/61b95d331d7a9c8346d4d601796f81c15c99e89e) | tu/tile_config: fix extent compatibility check when merging FDM bins | Vulkan 1.4.359 |
 | [v26.3.0-20260904-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260904-r4) | 2026-09-04 | [`e62173b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e62173bc072083f50f1f140ce41ac431ee029da8) | ac/nir/fixup_smem_loads_null_prt: stop manually chasing scalars | Vulkan 1.4.359 |
 | [v26.3.0-20260904-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260904-r3) | 2026-09-04 | [`84cbbd2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/84cbbd2a2eef7f13368fc9a1db2c73b2afa41829) | glsl: stop using strtok() | Vulkan 1.4.359 |
 | [v26.3.0-20260904-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260904-r2) | 2026-09-04 | [`9311c93`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9311c93dbef6b87a30bc282c3683efefc5f26f77) | kraid/liveness: Calculate max live bytes up-front | Vulkan 1.4.359 |
 | [v26.3.0-20260904](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260904) | 2026-09-04 | [`69945fe`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/69945fe72ff9042493adf9e62eb9d7e7fdb003d9) | virgl/ci: update expectations for nightly jobs | Vulkan 1.4.359 |
 | [v26.3.0-20260903-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260903-r5) | 2026-09-03 | [`607be81`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/607be812628d226bb0814f56a462e49adac0b3a6) | brw: Try harder at fill-to-fill propagation | Vulkan 1.4.359 |
 | [v26.3.0-20260903-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260903-r4) | 2026-09-03 | [`f8dadab`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f8dadabfb2dbf5436540cd45a69604c3673a1252) | radv: add a drirc option to select the image clear/copy/blit/resolve path | Vulkan 1.4.359 |
-| [v26.3.0-20260903-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260903-r3) | 2026-09-03 | [`ea488f6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ea488f65d44b3eb98336e790bd209966c63a458d) | tu: Don't try to use lazy allocation for MSRTSS if the device can't. | Vulkan 1.4.359 |
 <!-- RECENT_BUILDS_END -->
 
 ---

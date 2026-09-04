@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260904-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260904-r5) | 2026-09-04 | [`61b95d3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/61b95d331d7a9c8346d4d601796f81c15c99e89e) | tu/tile_config: fix extent compatibility check when merging FDM bins | Vulkan 1.4.359 |
 | [v26.3.0-20260904-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260904-r4) | 2026-09-04 | [`e62173b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e62173bc072083f50f1f140ce41ac431ee029da8) | ac/nir/fixup_smem_loads_null_prt: stop manually chasing scalars | Vulkan 1.4.359 |
 | [v26.3.0-20260904-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260904-r3) | 2026-09-04 | [`84cbbd2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/84cbbd2a2eef7f13368fc9a1db2c73b2afa41829) | glsl: stop using strtok() | Vulkan 1.4.359 |
 | [v26.3.0-20260904-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260904-r2) | 2026-09-04 | [`9311c93`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9311c93dbef6b87a30bc282c3683efefc5f26f77) | kraid/liveness: Calculate max live bytes up-front | Vulkan 1.4.359 |
