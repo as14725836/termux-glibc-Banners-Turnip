@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260904-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260904-r3) | 2026-09-04 | [`84cbbd2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/84cbbd2a2eef7f13368fc9a1db2c73b2afa41829) | glsl: stop using strtok() | Vulkan 1.4.359 |
 | [v26.3.0-20260904-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260904-r2) | 2026-09-04 | [`9311c93`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9311c93dbef6b87a30bc282c3683efefc5f26f77) | kraid/liveness: Calculate max live bytes up-front | Vulkan 1.4.359 |
 | [v26.3.0-20260904](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260904) | 2026-09-04 | [`69945fe`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/69945fe72ff9042493adf9e62eb9d7e7fdb003d9) | virgl/ci: update expectations for nightly jobs | Vulkan 1.4.359 |
 | [v26.3.0-20260903-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260903-r5) | 2026-09-03 | [`607be81`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/607be812628d226bb0814f56a462e49adac0b3a6) | brw: Try harder at fill-to-fill propagation | Vulkan 1.4.359 |
