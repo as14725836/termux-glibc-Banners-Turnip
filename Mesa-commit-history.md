@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260913](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260913) | 2026-09-13 | [`db05104`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/db051045a8556acda51b038fc2f74fac255e4de1) | nvk: Fix leak of dev->heap and dev->replay_heap | Vulkan 1.4.362 |
 | [v26.3.0-20260912-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260912-r2) | 2026-09-11 | [`7cda785`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7cda7850edd103ace21aac37d416d2fdf7a282e1) | panvk/ci: Route FS shaders through Kraid in Kraid job | Vulkan 1.4.362 |
 | [v26.3.0-20260912](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260912) | 2026-09-12 | [`9dd3f55`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9dd3f5592f0d3a744048a77cea8dee70d6f75f01) | kraid/ra: Allow sources and destinations to alias | Vulkan 1.4.362 |
 | [v26.3.0-20260911-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260911-r7) | 2026-09-11 | [`fa9938a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fa9938acf2d513fa102102ec313a98106f1c84b1) | nv30: add missed fdot_replicates flag | Vulkan 1.4.362 |

@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.362 |
-| **Commit** | [`7cda785`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7cda7850edd103ace21aac37d416d2fdf7a282e1) |
-| **Commit date** | 2026-09-11 |
-| **Commit title** | panvk/ci: Route FS shaders through Kraid in Kraid job |
-| **Build date** | 20260912 |
-| **Release** | [v26.3.0-20260912-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260912-r2) |
+| **Commit** | [`db05104`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/db051045a8556acda51b038fc2f74fac255e4de1) |
+| **Commit date** | 2026-09-13 |
+| **Commit title** | nvk: Fix leak of dev->heap and dev->replay_heap |
+| **Build date** | 20260913 |
+| **Release** | [v26.3.0-20260913](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260913) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,13 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
-| [v26.3.0-20260912-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260912-r2) | 2026-09-12 | [`7cda785`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7cda7850edd103ace21aac37d416d2fdf7a282e1) | panvk/ci: Route FS shaders through Kraid in Kraid job | Vulkan 1.4.362 |
-| [v26.3.0-20260912](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260912) | 2026-09-12 | [`9dd3f55`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9dd3f5592f0d3a744048a77cea8dee70d6f75f01) | kraid/ra: Allow sources and destinations to alias | Vulkan 1.4.362 |
-| [v26.3.0-20260911-r7](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260911-r7) | 2026-09-11 | [`fa9938a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/fa9938acf2d513fa102102ec313a98106f1c84b1) | nv30: add missed fdot_replicates flag | Vulkan 1.4.362 |
-| [v26.3.0-20260911-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260911-r6) | 2026-09-11 | [`ef18fe0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ef18fe0b975f0616bbdb4d296fbe68caf49043c0) | d3d12: Never claim residency we did not get | Vulkan 1.4.362 |
-| [v26.3.0-20260911-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260911-r5) | 2026-09-11 | [`d1682b4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d1682b46cd0761278ac2600bd719a977a9edaff9) | radv/video: Implement cu_qp_delta workaround for old FW | Vulkan 1.4.362 |
-| [v26.3.0-20260911-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260911-r4) | 2026-09-11 | [`a2315d7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a2315d7c81d7dd215a28c8abd18d1c63aeaced0f) | gallivm: bypass vector reduction intrinsic for f16 fmin/fmax on x86 | Vulkan 1.4.362 |
-| [v26.3.0-20260911-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260911-r3) | 2026-09-11 | [`aed26d2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/aed26d2b59e730e1d2e00829f07160b7d06762c3) | pipe/video: Remove HDR metadata | Vulkan 1.4.362 |
+| [v26.3.0-20260913](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260913) | 2026-09-13 | [`db05104`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/db051045a8556acda51b038fc2f74fac255e4de1) | nvk: Fix leak of dev->heap and dev->replay_heap | Vulkan 1.4.362 |
 <!-- RECENT_BUILDS_END -->
 
 ---
