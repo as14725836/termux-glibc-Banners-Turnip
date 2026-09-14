@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.362 |
-| **Commit** | [`a655bee`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a655bee9ba8de9ddc1a0a4e861ee67c47d13cf55) |
+| **Commit** | [`378d6fd`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/378d6fda90f6758a4475c63be3d8249343167685) |
 | **Commit date** | 2026-09-14 |
-| **Commit title** | nv30/ci: add flakes to fails file |
+| **Commit title** | freedreno,tu: Add FD_MSM_GEM_NAME_LENGTH |
 | **Build date** | 20260914 |
-| **Release** | [v26.3.0-20260914](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260914) |
+| **Release** | [v26.3.0-20260914-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260914-r2) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260914-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260914-r2) | 2026-09-14 | [`378d6fd`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/378d6fda90f6758a4475c63be3d8249343167685) | freedreno,tu: Add FD_MSM_GEM_NAME_LENGTH | Vulkan 1.4.362 |
 | [v26.3.0-20260914](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260914) | 2026-09-14 | [`a655bee`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a655bee9ba8de9ddc1a0a4e861ee67c47d13cf55) | nv30/ci: add flakes to fails file | Vulkan 1.4.362 |
 | [v26.3.0-20260913-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260913-r3) | 2026-09-13 | [`f6f4f66`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f6f4f66c975c4ced2547e78e20c3b71850765ab5) | nvk: Increase pushbuf limit in CmdBeginRendering | Vulkan 1.4.362 |
 | [v26.3.0-20260913-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260913-r2) | 2026-09-13 | [`bbc7792`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/bbc7792f717f27b17b4c12e6a4503d703a362aac) | Revert nvk: Expose BAR as host cached | Vulkan 1.4.362 |
