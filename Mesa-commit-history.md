@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260914-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260914-r4) | 2026-09-14 | [`4519cc5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4519cc5645880023ed1c83417d33c4cad99e88ee) | mediafoundation: support AV1 420 10 bit encode | Vulkan 1.4.362 |
 | [v26.3.0-20260914-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260914-r3) | 2026-09-14 | [`a613899`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a613899d045e985d7292f9fa253384e44e5872c0) | blorp, iris: Remove redundant driver-side VUE map setup | Vulkan 1.4.362 |
 | [v26.3.0-20260914-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260914-r2) | 2026-09-14 | [`378d6fd`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/378d6fda90f6758a4475c63be3d8249343167685) | freedreno,tu: Add FD_MSM_GEM_NAME_LENGTH | Vulkan 1.4.362 |
 | [v26.3.0-20260914](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260914) | 2026-09-14 | [`a655bee`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a655bee9ba8de9ddc1a0a4e861ee67c47d13cf55) | nv30/ci: add flakes to fails file | Vulkan 1.4.362 |
