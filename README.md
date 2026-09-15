@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.362 |
-| **Commit** | [`4519cc5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4519cc5645880023ed1c83417d33c4cad99e88ee) |
+| **Commit** | [`67e17c4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/67e17c43a1adb03454a514e30eb8910bf4c8b391) |
 | **Commit date** | 2026-09-14 |
-| **Commit title** | mediafoundation: support AV1 420 10 bit encode |
-| **Build date** | 20260914 |
-| **Release** | [v26.3.0-20260914-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260914-r4) |
+| **Commit title** | anv: add the compiler configuration to the cache key |
+| **Build date** | 20260915 |
+| **Release** | [v26.3.0-20260915](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260915) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,11 +87,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260915](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260915) | 2026-09-15 | [`67e17c4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/67e17c43a1adb03454a514e30eb8910bf4c8b391) | anv: add the compiler configuration to the cache key | Vulkan 1.4.362 |
 | [v26.3.0-20260914-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260914-r4) | 2026-09-14 | [`4519cc5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4519cc5645880023ed1c83417d33c4cad99e88ee) | mediafoundation: support AV1 420 10 bit encode | Vulkan 1.4.362 |
 | [v26.3.0-20260914-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260914-r3) | 2026-09-14 | [`a613899`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a613899d045e985d7292f9fa253384e44e5872c0) | blorp, iris: Remove redundant driver-side VUE map setup | Vulkan 1.4.362 |
 | [v26.3.0-20260914-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260914-r2) | 2026-09-14 | [`378d6fd`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/378d6fda90f6758a4475c63be3d8249343167685) | freedreno,tu: Add FD_MSM_GEM_NAME_LENGTH | Vulkan 1.4.362 |
 | [v26.3.0-20260914](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260914) | 2026-09-14 | [`a655bee`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a655bee9ba8de9ddc1a0a4e861ee67c47d13cf55) | nv30/ci: add flakes to fails file | Vulkan 1.4.362 |
-| [v26.3.0-20260913-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260913-r3) | 2026-09-13 | [`f6f4f66`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f6f4f66c975c4ced2547e78e20c3b71850765ab5) | nvk: Increase pushbuf limit in CmdBeginRendering | Vulkan 1.4.362 |
 <!-- RECENT_BUILDS_END -->
 
 ---
