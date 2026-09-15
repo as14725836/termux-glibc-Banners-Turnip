@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.362 |
-| **Commit** | [`e42ffe0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e42ffe0b5f251a1281bd6dc32e9563dd661a6cad) |
+| **Commit** | [`f9f8f77`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f9f8f777d01feee8f46fcd1ba037ee51203becda) |
 | **Commit date** | 2026-09-15 |
-| **Commit title** | ethosu: Follow reshapes when choosing brick format |
+| **Commit title** | etnaviv: blt: Clear each 128-bit plane with its own clear bits |
 | **Build date** | 20260915 |
-| **Release** | [v26.3.0-20260915-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260915-r5) |
+| **Release** | [v26.3.0-20260915-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260915-r6) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,12 +87,12 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260915-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260915-r6) | 2026-09-15 | [`f9f8f77`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f9f8f777d01feee8f46fcd1ba037ee51203becda) | etnaviv: blt: Clear each 128-bit plane with its own clear bits | Vulkan 1.4.362 |
 | [v26.3.0-20260915-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260915-r5) | 2026-09-15 | [`e42ffe0`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e42ffe0b5f251a1281bd6dc32e9563dd661a6cad) | ethosu: Follow reshapes when choosing brick format | Vulkan 1.4.362 |
 | [v26.3.0-20260915-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260915-r4) | 2026-09-15 | [`0d35508`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0d355084f070f8de919b9885a1d26296cd1897f6) | ac: explain FMASK | Vulkan 1.4.362 |
 | [v26.3.0-20260915-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260915-r3) | 2026-09-15 | [`7bd40e5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7bd40e5b37b6dab8417db199901b27249d2f9173) | broadcom/compiler: skip duplicate liveness computation | Vulkan 1.4.362 |
 | [v26.3.0-20260915-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260915-r2) | 2026-09-15 | [`b7b0793`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b7b0793691893e75c973290b6e7c18ccea6ac409) | intel/ds: trace num_layers in blorp operations | Vulkan 1.4.362 |
 | [v26.3.0-20260915](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260915) | 2026-09-15 | [`67e17c4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/67e17c43a1adb03454a514e30eb8910bf4c8b391) | anv: add the compiler configuration to the cache key | Vulkan 1.4.362 |
-| [v26.3.0-20260914-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260914-r4) | 2026-09-14 | [`4519cc5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4519cc5645880023ed1c83417d33c4cad99e88ee) | mediafoundation: support AV1 420 10 bit encode | Vulkan 1.4.362 |
 <!-- RECENT_BUILDS_END -->
 
 ---
