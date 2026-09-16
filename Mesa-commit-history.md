@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260916-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260916-r5) | 2026-09-16 | [`5f253b9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5f253b93041eb8d101e6ddef2613006bfde859cd) | anv: Use transfer_to_compute barrier during bvh clear | Vulkan 1.4.362 |
 | [v26.3.0-20260916-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260916-r4) | 2026-09-16 | [`d0bf12d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d0bf12daec6e351dbe0d6349124ee178eb0ac913) | radv: program PA_SC_HISZ_CONTROL.ROUND also for noop FS | Vulkan 1.4.362 |
 | [v26.3.0-20260916-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260916-r3) | 2026-09-16 | [`9e7cef7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9e7cef793252cd50adcefa0571005f03a8d9c8c2) | amd/common: Only apply GFX6 TCS workaround when LBPW is enabled | Vulkan 1.4.362 |
 | [v26.3.0-20260916-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260916-r2) | 2026-09-16 | [`091a24e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/091a24e239b1269245852c82a1bcb586e965d6cc) | spirv: Preserve all fp_math_ctrl bits in vtn_handle_alu default case | Vulkan 1.4.362 |
