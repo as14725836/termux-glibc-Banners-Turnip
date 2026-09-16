@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.362 |
-| **Commit** | [`091a24e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/091a24e239b1269245852c82a1bcb586e965d6cc) |
+| **Commit** | [`9e7cef7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9e7cef793252cd50adcefa0571005f03a8d9c8c2) |
 | **Commit date** | 2026-09-16 |
-| **Commit title** | spirv: Preserve all fp_math_ctrl bits in vtn_handle_alu default case |
+| **Commit title** | amd/common: Only apply GFX6 TCS workaround when LBPW is enabled |
 | **Build date** | 20260916 |
-| **Release** | [v26.3.0-20260916-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260916-r2) |
+| **Release** | [v26.3.0-20260916-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260916-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260916-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260916-r3) | 2026-09-16 | [`9e7cef7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9e7cef793252cd50adcefa0571005f03a8d9c8c2) | amd/common: Only apply GFX6 TCS workaround when LBPW is enabled | Vulkan 1.4.362 |
 | [v26.3.0-20260916-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260916-r2) | 2026-09-16 | [`091a24e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/091a24e239b1269245852c82a1bcb586e965d6cc) | spirv: Preserve all fp_math_ctrl bits in vtn_handle_alu default case | Vulkan 1.4.362 |
 | [v26.3.0-20260916](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260916) | 2026-09-16 | [`cdd80dc`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/cdd80dca4efd1eeb816eb027f67a2cd1e837796c) | panfrost: Preserve BO flags during linear conversion | Vulkan 1.4.362 |
 | [v26.3.0-20260915-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260915-r6) | 2026-09-15 | [`f9f8f77`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f9f8f777d01feee8f46fcd1ba037ee51203becda) | etnaviv: blt: Clear each 128-bit plane with its own clear bits | Vulkan 1.4.362 |
