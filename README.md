@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.362 |
-| **Commit** | [`466be35`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/466be351a83661be160682d33bd52a058b7d0c90) |
+| **Commit** | [`03f434a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/03f434abd4fef66ced55cb937a72ec8aa512511a) |
 | **Commit date** | 2026-09-17 |
-| **Commit title** | radv: Avoid some VALU during ray traversal |
+| **Commit title** | vc4: skip draws whose clip window is empty |
 | **Build date** | 20260917 |
-| **Release** | [v26.3.0-20260917-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260917-r3) |
+| **Release** | [v26.3.0-20260917-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260917-r4) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,12 +87,12 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260917-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260917-r4) | 2026-09-17 | [`03f434a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/03f434abd4fef66ced55cb937a72ec8aa512511a) | vc4: skip draws whose clip window is empty | Vulkan 1.4.362 |
 | [v26.3.0-20260917-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260917-r3) | 2026-09-17 | [`466be35`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/466be351a83661be160682d33bd52a058b7d0c90) | radv: Avoid some VALU during ray traversal | Vulkan 1.4.362 |
 | [v26.3.0-20260917-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260917-r2) | 2026-09-17 | [`18e27bf`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/18e27bf18f75ab1c6c958ded81ec711174861b37) | anv/video: Use the H.264 colocated MV buffers for VDENC B frames | Vulkan 1.4.362 |
 | [v26.3.0-20260917](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260917) | 2026-09-17 | [`8a97554`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8a97554c54ce748347df0030351603e25d4abdda) | lavapipe: handle planar views as rendering attachments | Vulkan 1.4.362 |
 | [v26.3.0-20260916-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260916-r6) | 2026-09-16 | [`a6bb6e5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a6bb6e52b7ced637177b5bc79da049df0f0659b7) | anv: Use anv_cmd_buffer_alloc_space for encode batch | Vulkan 1.4.362 |
 | [v26.3.0-20260916-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260916-r5) | 2026-09-16 | [`5f253b9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5f253b93041eb8d101e6ddef2613006bfde859cd) | anv: Use transfer_to_compute barrier during bvh clear | Vulkan 1.4.362 |
-| [v26.3.0-20260916-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260916-r4) | 2026-09-16 | [`d0bf12d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d0bf12daec6e351dbe0d6349124ee178eb0ac913) | radv: program PA_SC_HISZ_CONTROL.ROUND also for noop FS | Vulkan 1.4.362 |
 <!-- RECENT_BUILDS_END -->
 
 ---
