@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260917](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260917) | 2026-09-17 | [`8a97554`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/8a97554c54ce748347df0030351603e25d4abdda) | lavapipe: handle planar views as rendering attachments | Vulkan 1.4.362 |
 | [v26.3.0-20260916-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260916-r6) | 2026-09-16 | [`a6bb6e5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a6bb6e52b7ced637177b5bc79da049df0f0659b7) | anv: Use anv_cmd_buffer_alloc_space for encode batch | Vulkan 1.4.362 |
 | [v26.3.0-20260916-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260916-r5) | 2026-09-16 | [`5f253b9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5f253b93041eb8d101e6ddef2613006bfde859cd) | anv: Use transfer_to_compute barrier during bvh clear | Vulkan 1.4.362 |
 | [v26.3.0-20260916-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260916-r4) | 2026-09-16 | [`d0bf12d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d0bf12daec6e351dbe0d6349124ee178eb0ac913) | radv: program PA_SC_HISZ_CONTROL.ROUND also for noop FS | Vulkan 1.4.362 |
