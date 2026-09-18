@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260918-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260918-r5) | 2026-09-18 | [`2ff83b5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2ff83b54c951e3783d063b2ff1c13e88e7e6092f) | r300: stop advertising full NPOT texture support | Vulkan 1.4.363 |
 | [v26.3.0-20260918-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260918-r4) | 2026-09-18 | [`943c367`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/943c367ef3aa33d9fa8d6189515444ed7cf7e418) | radv: ignore radv_disable_dcc* driconf options when not applicable | Vulkan 1.4.363 |
 | [v26.3.0-20260918-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260918-r3) | 2026-09-18 | [`503e8fe`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/503e8fe6077474c912876c8298fc7b839d90ceba) | nir/lower_input_attachments: add support for heap subpass image load | Vulkan 1.4.363 |
 | [v26.3.0-20260918-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260918-r2) | 2026-09-18 | [`6cf91c1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6cf91c16869bc55d1074db1117ddeb486d3f9029) | tu: Bump conformanceVersion | Vulkan 1.4.362 |

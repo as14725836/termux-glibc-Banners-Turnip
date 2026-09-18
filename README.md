@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.363 |
-| **Commit** | [`943c367`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/943c367ef3aa33d9fa8d6189515444ed7cf7e418) |
+| **Commit** | [`2ff83b5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2ff83b54c951e3783d063b2ff1c13e88e7e6092f) |
 | **Commit date** | 2026-09-18 |
-| **Commit title** | radv: ignore radv_disable_dcc* driconf options when not applicable |
+| **Commit title** | r300: stop advertising full NPOT texture support |
 | **Build date** | 20260918 |
-| **Release** | [v26.3.0-20260918-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260918-r4) |
+| **Release** | [v26.3.0-20260918-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260918-r5) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,12 +87,12 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260918-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260918-r5) | 2026-09-18 | [`2ff83b5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2ff83b54c951e3783d063b2ff1c13e88e7e6092f) | r300: stop advertising full NPOT texture support | Vulkan 1.4.363 |
 | [v26.3.0-20260918-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260918-r4) | 2026-09-18 | [`943c367`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/943c367ef3aa33d9fa8d6189515444ed7cf7e418) | radv: ignore radv_disable_dcc* driconf options when not applicable | Vulkan 1.4.363 |
 | [v26.3.0-20260918-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260918-r3) | 2026-09-18 | [`503e8fe`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/503e8fe6077474c912876c8298fc7b839d90ceba) | nir/lower_input_attachments: add support for heap subpass image load | Vulkan 1.4.363 |
 | [v26.3.0-20260918-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260918-r2) | 2026-09-18 | [`6cf91c1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6cf91c16869bc55d1074db1117ddeb486d3f9029) | tu: Bump conformanceVersion | Vulkan 1.4.362 |
 | [v26.3.0-20260918](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260918) | 2026-09-18 | [`51dd427`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/51dd427e3960215c5f9f9e37c7d1badae9af6671) | nv30: Fix for loops in fragment shaders on nv40 | Vulkan 1.4.362 |
 | [v26.3.0-20260917-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260917-r5) | 2026-09-17 | [`87295d9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/87295d9e488dffea93d172da96f78e078809f433) | brw: Use simpler instruction to clear flags for unconditional terminate/demote | Vulkan 1.4.362 |
-| [v26.3.0-20260917-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260917-r4) | 2026-09-17 | [`03f434a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/03f434abd4fef66ced55cb937a72ec8aa512511a) | vc4: skip draws whose clip window is empty | Vulkan 1.4.362 |
 <!-- RECENT_BUILDS_END -->
 
 ---
