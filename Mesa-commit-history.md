@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260918-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260918-r2) | 2026-09-18 | [`6cf91c1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6cf91c16869bc55d1074db1117ddeb486d3f9029) | tu: Bump conformanceVersion | Vulkan 1.4.362 |
 | [v26.3.0-20260918](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260918) | 2026-09-18 | [`51dd427`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/51dd427e3960215c5f9f9e37c7d1badae9af6671) | nv30: Fix for loops in fragment shaders on nv40 | Vulkan 1.4.362 |
 | [v26.3.0-20260917-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260917-r5) | 2026-09-17 | [`87295d9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/87295d9e488dffea93d172da96f78e078809f433) | brw: Use simpler instruction to clear flags for unconditional terminate/demote | Vulkan 1.4.362 |
 | [v26.3.0-20260917-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260917-r4) | 2026-09-17 | [`03f434a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/03f434abd4fef66ced55cb937a72ec8aa512511a) | vc4: skip draws whose clip window is empty | Vulkan 1.4.362 |
