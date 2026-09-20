@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260920-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260920-r2) | 2026-09-20 | [`e46ee71`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e46ee71b43b1693a2baf22740b0157e7d31b79cc) | mesa/eval: Fix wrong auto-normal direction with reversed parameter ranges | Vulkan 1.4.363 |
 | [v26.3.0-20260920](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260920) | 2026-09-19 | [`e1f3f37`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e1f3f372c4a661cd0e71a0cdafc4d469d56ecf35) | nv30: port fix from nv30_validate_fb to nv40 blit copy | Vulkan 1.4.363 |
 | [v26.3.0-20260918-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260918-r6) | 2026-09-18 | [`590bf21`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/590bf21d918c86908d96d1f4590ecd25b9657171) | anv: implement VK_INTEL_device_info | Vulkan 1.4.363 |
 | [v26.3.0-20260918-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260918-r5) | 2026-09-18 | [`2ff83b5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2ff83b54c951e3783d063b2ff1c13e88e7e6092f) | r300: stop advertising full NPOT texture support | Vulkan 1.4.363 |
