@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.363 |
-| **Commit** | [`e46ee71`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e46ee71b43b1693a2baf22740b0157e7d31b79cc) |
+| **Commit** | [`366b006`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/366b006cfdb5aee1093271f4e58564f7394569ad) |
 | **Commit date** | 2026-09-20 |
-| **Commit title** | mesa/eval: Fix wrong auto-normal direction with reversed parameter ranges |
+| **Commit title** | etnaviv: Move magnification switch-over for shader LODs |
 | **Build date** | 20260920 |
-| **Release** | [v26.3.0-20260920-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260920-r2) |
+| **Release** | [v26.3.0-20260920-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260920-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260920-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260920-r3) | 2026-09-20 | [`366b006`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/366b006cfdb5aee1093271f4e58564f7394569ad) | etnaviv: Move magnification switch-over for shader LODs | Vulkan 1.4.363 |
 | [v26.3.0-20260920-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260920-r2) | 2026-09-20 | [`e46ee71`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e46ee71b43b1693a2baf22740b0157e7d31b79cc) | mesa/eval: Fix wrong auto-normal direction with reversed parameter ranges | Vulkan 1.4.363 |
 | [v26.3.0-20260920](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260920) | 2026-09-20 | [`e1f3f37`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e1f3f372c4a661cd0e71a0cdafc4d469d56ecf35) | nv30: port fix from nv30_validate_fb to nv40 blit copy | Vulkan 1.4.363 |
 <!-- RECENT_BUILDS_END -->
