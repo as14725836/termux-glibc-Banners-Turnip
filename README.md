@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.363 |
-| **Commit** | [`3ae3d2e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3ae3d2e5d2da5f31332f3d2ac6cb39e344e92757) |
+| **Commit** | [`7c2f412`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7c2f412e558571fc893a1f55606c988503a52cfa) |
 | **Commit date** | 2026-09-21 |
-| **Commit title** | etnaviv: rs: Take the sample scale into account for blit offsets |
+| **Commit title** | ir3: fix warning in release builds |
 | **Build date** | 20260921 |
-| **Release** | [v26.3.0-20260921](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260921) |
+| **Release** | [v26.3.0-20260921-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260921-r2) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,6 +87,7 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260921-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260921-r2) | 2026-09-21 | [`7c2f412`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7c2f412e558571fc893a1f55606c988503a52cfa) | ir3: fix warning in release builds | Vulkan 1.4.363 |
 | [v26.3.0-20260921](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260921) | 2026-09-21 | [`3ae3d2e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3ae3d2e5d2da5f31332f3d2ac6cb39e344e92757) | etnaviv: rs: Take the sample scale into account for blit offsets | Vulkan 1.4.363 |
 | [v26.3.0-20260920-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260920-r3) | 2026-09-20 | [`366b006`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/366b006cfdb5aee1093271f4e58564f7394569ad) | etnaviv: Move magnification switch-over for shader LODs | Vulkan 1.4.363 |
 | [v26.3.0-20260920-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260920-r2) | 2026-09-20 | [`e46ee71`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e46ee71b43b1693a2baf22740b0157e7d31b79cc) | mesa/eval: Fix wrong auto-normal direction with reversed parameter ranges | Vulkan 1.4.363 |
