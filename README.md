@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.363 |
-| **Commit** | [`2802fa1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2802fa1c2be2f821afabd82cc48d559b99dcc414) |
+| **Commit** | [`6ac7466`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6ac7466d40be92bfec4fe3dfe21376a6af45a8e0) |
 | **Commit date** | 2026-09-22 |
-| **Commit title** | ir3/lower_copies: prevent splitting when handling cycles |
+| **Commit title** | vulkan/wsi: support allocating more memory for buffers |
 | **Build date** | 20260922 |
-| **Release** | [v26.3.0-20260922-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260922-r3) |
+| **Release** | [v26.3.0-20260922-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260922-r4) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,12 +87,12 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260922-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260922-r4) | 2026-09-22 | [`6ac7466`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6ac7466d40be92bfec4fe3dfe21376a6af45a8e0) | vulkan/wsi: support allocating more memory for buffers | Vulkan 1.4.363 |
 | [v26.3.0-20260922-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260922-r3) | 2026-09-22 | [`2802fa1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2802fa1c2be2f821afabd82cc48d559b99dcc414) | ir3/lower_copies: prevent splitting when handling cycles | Vulkan 1.4.363 |
 | [v26.3.0-20260922-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260922-r2) | 2026-09-22 | [`6351df2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6351df29e2d99a982dbfed931b23a76defca0132) | nir: temporarily disable floating point exception flags | Vulkan 1.4.363 |
 | [v26.3.0-20260922](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260922) | 2026-09-22 | [`5ff61a7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5ff61a7646d29b54c324af0a60aa3bfb5cdd24d1) | gfxstream: format with clang-format and enable enforcement | Vulkan 1.4.363 |
 | [v26.3.0-20260921-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260921-r3) | 2026-09-21 | [`dc5546d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/dc5546d21225f3ed83a8d4f6ff0e2428ec016601) | gfxstream: make generate-gfxstream-vulkan.sh standalone-safe | Vulkan 1.4.363 |
 | [v26.3.0-20260921-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260921-r2) | 2026-09-21 | [`7c2f412`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7c2f412e558571fc893a1f55606c988503a52cfa) | ir3: fix warning in release builds | Vulkan 1.4.363 |
-| [v26.3.0-20260921](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260921) | 2026-09-21 | [`3ae3d2e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3ae3d2e5d2da5f31332f3d2ac6cb39e344e92757) | etnaviv: rs: Take the sample scale into account for blit offsets | Vulkan 1.4.363 |
 <!-- RECENT_BUILDS_END -->
 
 ---
