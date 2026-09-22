@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260922-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260922-r6) | 2026-09-22 | [`a5fa0a3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a5fa0a364e30d89344e341b3f792be305fcd4e9b) | anv: Fix descriptor_heap non-sparse image capture/replay. | Vulkan 1.4.363 |
 | [v26.3.0-20260922-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260922-r5) | 2026-09-22 | [`44cc4ca`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/44cc4ca677a4752a10c14194289bde5a6468675e) | anv: disable DRM_XE_DEVICE_QUERY_ENGINE_CYCLES with UnrealEngine 5.8 | Vulkan 1.4.363 |
 | [v26.3.0-20260922-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260922-r4) | 2026-09-22 | [`6ac7466`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6ac7466d40be92bfec4fe3dfe21376a6af45a8e0) | vulkan/wsi: support allocating more memory for buffers | Vulkan 1.4.363 |
 | [v26.3.0-20260922-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260922-r3) | 2026-09-22 | [`2802fa1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2802fa1c2be2f821afabd82cc48d559b99dcc414) | ir3/lower_copies: prevent splitting when handling cycles | Vulkan 1.4.363 |
