@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.363 |
-| **Commit** | [`dc5546d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/dc5546d21225f3ed83a8d4f6ff0e2428ec016601) |
+| **Commit** | [`5ff61a7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5ff61a7646d29b54c324af0a60aa3bfb5cdd24d1) |
 | **Commit date** | 2026-09-21 |
-| **Commit title** | gfxstream: make generate-gfxstream-vulkan.sh standalone-safe |
-| **Build date** | 20260921 |
-| **Release** | [v26.3.0-20260921-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260921-r3) |
+| **Commit title** | gfxstream: format with clang-format and enable enforcement |
+| **Build date** | 20260922 |
+| **Release** | [v26.3.0-20260922](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260922) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,10 +87,10 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260922](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260922) | 2026-09-22 | [`5ff61a7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/5ff61a7646d29b54c324af0a60aa3bfb5cdd24d1) | gfxstream: format with clang-format and enable enforcement | Vulkan 1.4.363 |
 | [v26.3.0-20260921-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260921-r3) | 2026-09-21 | [`dc5546d`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/dc5546d21225f3ed83a8d4f6ff0e2428ec016601) | gfxstream: make generate-gfxstream-vulkan.sh standalone-safe | Vulkan 1.4.363 |
 | [v26.3.0-20260921-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260921-r2) | 2026-09-21 | [`7c2f412`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7c2f412e558571fc893a1f55606c988503a52cfa) | ir3: fix warning in release builds | Vulkan 1.4.363 |
 | [v26.3.0-20260921](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260921) | 2026-09-21 | [`3ae3d2e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3ae3d2e5d2da5f31332f3d2ac6cb39e344e92757) | etnaviv: rs: Take the sample scale into account for blit offsets | Vulkan 1.4.363 |
-| [v26.3.0-20260920-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260920-r3) | 2026-09-20 | [`366b006`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/366b006cfdb5aee1093271f4e58564f7394569ad) | etnaviv: Move magnification switch-over for shader LODs | Vulkan 1.4.363 |
 <!-- RECENT_BUILDS_END -->
 
 ---
