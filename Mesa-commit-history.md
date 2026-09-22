@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260922-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260922-r5) | 2026-09-22 | [`44cc4ca`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/44cc4ca677a4752a10c14194289bde5a6468675e) | anv: disable DRM_XE_DEVICE_QUERY_ENGINE_CYCLES with UnrealEngine 5.8 | Vulkan 1.4.363 |
 | [v26.3.0-20260922-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260922-r4) | 2026-09-22 | [`6ac7466`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6ac7466d40be92bfec4fe3dfe21376a6af45a8e0) | vulkan/wsi: support allocating more memory for buffers | Vulkan 1.4.363 |
 | [v26.3.0-20260922-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260922-r3) | 2026-09-22 | [`2802fa1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2802fa1c2be2f821afabd82cc48d559b99dcc414) | ir3/lower_copies: prevent splitting when handling cycles | Vulkan 1.4.363 |
 | [v26.3.0-20260922-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260922-r2) | 2026-09-22 | [`6351df2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6351df29e2d99a982dbfed931b23a76defca0132) | nir: temporarily disable floating point exception flags | Vulkan 1.4.363 |
