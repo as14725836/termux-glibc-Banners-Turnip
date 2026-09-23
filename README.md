@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.363 |
-| **Commit** | [`516c078`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/516c078b1d90de7de14e75e4475dac72b1c2b472) |
+| **Commit** | [`3934e1f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3934e1fd58b0d6bf6c97dfe85b9b470ddc669225) |
 | **Commit date** | 2026-09-23 |
-| **Commit title** | ir3/cp: Search existing consts to reuse them with different src mods. |
+| **Commit title** | jay: rewrite the README |
 | **Build date** | 20260923 |
-| **Release** | [v26.3.0-20260923-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260923-r2) |
+| **Release** | [v26.3.0-20260923-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260923-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,12 +87,12 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260923-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260923-r3) | 2026-09-23 | [`3934e1f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3934e1fd58b0d6bf6c97dfe85b9b470ddc669225) | jay: rewrite the README | Vulkan 1.4.363 |
 | [v26.3.0-20260923-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260923-r2) | 2026-09-23 | [`516c078`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/516c078b1d90de7de14e75e4475dac72b1c2b472) | ir3/cp: Search existing consts to reuse them with different src mods. | Vulkan 1.4.363 |
 | [v26.3.0-20260923](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260923) | 2026-09-23 | [`ec3959b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ec3959b912153bd2bc2c1f4913e357aeb3c5a428) | freedreno/ci: Update trace checksums for all of these ir3 changes. | Vulkan 1.4.363 |
 | [v26.3.0-20260922-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260922-r6) | 2026-09-22 | [`a5fa0a3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a5fa0a364e30d89344e341b3f792be305fcd4e9b) | anv: Fix descriptor_heap non-sparse image capture/replay. | Vulkan 1.4.363 |
 | [v26.3.0-20260922-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260922-r5) | 2026-09-22 | [`44cc4ca`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/44cc4ca677a4752a10c14194289bde5a6468675e) | anv: disable DRM_XE_DEVICE_QUERY_ENGINE_CYCLES with UnrealEngine 5.8 | Vulkan 1.4.363 |
 | [v26.3.0-20260922-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260922-r4) | 2026-09-22 | [`6ac7466`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6ac7466d40be92bfec4fe3dfe21376a6af45a8e0) | vulkan/wsi: support allocating more memory for buffers | Vulkan 1.4.363 |
-| [v26.3.0-20260922-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260922-r3) | 2026-09-22 | [`2802fa1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/2802fa1c2be2f821afabd82cc48d559b99dcc414) | ir3/lower_copies: prevent splitting when handling cycles | Vulkan 1.4.363 |
 <!-- RECENT_BUILDS_END -->
 
 ---
