@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260923-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260923-r2) | 2026-09-23 | [`516c078`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/516c078b1d90de7de14e75e4475dac72b1c2b472) | ir3/cp: Search existing consts to reuse them with different src mods. | Vulkan 1.4.363 |
 | [v26.3.0-20260923](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260923) | 2026-09-23 | [`ec3959b`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ec3959b912153bd2bc2c1f4913e357aeb3c5a428) | freedreno/ci: Update trace checksums for all of these ir3 changes. | Vulkan 1.4.363 |
 | [v26.3.0-20260922-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260922-r6) | 2026-09-22 | [`a5fa0a3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a5fa0a364e30d89344e341b3f792be305fcd4e9b) | anv: Fix descriptor_heap non-sparse image capture/replay. | Vulkan 1.4.363 |
 | [v26.3.0-20260922-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260922-r5) | 2026-09-22 | [`44cc4ca`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/44cc4ca677a4752a10c14194289bde5a6468675e) | anv: disable DRM_XE_DEVICE_QUERY_ENGINE_CYCLES with UnrealEngine 5.8 | Vulkan 1.4.363 |
