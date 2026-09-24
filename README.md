@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.363 |
-| **Commit** | [`ecf5201`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ecf5201fb90412dbfa2f0886597e849bcf703005) |
+| **Commit** | [`f9a2d34`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f9a2d34a19c496e552b6cd603e7807f1025a2e98) |
 | **Commit date** | 2026-09-24 |
-| **Commit title** | meson: readd ignore of unsafe_op_in_unsafe_fn warnings |
+| **Commit title** | aco/ra: check next register against bounds in subdword get_reg_simple path |
 | **Build date** | 20260924 |
-| **Release** | [v26.3.0-20260924-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260924-r2) |
+| **Release** | [v26.3.0-20260924-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260924-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,12 +87,12 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260924-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260924-r3) | 2026-09-24 | [`f9a2d34`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f9a2d34a19c496e552b6cd603e7807f1025a2e98) | aco/ra: check next register against bounds in subdword get_reg_simple path | Vulkan 1.4.363 |
 | [v26.3.0-20260924-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260924-r2) | 2026-09-24 | [`ecf5201`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ecf5201fb90412dbfa2f0886597e849bcf703005) | meson: readd ignore of unsafe_op_in_unsafe_fn warnings | Vulkan 1.4.363 |
 | [v26.3.0-20260924](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260924) | 2026-09-24 | [`ec1cc05`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ec1cc058add15f0f163f2866b33c68d9d782efcf) | gfxstream: consolidate declare macro | Vulkan 1.4.363 |
 | [v26.3.0-20260923-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260923-r5) | 2026-09-23 | [`7b5888e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/7b5888e8ca77cc0b407c7fb113df85764b561a86) | radv: fix immutable samplers lifetime with descriptor update templates | Vulkan 1.4.363 |
 | [v26.3.0-20260923-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260923-r4) | 2026-09-23 | [`ed24f81`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ed24f81303f6c71a9fb785b672af562104b3d164) | kraid/stats: Print per-instr-stats if PRINT debug flag is on | Vulkan 1.4.363 |
 | [v26.3.0-20260923-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260923-r3) | 2026-09-23 | [`3934e1f`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/3934e1fd58b0d6bf6c97dfe85b9b470ddc669225) | jay: rewrite the README | Vulkan 1.4.363 |
-| [v26.3.0-20260923-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260923-r2) | 2026-09-23 | [`516c078`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/516c078b1d90de7de14e75e4475dac72b1c2b472) | ir3/cp: Search existing consts to reuse them with different src mods. | Vulkan 1.4.363 |
 <!-- RECENT_BUILDS_END -->
 
 ---
