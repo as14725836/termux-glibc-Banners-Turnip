@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.363 |
-| **Commit** | [`a0108e1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a0108e106ca5323cc1db3cba92d7d994ff9f6cfc) |
+| **Commit** | [`f924ea7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f924ea7a8ed0731199f82bcb6aab3f00dbee82e7) |
 | **Commit date** | 2026-09-25 |
-| **Commit title** | lavapipe/rt: Restore hit attribs after rejecting AABBs |
+| **Commit title** | kraid: Lower OpCopy to IADD whenever possible |
 | **Build date** | 20260925 |
-| **Release** | [v26.3.0-20260925-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260925-r3) |
+| **Release** | [v26.3.0-20260925-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260925-r4) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,12 +87,12 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260925-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260925-r4) | 2026-09-25 | [`f924ea7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f924ea7a8ed0731199f82bcb6aab3f00dbee82e7) | kraid: Lower OpCopy to IADD whenever possible | Vulkan 1.4.363 |
 | [v26.3.0-20260925-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260925-r3) | 2026-09-25 | [`a0108e1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a0108e106ca5323cc1db3cba92d7d994ff9f6cfc) | lavapipe/rt: Restore hit attribs after rejecting AABBs | Vulkan 1.4.363 |
 | [v26.3.0-20260925-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260925-r2) | 2026-09-25 | [`b739817`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b739817b7e816d9728be1aad9616127c2c84e926) | ir3: don't use MGEN.B for nir_op_bfm on a3xx | Vulkan 1.4.363 |
 | [v26.3.0-20260925](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260925) | 2026-09-25 | [`006ac53`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/006ac533562c163b54e9f28ca1d6a33511688afb) | gallivm: reinterpret image texels using the shader's format qualifier | Vulkan 1.4.363 |
 | [v26.3.0-20260924-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260924-r6) | 2026-09-24 | [`6e397df`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6e397df8201604381808c648af565e0a7305389e) | util/format: make the FXT1 codec independent of host byte order | Vulkan 1.4.363 |
 | [v26.3.0-20260924-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260924-r5) | 2026-09-24 | [`5498422`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/54984226000f5c56b6bc2d43199ba91938ed29d5) | pan/ci: Use a new kernel to fix the G925 flakes | Vulkan 1.4.363 |
-| [v26.3.0-20260924-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260924-r4) | 2026-09-24 | [`88ef817`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/88ef81743dff518ba18d04f7c37cda3213f4e1c6) | kraid/lower_copy: Add fallback for v9-v10 | Vulkan 1.4.363 |
 <!-- RECENT_BUILDS_END -->
 
 ---
