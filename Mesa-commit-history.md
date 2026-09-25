@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260925](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260925) | 2026-09-25 | [`006ac53`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/006ac533562c163b54e9f28ca1d6a33511688afb) | gallivm: reinterpret image texels using the shader's format qualifier | Vulkan 1.4.363 |
 | [v26.3.0-20260924-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260924-r6) | 2026-09-24 | [`6e397df`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6e397df8201604381808c648af565e0a7305389e) | util/format: make the FXT1 codec independent of host byte order | Vulkan 1.4.363 |
 | [v26.3.0-20260924-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260924-r5) | 2026-09-24 | [`5498422`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/54984226000f5c56b6bc2d43199ba91938ed29d5) | pan/ci: Use a new kernel to fix the G925 flakes | Vulkan 1.4.363 |
 | [v26.3.0-20260924-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260924-r4) | 2026-09-24 | [`88ef817`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/88ef81743dff518ba18d04f7c37cda3213f4e1c6) | kraid/lower_copy: Add fallback for v9-v10 | Vulkan 1.4.363 |

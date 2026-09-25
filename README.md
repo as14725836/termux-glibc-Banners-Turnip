@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.363 |
-| **Commit** | [`6e397df`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6e397df8201604381808c648af565e0a7305389e) |
-| **Commit date** | 2026-09-24 |
-| **Commit title** | util/format: make the FXT1 codec independent of host byte order |
-| **Build date** | 20260924 |
-| **Release** | [v26.3.0-20260924-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260924-r6) |
+| **Commit** | [`006ac53`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/006ac533562c163b54e9f28ca1d6a33511688afb) |
+| **Commit date** | 2026-09-25 |
+| **Commit title** | gallivm: reinterpret image texels using the shader's format qualifier |
+| **Build date** | 20260925 |
+| **Release** | [v26.3.0-20260925](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260925) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,12 +87,12 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260925](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260925) | 2026-09-25 | [`006ac53`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/006ac533562c163b54e9f28ca1d6a33511688afb) | gallivm: reinterpret image texels using the shader's format qualifier | Vulkan 1.4.363 |
 | [v26.3.0-20260924-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260924-r6) | 2026-09-24 | [`6e397df`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6e397df8201604381808c648af565e0a7305389e) | util/format: make the FXT1 codec independent of host byte order | Vulkan 1.4.363 |
 | [v26.3.0-20260924-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260924-r5) | 2026-09-24 | [`5498422`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/54984226000f5c56b6bc2d43199ba91938ed29d5) | pan/ci: Use a new kernel to fix the G925 flakes | Vulkan 1.4.363 |
 | [v26.3.0-20260924-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260924-r4) | 2026-09-24 | [`88ef817`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/88ef81743dff518ba18d04f7c37cda3213f4e1c6) | kraid/lower_copy: Add fallback for v9-v10 | Vulkan 1.4.363 |
 | [v26.3.0-20260924-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260924-r3) | 2026-09-24 | [`f9a2d34`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f9a2d34a19c496e552b6cd603e7807f1025a2e98) | aco/ra: check next register against bounds in subdword get_reg_simple path | Vulkan 1.4.363 |
 | [v26.3.0-20260924-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260924-r2) | 2026-09-24 | [`ecf5201`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ecf5201fb90412dbfa2f0886597e849bcf703005) | meson: readd ignore of unsafe_op_in_unsafe_fn warnings | Vulkan 1.4.363 |
-| [v26.3.0-20260924](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260924) | 2026-09-24 | [`ec1cc05`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ec1cc058add15f0f163f2866b33c68d9d782efcf) | gfxstream: consolidate declare macro | Vulkan 1.4.363 |
 <!-- RECENT_BUILDS_END -->
 
 ---
