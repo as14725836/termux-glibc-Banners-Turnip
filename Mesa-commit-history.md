@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260926](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260926) | 2026-09-25 | [`ce23b4a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ce23b4a7f502cacfd1941e67a0725c6301f229f8) | svga: Implement GL_ARB_shader_texture_image_samples | Vulkan 1.4.363 |
 | [v26.3.0-20260925-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260925-r5) | 2026-09-25 | [`82ec26e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/82ec26e0860996544ea9e3ad1db42c5db8970202) | kraid: Set last_use on killed sources | Vulkan 1.4.363 |
 | [v26.3.0-20260925-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260925-r4) | 2026-09-25 | [`f924ea7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f924ea7a8ed0731199f82bcb6aab3f00dbee82e7) | kraid: Lower OpCopy to IADD whenever possible | Vulkan 1.4.363 |
 | [v26.3.0-20260925-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260925-r3) | 2026-09-25 | [`a0108e1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a0108e106ca5323cc1db3cba92d7d994ff9f6cfc) | lavapipe/rt: Restore hit attribs after rejecting AABBs | Vulkan 1.4.363 |
