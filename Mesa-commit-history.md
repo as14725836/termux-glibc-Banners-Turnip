@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260926-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260926-r5) | 2026-09-26 | [`e7b92c5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e7b92c57262fb0518cbfce035d043f800d7aef66) | kraid/foldable: Use Src::resolve_imm instead of duplicating | Vulkan 1.4.363 |
 | [v26.3.0-20260926-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260926-r4) | 2026-09-26 | [`82d4f86`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/82d4f86a0a1e9f76b2de4fa77c6c8e6acaf06aa9) | jay/nir_lower_fsign: use u2u instead of i2i for downcasts | Vulkan 1.4.363 |
 | [v26.3.0-20260926-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260926-r3) | 2026-09-26 | [`a08a0b9`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a08a0b93ac53dfb8dff6d2c9cd3893b80aa30f44) | ir3: fix QCTDD13523866 workaround | Vulkan 1.4.363 |
 | [v26.3.0-20260926-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260926-r2) | 2026-09-26 | [`a5d39a4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a5d39a4b743b719cfc2a0da410910ea3fd8ff770) | intel/ci: Update expectation for RPL | Vulkan 1.4.363 |
