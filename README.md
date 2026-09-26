@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.363 |
-| **Commit** | [`ce23b4a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ce23b4a7f502cacfd1941e67a0725c6301f229f8) |
-| **Commit date** | 2026-09-25 |
-| **Commit title** | svga: Implement GL_ARB_shader_texture_image_samples |
+| **Commit** | [`a5d39a4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a5d39a4b743b719cfc2a0da410910ea3fd8ff770) |
+| **Commit date** | 2026-09-26 |
+| **Commit title** | intel/ci: Update expectation for RPL |
 | **Build date** | 20260926 |
-| **Release** | [v26.3.0-20260926](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260926) |
+| **Release** | [v26.3.0-20260926-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260926-r2) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,12 +87,12 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260926-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260926-r2) | 2026-09-26 | [`a5d39a4`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a5d39a4b743b719cfc2a0da410910ea3fd8ff770) | intel/ci: Update expectation for RPL | Vulkan 1.4.363 |
 | [v26.3.0-20260926](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260926) | 2026-09-26 | [`ce23b4a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ce23b4a7f502cacfd1941e67a0725c6301f229f8) | svga: Implement GL_ARB_shader_texture_image_samples | Vulkan 1.4.363 |
 | [v26.3.0-20260925-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260925-r5) | 2026-09-25 | [`82ec26e`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/82ec26e0860996544ea9e3ad1db42c5db8970202) | kraid: Set last_use on killed sources | Vulkan 1.4.363 |
 | [v26.3.0-20260925-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260925-r4) | 2026-09-25 | [`f924ea7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/f924ea7a8ed0731199f82bcb6aab3f00dbee82e7) | kraid: Lower OpCopy to IADD whenever possible | Vulkan 1.4.363 |
 | [v26.3.0-20260925-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260925-r3) | 2026-09-25 | [`a0108e1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a0108e106ca5323cc1db3cba92d7d994ff9f6cfc) | lavapipe/rt: Restore hit attribs after rejecting AABBs | Vulkan 1.4.363 |
 | [v26.3.0-20260925-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260925-r2) | 2026-09-25 | [`b739817`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b739817b7e816d9728be1aad9616127c2c84e926) | ir3: don't use MGEN.B for nir_op_bfm on a3xx | Vulkan 1.4.363 |
-| [v26.3.0-20260925](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260925) | 2026-09-25 | [`006ac53`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/006ac533562c163b54e9f28ca1d6a33511688afb) | gallivm: reinterpret image texels using the shader's format qualifier | Vulkan 1.4.363 |
 <!-- RECENT_BUILDS_END -->
 
 ---
