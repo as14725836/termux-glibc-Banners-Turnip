@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260927-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260927-r6) | 2026-09-27 | [`eda9ace`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/eda9aceb39d5ff169b096444abe366bdf2269e24) | pan/nir: Stop lowering inot for Kraid | Vulkan 1.4.363 |
 | [v26.3.0-20260927-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260927-r5) | 2026-09-27 | [`63bb18a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/63bb18ab73a19ec8125f51515b16b3f40ce6ca04) | pan: fix missing access tracking in batch read/write helpers | Vulkan 1.4.363 |
 | [v26.3.0-20260927-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260927-r4) | 2026-09-27 | [`d5b6a14`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d5b6a141a94b7e8584a1030eb5558caa4c501e61) | radv: stop setting vk_zero_vram=true for a bunch of applications | Vulkan 1.4.363 |
 | [v26.3.0-20260927-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260927-r3) | 2026-09-27 | [`1171fe6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1171fe64fd1188751798f742adc365d54bc676ec) | agx: Fix f2i8 downcast | Vulkan 1.4.363 |
