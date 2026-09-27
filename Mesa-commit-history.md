@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260927-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260927-r4) | 2026-09-27 | [`d5b6a14`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d5b6a141a94b7e8584a1030eb5558caa4c501e61) | radv: stop setting vk_zero_vram=true for a bunch of applications | Vulkan 1.4.363 |
 | [v26.3.0-20260927-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260927-r3) | 2026-09-27 | [`1171fe6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1171fe64fd1188751798f742adc365d54bc676ec) | agx: Fix f2i8 downcast | Vulkan 1.4.363 |
 | [v26.3.0-20260927-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260927-r2) | 2026-09-27 | [`9315107`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9315107fc90dfcc3d79e408964054b6042e442a3) | freedreno/ci: a306: reenable fixed tests | Vulkan 1.4.363 |
 | [v26.3.0-20260927](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260927) | 2026-09-26 | [`61f2590`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/61f259049cf0eb0c69ad2fae50d1268f82fd54e3) | pps: Initialize Counter member variable units | Vulkan 1.4.363 |

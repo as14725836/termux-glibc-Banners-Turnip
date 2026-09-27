@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.363 |
-| **Commit** | [`1171fe6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1171fe64fd1188751798f742adc365d54bc676ec) |
+| **Commit** | [`d5b6a14`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d5b6a141a94b7e8584a1030eb5558caa4c501e61) |
 | **Commit date** | 2026-09-27 |
-| **Commit title** | agx: Fix f2i8 downcast |
+| **Commit title** | radv: stop setting vk_zero_vram=true for a bunch of applications |
 | **Build date** | 20260927 |
-| **Release** | [v26.3.0-20260927-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260927-r3) |
+| **Release** | [v26.3.0-20260927-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260927-r4) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,12 +87,12 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260927-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260927-r4) | 2026-09-27 | [`d5b6a14`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d5b6a141a94b7e8584a1030eb5558caa4c501e61) | radv: stop setting vk_zero_vram=true for a bunch of applications | Vulkan 1.4.363 |
 | [v26.3.0-20260927-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260927-r3) | 2026-09-27 | [`1171fe6`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1171fe64fd1188751798f742adc365d54bc676ec) | agx: Fix f2i8 downcast | Vulkan 1.4.363 |
 | [v26.3.0-20260927-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260927-r2) | 2026-09-27 | [`9315107`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9315107fc90dfcc3d79e408964054b6042e442a3) | freedreno/ci: a306: reenable fixed tests | Vulkan 1.4.363 |
 | [v26.3.0-20260927](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260927) | 2026-09-27 | [`61f2590`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/61f259049cf0eb0c69ad2fae50d1268f82fd54e3) | pps: Initialize Counter member variable units | Vulkan 1.4.363 |
 | [v26.3.0-20260926-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260926-r6) | 2026-09-26 | [`b66e913`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/b66e913a537e94cfbbe456b5325c937b12d18c7a) | anv: change detection of input attachments | Vulkan 1.4.363 |
 | [v26.3.0-20260926-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260926-r5) | 2026-09-26 | [`e7b92c5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e7b92c57262fb0518cbfce035d043f800d7aef66) | kraid/foldable: Use Src::resolve_imm instead of duplicating | Vulkan 1.4.363 |
-| [v26.3.0-20260926-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260926-r4) | 2026-09-26 | [`82d4f86`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/82d4f86a0a1e9f76b2de4fa77c6c8e6acaf06aa9) | jay/nir_lower_fsign: use u2u instead of i2i for downcasts | Vulkan 1.4.363 |
 <!-- RECENT_BUILDS_END -->
 
 ---
