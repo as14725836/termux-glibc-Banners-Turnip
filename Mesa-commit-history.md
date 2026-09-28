@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260928-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260928-r3) | 2026-09-28 | [`4cf0989`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4cf0989083d25b92d02c6fef2bed934ad77b4ecd) | venus: honor the virtio-gpu blob alignment | Vulkan 1.4.363 |
 | [v26.3.0-20260928-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260928-r2) | 2026-09-28 | [`ad245b3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ad245b3b4e0b62ba2db1cc8ecbfb6b1e61ba278a) | etnaviv: Set the overwrite bit only if every target is overwritten | Vulkan 1.4.363 |
 | [v26.3.0-20260928](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260928) | 2026-09-28 | [`1887e21`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1887e21e2ab04cd7b33eee7ba415534edfc915e6) | etnaviv: Keep both halves of the depth stencil fast clear value | Vulkan 1.4.363 |
 | [v26.3.0-20260927-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260927-r6) | 2026-09-27 | [`eda9ace`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/eda9aceb39d5ff169b096444abe366bdf2269e24) | pan/nir: Stop lowering inot for Kraid | Vulkan 1.4.363 |

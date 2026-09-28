@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.363 |
-| **Commit** | [`ad245b3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ad245b3b4e0b62ba2db1cc8ecbfb6b1e61ba278a) |
+| **Commit** | [`4cf0989`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4cf0989083d25b92d02c6fef2bed934ad77b4ecd) |
 | **Commit date** | 2026-09-28 |
-| **Commit title** | etnaviv: Set the overwrite bit only if every target is overwritten |
+| **Commit title** | venus: honor the virtio-gpu blob alignment |
 | **Build date** | 20260928 |
-| **Release** | [v26.3.0-20260928-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260928-r2) |
+| **Release** | [v26.3.0-20260928-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260928-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,10 +87,9 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260928-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260928-r3) | 2026-09-28 | [`4cf0989`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4cf0989083d25b92d02c6fef2bed934ad77b4ecd) | venus: honor the virtio-gpu blob alignment | Vulkan 1.4.363 |
 | [v26.3.0-20260928-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260928-r2) | 2026-09-28 | [`ad245b3`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ad245b3b4e0b62ba2db1cc8ecbfb6b1e61ba278a) | etnaviv: Set the overwrite bit only if every target is overwritten | Vulkan 1.4.363 |
 | [v26.3.0-20260928](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260928) | 2026-09-28 | [`1887e21`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1887e21e2ab04cd7b33eee7ba415534edfc915e6) | etnaviv: Keep both halves of the depth stencil fast clear value | Vulkan 1.4.363 |
-| [v26.3.0-20260927-r6](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260927-r6) | 2026-09-27 | [`eda9ace`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/eda9aceb39d5ff169b096444abe366bdf2269e24) | pan/nir: Stop lowering inot for Kraid | Vulkan 1.4.363 |
-| [v26.3.0-20260927-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260927-r5) | 2026-09-27 | [`63bb18a`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/63bb18ab73a19ec8125f51515b16b3f40ce6ca04) | pan: fix missing access tracking in batch read/write helpers | Vulkan 1.4.363 |
 <!-- RECENT_BUILDS_END -->
 
 ---
