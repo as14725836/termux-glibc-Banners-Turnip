@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260930-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260930-r2) | 2026-09-30 | [`0866ae7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0866ae7085c1c873b7fecdf4df9207cf5e16b93f) | freedreno/qrisc: handle Adreno X1-45 and 722 | Vulkan 1.4.363 |
 | [v26.3.0-20260930](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260930) | 2026-09-29 | [`a995eae`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a995eaeda4339adb0278b06dcc98136011feac36) | tu: Make CmdClearAttachments record TU_ACCESS_BLIT_WRITE_GMEM access | Vulkan 1.4.363 |
 | [v26.3.0-20260929-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260929-r4) | 2026-09-29 | [`d16ba52`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d16ba52c381d51b1e96d5a93f20b5745274dfb5e) | anv: keep OAG reports in host memory | Vulkan 1.4.363 |
 | [v26.3.0-20260929-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260929-r3) | 2026-09-29 | [`c4eb475`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c4eb475c289b71292696f176e852eb2deb52b9fc) | radv: switch radv_device_memory to use vk_device_memory | Vulkan 1.4.363 |
