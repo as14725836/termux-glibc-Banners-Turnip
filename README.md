@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.363 |
-| **Commit** | [`30da391`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/30da39187d8d3cf03c58ecd2bebb497b84501f51) |
+| **Commit** | [`9ac80d5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9ac80d5c43c46e85700a75ca34bd1036ee15467e) |
 | **Commit date** | 2026-09-30 |
-| **Commit title** | docs: Add GLES3 line |
+| **Commit title** | ir3: Unify disk shader cache serialization/deserialization |
 | **Build date** | 20260930 |
-| **Release** | [v26.3.0-20260930-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260930-r4) |
+| **Release** | [v26.3.0-20260930-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260930-r5) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,11 +87,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20260930-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260930-r5) | 2026-09-30 | [`9ac80d5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9ac80d5c43c46e85700a75ca34bd1036ee15467e) | ir3: Unify disk shader cache serialization/deserialization | Vulkan 1.4.363 |
 | [v26.3.0-20260930-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260930-r4) | 2026-09-30 | [`30da391`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/30da39187d8d3cf03c58ecd2bebb497b84501f51) | docs: Add GLES3 line | Vulkan 1.4.363 |
 | [v26.3.0-20260930-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260930-r3) | 2026-09-30 | [`cec59b2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/cec59b299704edc442d930ea9e06ab2edcf5ad7b) | mesa/st: use nir_trim_vector | Vulkan 1.4.363 |
 | [v26.3.0-20260930-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260930-r2) | 2026-09-30 | [`0866ae7`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/0866ae7085c1c873b7fecdf4df9207cf5e16b93f) | freedreno/qrisc: handle Adreno X1-45 and 722 | Vulkan 1.4.363 |
 | [v26.3.0-20260930](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260930) | 2026-09-30 | [`a995eae`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a995eaeda4339adb0278b06dcc98136011feac36) | tu: Make CmdClearAttachments record TU_ACCESS_BLIT_WRITE_GMEM access | Vulkan 1.4.363 |
-| [v26.3.0-20260929-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260929-r4) | 2026-09-29 | [`d16ba52`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/d16ba52c381d51b1e96d5a93f20b5745274dfb5e) | anv: keep OAG reports in host memory | Vulkan 1.4.363 |
 <!-- RECENT_BUILDS_END -->
 
 ---
