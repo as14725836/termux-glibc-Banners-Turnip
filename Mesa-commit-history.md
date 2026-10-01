@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20261001](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261001) | 2026-10-01 | [`185cc17`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/185cc17082cb8315d856841749b62883bef4dd4e) | Uprev VVL to e48304c3d33abf4affd0cbd8944c8fb3e316a753 | Vulkan 1.4.363 |
 | [v26.3.0-20260930-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260930-r5) | 2026-09-30 | [`9ac80d5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9ac80d5c43c46e85700a75ca34bd1036ee15467e) | ir3: Unify disk shader cache serialization/deserialization | Vulkan 1.4.363 |
 | [v26.3.0-20260930-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260930-r4) | 2026-09-30 | [`30da391`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/30da39187d8d3cf03c58ecd2bebb497b84501f51) | docs: Add GLES3 line | Vulkan 1.4.363 |
 | [v26.3.0-20260930-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260930-r3) | 2026-09-30 | [`cec59b2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/cec59b299704edc442d930ea9e06ab2edcf5ad7b) | mesa/st: use nir_trim_vector | Vulkan 1.4.363 |
