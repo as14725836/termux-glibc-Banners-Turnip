@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.363 |
-| **Commit** | [`1836424`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1836424d69ac1220d47a6cf4d01e6ac91ed1de49) |
+| **Commit** | [`022b8b1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/022b8b1871d3049a4bb9032cb3e294095f52a2f3) |
 | **Commit date** | 2026-10-01 |
-| **Commit title** | anv: use disk_cache_get_function_identifier |
+| **Commit title** | radv/meta: Remove old fill and copy meta shaders and implementation |
 | **Build date** | 20261001 |
-| **Release** | [v26.3.0-20261001-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261001-r2) |
+| **Release** | [v26.3.0-20261001-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261001-r3) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,10 +87,10 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20261001-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261001-r3) | 2026-10-01 | [`022b8b1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/022b8b1871d3049a4bb9032cb3e294095f52a2f3) | radv/meta: Remove old fill and copy meta shaders and implementation | Vulkan 1.4.363 |
 | [v26.3.0-20261001-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261001-r2) | 2026-10-01 | [`1836424`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1836424d69ac1220d47a6cf4d01e6ac91ed1de49) | anv: use disk_cache_get_function_identifier | Vulkan 1.4.363 |
 | [v26.3.0-20261001](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261001) | 2026-10-01 | [`185cc17`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/185cc17082cb8315d856841749b62883bef4dd4e) | Uprev VVL to e48304c3d33abf4affd0cbd8944c8fb3e316a753 | Vulkan 1.4.363 |
 | [v26.3.0-20260930-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260930-r5) | 2026-09-30 | [`9ac80d5`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9ac80d5c43c46e85700a75ca34bd1036ee15467e) | ir3: Unify disk shader cache serialization/deserialization | Vulkan 1.4.363 |
-| [v26.3.0-20260930-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20260930-r4) | 2026-09-30 | [`30da391`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/30da39187d8d3cf03c58ecd2bebb497b84501f51) | docs: Add GLES3 line | Vulkan 1.4.363 |
 <!-- RECENT_BUILDS_END -->
 
 ---
