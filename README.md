@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.363 |
-| **Commit** | [`6b596ce`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6b596ce6f7e5860e85ccd51c0668ef161f4f2e12) |
+| **Commit** | [`45019c2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/45019c28811991cc02f87f0360235b8e4c369155) |
 | **Commit date** | 2026-10-02 |
-| **Commit title** | ci: take kws farm offline for maintenance |
+| **Commit title** | brw,jay: get rid of isub in brw_nir_opt_divergent_atomics |
 | **Build date** | 20261002 |
-| **Release** | [v26.3.0-20261002-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261002-r4) |
+| **Release** | [v26.3.0-20261002-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261002-r5) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,11 +87,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20261002-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261002-r5) | 2026-10-02 | [`45019c2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/45019c28811991cc02f87f0360235b8e4c369155) | brw,jay: get rid of isub in brw_nir_opt_divergent_atomics | Vulkan 1.4.363 |
 | [v26.3.0-20261002-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261002-r4) | 2026-10-02 | [`6b596ce`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6b596ce6f7e5860e85ccd51c0668ef161f4f2e12) | ci: take kws farm offline for maintenance | Vulkan 1.4.363 |
 | [v26.3.0-20261002-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261002-r3) | 2026-10-02 | [`378b7e8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/378b7e8ec16fc43d1c6f35bed5f84361cf44faee) | anv/video: Split HEVC encode state emission into helpers | Vulkan 1.4.363 |
 | [v26.3.0-20261002-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261002-r2) | 2026-10-02 | [`a3c22fa`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a3c22fa45bb12003b4e0648090a23d6e5755be6a) | etnaviv: Program native advanced blend modes | Vulkan 1.4.363 |
 | [v26.3.0-20261002](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261002) | 2026-10-02 | [`ab10c10`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ab10c10849604a8b2a225635c06ebfc7355ff0d6) | radv: Fix signed shift overflow | Vulkan 1.4.363 |
-| [v26.3.0-20261001-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261001-r3) | 2026-10-01 | [`022b8b1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/022b8b1871d3049a4bb9032cb3e294095f52a2f3) | radv/meta: Remove old fill and copy meta shaders and implementation | Vulkan 1.4.363 |
 <!-- RECENT_BUILDS_END -->
 
 ---
