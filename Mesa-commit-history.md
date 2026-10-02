@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20261002](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261002) | 2026-10-01 | [`ab10c10`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ab10c10849604a8b2a225635c06ebfc7355ff0d6) | radv: Fix signed shift overflow | Vulkan 1.4.363 |
 | [v26.3.0-20261001-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261001-r3) | 2026-10-01 | [`022b8b1`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/022b8b1871d3049a4bb9032cb3e294095f52a2f3) | radv/meta: Remove old fill and copy meta shaders and implementation | Vulkan 1.4.363 |
 | [v26.3.0-20261001-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261001-r2) | 2026-10-01 | [`1836424`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/1836424d69ac1220d47a6cf4d01e6ac91ed1de49) | anv: use disk_cache_get_function_identifier | Vulkan 1.4.363 |
 | [v26.3.0-20261001](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261001) | 2026-10-01 | [`185cc17`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/185cc17082cb8315d856841749b62883bef4dd4e) | Uprev VVL to e48304c3d33abf4affd0cbd8944c8fb3e316a753 | Vulkan 1.4.363 |
