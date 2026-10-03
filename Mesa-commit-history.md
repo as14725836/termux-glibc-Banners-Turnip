@@ -5,6 +5,7 @@ A complete log of every Banners-Turnip release — newest first. Each entry link
 <!-- BUILDS_TABLE_START -->
 | Tag | Date | Mesa Commit | Commit Title | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20261003](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261003) | 2026-10-02 | [`4f554da`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/4f554dafa8dcd81048916f1382f561ed134db8ec) | anv: Fix parent child count map size | Vulkan 1.4.363 |
 | [v26.3.0-20261002-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261002-r5) | 2026-10-02 | [`45019c2`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/45019c28811991cc02f87f0360235b8e4c369155) | brw,jay: get rid of isub in brw_nir_opt_divergent_atomics | Vulkan 1.4.363 |
 | [v26.3.0-20261002-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261002-r4) | 2026-10-02 | [`6b596ce`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/6b596ce6f7e5860e85ccd51c0668ef161f4f2e12) | ci: take kws farm offline for maintenance | Vulkan 1.4.363 |
 | [v26.3.0-20261002-r3](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261002-r3) | 2026-10-02 | [`378b7e8`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/378b7e8ec16fc43d1c6f35bed5f84361cf44faee) | anv/video: Split HEVC encode state emission into helpers | Vulkan 1.4.363 |
