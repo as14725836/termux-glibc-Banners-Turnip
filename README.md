@@ -73,11 +73,11 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 | :--- | :--- |
 | **Mesa version** | 26.3.0 |
 | **Vulkan version** | Vulkan 1.4.363 |
-| **Commit** | [`c126acd`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c126acd85a645728bcecaa164d7d7c928438e842) |
-| **Commit date** | 2026-10-04 |
-| **Commit title** | people: sync Alyssa with .mailmap |
-| **Build date** | 20261004 |
-| **Release** | [v26.3.0-20261004-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261004-r2) |
+| **Commit** | [`ee29d6c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ee29d6c94cdb461a1cd9b62fe6ac74e14810b5bd) |
+| **Commit date** | 2026-10-05 |
+| **Commit title** | nir/instr_set: compare tex def when CSEing texture instructions |
+| **Build date** | 20261005 |
+| **Release** | [v26.3.0-20261005](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261005) |
 <!-- LATEST_BUILD_END -->
 
 ---
@@ -87,10 +87,9 @@ Targets Adreno 800-series (Snapdragon 8 Elite — A810, A825, A829, A830). Built
 <!-- RECENT_BUILDS_START -->
 | Tag | Date | Commit | Description | Vulkan |
 | :--- | :--- | :--- | :--- | :--- |
+| [v26.3.0-20261005](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261005) | 2026-10-05 | [`ee29d6c`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/ee29d6c94cdb461a1cd9b62fe6ac74e14810b5bd) | nir/instr_set: compare tex def when CSEing texture instructions | Vulkan 1.4.363 |
 | [v26.3.0-20261004-r2](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261004-r2) | 2026-10-04 | [`c126acd`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/c126acd85a645728bcecaa164d7d7c928438e842) | people: sync Alyssa with .mailmap | Vulkan 1.4.363 |
 | [v26.3.0-20261004](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261004) | 2026-10-04 | [`127b431`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/127b431b9453728c9b29fd2953e0d93b8d5e3a79) | anv: align shader heap size allocation to alignment | Vulkan 1.4.363 |
-| [v26.3.0-20261003-r5](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261003-r5) | 2026-10-03 | [`e5f0687`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/e5f0687867f5c5e88619175d9b0442f8560e8d53) | etnaviv: Implement invalidate_resource(..) | Vulkan 1.4.363 |
-| [v26.3.0-20261003-r4](https://github.com/as14725836/termux-glibc-Banners-Turnip/releases/tag/v26.3.0-20261003-r4) | 2026-10-03 | [`a4a4700`](https://gitlab.freedesktop.org/mesa/mesa/-/commit/a4a47003a194effad8cabe727f74985e9417476f) | radv: Document default kernel driver for GFX6-7 | Vulkan 1.4.363 |
 <!-- RECENT_BUILDS_END -->
 
 ---
